@@ -1,6 +1,9 @@
 name: manual run
 
 on:
+  # run automatically every 24 hours
+  schedule:
+    - cron: "0 */24 * * *" 
   workflow_dispatch:
 
 jobs:
