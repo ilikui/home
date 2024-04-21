@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电影信息</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .movie img {
+            width: 100px; /* 固定图片宽度 */
+            height: auto; /* 自动调整图片高度 */
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie-info {
+            flex: 1;
+        }
+
+        .movie-info h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .movie-info p {
+            margin: 5px 0;
+        }
+
+        .rating {
+            font-size: 20px;
+            color: #FFD700;
+        }
+
+        .tags {
+            color: #666;
+        }
+
+        .movie-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="moviesContainer">
+</div>
+
+<script>
+    // 动态加载本地 JSON 文件并显示数据
+    function loadLocalJSON() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var jsonData = JSON.parse(xhr.responseText);
+                displayMovies(jsonData);
+            }
+        };
+        xhr.open("GET", "movie.json", true); // 替换为你的 JSON 文件路径
+        xhr.send();
+    }
+
+    // 显示电影数据
+    function displayMovies(movies) {
+        var moviesContainer = document.getElementById("moviesContainer");
+
+        movies.forEach(function(movie) {
+            var movieDiv = document.createElement("div");
+            movieDiv.classList.add("movie");
+
+            var img = document.createElement("img");
+            img.src = movie.subject.pic.normal; // 电影海报图片地址
+            img.alt = movie.subject.title; // 电影标题作为图片alt属性
+            movieDiv.appendChild(img);
+
+            var movieInfo = document.createElement("div");
+            movieInfo.classList.add("movie-info");
+
+            var title = document.createElement("h2");
+            title.textContent = movie.subject.title; // 电影标题
+            movieInfo.appendChild(title);
+
+            var rating = document.createElement("p");
+            rating.classList.add("rating");
+            rating.textContent = "评分: ★★★★★".slice(0, movie.rating.star_count * 2); // 电影评分
+            movieInfo.appendChild(rating);
+
+            var tags = document.createElement("p");
+            tags.classList.add("tags");
+            tags.textContent = "标签: " + movie.tags.join(", "); // 电影标签
+            movieInfo.appendChild(tags);
+
+            var director = document.createElement("p");
+            director.textContent = "导演: " + movie.subject.directors[0].name; // 电影导演
+            movieInfo.appendChild(director);
+
+            var actors = document.createElement("p");
+            actors.textContent = "主演: " + movie.subject.actors.map(actor => actor.name).join(", "); // 电影主演
+            movieInfo.appendChild(actors);
+
+            var pubdate = document.createElement("p");
+            pubdate.textContent = "上映日期: " + movie.subject.pubdate[0]; // 电影上映日期
+            movieInfo.appendChild(pubdate);
+
+            var link = document.createElement("a");
+            link.href = movie.subject.url; // 跳转到电影详情页面链接
+            link.textContent = "了解更多";
+            movieInfo.appendChild(link);
+
+            movieDiv.appendChild(movieInfo);
+            moviesContainer.appendChild(movieDiv);
+        });
+    }
+
+    // 页面加载完成后加载本地 JSON 数据
+    window.onload = function() {
+        loadLocalJSON();
+    };
+</script>
+
+</body>
+</html>
