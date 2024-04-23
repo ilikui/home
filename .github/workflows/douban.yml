@@ -6,7 +6,9 @@ on:
   push:
     branches:    
       - hexo
-  workflow_dispatch:
+on: 
+  schedule:
+  - cron: "30 * * * *"
 #on:
 #  schedule:
 #  - cron: "0 0 * * *"

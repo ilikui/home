@@ -77,7 +77,7 @@
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 var jsonData = JSON.parse(xhr.responseText);
-                console.log(jsonData);
+                
                 displayMovies(jsonData);
             }
         };
@@ -88,7 +88,7 @@
     // 显示电影数据
     function displayMovies(movies) {
         var moviesContainer = document.getElementById("moviesContainer");
-
+    
         movies.forEach(function(movie) {
             var movieDiv = document.createElement("div");
             movieDiv.classList.add("movie");
@@ -105,9 +105,10 @@
             title.textContent = movie.subject.title; // 电影标题
             movieInfo.appendChild(title);
 
+            var ratingText = movie.sharing_text.match(/★+/);
             var rating = document.createElement("p");
             rating.classList.add("rating");
-            rating.textContent = "评分: ★★★★★".slice(0, movie.rating.star_count * 2); // 电影评分
+            rating.textContent = ratingText ? "评分: " + ratingText[0] : "暂无评分";
             movieInfo.appendChild(rating);
 
             var tags = document.createElement("p");
