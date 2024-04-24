@@ -6,9 +6,6 @@ on:
   push:
     branches:    
       - hexo
-on: 
-  schedule:
-  - cron: "30 * * * *"
 #on:
 #  schedule:
 #  - cron: "0 0 * * *"
