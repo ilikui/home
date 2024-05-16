@@ -37,9 +37,9 @@ jobs:
       
     - name: backup data files
       run: |
-        mv ./data/book.json ./data/douban/book_$(date +%Y-%m-%d).json.bak
-        mv ./data/music.json ./data/douban/music_$(date +%Y-%m-%d).json.bak
-        mv ./data/movie.json ./data/douban/movie_$(date +%Y-%m-%d).json.bak
+        mv ./static/data/book.json ./static/data/douban/book_$(date +%Y-%m-%d).json.bak
+        mv ./static/data/music.json ./static/data/douban/music_$(date +%Y-%m-%d).json.bak
+        mv ./static/data/movie.json ./static/data/douban/movie_$(date +%Y-%m-%d).json.bak
     - name: book
       uses: lizheming/doumark-action@master
       with:
