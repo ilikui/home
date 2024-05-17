@@ -1,5 +1,5 @@
 # .github/workflows/douban.yml
-name: douban
+name: sync
 
 on:
   # run automatically every 24 hours
