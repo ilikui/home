@@ -40,7 +40,7 @@ jobs:
         id: olikuio
         type: book
         format: notion
-        dir: c6908715a5ab4a74861c5cdf9ac00eed
+        dir: Reading-f481b37ef1a7441d9817edfcd13b3b90
         notion_token: ${{ secrets.notion_token }}
     - name: movie
       uses: lizheming/doumark-action@master
@@ -48,7 +48,7 @@ jobs:
         id: olikuio
         type: movie
         format: notion
-        dir: f808fc9c8cfb4f2b835025de9e55ec35
+        dir: Movie-3a1645dab35d4735958af684da271409
         notion_token: ${{ secrets.notion_token }}
     - name: music
       uses: lizheming/doumark-action@master
@@ -56,5 +56,5 @@ jobs:
         id: olikuio
         type: music
         format: notion
-        dir: fc479b7d2df248bcb42faaa19db9378f
+        dir: Music-88131d8f3df74426b9ec1760b12b5daf
         notion_token: ${{ secrets.notion_token }}   
