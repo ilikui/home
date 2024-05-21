@@ -1,0 +1,75 @@
+[
+	{
+		"comment": "匆匆那年",
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 4,
+			"value": 4
+		},
+		"sharing_text": "我的评分：★★★★ 匆匆那年 https://music.douban.com/subject/26237597/ 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26237597/interest/4191850094",
+		"tags": [],
+		"charts": [],
+		"platforms": [],
+		"vote_count": 0,
+		"create_time": "2024-05-18 11:53:07",
+		"status": "done",
+		"id": 4191850094,
+		"is_private": false,
+		"subject": {
+			"rating": {
+				"count": 23350,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.4
+			},
+			"genres": [
+				"原声"
+			],
+			"controversy_reason": "",
+			"pubdate": [
+				"2014-11-03"
+			],
+			"title": "匆匆那年",
+			"url": "https://music.douban.com/subject/26237597/",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/subject/m/public/s27765992.jpg",
+				"normal": "https://img3.doubanio.com/view/subject/s/public/s27765992.jpg"
+			},
+			"singer": [
+				{
+					"name": "王菲"
+				}
+			],
+			"is_playable": false,
+			"uri": "douban://douban.com/music/26237597",
+			"is_released": true,
+			"is_show": false,
+			"cover_url": "https://dou.img.lithub.cc/music/26237597.jpg",
+			"article_intros": [],
+			"subtype": "music",
+			"card_subtitle": "王菲 / 2014",
+			"color_scheme": {
+				"is_dark": true,
+				"primary_color_light": "a59176",
+				"_base_color": [
+					0.09722222222222217,
+					0.2874251497005988,
+					0.6549019607843137
+				],
+				"secondary_color": "f9f7f4",
+				"_avg_color": [
+					0.10119047619047622,
+					0.14973262032085555,
+					0.7333333333333333
+				],
+				"primary_color_dark": "7f705a"
+			},
+			"type": "music",
+			"id": "26237597",
+			"null_rating_reason": "",
+			"sharing_url": "https://music.douban.com/subject/26237597/"
+		}
+	}
+]
