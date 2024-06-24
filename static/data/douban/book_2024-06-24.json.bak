@@ -35,10 +35,7 @@
 			"honor_infos": [],
 			"other_versions_count": 0,
 			"is_show": false,
-			"vendor_icons": [
-				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
-				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
-			],
+			"vendor_icons": [],
 			"card_subtitle": "霁色 / 人民邮电出版社",
 			"book_subtitle": "正确记录你的生活和工作",
 			"id": "30168344",
@@ -80,7 +77,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": true
+			"has_ebook": false
 		}
 	},
 	{
@@ -105,7 +102,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 77997,
+				"count": 77993,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -128,9 +125,7 @@
 			],
 			"other_versions_count": 18,
 			"is_show": false,
-			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
-			],
+			"vendor_icons": [],
 			"card_subtitle": "（美）罗伯特・T・清崎 莎伦・L・莱希特 / 2000 / 世界图书出版公司",
 			"book_subtitle": "",
 			"id": "1033778",
@@ -175,7 +170,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": true
+			"has_ebook": false
 		}
 	},
 	{
