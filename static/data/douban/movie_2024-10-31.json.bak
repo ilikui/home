@@ -135,7 +135,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 18697,
+				"count": 18541,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -378,7 +378,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 802,
+				"count": 797,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.3
@@ -477,7 +477,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 4828,
+				"count": 4811,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.4
@@ -621,7 +621,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1081,
+				"count": 1076,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.3
@@ -759,7 +759,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 686,
+				"count": 684,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.5
@@ -862,7 +862,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 417,
+				"count": 416,
 				"max": 10,
 				"star_count": 2,
 				"value": 4.3
@@ -979,7 +979,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1304,
+				"count": 1303,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.5
@@ -1096,7 +1096,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 303309,
+				"count": 302768,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -1233,7 +1233,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 8225,
+				"count": 8199,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.3
@@ -1442,7 +1442,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 60265,
+				"count": 60222,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.5
@@ -1595,7 +1595,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 5776,
+				"count": 5772,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.7
@@ -1743,7 +1743,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 121712,
+				"count": 121564,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -1895,7 +1895,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 4869,
+				"count": 4851,
 				"max": 10,
 				"star_count": 3,
 				"value": 6
@@ -2031,7 +2031,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 354,
+				"count": 353,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.3
@@ -2390,7 +2390,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1170,
+				"count": 1166,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.9
@@ -2494,7 +2494,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 393,
+				"count": 392,
 				"max": 10,
 				"star_count": 2,
 				"value": 4.2
@@ -2620,7 +2620,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 13966,
+				"count": 13963,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.8
@@ -2791,7 +2791,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 3093,
+				"count": 3092,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.6
@@ -2889,7 +2889,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 46644,
+				"count": 46635,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.8
@@ -2906,8 +2906,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img1.doubanio.com/f/frodo/990703f165ee40fa7a023949252882058a2ba57d/pics/vendors/mgtv.png"
+				"https://img1.doubanio.com/f/frodo/990703f165ee40fa7a023949252882058a2ba57d/pics/vendors/mgtv.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2023",
 			"card_subtitle": "2023 / 美国 / 动作 惊悚 战争 冒险 / 斯科特·沃 / 杰森·斯坦森 50分",
@@ -3031,7 +3031,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 210797,
+				"count": 210790,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.1
@@ -3191,7 +3191,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 348136,
+				"count": 348121,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7
@@ -3330,7 +3330,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 490836,
+				"count": 490812,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.4
@@ -3474,7 +3474,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 276481,
+				"count": 276473,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -3498,8 +3498,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img1.doubanio.com/f/frodo/990703f165ee40fa7a023949252882058a2ba57d/pics/vendors/mgtv.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img1.doubanio.com/f/frodo/990703f165ee40fa7a023949252882058a2ba57d/pics/vendors/mgtv.png"
 			],
 			"year": "2013",
 			"card_subtitle": "2013 / 美国 / 动作 犯罪 / 林诣彬 / 范·迪塞尔 保罗·沃克",
@@ -3607,7 +3607,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 380492,
+				"count": 380474,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.5
@@ -3757,7 +3757,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 183083,
+				"count": 183072,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.8
@@ -3877,7 +3877,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 158471,
+				"count": 158463,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7
@@ -4003,7 +4003,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 162357,
+				"count": 162345,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -4148,7 +4148,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 213178,
+				"count": 213168,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -4300,7 +4300,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 189497,
+				"count": 189482,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.1
@@ -4485,7 +4485,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1195511,
+				"count": 1195328,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.8
@@ -4783,7 +4783,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 109398,
+				"count": 109376,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -4940,7 +4940,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 780,
+				"count": 779,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.1
@@ -5032,7 +5032,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 19582,
+				"count": 19569,
 				"max": 10,
 				"star_count": 2,
 				"value": 4.1
@@ -5187,10 +5187,10 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 311,
+				"count": 309,
 				"max": 10,
 				"star_count": 2.5,
-				"value": 4.6
+				"value": 4.5
 			},
 			"controversy_reason": "",
 			"pubdate": [
@@ -5431,7 +5431,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 10232,
+				"count": 10225,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.9
@@ -5576,7 +5576,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 2654,
+				"count": 2652,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -5697,7 +5697,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 190572,
+				"count": 190227,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5
@@ -5878,7 +5878,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 35886,
+				"count": 35835,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.1
@@ -6034,7 +6034,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 178199,
+				"count": 178152,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.5
@@ -6188,7 +6188,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 4112,
+				"count": 4107,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.4
@@ -6295,7 +6295,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 4367,
+				"count": 4357,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.8
@@ -6407,7 +6407,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 467738,
+				"count": 467605,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
@@ -6431,8 +6431,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img1.doubanio.com/f/frodo/990703f165ee40fa7a023949252882058a2ba57d/pics/vendors/mgtv.png"
+				"https://img1.doubanio.com/f/frodo/990703f165ee40fa7a023949252882058a2ba57d/pics/vendors/mgtv.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 美国 加拿大 / 剧情 动作 科幻 冒险 / 丹尼斯·维伦纽瓦 / 提莫西·查拉梅 赞达亚",
@@ -6566,7 +6566,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 16716,
+				"count": 16715,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.3
@@ -6714,7 +6714,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 488201,
+				"count": 488181,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.4
@@ -6845,7 +6845,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 7102,
+				"count": 7098,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -7197,7 +7197,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 162352,
+				"count": 162321,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.6
@@ -7679,7 +7679,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 62928,
+				"count": 62919,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.3
@@ -7864,7 +7864,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 497769,
+				"count": 497719,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -7991,7 +7991,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 478251,
+				"count": 478228,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.1
@@ -8130,7 +8130,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 905323,
+				"count": 905291,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.6
@@ -8204,7 +8204,7 @@
 					"name": "格拉汉姆·麦克泰维什"
 				},
 				{
-					"name": ""
+					"name": "雷·沃纳尔"
 				},
 				{
 					"name": "泰努伊·柯克伍德"
@@ -8258,7 +8258,7 @@
 					"name": "梅布尔·塔莫内"
 				},
 				{
-					"name": ""
+					"name": "文森特·B·戈尔斯"
 				},
 				{
 					"name": "加布里埃拉·佩特科娃"
@@ -8356,7 +8356,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 374168,
+				"count": 374134,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.2
@@ -8380,7 +8380,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/31f275ce1a4a35ed76a45ecc39a0a32896d99c52/pics/vendors/sohu.png"
+				"https://img3.doubanio.com/f/frodo/31f275ce1a4a35ed76a45ecc39a0a32896d99c52/pics/vendors/sohu.png",
+				"https://img1.doubanio.com/f/frodo/990703f165ee40fa7a023949252882058a2ba57d/pics/vendors/mgtv.png"
 			],
 			"year": "2018",
 			"card_subtitle": "2018 / 美国 英国 / 剧情 科幻 惊悚 / 亚历克斯·加兰 / 娜塔莉·波特曼 詹妮弗·杰森·李",
@@ -8483,7 +8484,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 857116,
+				"count": 856777,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.2
@@ -8737,7 +8738,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 620975,
+				"count": 620946,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -8903,7 +8904,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 727910,
+				"count": 727833,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.7
@@ -9055,7 +9056,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1441483,
+				"count": 1441377,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.6
@@ -9324,7 +9325,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 479794,
+				"count": 479760,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
