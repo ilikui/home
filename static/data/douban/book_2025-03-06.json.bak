@@ -105,7 +105,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 79594,
+				"count": 79586,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -120,7 +120,7 @@
 			},
 			"honor_infos": [
 				{
-					"kind": "",
+					"kind": "book",
 					"uri": "douban://douban.com/subject_collection/ECMM437BA?type=rank&category=book&rank_type=topn_book",
 					"rank": 1,
 					"title": "豆瓣热门理财图书TOP10"
