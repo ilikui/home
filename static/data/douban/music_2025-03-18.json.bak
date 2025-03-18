@@ -14,7 +14,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 26376,
+				"count": 26373,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.8
@@ -150,7 +150,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 37482,
+				"count": 37481,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -173,7 +173,7 @@
 					"name": "蔡依林 Jolin Tsai"
 				}
 			],
-			"is_playable": false,
+			"is_playable": true,
 			"uri": "douban://douban.com/music/6540851",
 			"is_released": true,
 			"is_show": false,
@@ -286,7 +286,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 48633,
+				"count": 48632,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.6
@@ -354,7 +354,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12081,
+				"count": 12080,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -422,7 +422,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 27039,
+				"count": 27036,
 				"max": 10,
 				"star_count": 5,
 				"value": 9.5
@@ -445,7 +445,7 @@
 					"name": "周杰倫"
 				}
 			],
-			"is_playable": false,
+			"is_playable": true,
 			"uri": "douban://douban.com/music/19981142",
 			"is_released": true,
 			"is_show": false,
@@ -490,7 +490,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 40269,
+				"count": 40264,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.6
@@ -588,7 +588,7 @@
 					"name": "Adele"
 				}
 			],
-			"is_playable": false,
+			"is_playable": true,
 			"uri": "douban://douban.com/music/5386173",
 			"is_released": true,
 			"is_show": false,
@@ -638,7 +638,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 24834,
+				"count": 24828,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.4
