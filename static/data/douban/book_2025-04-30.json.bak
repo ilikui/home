@@ -105,7 +105,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 79949,
+				"count": 79944,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -128,7 +128,9 @@
 			],
 			"other_versions_count": 18,
 			"is_show": false,
-			"vendor_icons": [],
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
 			"card_subtitle": "（美）罗伯特・T・清崎 莎伦・L・莱希特 / 2000 / 世界图书出版公司",
 			"book_subtitle": "",
 			"id": "1033778",
@@ -173,7 +175,7 @@
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
-			"has_ebook": false
+			"has_ebook": true
 		}
 	},
 	{
