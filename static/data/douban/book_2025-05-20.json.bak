@@ -65,7 +65,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/30168344.jpg",
-			"min_sale_price": "¥32.08",
+			"min_sale_price": "",
 			"press": [
 				"人民邮电出版社"
 			],
@@ -105,7 +105,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 80056,
+				"count": 80050,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -241,7 +241,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/26899960.jpg",
-			"min_sale_price": "¥39.0",
+			"min_sale_price": "",
 			"press": [
 				"北京航空航天大学出版社"
 			],
