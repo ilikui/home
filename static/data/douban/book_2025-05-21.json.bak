@@ -65,7 +65,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/30168344.jpg",
-			"min_sale_price": "",
+			"min_sale_price": "¥32.08",
 			"press": [
 				"人民邮电出版社"
 			],
@@ -105,7 +105,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 80062,
+				"count": 80056,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
