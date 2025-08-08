@@ -21,7 +21,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 15707,
+				"count": 15658,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.8
@@ -169,7 +169,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 87511,
+				"count": 87446,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.6
@@ -373,10 +373,10 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 19289,
+				"count": 18640,
 				"max": 10,
 				"star_count": 3,
-				"value": 5.9
+				"value": 6
 			},
 			"controversy_reason": "",
 			"pubdate": [
@@ -518,7 +518,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12722,
+				"count": 12552,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.6
@@ -663,7 +663,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 11893,
+				"count": 11852,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.9
@@ -680,8 +680,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2025",
 			"card_subtitle": "2025 / 美国 / 动作 惊悚 / 詹姆斯·霍斯 / 拉米·马雷克 瑞秋·布罗斯纳安",
@@ -928,7 +928,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 3015,
+				"count": 3009,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5
@@ -1041,7 +1041,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 3449,
+				"count": 3447,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.1
@@ -1452,7 +1452,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1527,
+				"count": 1526,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.9
@@ -1728,8 +1728,8 @@
 			"honor_infos": [],
 			"is_show": false,
 			"vendor_icons": [
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 中国大陆 / 动作 武侠 古装 / 陈天翔 大伟 / 巫迪文 黄蓉",
@@ -1827,7 +1827,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 28517,
+				"count": 28495,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -2070,7 +2070,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1352,
+				"count": 1351,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.2
@@ -2169,7 +2169,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 7381,
+				"count": 7377,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.4
@@ -2313,7 +2313,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1812,
+				"count": 1811,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.4
@@ -2554,7 +2554,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 516,
+				"count": 515,
 				"max": 10,
 				"star_count": 2,
 				"value": 4.2
@@ -2788,7 +2788,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 365786,
+				"count": 365688,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -2812,7 +2812,7 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2024",
@@ -2929,7 +2929,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12791,
+				"count": 12784,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.3
@@ -3138,7 +3138,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 66152,
+				"count": 66143,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.5
@@ -3293,7 +3293,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 6777,
+				"count": 6772,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.7
@@ -3441,7 +3441,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 146991,
+				"count": 146942,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -3465,8 +3465,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 澳大利亚 美国 / 动作 科幻 惊悚 冒险 / 乔治·米勒 / 安雅·泰勒-乔伊 克里斯·海姆斯沃斯",
@@ -3611,8 +3611,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 美国 加拿大 新加坡 印度 / 动作 惊悚 / 戴夫·帕特尔 / 戴夫·帕特尔 沙尔托·科普雷",
@@ -3969,7 +3969,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 4061,
+				"count": 4060,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.5
@@ -3986,8 +3986,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 中国大陆 / 家庭 儿童 奇幻 / 陆可 / 郭富城 蓝盈莹",
@@ -4105,8 +4105,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 美国 澳大利亚 / 惊悚 犯罪 / 亚当·库珀 / 罗素·克劳 凯伦·吉兰",
@@ -4320,7 +4320,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 14649,
+				"count": 14645,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.7
@@ -4493,7 +4493,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 3372,
+				"count": 3370,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.6
@@ -4593,7 +4593,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 48807,
+				"count": 48802,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.8
@@ -4617,8 +4617,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2023",
 			"card_subtitle": "2023 / 美国 / 动作 惊悚 战争 冒险 / 斯科特·沃 / 杰森·斯坦森 50分",
@@ -4742,7 +4742,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 214627,
+				"count": 214615,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.1
@@ -4903,7 +4903,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 352585,
+				"count": 352575,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7
@@ -5042,7 +5042,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 504116,
+				"count": 504095,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.4
@@ -5066,8 +5066,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2015",
 			"card_subtitle": "2015 / 美国 中国大陆 日本 / 动作 犯罪 / 温子仁 / 范·迪塞尔 保罗·沃克",
@@ -5187,7 +5187,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 281069,
+				"count": 281058,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -5212,7 +5212,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2013",
 			"card_subtitle": "2013 / 美国 / 动作 犯罪 / 林诣彬 / 范·迪塞尔 保罗·沃克",
@@ -5320,7 +5320,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 388262,
+				"count": 388233,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.5
@@ -5344,8 +5344,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2011",
 			"card_subtitle": "2011 / 美国 / 动作 犯罪 / 林诣彬 / 范·迪塞尔 保罗·沃克",
@@ -5471,7 +5471,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 187676,
+				"count": 187655,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.8
@@ -5495,7 +5495,7 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2009",
@@ -5592,7 +5592,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 163439,
+				"count": 163422,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7
@@ -5616,8 +5616,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2006",
 			"card_subtitle": "2006 / 美国 德国 日本 / 动作 犯罪 / 林诣彬 / 卢卡斯·布莱克 纳塔莉·凯利",
@@ -5719,7 +5719,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 166743,
+				"count": 166727,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -5743,8 +5743,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2003",
 			"card_subtitle": "2003 / 美国 德国 / 动作 犯罪 / 约翰·辛格顿 / 保罗·沃克 泰瑞斯·吉布森",
@@ -5864,7 +5864,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 218944,
+				"count": 218925,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -5888,8 +5888,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2001",
 			"card_subtitle": "2001 / 美国 德国 / 动作 犯罪 / 罗伯·科恩 / 保罗·沃克 范·迪塞尔",
@@ -6016,7 +6016,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 194859,
+				"count": 194849,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.1
@@ -6195,7 +6195,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1268975,
+				"count": 1268837,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.7
@@ -6219,8 +6219,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2023",
 			"card_subtitle": "2023 / 中国大陆 / 动作 战争 奇幻 古装 / 乌尔善 / 费翔 李雪健",
@@ -6495,7 +6495,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 118968,
+				"count": 118937,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -6744,7 +6744,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 22794,
+				"count": 22785,
 				"max": 10,
 				"star_count": 2,
 				"value": 4.2
@@ -7151,7 +7151,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 11662,
+				"count": 11661,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.9
@@ -7296,7 +7296,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 3295,
+				"count": 3293,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -7417,7 +7417,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 206324,
+				"count": 206286,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5
@@ -7598,7 +7598,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 41938,
+				"count": 41928,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.6
@@ -7622,8 +7622,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 美国 英国 / 剧情 喜剧 动作 战争 / 盖·里奇 / 亨利·卡维尔 艾莎·冈萨雷斯",
@@ -7754,7 +7754,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 192355,
+				"count": 192322,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.5
@@ -7778,7 +7778,7 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2024",
@@ -7908,7 +7908,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 6075,
+				"count": 6073,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.5
@@ -8127,7 +8127,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 522574,
+				"count": 522477,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -8151,8 +8151,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2024",
 			"card_subtitle": "2024 / 美国 加拿大 / 剧情 动作 科幻 冒险 / 丹尼斯·维伦纽瓦 / 提莫西·查拉梅 赞达亚",
@@ -8286,7 +8286,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 17902,
+				"count": 17900,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.3
@@ -8434,7 +8434,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 494689,
+				"count": 494661,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.4
@@ -8566,7 +8566,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 8296,
+				"count": 8295,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -8701,7 +8701,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 6349,
+				"count": 6338,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.3
@@ -8918,7 +8918,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 169352,
+				"count": 169330,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.6
@@ -9403,7 +9403,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 65478,
+				"count": 65471,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.4
@@ -9590,7 +9590,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 509593,
+				"count": 509556,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -9718,7 +9718,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 483472,
+				"count": 483458,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.1
@@ -9742,8 +9742,8 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2017",
 			"card_subtitle": "2017 / 美国 中国大陆 中国香港 / 动作 奇幻 冒险 / 派蒂·杰金斯 / 盖尔·加朵 克里斯·派恩",
@@ -9858,7 +9858,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 915946,
+				"count": 915901,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.6
@@ -9883,7 +9883,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2018",
 			"card_subtitle": "2018 / 美国 澳大利亚 / 动作 奇幻 冒险 / 温子仁 / 杰森·莫玛 安珀·赫德",
@@ -10085,7 +10085,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 382155,
+				"count": 382134,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.2
@@ -10213,7 +10213,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 877825,
+				"count": 877761,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.2
@@ -10238,7 +10238,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2018",
 			"card_subtitle": "2018 / 美国 中国大陆 / 动作 科幻 惊悚 / 鲁本·弗雷斯彻 / 汤姆·哈迪 米歇尔·威廉姆斯",
@@ -10467,7 +10467,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 631217,
+				"count": 631187,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -10491,7 +10491,7 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2019",
@@ -10634,7 +10634,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 755102,
+				"count": 755040,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.7
@@ -10786,7 +10786,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 1487058,
+				"count": 1486894,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.6
@@ -10811,7 +10811,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2018",
 			"card_subtitle": "2018 / 美国 / 动作 科幻 冒险 / 史蒂文·斯皮尔伯格 / 泰伊·谢里丹 奥利维亚·库克",
@@ -11056,7 +11056,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 492214,
+				"count": 492176,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
@@ -11080,7 +11080,7 @@
 			"is_show": false,
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2010",
