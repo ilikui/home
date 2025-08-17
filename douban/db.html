@@ -3,224 +3,126 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>我的多媒体展示</title>
+<title>我的收藏</title>
 <style>
-    body {
-        font-family: "Arial", sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f2f5;
-    }
-    header {
-        background-color: #4a90e2;
-        color: #fff;
-        padding: 15px 20px;
-        text-align: center;
-        font-size: 24px;
-    }
-    .tabs {
-        display: flex;
-        justify-content: center;
-        background-color: #fff;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .tab {
-        padding: 10px 20px;
-        cursor: pointer;
-    }
-    .tab.active {
-        border-bottom: 2px solid #4a90e2;
-        font-weight: bold;
-        color: #4a90e2;
-    }
-    .container {
-        max-width: 900px;
-        margin: 20px auto;
-        background-color: #fff;
-        border-radius: 8px;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .item {
-        display: flex;
-        border-bottom: 1px solid #eee;
-        padding: 15px 0;
-    }
-    .item img {
-        width: 100px;
-        height: auto;
-        margin-right: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
-    .info h2 {
-        margin: 0 0 10px 0;
-        font-size: 20px;
-    }
-    .info p {
-        margin: 4px 0;
-        color: #555;
-    }
-    .info a {
-        color: #007bff;
-        text-decoration: none;
-    }
-    .pagination {
-        text-align: center;
-        margin-top: 15px;
-    }
-    .pagination button {
-        margin: 0 5px;
-        padding: 5px 10px;
-        border: 1px solid #ccc;
-        background: #fff;
-        cursor: pointer;
-        border-radius: 4px;
-    }
-    .pagination button.active {
-        background-color: #4a90e2;
-        color: #fff;
-        border-color: #4a90e2;
-    }
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f0f0; }
+    .container { max-width: 900px; margin:20px auto; padding:20px; background:#fff; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1);}
+    .tabs { display:flex; margin-bottom:20px; cursor:pointer; }
+    .tab { padding:10px 20px; border:1px solid #ccc; border-bottom:none; border-radius:8px 8px 0 0; background:#eee; margin-right:5px;}
+    .tab.active { background:#fff; font-weight:bold; }
+    .items { display:none; flex-direction:column; }
+    .items.active { display:flex; }
+    .item { display:flex; margin-bottom:20px; border-bottom:1px solid #eee; padding-bottom:15px;}
+    .item img { width:100px; height:auto; margin-right:20px; border-radius:5px; }
+    .info h3 { margin:0 0 5px 0; }
+    .info p { margin:3px 0; color:#555; }
+    .pagination { margin-top:20px; text-align:center; }
+    .pagination button { margin:0 5px; padding:5px 10px; }
 </style>
 </head>
 <body>
-<header>我的书籍 / 电影 / 音乐展示</header>
 
-<div class="tabs">
-    <div class="tab active" data-type="books">书籍</div>
-    <div class="tab" data-type="movies">电影</div>
-    <div class="tab" data-type="music">音乐</div>
+<div class="container">
+    <div class="tabs">
+        <div class="tab active" data-type="books">书籍</div>
+        <div class="tab" data-type="movies">电影</div>
+        <div class="tab" data-type="music">音乐</div>
+    </div>
+    <div id="books" class="items active"></div>
+    <div id="movies" class="items"></div>
+    <div id="music" class="items"></div>
+    <div class="pagination" id="pagination"></div>
 </div>
 
-<div class="container" id="content"></div>
-<div class="pagination" id="pagination"></div>
-
 <script>
-const pageSize = 5;  // 每页显示条目数量
-let currentPage = 1;
-let currentType = 'books';
-let dataStore = { books: [], movies: [], music: [] };
+const pageSize = 5; // 每页显示条数
+let currentPage = { books:1, movies:1, music:1 };
+let dataStore = { books:[], movies:[], music:[] };
 
-// 分页函数
-function paginate(array, page_size, page_number) {
-    return array.slice((page_number - 1) * page_size, page_number * page_size);
-}
+// 切换标签
+document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const type = tab.dataset.type;
+        document.querySelectorAll('.items').forEach(i => i.classList.remove('active'));
+        document.getElementById(type).classList.add('active');
+        renderPage(type, currentPage[type]);
+    });
+});
 
 // 加载 JSON
 async function loadJSON(type) {
     try {
         const res = await fetch(`static/data/${type}.json`);
-        if(!res.ok) throw new Error('HTTP error! status: ' + res.status);
-        const data = await res.json();
-        dataStore[type] = data;
-        currentPage = 1;
-        renderContent();
-        renderPagination();
-    } catch(err) {
-        console.error('加载 JSON 失败:', err);
-        document.getElementById('content').innerHTML = '<p style="color:red;">加载失败，请检查 JSON 文件路径</p>';
+        if(!res.ok) throw new Error('网络错误或文件未找到');
+        const json = await res.json();
+        dataStore[type] = json;
+        renderPage(type, currentPage[type]);
+    } catch(e) {
+        console.error(`${type} 数据加载失败:`, e);
+        document.getElementById(type).innerHTML = `<p>加载失败: ${e.message}</p>`;
     }
 }
 
-// 渲染内容
-function renderContent() {
-    const container = document.getElementById('content');
-    const items = paginate(dataStore[currentType], pageSize, currentPage);
+// 渲染页面
+function renderPage(type, page) {
+    const container = document.getElementById(type);
     container.innerHTML = '';
-
-    items.forEach(item => {
+    const data = dataStore[type];
+    if(!data || data.length === 0) { container.innerHTML = '<p>暂无数据</p>'; return; }
+    const start = (page-1)*pageSize;
+    const end = Math.min(start+pageSize, data.length);
+    for(let i=start;i<end;i++){
+        const item = data[i];
         const div = document.createElement('div');
         div.className = 'item';
         const img = document.createElement('img');
-        img.src = item.subject?.cover_url || item.cover_url || '';
-        img.alt = item.subject?.title || item.title || '';
+        img.src = item.subject?.cover_url || item.subject?.pic?.large || '';
         div.appendChild(img);
-
         const info = document.createElement('div');
         info.className = 'info';
-        const title = document.createElement('h2');
-        title.textContent = item.subject?.title || item.title || '无标题';
+        const title = document.createElement('h3');
+        title.textContent = item.subject.title || '未知标题';
         info.appendChild(title);
-
-        if(currentType === 'books'){
-            const author = document.createElement('p');
-            author.textContent = '作者: ' + (item.author?.join(', ') || '未知');
-            info.appendChild(author);
-            const pub = document.createElement('p');
-            pub.textContent = '出版日期: ' + (item.pubdate || '未知');
-            info.appendChild(pub);
-        } else if(currentType === 'movies'){
-            const rating = document.createElement('p');
-            rating.textContent = '评分: ' + (item.sharing_text?.match(/★+/)?.[0] || '暂无');
-            info.appendChild(rating);
-            const director = document.createElement('p');
-            director.textContent = '导演: ' + (item.subject?.directors?.map(d=>d.name).join(', ') || '未知');
-            info.appendChild(director);
-            const actors = document.createElement('p');
-            actors.textContent = '主演: ' + (item.subject?.actors?.map(a=>a.name).join(', ') || '未知');
-            info.appendChild(actors);
-            const pubdate = document.createElement('p');
-            pubdate.textContent = '上映日期: ' + (item.subject?.pubdate?.[0] || '未知');
-            info.appendChild(pubdate);
-        } else if(currentType === 'music'){
-            const author = document.createElement('p');
-            author.textContent = '艺术家: ' + (item.author?.join(', ') || '未知');
-            info.appendChild(author);
-            const pub = document.createElement('p');
-            pub.textContent = '发行日期: ' + (item.pubdate || '未知');
-            info.appendChild(pub);
-        }
-
+        const rating = document.createElement('p');
+        if(item.rating?.value) rating.textContent = `评分: ${item.rating.value} (${item.rating.count}人)`;
+        else rating.textContent = '暂无评分';
+        info.appendChild(rating);
+        const date = document.createElement('p');
+        date.textContent = '发布时间: '+(item.subject?.pubdate?.[0] || '未知');
+        info.appendChild(date);
         const link = document.createElement('a');
-        link.href = item.subject?.url || item.url || '#';
-        link.textContent = '了解更多';
+        link.href = item.subject?.url || '#';
+        link.textContent = '查看详情';
         link.target = '_blank';
         info.appendChild(link);
-
         div.appendChild(info);
         container.appendChild(div);
-    });
+    }
+    renderPagination(type, page, Math.ceil(data.length/pageSize));
 }
 
 // 渲染分页
-function renderPagination() {
-    const container = document.getElementById('pagination');
-    const totalItems = dataStore[currentType].length;
-    const totalPages = Math.ceil(totalItems / pageSize);
-    container.innerHTML = '';
-
-    for(let i=1;i<=totalPages;i++){
+function renderPagination(type, page, totalPage){
+    const pagination = document.getElementById('pagination');
+    pagination.innerHTML = '';
+    if(totalPage <= 1) return;
+    for(let i=1;i<=totalPage;i++){
         const btn = document.createElement('button');
         btn.textContent = i;
-        if(i===currentPage) btn.classList.add('active');
-        btn.addEventListener('click', ()=> {
-            currentPage = i;
-            renderContent();
-            renderPagination();
+        if(i === page) btn.disabled = true;
+        btn.addEventListener('click',()=>{ 
+            currentPage[type] = i;
+            renderPage(type,i);
         });
-        container.appendChild(btn);
+        pagination.appendChild(btn);
     }
 }
 
-// Tab 切换
-document.querySelectorAll('.tab').forEach(tab => {
-    tab.addEventListener('click', ()=> {
-        document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-        tab.classList.add('active');
-        currentType = tab.dataset.type;
-        if(dataStore[currentType].length===0){
-            loadJSON(currentType);
-        } else {
-            currentPage = 1;
-            renderContent();
-            renderPagination();
-        }
-    });
-});
-
-// 初始加载书籍
-loadJSON(currentType);
+// 页面加载时获取数据
+['books','movies','music'].forEach(type => loadJSON(type));
 </script>
+
 </body>
 </html>
