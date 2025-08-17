@@ -32,96 +32,100 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: 
 </div>
 
 <div class="container" id="contentContainer"></div>
-
 <div class="pagination" id="paginationContainer"></div>
 
 <script>
-const PAGE_SIZE = 5;
-let currentData = [];
-let currentPage = 1;
-let currentType = 'book';
+var PAGE_SIZE = 5;
+var currentData = [];
+var currentPage = 1;
+var currentType = 'book';
 
-// GitHub Pages 兼容路径，假设 HTML 在根目录，数据在 ./static/data/
-const dataPaths = {
+// JSON 文件路径（GitHub Pages 兼容）
+var dataPaths = {
     book: './static/data/book.json',
     movie: './static/data/movie.json',
     music: './static/data/music.json'
 };
 
-// 加载 JSON 数据
-async function loadData(type){
+// XMLHttpRequest 方式加载数据
+function loadLocalJSON(type){
     currentType = type;
     currentPage = 1;
-    try{
-        const res = await fetch(dataPaths[type]);
-        if(!res.ok) throw new Error('网络错误或文件未找到');
-        const data = await res.json();
-        currentData = data;
-        renderPage();
-    } catch(e){
-        document.getElementById('contentContainer').innerHTML = `<p style="color:red;">加载失败: ${e.message}</p>`;
-    }
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState===4){
+            var container = document.getElementById('contentContainer');
+            if(xhr.status===200){
+                currentData = JSON.parse(xhr.responseText);
+                renderPage();
+            } else {
+                container.innerHTML = '<p style="color:red;">加载失败: 网络错误或文件未找到</p>';
+            }
+        }
+    };
+    xhr.open('GET', dataPaths[type], true);
+    xhr.send();
 }
 
-// 渲染当前页数据
+// 渲染当前页
 function renderPage(){
-    const start = (currentPage-1)*PAGE_SIZE;
-    const pageData = currentData.slice(start, start+PAGE_SIZE);
-    const container = document.getElementById('contentContainer');
+    var start = (currentPage-1)*PAGE_SIZE;
+    var pageData = currentData.slice(start, start+PAGE_SIZE);
+    var container = document.getElementById('contentContainer');
     container.innerHTML = '';
 
-    pageData.forEach(item=>{
-        const div = document.createElement('div');
+    pageData.forEach(function(item){
+        var div = document.createElement('div');
         div.className = 'item';
 
-        const img = document.createElement('img');
-        img.src = item.subject?.cover_url || item.cover_url || '';
-        img.alt = item.subject?.title || item.title || '';
+        var img = document.createElement('img');
+        img.src = (item.subject && item.subject.cover_url) || item.cover_url || '';
+        img.alt = (item.subject && item.subject.title) || item.title || '';
         div.appendChild(img);
 
-        const info = document.createElement('div');
+        var info = document.createElement('div');
         info.className = 'item-info';
 
-        const title = document.createElement('h2');
-        title.textContent = item.subject?.title || item.title || '';
+        var title = document.createElement('h2');
+        title.textContent = (item.subject && item.subject.title) || item.title || '';
         info.appendChild(title);
 
         if(item.sharing_text){
-            const ratingText = item.sharing_text.match(/★+/);
-            const rating = document.createElement('p');
+            var ratingText = item.sharing_text.match(/★+/);
+            var rating = document.createElement('p');
             rating.className = 'rating';
-            rating.textContent = ratingText ? "评分: "+ratingText[0] : "暂无评分";
+            rating.textContent = ratingText ? '评分: ' + ratingText[0] : '暂无评分';
             info.appendChild(rating);
         }
 
         if(item.tags){
-            const tags = document.createElement('p');
+            var tags = document.createElement('p');
             tags.className = 'tags';
-            tags.textContent = "标签: " + item.tags.join(', ');
+            tags.textContent = '标签: ' + item.tags.join(', ');
             info.appendChild(tags);
         }
 
-        if(item.subject?.directors){
-            const director = document.createElement('p');
-            director.textContent = "导演: " + item.subject.directors.map(d=>d.name).join(', ');
+        if(item.subject && item.subject.directors){
+            var director = document.createElement('p');
+            director.textContent = '导演: ' + item.subject.directors.map(d=>d.name).join(', ');
             info.appendChild(director);
         }
 
-        if(item.subject?.actors){
-            const actors = document.createElement('p');
-            actors.textContent = "主演: " + item.subject.actors.map(a=>a.name).join(', ');
+        if(item.subject && item.subject.actors){
+            var actors = document.createElement('p');
+            actors.textContent = '主演: ' + item.subject.actors.map(a=>a.name).join(', ');
             info.appendChild(actors);
         }
 
-        if(item.subject?.pubdate){
-            const pubdate = document.createElement('p');
-            pubdate.textContent = "上映日期: " + item.subject.pubdate[0];
+        if(item.subject && item.subject.pubdate){
+            var pubdate = document.createElement('p');
+            pubdate.textContent = '上映日期: ' + item.subject.pubdate[0];
             info.appendChild(pubdate);
         }
 
-        const link = document.createElement('a');
-        link.href = item.subject?.url || item.url || '#';
-        link.textContent = "了解更多";
+        var link = document.createElement('a');
+        link.href = (item.subject && item.subject.url) || item.url || '#';
+        link.textContent = '了解更多';
         info.appendChild(link);
 
         div.appendChild(info);
@@ -133,29 +137,30 @@ function renderPage(){
 
 // 渲染分页
 function renderPagination(){
-    const container = document.getElementById('paginationContainer');
-    const pageCount = Math.ceil(currentData.length / PAGE_SIZE);
+    var container = document.getElementById('paginationContainer');
     container.innerHTML = '';
-    for(let i=1;i<=pageCount;i++){
-        const btn = document.createElement('button');
+    var pageCount = Math.ceil(currentData.length / PAGE_SIZE);
+    for(var i=1;i<=pageCount;i++){
+        var btn = document.createElement('button');
         btn.textContent = i;
-        btn.className = (i===currentPage)?'active':'';
-        btn.onclick = ()=>{currentPage=i; renderPage();};
+        if(i===currentPage) btn.className='active';
+        btn.onclick = (function(n){ return function(){ currentPage=n; renderPage(); }; })(i);
         container.appendChild(btn);
     }
 }
 
-// tab 切换
-document.querySelectorAll('.tab button').forEach(btn=>{
-    btn.addEventListener('click',()=>{
-        document.querySelectorAll('.tab button').forEach(b=>b.classList.remove('active'));
+// Tab 切换
+var tabs = document.querySelectorAll('.tab button');
+tabs.forEach(function(btn){
+    btn.addEventListener('click', function(){
+        tabs.forEach(b=>b.classList.remove('active'));
         btn.classList.add('active');
-        loadData(btn.dataset.type);
+        loadLocalJSON(btn.dataset.type);
     });
 });
 
 // 初始加载书籍
-loadData(currentType);
+loadLocalJSON(currentType);
 </script>
 
 </body>
