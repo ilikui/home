@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>电影信息</title>
+    <title>豆瓣数据展示</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,37 +21,66 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .movie {
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            border-bottom: none;
+            border-radius: 5px 5px 0 0;
+            margin-right: 5px;
+        }
+
+        .tab.active {
+            background-color: #fff;
+            border-bottom: 1px solid #fff;
+            margin-bottom: -1px;
+        }
+
+        .item {
             border-bottom: 1px solid #eee;
             padding: 20px 0;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
         }
 
-        .movie img {
-            width: 100px; /* 固定图片宽度 */
-            height: auto; /* 自动调整图片高度 */
+        .item img {
+            width: 100px;
+            height: auto;
             margin-right: 20px;
             border-radius: 8px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
 
-        .movie-info {
+        .item-info {
             flex: 1;
         }
 
-        .movie-info h2 {
+        .item-info h2 {
             margin-top: 0;
             margin-bottom: 10px;
-            font-size: 24px;
+            font-size: 20px;
         }
 
-        .movie-info p {
+        .item-info p {
             margin: 5px 0;
+            color: #666;
         }
 
         .rating {
-            font-size: 20px;
+            font-size: 16px;
             color: #FFD700;
         }
 
@@ -59,88 +88,322 @@
             color: #666;
         }
 
-        .movie-info a {
+        .item-info a {
             color: #007bff;
             text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            padding: 8px 15px;
+            margin: 0 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .pagination button.active {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .pagination button:hover:not(.active) {
+            background-color: #f1f1f1;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            color: #666;
         }
     </style>
 </head>
 <body>
 
-<div class="container" id="moviesContainer">
+<div class="container">
+    <h1>我的豆瓣收藏</h1>
+    
+    <div class="tabs">
+        <div class="tab active" data-tab="books">书籍</div>
+        <div class="tab" data-tab="music">音乐</div>
+        <div class="tab" data-tab="movies">电影</div>
+    </div>
+    
+    <div id="booksContainer" class="tab-content"></div>
+    <div id="musicContainer" class="tab-content" style="display:none;"></div>
+    <div id="moviesContainer" class="tab-content" style="display:none;"></div>
+    
+    <div class="pagination" id="pagination"></div>
 </div>
 
 <script>
-    // 动态加载本地 JSON 文件并显示数据
-    function loadLocalJSON() {
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                var jsonData = JSON.parse(xhr.responseText);
-                
-                displayMovies(jsonData);
-            }
-        };
-        xhr.open("GET", "../static/data/movie.json", true); // 替换为你的 JSON 文件路径
-        xhr.send();
+    // 全局变量
+    let currentTab = 'books';
+    let currentPage = 1;
+    const itemsPerPage = 5;
+    let booksData = [];
+    let musicData = [];
+    let moviesData = [];
+
+    // 加载数据
+    function loadData() {
+        // 加载书籍数据
+        fetch('../static/data/book.json')
+            .then(response => response.json())
+            .then(data => {
+                booksData = data;
+                displayItems(booksData, 'booksContainer');
+                setupPagination(booksData.length);
+            })
+            .catch(error => console.error('Error loading books:', error));
+
+        // 加载音乐数据
+        fetch('../static/data/music.json')
+            .then(response => response.json())
+            .then(data => {
+                musicData = data;
+            })
+            .catch(error => console.error('Error loading music:', error));
+
+        // 加载电影数据
+        fetch('../static/data/movie.json')
+            .then(response => response.json())
+            .then(data => {
+                moviesData = data;
+            })
+            .catch(error => console.error('Error loading movies:', error));
     }
 
-    // 显示电影数据
-    function displayMovies(movies) {
-        var moviesContainer = document.getElementById("moviesContainer");
-    
-        movies.forEach(function(movie) {
-            var movieDiv = document.createElement("div");
-            movieDiv.classList.add("movie");
+    // 显示项目
+    function displayItems(data, containerId) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
 
-            var img = document.createElement("img");
-            img.src = movie.subject.cover_url; // 电影海报图片地址
-            img.alt = movie.subject.title; // 电影标题作为图片alt属性
-            movieDiv.appendChild(img);
+        if (data.length === 0) {
+            container.innerHTML = '<div class="no-data">暂无数据</div>';
+            return;
+        }
 
-            var movieInfo = document.createElement("div");
-            movieInfo.classList.add("movie-info");
+        const startIndex = (currentPage - 1) * itemsPerPage;
+        const endIndex = Math.min(startIndex + itemsPerPage, data.length);
+        const itemsToShow = data.slice(startIndex, endIndex);
 
-            var title = document.createElement("h2");
-            title.textContent = movie.subject.title; // 电影标题
-            movieInfo.appendChild(title);
+        itemsToShow.forEach(item => {
+            const itemDiv = document.createElement('div');
+            itemDiv.classList.add('item');
 
-            var ratingText = movie.sharing_text.match(/★+/);
-            var rating = document.createElement("p");
-            rating.classList.add("rating");
-            rating.textContent = ratingText ? "评分: " + ratingText[0] : "暂无评分";
-            movieInfo.appendChild(rating);
+            // 封面图片
+            const img = document.createElement('img');
+            if (containerId === 'booksContainer') {
+                img.src = item.subject.cover_url || item.subject.pic.large;
+            } else if (containerId === 'musicContainer') {
+                img.src = item.subject.cover_url || item.subject.pic.large;
+            } else if (containerId === 'moviesContainer') {
+                img.src = item.subject.cover_url;
+            }
+            img.alt = item.subject.title;
+            itemDiv.appendChild(img);
 
-            var tags = document.createElement("p");
-            tags.classList.add("tags");
-            tags.textContent = "标签: " + movie.tags.join(", "); // 电影标签
-            movieInfo.appendChild(tags);
+            const itemInfo = document.createElement('div');
+            itemInfo.classList.add('item-info');
 
-            var director = document.createElement("p");
-            director.textContent = "导演: " + movie.subject.directors[0].name; // 电影导演
-            movieInfo.appendChild(director);
+            // 标题
+            const title = document.createElement('h2');
+            title.textContent = item.subject.title;
+            itemInfo.appendChild(title);
 
-            var actors = document.createElement("p");
-            actors.textContent = "主演: " + movie.subject.actors.map(actor => actor.name).join(", "); // 电影主演
-            movieInfo.appendChild(actors);
+            // 评分
+            if (item.rating) {
+                const rating = document.createElement('p');
+                rating.classList.add('rating');
+                const stars = '★'.repeat(item.rating.star_count) + '☆'.repeat(5 - item.rating.star_count);
+                rating.textContent = `我的评分: ${stars} (${item.rating.value}/5)`;
+                itemInfo.appendChild(rating);
+            }
+            
+            if (item.subject.rating) {
+                const rating = document.createElement('p');
+                rating.classList.add('rating');
+                rating.textContent = `豆瓣评分: ${item.subject.rating.value}/10 (${item.subject.rating.count}人评价)`;
+                itemInfo.appendChild(rating);
+            }
 
-            var pubdate = document.createElement("p");
-            pubdate.textContent = "上映日期: " + movie.subject.pubdate[0]; // 电影上映日期
-            movieInfo.appendChild(pubdate);
+            // 不同类型显示不同信息
+            if (containerId === 'booksContainer') {
+                // 书籍信息
+                const author = document.createElement('p');
+                author.textContent = `作者: ${item.subject.author.join(', ')}`;
+                itemInfo.appendChild(author);
 
-            var link = document.createElement("a");
-            link.href = movie.subject.url; // 跳转到电影详情页面链接
-            link.textContent = "了解更多";
-            movieInfo.appendChild(link);
+                const pubInfo = document.createElement('p');
+                pubInfo.textContent = `出版社: ${item.subject.press.join(', ')}`;
+                if (item.subject.pubdate && item.subject.pubdate.length > 0) {
+                    pubInfo.textContent += ` | 出版日期: ${item.subject.pubdate[0]}`;
+                }
+                itemInfo.appendChild(pubInfo);
 
-            movieDiv.appendChild(movieInfo);
-            moviesContainer.appendChild(movieDiv);
+            } else if (containerId === 'musicContainer') {
+                // 音乐信息
+                const singer = document.createElement('p');
+                singer.textContent = `歌手: ${item.subject.singer.map(s => s.name).join(', ')}`;
+                itemInfo.appendChild(singer);
+
+                const pubInfo = document.createElement('p');
+                if (item.subject.pubdate && item.subject.pubdate.length > 0) {
+                    pubInfo.textContent = `发行日期: ${item.subject.pubdate[0]}`;
+                    itemInfo.appendChild(pubInfo);
+                }
+
+                if (item.subject.genres && item.subject.genres.length > 0) {
+                    const genres = document.createElement('p');
+                    genres.textContent = `流派: ${item.subject.genres.join(', ')}`;
+                    itemInfo.appendChild(genres);
+                }
+
+            } else if (containerId === 'moviesContainer') {
+                // 电影信息
+                const director = document.createElement('p');
+                director.textContent = `导演: ${item.subject.directors[0].name}`;
+                itemInfo.appendChild(director);
+
+                const actors = document.createElement('p');
+                actors.textContent = `主演: ${item.subject.actors.map(actor => actor.name).join(', ')}`;
+                itemInfo.appendChild(actors);
+
+                const pubdate = document.createElement('p');
+                if (item.subject.pubdate && item.subject.pubdate.length > 0) {
+                    pubdate.textContent = `上映日期: ${item.subject.pubdate[0]}`;
+                    itemInfo.appendChild(pubdate);
+                }
+            }
+
+            // 标签
+            if (item.tags && item.tags.length > 0) {
+                const tags = document.createElement('p');
+                tags.classList.add('tags');
+                tags.textContent = `标签: ${item.tags.join(', ')}`;
+                itemInfo.appendChild(tags);
+            }
+
+            // 评论
+            if (item.comment) {
+                const comment = document.createElement('p');
+                comment.textContent = `我的评论: ${item.comment}`;
+                itemInfo.appendChild(comment);
+            }
+
+            // 链接
+            const link = document.createElement('a');
+            link.href = item.subject.url;
+            link.textContent = '豆瓣详情';
+            link.target = '_blank';
+            itemInfo.appendChild(link);
+
+            itemDiv.appendChild(itemInfo);
+            container.appendChild(itemDiv);
         });
     }
 
-    // 页面加载完成后加载本地 JSON 数据
+    // 设置分页
+    function setupPagination(totalItems) {
+        const pagination = document.getElementById('pagination');
+        pagination.innerHTML = '';
+
+        const pageCount = Math.ceil(totalItems / itemsPerPage);
+
+        if (pageCount <= 1) return;
+
+        // 上一页按钮
+        const prevButton = document.createElement('button');
+        prevButton.textContent = '上一页';
+        prevButton.disabled = currentPage === 1;
+        prevButton.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                updateDisplay();
+            }
+        });
+        pagination.appendChild(prevButton);
+
+        // 页码按钮
+        for (let i = 1; i <= pageCount; i++) {
+            const pageButton = document.createElement('button');
+            pageButton.textContent = i;
+            if (i === currentPage) {
+                pageButton.classList.add('active');
+            }
+            pageButton.addEventListener('click', () => {
+                currentPage = i;
+                updateDisplay();
+            });
+            pagination.appendChild(pageButton);
+        }
+
+        // 下一页按钮
+        const nextButton = document.createElement('button');
+        nextButton.textContent = '下一页';
+        nextButton.disabled = currentPage === pageCount;
+        nextButton.addEventListener('click', () => {
+            if (currentPage < pageCount) {
+                currentPage++;
+                updateDisplay();
+            }
+        });
+        pagination.appendChild(nextButton);
+    }
+
+    // 更新显示
+    function updateDisplay() {
+        if (currentTab === 'books') {
+            displayItems(booksData, 'booksContainer');
+            setupPagination(booksData.length);
+        } else if (currentTab === 'music') {
+            displayItems(musicData, 'musicContainer');
+            setupPagination(musicData.length);
+        } else if (currentTab === 'movies') {
+            displayItems(moviesData, 'moviesContainer');
+            setupPagination(moviesData.length);
+        }
+    }
+
+    // 切换标签
+    function setupTabs() {
+        const tabs = document.querySelectorAll('.tab');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // 更新活动标签
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                // 更新当前标签和重置页码
+                currentTab = tab.dataset.tab;
+                currentPage = 1;
+                
+                // 显示对应内容
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.style.display = 'none';
+                });
+                document.getElementById(`${currentTab}Container`).style.display = 'block';
+                
+                // 更新显示
+                updateDisplay();
+            });
+        });
+    }
+
+    // 初始化
     window.onload = function() {
-        loadLocalJSON();
+        loadData();
+        setupTabs();
     };
 </script>
 
