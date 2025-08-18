@@ -1,166 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>多媒体信息</title>
-<style>
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8; }
-.container { max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
-.item { border-bottom:1px solid #eee; padding:20px 0; display:flex; align-items:center; }
-.item img { width:100px; height:auto; margin-right:20px; border-radius:8px; box-shadow:0 0 5px rgba(0,0,0,0.1);}
-.item-info { flex:1;}
-.item-info h2 { margin-top:0;margin-bottom:10px;font-size:24px;}
-.item-info p { margin:5px 0; }
-.rating { font-size:20px;color:#FFD700; }
-.tags { color:#666; }
-.item-info a { color:#007bff; text-decoration:none; }
-.tab { display:flex; justify-content:center; margin-bottom:20px;}
-.tab button { padding:10px 20px; margin:0 5px; border:none; border-radius:5px; cursor:pointer; background:#eee;}
-.tab button.active { background:#007bff;color:#fff; }
-.pagination { text-align:center; margin-top:20px; }
-.pagination button { padding:5px 10px; margin:0 2px; border:none; border-radius:3px; cursor:pointer; background:#eee; }
-.pagination button.active { background:#007bff;color:#fff; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电影、书籍和音乐信息</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .item {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .item img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-info {
+            flex: 1;
+        }
+
+        .item-info h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .item-info p {
+            margin: 5px 0;
+        }
+
+        .rating {
+            font-size: 20px;
+            color: #FFD700;
+        }
+
+        .tags {
+            color: #666;
+        }
+
+        .item-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            padding: 10px;
+            margin: 0 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .pagination button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
 </head>
 <body>
 
-<div class="tab">
-    <button data-type="book" class="active">书籍</button>
-    <button data-type="movie">电影</button>
-    <button data-type="music">音乐</button>
+<div class="container" id="moviesContainer">
+    <h2>电影信息</h2>
+    <div id="moviesList"></div>
 </div>
 
-<div class="container" id="contentContainer"></div>
-<div class="pagination" id="paginationContainer"></div>
+<div class="container" id="booksContainer">
+    <h2>书籍信息</h2>
+    <div id="booksList"></div>
+</div>
+
+<div class="container" id="musicContainer">
+    <h2>音乐信息</h2>
+    <div id="musicList"></div>
+</div>
+
+<div class="pagination">
+    <button onclick="loadPage(1)">1</button>
+    <button onclick="loadPage(2)">2</button>
+    <button onclick="loadPage(3)">3</button>
+</div>
 
 <script>
-var PAGE_SIZE = 5;
-var currentData = [];
-var currentPage = 1;
-var currentType = 'book';
+    let currentPage = 1;
+    const itemsPerPage = 5;
 
-// JSON 文件路径（GitHub Pages 兼容）
-var dataPaths = {
-    book: './static/data/book.json',
-    movie: './static/data/movie.json',
-    music: './static/data/music.json'
-};
-
-// XMLHttpRequest 方式加载数据
-function loadLocalJSON(type){
-    currentType = type;
-    currentPage = 1;
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function(){
-        if(xhr.readyState===4){
-            var container = document.getElementById('contentContainer');
-            if(xhr.status===200){
-                currentData = JSON.parse(xhr.responseText);
-                renderPage();
-            } else {
-                container.innerHTML = '<p style="color:red;">加载失败: 网络错误或文件未找到</p>';
+    function loadJSON(url, callback) {
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                const jsonData = JSON.parse(xhr.responseText);
+                callback(jsonData);
             }
-        }
-    };
-    xhr.open('GET', dataPaths[type], true);
-    xhr.send();
-}
-
-// 渲染当前页
-function renderPage(){
-    var start = (currentPage-1)*PAGE_SIZE;
-    var pageData = currentData.slice(start, start+PAGE_SIZE);
-    var container = document.getElementById('contentContainer');
-    container.innerHTML = '';
-
-    pageData.forEach(function(item){
-        var div = document.createElement('div');
-        div.className = 'item';
-
-        var img = document.createElement('img');
-        img.src = (item.subject && item.subject.cover_url) || item.cover_url || '';
-        img.alt = (item.subject && item.subject.title) || item.title || '';
-        div.appendChild(img);
-
-        var info = document.createElement('div');
-        info.className = 'item-info';
-
-        var title = document.createElement('h2');
-        title.textContent = (item.subject && item.subject.title) || item.title || '';
-        info.appendChild(title);
-
-        if(item.sharing_text){
-            var ratingText = item.sharing_text.match(/★+/);
-            var rating = document.createElement('p');
-            rating.className = 'rating';
-            rating.textContent = ratingText ? '评分: ' + ratingText[0] : '暂无评分';
-            info.appendChild(rating);
-        }
-
-        if(item.tags){
-            var tags = document.createElement('p');
-            tags.className = 'tags';
-            tags.textContent = '标签: ' + item.tags.join(', ');
-            info.appendChild(tags);
-        }
-
-        if(item.subject && item.subject.directors){
-            var director = document.createElement('p');
-            director.textContent = '导演: ' + item.subject.directors.map(d=>d.name).join(', ');
-            info.appendChild(director);
-        }
-
-        if(item.subject && item.subject.actors){
-            var actors = document.createElement('p');
-            actors.textContent = '主演: ' + item.subject.actors.map(a=>a.name).join(', ');
-            info.appendChild(actors);
-        }
-
-        if(item.subject && item.subject.pubdate){
-            var pubdate = document.createElement('p');
-            pubdate.textContent = '上映日期: ' + item.subject.pubdate[0];
-            info.appendChild(pubdate);
-        }
-
-        var link = document.createElement('a');
-        link.href = (item.subject && item.subject.url) || item.url || '#';
-        link.textContent = '了解更多';
-        info.appendChild(link);
-
-        div.appendChild(info);
-        container.appendChild(div);
-    });
-
-    renderPagination();
-}
-
-// 渲染分页
-function renderPagination(){
-    var container = document.getElementById('paginationContainer');
-    container.innerHTML = '';
-    var pageCount = Math.ceil(currentData.length / PAGE_SIZE);
-    for(var i=1;i<=pageCount;i++){
-        var btn = document.createElement('button');
-        btn.textContent = i;
-        if(i===currentPage) btn.className='active';
-        btn.onclick = (function(n){ return function(){ currentPage=n; renderPage(); }; })(i);
-        container.appendChild(btn);
+        };
+        xhr.open("GET", url, true);
+        xhr.send();
     }
-}
 
-// Tab 切换
-var tabs = document.querySelectorAll('.tab button');
-tabs.forEach(function(btn){
-    btn.addEventListener('click', function(){
-        tabs.forEach(b=>b.classList.remove('active'));
-        btn.classList.add('active');
-        loadLocalJSON(btn.dataset.type);
-    });
-});
+    function displayItems(containerId, items) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
+        
+        items.forEach(function(item) {
+            const itemDiv = document.createElement("div");
+            itemDiv.classList.add("item");
 
-// 初始加载书籍
-loadLocalJSON(currentType);
+            const img = document.createElement("img");
+            img.src = item.cover_url || '';  // Assume item has a cover_url field
+            img.alt = item.title || '';  // Assume item has a title field
+            itemDiv.appendChild(img);
+
+            const itemInfo = document.createElement("div");
+            itemInfo.classList.add("item-info");
+
+            const title = document.createElement("h2");
+            title.textContent = item.title || '';  // Assuming title is a property of the item
+            itemInfo.appendChild(title);
+
+            const ratingText = item.rating || '暂无评分';
+            const rating = document.createElement("p");
+            rating.classList.add("rating");
+            rating.textContent = `评分: ${ratingText}`;
+            itemInfo.appendChild(rating);
+
+            const tags = document.createElement("p");
+            tags.classList.add("tags");
+            tags.textContent = "标签: " + (item.tags ? item.tags.join(", ") : "暂无标签");
+            itemInfo.appendChild(tags);
+
+            const link = document.createElement("a");
+            link.href = item.url || '#';
+            link.textContent = "了解更多";
+            itemInfo.appendChild(link);
+
+            itemDiv.appendChild(itemInfo);
+            container.appendChild(itemDiv);
+        });
+    }
+
+    function loadPage(page) {
+        currentPage = page;
+        loadData();
+    }
+
+    function loadData() {
+        const startIndex = (currentPage - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+
+        // Load Movie Data
+        loadJSON("../static/data/movie.json", function(movies) {
+            const paginatedMovies = movies.slice(startIndex, endIndex);
+            displayItems('moviesList', paginatedMovies);
+        });
+
+        // Load Book Data
+        loadJSON("../static/data/book.json", function(books) {
+            const paginatedBooks = books.slice(startIndex, endIndex);
+            displayItems('booksList', paginatedBooks);
+        });
+
+        // Load Music Data
+        loadJSON("../static/data/music.json", function(music) {
+            const paginatedMusic = music.slice(startIndex, endIndex);
+            displayItems('musicList', paginatedMusic);
+        });
+    }
+
+    // Initial Load
+    window.onload = loadData;
 </script>
 
 </body>
