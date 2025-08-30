@@ -1,82 +1,6 @@
 [
 	{
 		"comment": "",
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 4,
-			"value": 4
-		},
-		"sharing_text": "我的评分：★★★★ https://www.douban.com/doubanapp/dispatch/music/26271123 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26271123/interest/4628491555",
-		"tags": [],
-		"charts": [],
-		"platforms": [],
-		"vote_count": 0,
-		"create_time": "2025-08-29 22:00:03",
-		"status": "done",
-		"id": 4628491555,
-		"is_private": false,
-		"subject": {
-			"rating": {
-				"count": 1089,
-				"max": 10,
-				"star_count": 3.5,
-				"value": 6.5
-			},
-			"genres": [
-				"流行"
-			],
-			"controversy_reason": "",
-			"pubdate": [
-				"2014-11-27"
-			],
-			"title": "爱的供养",
-			"url": "https://music.douban.com/subject/26271123/",
-			"pic": {
-				"large": "https://img2.doubanio.com/view/subject/m/public/s27886881.jpg",
-				"normal": "https://img2.doubanio.com/view/subject/s/public/s27886881.jpg"
-			},
-			"singer": [
-				{
-					"name": "张靓颖"
-				},
-				{
-					"name": "张杰"
-				}
-			],
-			"is_playable": false,
-			"uri": "douban://douban.com/music/26271123",
-			"is_released": true,
-			"is_show": false,
-			"cover_url": "https://dou.img.lithub.cc/music/26271123.jpg",
-			"article_intros": [],
-			"subtype": "music",
-			"card_subtitle": "张靓颖 张杰 / 2014",
-			"color_scheme": {
-				"is_dark": true,
-				"primary_color_light": "a5a2a4",
-				"_base_color": [
-					0.9166666666666673,
-					0.01754385964912287,
-					0.8941176470588236
-				],
-				"secondary_color": "f9f4f7",
-				"_avg_color": [
-					0.8333333333333334,
-					0.023696682464454895,
-					0.8274509803921568
-				],
-				"primary_color_dark": "7f7d7e"
-			},
-			"type": "music",
-			"id": "26271123",
-			"null_rating_reason": "",
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/music/26271123"
-		}
-	},
-	{
-		"comment": "",
 		"rating": null,
 		"sharing_text": "https://www.douban.com/doubanapp/dispatch/music/3313848 来自@豆瓣App",
 		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3313848/interest/4193730895",
@@ -90,7 +14,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 26669,
+				"count": 26664,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.8
@@ -226,7 +150,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 37929,
+				"count": 37920,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -294,7 +218,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 20383,
+				"count": 20375,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.7
@@ -430,7 +354,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12242,
+				"count": 12237,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.1
@@ -498,7 +422,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 27437,
+				"count": 27432,
 				"max": 10,
 				"star_count": 5,
 				"value": 9.5
@@ -566,7 +490,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 40937,
+				"count": 40935,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.6
@@ -714,7 +638,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 25576,
+				"count": 25567,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.5
