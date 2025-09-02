@@ -21,10 +21,10 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 2158,
+				"count": 2157,
 				"max": 10,
 				"star_count": 4,
-				"value": 8.1
+				"value": 8.2
 			},
 			"controversy_reason": "",
 			"pubdate": [
@@ -191,7 +191,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 80701,
+				"count": 80691,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
