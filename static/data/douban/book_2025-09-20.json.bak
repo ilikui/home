@@ -13,7 +13,6 @@
 			"读书"
 		],
 		"charts": [],
-		"is_editable": false,
 		"platforms": [],
 		"vote_count": 0,
 		"create_time": "2025-08-29 22:01:03",
@@ -22,7 +21,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 2172,
+				"count": 2171,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -100,7 +99,6 @@
 			"笔记"
 		],
 		"charts": [],
-		"is_editable": false,
 		"platforms": [],
 		"vote_count": 0,
 		"create_time": "2024-05-19 06:55:34",
@@ -185,7 +183,6 @@
 			"理财"
 		],
 		"charts": [],
-		"is_editable": false,
 		"platforms": [],
 		"vote_count": 0,
 		"create_time": "2024-05-10 06:32:24",
@@ -194,7 +191,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 80846,
+				"count": 80838,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -279,7 +276,6 @@
 			"Simulink"
 		],
 		"charts": [],
-		"is_editable": false,
 		"platforms": [],
 		"vote_count": 0,
 		"create_time": "2022-06-27 20:30:16",
