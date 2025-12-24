@@ -22,10 +22,10 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 2220,
+				"count": 2215,
 				"max": 10,
 				"star_count": 4,
-				"value": 8.1
+				"value": 8.2
 			},
 			"controversy_reason": "",
 			"pubdate": [
@@ -194,7 +194,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 81483,
+				"count": 81366,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -331,7 +331,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/26899960.jpg",
-			"min_sale_price": "¥54.4",
+			"min_sale_price": "¥43.8",
 			"press": [
 				"北京航空航天大学出版社"
 			],
