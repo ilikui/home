@@ -153,7 +153,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/30168344.jpg",
-			"min_sale_price": "",
+			"min_sale_price": "¥40.1",
 			"press": [
 				"人民邮电出版社"
 			],
@@ -164,7 +164,7 @@
 			"uri": "douban://douban.com/book/30168344",
 			"subtype": "book",
 			"intro": "每一个学习、工作过的人，都少不了跟笔记本打交道。写了这么多年的笔记，你确定自己真的理解它了吗？为什么同样的内容，别人总记得比你时间少、速度比你快、效率比你高，而且效果还更好呢？先别急着怀疑自己的智商，也许正是你的笔记拖了大脑的后腿。 聪明人的笔记可以让其事半功倍，错误的笔记却是名副其实的“猪队友”，只能阻碍我们能力的发挥。改变一下记笔记的方式，掌握正确的方法，你会发现自己的学习效率更高、工作效果更好了！还在为写文案、出提案而烦恼吗？还觉得自己的工作纷繁复杂、没有头绪吗？快翻开这本书，学习一下如何整理你身边海量的资料吧！",
-			"buy_more_uri": "",
+			"buy_more_uri": "douban://douban.com/book/30168344/vendors_douban",
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
@@ -194,7 +194,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 81621,
+				"count": 81613,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
@@ -331,7 +331,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/26899960.jpg",
-			"min_sale_price": "",
+			"min_sale_price": "¥54.4",
 			"press": [
 				"北京航空航天大学出版社"
 			],
@@ -344,7 +344,7 @@
 			"uri": "douban://douban.com/book/26899960",
 			"subtype": "book",
 			"intro": "《Simulink仿真及代码生成技术入门到精通》围绕Simulink软件的仿真和代码生成技术，从原理上展开阐述，把握整体，注重细节，让读者深刻认识Simulink的运行原理。结构化的章节安排和丰富多彩的案例展示了Simulink在模型建立、工业流程仿真及嵌入式控制等方面的应用技巧和方法。本书不拘泥于界面操作，而结合MATLAB脚本语言展示其自动控制模型仿真、代码生成过程的强大功能，带领读者把握宏观架构，攻克细节问题。\n全书共19章，分为入门篇、进阶篇和高级篇3个篇章。入门篇介绍Simulink软件及其基本操作和构成要素；进阶篇讲解Simulink的运行机制和原理、自定义模块及模块封装、自定义模块库的建立和Simulink环境的编辑等功能，并讲解如何使用M语言为模块发布help文档，以及通过工业实例展示综合应用GUI控制Simulink进行仿真的方法及代码生成的应用方法；高级篇重点介绍“基于模型设计”的开发流程、嵌入式C代码生成技术原理及TLC语言编写方法，并展示如何在嵌入式应用中使用TSP。\n本书可作为高等院校计算机、电子、自动化类专业计算机仿真及嵌入式课程的教学用书，也可供嵌入式系统研发工程师、软件公司研发工程师及其他有关专业科研人员参考。\n作者简介",
-			"buy_more_uri": "",
+			"buy_more_uri": "douban://douban.com/book/26899960/vendors_douban",
 			"null_rating_reason": "",
 			"article_intros": [],
 			"vendor_sale_price": "",
