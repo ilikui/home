@@ -22,7 +22,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 2268,
+				"count": 2267,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -66,7 +66,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/36615020.jpg",
-			"min_sale_price": "¥49.6",
+			"min_sale_price": "¥39.9",
 			"press": [
 				"新星出版社"
 			],
@@ -194,7 +194,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 82167,
+				"count": 82156,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
