@@ -65,8 +65,8 @@
 				"secondary_color": "f9f4f7",
 				"_avg_color": [
 					0.8333333333333334,
-					0.023584905660377405,
-					0.8313725490196079
+					0.023696682464454895,
+					0.8274509803921568
 				],
 				"primary_color_dark": "7f7d7e"
 			},
@@ -92,7 +92,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 27037,
+				"count": 27035,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.8
@@ -125,19 +125,19 @@
 			"card_subtitle": "Lady Gaga / 2008",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "725443",
+				"primary_color_light": "725342",
 				"_base_color": [
-					0.06205673758865247,
-					0.41592920353982293,
-					0.8862745098039215
+					0.059649122807017584,
+					0.4222222222222222,
+					0.8823529411764706
 				],
 				"secondary_color": "f9f6f4",
 				"_avg_color": [
-					0.03888888888888886,
-					0.5217391304347826,
-					0.45098039215686275
+					0.041666666666666664,
+					0.5309734513274336,
+					0.44313725490196076
 				],
-				"primary_color_dark": "4c382c"
+				"primary_color_dark": "4c372c"
 			},
 			"type": "music",
 			"id": "3313848",
@@ -194,19 +194,19 @@
 			"card_subtitle": "Lady Gaga / 2009",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "4c68a5",
+				"primary_color_light": "4b6aa5",
 				"_base_color": [
-					0.6142857142857143,
-					0.5384615384615384,
-					0.2549019607843137
+					0.6095238095238095,
+					0.546875,
+					0.25098039215686274
 				],
 				"secondary_color": "f4f6f9",
 				"_avg_color": [
 					0.9814814814814815,
-					0.06249999999999997,
-					0.5647058823529412
+					0.06293706293706292,
+					0.5607843137254902
 				],
-				"primary_color_dark": "3a507f"
+				"primary_color_dark": "39517f"
 			},
 			"type": "music",
 			"id": "3770450",
@@ -230,7 +230,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 38541,
+				"count": 38538,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -263,19 +263,19 @@
 			"card_subtitle": "蔡依林 Jolin Tsai / 2003",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "a59491",
+				"primary_color_light": "a59d9d",
 				"_base_color": [
-					0.019230769230769162,
-					0.12037037037037034,
-					0.8470588235294118
+					0.9848484848484849,
+					0.05164319248826299,
+					0.8352941176470589
 				],
-				"secondary_color": "f9f5f4",
+				"secondary_color": "f9f4f5",
 				"_avg_color": [
-					0.011904761904762029,
-					0.14736842105263165,
+					0.017241379310344918,
+					0.15263157894736848,
 					0.7450980392156863
 				],
-				"primary_color_dark": "7f7170"
+				"primary_color_dark": "7f7879"
 			},
 			"type": "music",
 			"id": "6540851",
@@ -299,7 +299,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 21036,
+				"count": 21031,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.7
@@ -332,19 +332,19 @@
 			"card_subtitle": "莫文蔚 / 2018",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "a59f87",
+				"primary_color_light": "a5a083",
 				"_base_color": [
-					0.13333333333333333,
-					0.18099547511312217,
-					0.8666666666666667
+					0.1388888888888889,
+					0.20689655172413793,
+					0.22745098039215686
 				],
-				"secondary_color": "f9f8f4",
+				"secondary_color": "f9f9f4",
 				"_avg_color": [
-					0.1358024691358025,
-					0.21093750000000003,
-					0.5019607843137255
+					0.12962962962962965,
+					0.20930232558139528,
+					0.5058823529411764
 				],
-				"primary_color_dark": "7f7a68"
+				"primary_color_dark": "7f7b65"
 			},
 			"type": "music",
 			"id": "30158301",
@@ -401,19 +401,19 @@
 			"card_subtitle": "曲婉婷 / 2010",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "a5a399",
+				"primary_color_light": "a5a499",
 				"_base_color": [
-					0.1354166666666665,
-					0.07511737089201878,
-					0.8352941176470589
+					0.1458333333333334,
+					0.07407407407407407,
+					0.8470588235294118
 				],
-				"secondary_color": "f9f8f4",
+				"secondary_color": "f9f9f4",
 				"_avg_color": [
-					0.13333333333333316,
-					0.07614213197969545,
+					0.1354166666666665,
+					0.08121827411167512,
 					0.7725490196078432
 				],
-				"primary_color_dark": "7f7d75"
+				"primary_color_dark": "7f7e76"
 			},
 			"type": "music",
 			"id": "5395505",
@@ -437,7 +437,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 12502,
+				"count": 12497,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9
@@ -470,19 +470,19 @@
 			"card_subtitle": "任素汐 / 2016",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "a5a3a4",
+				"primary_color_light": "a5a4a4",
 				"_base_color": [
-					0.9444444444444444,
-					0.012987012987012941,
+					0,
+					0.008658008658008627,
 					0.9058823529411765
 				],
-				"secondary_color": "f9f4f6",
+				"secondary_color": "f9f4f4",
 				"_avg_color": [
-					0.9333333333333333,
-					0.02293577981651368,
+					0.9583333333333334,
+					0.018348623853210944,
 					0.8549019607843137
 				],
-				"primary_color_dark": "7f7d7e"
+				"primary_color_dark": "7f7e7e"
 			},
 			"type": "music",
 			"id": "26901738",
@@ -506,7 +506,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 27922,
+				"count": 27918,
 				"max": 10,
 				"star_count": 5,
 				"value": 9.5
@@ -547,9 +547,9 @@
 				],
 				"secondary_color": "f9f9f4",
 				"_avg_color": [
-					0.10752688172043008,
-					0.31313131313131315,
-					0.38823529411764707
+					0.11290322580645158,
+					0.3163265306122449,
+					0.3843137254901961
 				],
 				"primary_color_dark": "494c2f"
 			},
@@ -575,7 +575,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 42136,
+				"count": 42130,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.6
@@ -608,19 +608,19 @@
 			"card_subtitle": "梁静茹 Fish / 2000",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "638aa5",
+				"primary_color_light": "6389a5",
 				"_base_color": [
-					0.5698924731182796,
-					0.39743589743589747,
-					0.3058823529411765
+					0.5698924731182795,
+					0.40259740259740256,
+					0.30196078431372547
 				],
 				"secondary_color": "f4f7f9",
 				"_avg_color": [
-					0.044444444444444266,
-					0.08720930232558141,
-					0.6745098039215687
+					0.04166666666666652,
+					0.09248554913294797,
+					0.6784313725490196
 				],
-				"primary_color_dark": "4c6a7f"
+				"primary_color_dark": "4c697f"
 			},
 			"type": "music",
 			"id": "1428604",
@@ -651,7 +651,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 25322,
+				"count": 25321,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 9.4
@@ -684,19 +684,19 @@
 			"card_subtitle": "Adele / 2010",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "727272",
+				"primary_color_light": "6b7272",
 				"_base_color": [
-					0,
-					0,
-					0.054901960784313725
+					0.5,
+					0.06666666666666667,
+					0.058823529411764705
 				],
-				"secondary_color": "f9f4f4",
+				"secondary_color": "f4f9f9",
 				"_avg_color": [
 					0.41666666666666635,
 					0.057142857142857134,
 					0.13725490196078433
 				],
-				"primary_color_dark": "4c4c4c"
+				"primary_color_dark": "474c4c"
 			},
 			"type": "music",
 			"id": "5386173",
@@ -725,7 +725,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 26695,
+				"count": 26684,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.5
@@ -766,8 +766,8 @@
 				],
 				"secondary_color": "f9f7f4",
 				"_avg_color": [
-					0.09876543209876547,
-					0.14438502673796785,
+					0.10119047619047622,
+					0.14973262032085555,
 					0.7333333333333333
 				],
 				"primary_color_dark": "7f705a"

@@ -137,19 +137,19 @@
 			"vendor_original_price": "",
 			"color_scheme": {
 				"is_dark": true,
-				"primary_color_light": "a59b1b",
+				"primary_color_light": "a59b20",
 				"_base_color": [
-					0.15400843881856538,
-					0.8359788359788359,
-					0.7411764705882353
+					0.1539351851851852,
+					0.8044692737430168,
+					0.7019607843137254
 				],
 				"secondary_color": "f9f9f4",
 				"_avg_color": [
-					0.15079365079365079,
-					0.5217391304347826,
-					0.6313725490196078
+					0.15060240963855423,
+					0.51875,
+					0.6274509803921569
 				],
-				"primary_color_dark": "7f7714"
+				"primary_color_dark": "7f7718"
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/30168344.jpg",
@@ -194,7 +194,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 82453,
+				"count": 82450,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
