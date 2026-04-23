@@ -66,7 +66,7 @@
 			},
 			"type": "book",
 			"cover_url": "https://dou.img.lithub.cc/book/36615020.jpg",
-			"min_sale_price": "¥34.5",
+			"min_sale_price": "¥45.9",
 			"press": [
 				"新星出版社"
 			],
@@ -194,7 +194,7 @@
 		"is_private": false,
 		"subject": {
 			"rating": {
-				"count": 82494,
+				"count": 82487,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
