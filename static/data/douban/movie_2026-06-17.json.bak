@@ -124,7 +124,7 @@
 				"2026-02-25(美国网络)"
 			],
 			"rating": {
-				"count": 2708,
+				"count": 2706,
 				"max": 10,
 				"star_count": 3,
 				"value": 6
@@ -230,7 +230,7 @@
 				"2026-02-14(中国大陆网络)"
 			],
 			"rating": {
-				"count": 5248,
+				"count": 5239,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.2
@@ -387,10 +387,10 @@
 				"2026-01-23(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 41415,
+				"count": 41389,
 				"max": 10,
 				"star_count": 2,
-				"value": 4.3
+				"value": 4.4
 			},
 			"release_date": null,
 			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34965089",
@@ -403,7 +403,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2026"
 		},
@@ -616,7 +616,7 @@
 				"2025-07-18(中国大陆)"
 			],
 			"rating": {
-				"count": 511688,
+				"count": 511500,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -630,8 +630,8 @@
 			"url": "https://movie.douban.com/subject/36185502/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2025"
@@ -743,7 +743,7 @@
 				"2020-12-11(中国大陆)"
 			],
 			"rating": {
-				"count": 66224,
+				"count": 66216,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -894,7 +894,7 @@
 				"2025-10-10(美国)"
 			],
 			"rating": {
-				"count": 6546,
+				"count": 6541,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.7
@@ -1063,7 +1063,7 @@
 				"2022-06-10(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 268938,
+				"count": 268925,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.1
@@ -1081,6 +1081,159 @@
 				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2022"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2025-09-07 21:14:11",
+		"id": 4635730787,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/26416062 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26416062/interest/4635730787",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "克里斯·帕拉特"
+				},
+				{
+					"name": "布莱丝·达拉斯·霍华德"
+				},
+				{
+					"name": "贾斯蒂斯·史密斯"
+				},
+				{
+					"name": "伊莎贝拉·瑟蒙"
+				},
+				{
+					"name": "拉菲·斯波"
+				},
+				{
+					"name": "托比·琼斯"
+				},
+				{
+					"name": "泰德·拉文"
+				},
+				{
+					"name": "詹姆斯·克伦威尔"
+				},
+				{
+					"name": "黄荣亮"
+				},
+				{
+					"name": "丹妮艾拉·皮内达"
+				},
+				{
+					"name": "杰拉丁·卓别林"
+				},
+				{
+					"name": "杰夫·高布伦"
+				},
+				{
+					"name": "卡米尔·雷米泽斯基"
+				},
+				{
+					"name": "丹尼尔·斯蒂森"
+				},
+				{
+					"name": "皮特·杰森"
+				},
+				{
+					"name": "迈克尔·帕帕约翰"
+				},
+				{
+					"name": "罗伯特·埃姆斯"
+				},
+				{
+					"name": "罗南·萨默斯"
+				},
+				{
+					"name": "麦克斯·贝克"
+				},
+				{
+					"name": "丹尼尔·厄根"
+				},
+				{
+					"name": "戴维·奥拉瓦莱·阿印德"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2018 / 美国 / 动作 科幻 冒险 / J·A·巴亚纳 / 克里斯·帕拉特 布莱丝·达拉斯·霍华德",
+			"color_scheme": {
+				"_base_color": [
+					0.2857142857142856,
+					0.09210526315789479,
+					0.2980392156862745
+				],
+				"_avg_color": [
+					0.23809523809523814,
+					0.07368421052631582,
+					0.37254901960784315
+				],
+				"primary_color_light": "6b7268",
+				"primary_color_dark": "474c45",
+				"secondary_color": "f6f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26416062.jpg",
+			"directors": [
+				{
+					"name": "J·A·巴亚纳"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 6,
+					"title": "2018每月最热门电影",
+					"uri": "douban://douban.com/subject_collection/2018_movie_8?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "26416062",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2522069454.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522069454.jpg"
+			},
+			"pubdate": [
+				"2018-06-15(中国大陆)"
+			],
+			"rating": {
+				"count": 406255,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 6.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26416062",
+			"subtype": "movie",
+			"title": "侏罗纪世界2",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/26416062",
+			"url": "https://movie.douban.com/subject/26416062/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2018"
 		},
 		"tags": [],
 		"vote_count": 0
@@ -1203,7 +1356,7 @@
 				"2015-06-10(中国大陆)"
 			],
 			"rating": {
-				"count": 474222,
+				"count": 474200,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.8
@@ -1219,7 +1372,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2015"
 		},
@@ -1331,7 +1484,7 @@
 				"2002-01-23(中国大陆)"
 			],
 			"rating": {
-				"count": 138803,
+				"count": 138784,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -1345,8 +1498,8 @@
 			"url": "https://movie.douban.com/subject/1304643/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2001"
@@ -1459,7 +1612,7 @@
 				"1997-08-07(中国大陆)"
 			],
 			"rating": {
-				"count": 173570,
+				"count": 173551,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.6
@@ -1475,7 +1628,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "1997"
 		},
@@ -1588,7 +1741,7 @@
 				"2013-08-20(中国大陆 3D)"
 			],
 			"rating": {
-				"count": 357583,
+				"count": 357559,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -1603,8 +1756,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "1993"
 		},
@@ -1725,7 +1878,7 @@
 				"2025-07-02(中国大陆)"
 			],
 			"rating": {
-				"count": 143928,
+				"count": 143913,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.7
@@ -1825,7 +1978,7 @@
 				"2025-08-21(中国大陆网络)"
 			],
 			"rating": {
-				"count": 1532,
+				"count": 1531,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.8
@@ -1980,7 +2133,7 @@
 				"2025-06-13(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 179263,
+				"count": 179226,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
@@ -2170,7 +2323,7 @@
 				"2025-01-29(中国大陆)"
 			],
 			"rating": {
-				"count": 417806,
+				"count": 417774,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.7
@@ -2189,6 +2342,130 @@
 		"tags": [
 			"动作",
 			"玄幻"
+		],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2025-08-21 21:21:20",
+		"id": 4621456584,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 3,
+			"value": 3
+		},
+		"sharing_text": "我的评分：★★★ https://www.douban.com/doubanapp/dispatch/movie/35555003 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35555003/interest/4621456584",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "夏洛特·柯克"
+				},
+				{
+					"name": "乔纳森·霍华德"
+				},
+				{
+					"name": "吉米·巴姆博"
+				},
+				{
+					"name": "Kibong Tanji"
+				},
+				{
+					"name": "里昂·奥肯登"
+				},
+				{
+					"name": "马克·斯特潘"
+				},
+				{
+					"name": "Hadi Khanjanpour"
+				},
+				{
+					"name": "Troy Alexander"
+				},
+				{
+					"name": "哈里·陶乐西"
+				},
+				{
+					"name": "Mark Arends"
+				},
+				{
+					"name": "Alex Morgan"
+				},
+				{
+					"name": "亚当·邦德"
+				},
+				{
+					"name": "Sarah Lambie"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2022 / 英国 / 动作 恐怖 / 尼尔·马歇尔 / 夏洛特·柯克 乔纳森·霍华德",
+			"color_scheme": {
+				"_base_color": [
+					0.4583333333333333,
+					0.47058823529411764,
+					0.06666666666666667
+				],
+				"_avg_color": [
+					0.4583333333333333,
+					0.4102564102564103,
+					0.15294117647058825
+				],
+				"primary_color_light": "3c7265",
+				"primary_color_dark": "284c43",
+				"secondary_color": "f4f9f8",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35555003.jpg",
+			"directors": [
+				{
+					"name": "尼尔·马歇尔"
+				}
+			],
+			"genres": [
+				"动作",
+				"恐怖"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "35555003",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2881553364.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2881553364.jpg"
+			},
+			"pubdate": [
+				"2022-10-07(锡切斯国际奇幻电影节)"
+			],
+			"rating": {
+				"count": 2229,
+				"max": 10,
+				"star_count": 2.5,
+				"value": 4.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35555003",
+			"subtype": "movie",
+			"title": "巢穴",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/35555003",
+			"url": "https://movie.douban.com/subject/35555003/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2022"
+		},
+		"tags": [
+			"恐怖"
 		],
 		"vote_count": 0
 	},
@@ -2327,7 +2604,7 @@
 				"2025-06-06(美国网络)"
 			],
 			"rating": {
-				"count": 25741,
+				"count": 25726,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.7
@@ -2528,7 +2805,7 @@
 				"2025-03-07(中国大陆)"
 			],
 			"rating": {
-				"count": 101021,
+				"count": 101009,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.6
@@ -2678,7 +2955,7 @@
 				"2025-06-18(中国台湾)"
 			],
 			"rating": {
-				"count": 35250,
+				"count": 35231,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -2824,7 +3101,7 @@
 				"2025-06-27(美国)"
 			],
 			"rating": {
-				"count": 21569,
+				"count": 21558,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.6
@@ -2839,8 +3116,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2025"
 		},
@@ -2982,7 +3259,7 @@
 				"2025-04-11(中国大陆)"
 			],
 			"rating": {
-				"count": 15189,
+				"count": 15183,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.9
@@ -2998,7 +3275,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2025"
 		},
@@ -3110,6 +3387,266 @@
 		},
 		"tags": [
 			"动作"
+		],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2025-04-18 22:47:18",
+		"id": 4510329637,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 4,
+			"value": 4
+		},
+		"sharing_text": "我的评分：★★★★ https://www.douban.com/doubanapp/dispatch/movie/26260821 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26260821/interest/4510329637",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "克里斯托弗·阿波特"
+				},
+				{
+					"name": "朱莉娅·加纳"
+				},
+				{
+					"name": "玛蒂尔达·弗思"
+				},
+				{
+					"name": "山姆·贾格"
+				},
+				{
+					"name": "本·普伦德加斯特"
+				},
+				{
+					"name": "扎克·钱德勒"
+				},
+				{
+					"name": "本尼迪克·哈迪"
+				},
+				{
+					"name": "米洛·考索恩"
+				},
+				{
+					"name": "雷·沃纳尔"
+				},
+				{
+					"name": "罗伯·马克布莱德"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2025 / 美国 新西兰 爱尔兰 / 恐怖 / 雷·沃纳尔 / 克里斯托弗·阿波特 朱莉娅·加纳",
+			"color_scheme": {
+				"_base_color": [
+					0.5166666666666666,
+					0.5555555555555556,
+					0.07058823529411765
+				],
+				"_avg_color": [
+					0.5138888888888888,
+					0.5,
+					0.09411764705882353
+				],
+				"primary_color_light": "326c72",
+				"primary_color_dark": "22484c",
+				"secondary_color": "f4f9f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26260821.jpg",
+			"directors": [
+				{
+					"name": "雷·沃纳尔"
+				}
+			],
+			"genres": [
+				"恐怖"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "26260821",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2914374923.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2914374923.jpg"
+			},
+			"pubdate": [
+				"2025-01-15(法国)"
+			],
+			"rating": {
+				"count": 3445,
+				"max": 10,
+				"star_count": 2.5,
+				"value": 5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26260821",
+			"subtype": "movie",
+			"title": "狼人",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/26260821",
+			"url": "https://movie.douban.com/subject/26260821/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2025"
+		},
+		"tags": [
+			"恐怖"
+		],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "蜘蛛小怪",
+		"create_time": "2025-04-07 21:22:24",
+		"id": 4501159499,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 3,
+			"value": 3
+		},
+		"sharing_text": "我的评分：★★★ 蜘蛛小怪 https://www.douban.com/doubanapp/dispatch/movie/36396324 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36396324/interest/4501159499",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "西奥·克里斯廷"
+				},
+				{
+					"name": "索菲娅·勒萨弗尔"
+				},
+				{
+					"name": "杰罗姆·尼尔"
+				},
+				{
+					"name": "丽莎·尼亚科"
+				},
+				{
+					"name": "费尼肯·欧菲尔德"
+				},
+				{
+					"name": "玛丽-菲洛梅纳·尼加"
+				},
+				{
+					"name": "马哈玛德·桑伽勒"
+				},
+				{
+					"name": "阿卜杜拉·蒙迪"
+				},
+				{
+					"name": "伊科·扎克松戈"
+				},
+				{
+					"name": "埃马纽埃尔·博纳米"
+				},
+				{
+					"name": "成星星"
+				},
+				{
+					"name": "萨米尔·奈特"
+				},
+				{
+					"name": "马利克·阿姆拉维"
+				},
+				{
+					"name": "勒塞姆·马希迪"
+				},
+				{
+					"name": "纳瑟·梅哈尔"
+				},
+				{
+					"name": "阿卜戴卡德尔·伯努瓦"
+				},
+				{
+					"name": "卡利姆·道乌斯"
+				},
+				{
+					"name": "克莉丝汀·凯"
+				},
+				{
+					"name": "斯蒂芬·马拉瑟内"
+				},
+				{
+					"name": "艾查·阿梅达"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2023 / 法国 / 恐怖 /  塞巴斯蒂安·瓦尼契克 / 西奥·克里斯廷 索菲娅·勒萨弗尔",
+			"color_scheme": {
+				"_base_color": [
+					0,
+					0,
+					0.9215686274509803
+				],
+				"_avg_color": [
+					0.08333333333333215,
+					0.011627906976744309,
+					0.6745098039215687
+				],
+				"primary_color_light": "a5a5a5",
+				"primary_color_dark": "7f7f7f",
+				"secondary_color": "f9f4f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36396324.jpg",
+			"directors": [
+				{
+					"name": " 塞巴斯蒂安·瓦尼契克"
+				}
+			],
+			"genres": [
+				"恐怖"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "36396324",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2901372689.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2901372689.jpg"
+			},
+			"pubdate": [
+				"2023-09-07(威尼斯电影节)"
+			],
+			"rating": {
+				"count": 3673,
+				"max": 10,
+				"star_count": 2.5,
+				"value": 5.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36396324",
+			"subtype": "movie",
+			"title": "害虫",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/36396324",
+			"url": "https://movie.douban.com/subject/36396324/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png"
+			],
+			"year": "2023"
+		},
+		"tags": [
+			"恐怖"
 		],
 		"vote_count": 0
 	},
@@ -3238,7 +3775,7 @@
 				"2024-09-10(多伦多电影节)"
 			],
 			"rating": {
-				"count": 5848,
+				"count": 5842,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.3
@@ -3250,6 +3787,130 @@
 			"type": "movie",
 			"uri": "douban://douban.com/movie/36346792",
 			"url": "https://movie.douban.com/subject/36346792/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2024"
+		},
+		"tags": [
+			"动作"
+		],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2024-12-25 21:07:47",
+		"id": 4392830683,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 3,
+			"value": 3
+		},
+		"sharing_text": "我的评分：★★★ https://www.douban.com/doubanapp/dispatch/movie/36422602 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36422602/interest/4392830683",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "迪辰·拉克曼"
+				},
+				{
+					"name": "迪伦·斯普罗斯"
+				},
+				{
+					"name": "梅森·古丁"
+				},
+				{
+					"name": "凯文·查普曼"
+				},
+				{
+					"name": "梅根·斯科特"
+				},
+				{
+					"name": "尼克·阿波斯托莱德斯"
+				},
+				{
+					"name": "威尔·莱曼"
+				},
+				{
+					"name": "巴努·戈帕尔"
+				},
+				{
+					"name": "小丹尼尔·里奥斯"
+				},
+				{
+					"name": "海蒂·加尔扎"
+				},
+				{
+					"name": "坦纳·扎加里诺"
+				},
+				{
+					"name": "马克·佩托格拉索"
+				},
+				{
+					"name": "约翰·哈威"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2024 / 美国 / 动作 惊悚 / 帕特里克·卢西尔 / 迪辰·拉克曼 迪伦·斯普罗斯",
+			"color_scheme": {
+				"_base_color": [
+					0.03571428571428572,
+					0.5185185185185185,
+					0.10588235294117647
+				],
+				"_avg_color": [
+					0.0731707317073171,
+					0.2827586206896552,
+					0.5686274509803921
+				],
+				"primary_color_light": "a5624f",
+				"primary_color_dark": "7f4b3d",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36422602.jpg",
+			"directors": [
+				{
+					"name": "帕特里克·卢西尔"
+				}
+			],
+			"genres": [
+				"动作",
+				"惊悚"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "36422602",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2913339113.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2913339113.jpg"
+			},
+			"pubdate": [
+				"2024-09-27(波兰)"
+			],
+			"rating": {
+				"count": 320,
+				"max": 10,
+				"star_count": 2.5,
+				"value": 4.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36422602",
+			"subtype": "movie",
+			"title": "爆裂崩塌",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/36422602",
+			"url": "https://movie.douban.com/subject/36422602/",
 			"vendor_desc": "",
 			"vendor_icons": [],
 			"year": "2024"
@@ -3353,7 +4014,7 @@
 				"2024-10-17(中国大陆网络)"
 			],
 			"rating": {
-				"count": 1672,
+				"count": 1671,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.8
@@ -3500,7 +4161,7 @@
 				"2024-10-11(美国网络)"
 			],
 			"rating": {
-				"count": 2250,
+				"count": 2248,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.9
@@ -3514,9 +4175,125 @@
 			"url": "https://movie.douban.com/subject/35874082/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2024"
+		},
+		"tags": [
+			"动作"
+		],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2024-10-16 22:31:08",
+		"id": 4328028510,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 4,
+			"value": 4
+		},
+		"sharing_text": "我的评分：★★★★ https://www.douban.com/doubanapp/dispatch/movie/36963232 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36963232/interest/4328028510",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "巫迪文"
+				},
+				{
+					"name": "黄蓉"
+				},
+				{
+					"name": "张晨光"
+				},
+				{
+					"name": "李小萌"
+				},
+				{
+					"name": "李子雄"
+				},
+				{
+					"name": "黄一山"
+				},
+				{
+					"name": "张卫"
+				},
+				{
+					"name": "希童"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2024 / 中国大陆 / 动作 武侠 古装 / 陈天翔 大伟 / 巫迪文 黄蓉",
+			"color_scheme": {
+				"_base_color": [
+					0.031746031746031744,
+					0.39622641509433965,
+					0.20784313725490197
+				],
+				"_avg_color": [
+					0.05555555555555556,
+					0.46721311475409844,
+					0.47843137254901963
+				],
+				"primary_color_light": "724d45",
+				"primary_color_dark": "4c332e",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36963232.jpg",
+			"directors": [
+				{
+					"name": "陈天翔"
+				},
+				{
+					"name": "大伟"
+				}
+			],
+			"genres": [
+				"动作",
+				"武侠",
+				"古装"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "36963232",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "暂无评分",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2911005312.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2911005312.jpg"
+			},
+			"pubdate": [
+				"2024-07-27(中国大陆网络)"
+			],
+			"rating": {
+				"count": 0,
+				"max": 10,
+				"star_count": 0,
+				"value": 0
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36963232",
+			"subtype": "movie",
+			"title": "赊刀人",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/36963232",
+			"url": "https://movie.douban.com/subject/36963232/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2024"
 		},
@@ -3650,7 +4427,7 @@
 				"2024-09-27(圣塞巴斯蒂安电影节)"
 			],
 			"rating": {
-				"count": 30794,
+				"count": 30791,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -3668,6 +4445,105 @@
 		},
 		"tags": [
 			"恐怖"
+		],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2024-09-28 17:05:31",
+		"id": 4311268736,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 4,
+			"value": 4
+		},
+		"sharing_text": "我的评分：★★★★ https://www.douban.com/doubanapp/dispatch/movie/36680379 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36680379/interest/4311268736",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "尚格·云顿"
+				},
+				{
+					"name": "安德烈·莱纳"
+				},
+				{
+					"name": "梅瑞迪思·米克尔森"
+				},
+				{
+					"name": "塔利亚·亚瑟拉夫"
+				},
+				{
+					"name": "彼得·斯特曼"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2024 / 意大利 / 动作 / 瓦列·米利夫 / 尚格·云顿 安德烈·莱纳",
+			"color_scheme": {
+				"_base_color": [
+					0.027777777777777773,
+					0.20338983050847456,
+					0.9254901960784314
+				],
+				"_avg_color": [
+					0.01428571428571431,
+					0.25179856115107907,
+					0.5450980392156862
+				],
+				"primary_color_light": "a58984",
+				"primary_color_dark": "7f6965",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36680379.jpg",
+			"directors": [
+				{
+					"name": "瓦列·米利夫"
+				}
+			],
+			"genres": [
+				"动作"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "36680379",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2913370821.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913370821.jpg"
+			},
+			"pubdate": [
+				"2024-09-24(美国)"
+			],
+			"rating": {
+				"count": 400,
+				"max": 10,
+				"star_count": 2,
+				"value": 4.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36680379",
+			"subtype": "movie",
+			"title": "赶尽杀绝2",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/36680379",
+			"url": "https://movie.douban.com/subject/36680379/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2024"
+		},
+		"tags": [
+			"动作"
 		],
 		"vote_count": 0
 	},
@@ -3773,9 +4649,9 @@
 	},
 	{
 		"charts": [],
-		"comment": "AI控制一切",
-		"create_time": "2024-09-21 13:56:09",
-		"id": 4305295757,
+		"comment": "社会的毒瘤……",
+		"create_time": "2024-09-21 18:36:30",
+		"id": 4305518324,
 		"is_editable": false,
 		"is_private": false,
 		"platforms": [],
@@ -3785,961 +4661,130 @@
 			"star_count": 4,
 			"value": 4
 		},
-		"sharing_text": "我的评分：★★★★ AI控制一切 https://www.douban.com/doubanapp/dispatch/movie/36229808 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36229808/interest/4305295757",
+		"sharing_text": "我的评分：★★★★ 社会的毒瘤…… https://www.douban.com/doubanapp/dispatch/movie/34884621 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/34884621/interest/4305518324",
 		"status": "done",
 		"subject": {
 			"actors": [
 				{
-					"name": "约翰·赵"
+					"name": "亚伦·皮埃尔"
 				},
 				{
-					"name": "凯瑟琳·沃特斯顿"
+					"name": "唐·约翰逊"
 				},
 				{
-					"name": "基思·卡拉丹"
+					"name": "安娜索菲亚·罗伯"
 				},
 				{
-					"name": "哈瓦娜·罗丝·刘"
+					"name": "大卫·丹曼"
 				},
 				{
-					"name": "卢基塔·麦克斯韦尔"
+					"name": "艾莫里·科恩"
 				},
 				{
-					"name": "阿什利·罗曼斯"
+					"name": "史蒂夫·齐西斯"
 				},
 				{
-					"name": "大卫·达斯马齐连"
+					"name": "桑·杰赫"
 				},
 				{
-					"name": "怀亚特·林德纳"
+					"name": "戴纳·李"
 				},
 				{
-					"name": "艾萨克·裴"
+					"name": "詹姆斯·克伦威尔"
 				},
 				{
-					"name": "本尼特·柯伦"
+					"name": "Oscar Gale"
 				},
 				{
-					"name": "格雷格·希尔"
+					"name": "Reid Williams"
 				},
 				{
-					"name": "瑞琪·琳德赫姆"
+					"name": "Daniel H. Chung"
 				},
 				{
-					"name": "阿什顿·布莱特"
+					"name": "C.J.勒布朗"
 				},
 				{
-					"name": "梅森·谢伊·乔伊斯"
+					"name": "马修·里默"
 				},
 				{
-					"name": "勒扎·德罗什"
+					"name": "布南侬·克罗斯"
 				},
 				{
-					"name": "塔迪·沃林"
+					"name": "Victor Eli Hugo"
 				},
 				{
-					"name": "罗杰·道格拉斯三世"
+					"name": "Chelsea Bryan"
 				},
 				{
-					"name": "帕姆·库克"
+					"name": "阿尔·维森特"
+				},
+				{
+					"name": "特伦斯·罗斯摩尔"
+				},
+				{
+					"name": "Leslie Nipkow"
 				}
 			],
 			"album_no_interact": false,
 			"article_intros": [],
-			"card_subtitle": "2024 / 英国 美国 / 科幻 惊悚 / 克里斯·韦兹 / 约翰·赵 凯瑟琳·沃特斯顿",
+			"card_subtitle": "2024 / 美国 / 动作 惊悚 / 杰瑞米·索尔尼尔 / 亚伦·皮埃尔 唐·约翰逊",
 			"color_scheme": {
 				"_base_color": [
-					0,
-					0.02631578947368412,
-					0.14901960784313725
+					0.08695652173913049,
+					0.2026431718061673,
+					0.8901960784313725
 				],
 				"_avg_color": [
-					0,
-					0.09836065573770492,
-					0.23921568627450981
+					0.07364341085271313,
+					0.3049645390070922,
+					0.5529411764705883
 				],
-				"primary_color_light": "726f6f",
-				"primary_color_dark": "4c4a4a",
-				"secondary_color": "f9f4f4",
-				"is_dark": true
-			},
-			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/36229808.jpg",
-			"directors": [
-				{
-					"name": "克里斯·韦兹"
-				}
-			],
-			"genres": [
-				"科幻",
-				"惊悚"
-			],
-			"has_linewatch": true,
-			"honor_infos": [],
-			"id": "36229808",
-			"is_released": true,
-			"is_show": false,
-			"null_rating_reason": "",
-			"pic": {
-				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2913172908.jpg",
-				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913172908.jpg"
-			},
-			"pubdate": [
-				"2024-08-30(美国)"
-			],
-			"rating": {
-				"count": 2036,
-				"max": 10,
-				"star_count": 2.5,
-				"value": 5.4
-			},
-			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36229808",
-			"subtype": "movie",
-			"title": "致命AI",
-			"type": "movie",
-			"uri": "douban://douban.com/movie/36229808",
-			"url": "https://movie.douban.com/subject/36229808/",
-			"vendor_desc": "",
-			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
-			],
-			"year": "2024"
-		},
-		"tags": [
-			"科幻"
-		],
-		"vote_count": 0
-	},
-	{
-		"charts": [],
-		"comment": "末日生存",
-		"create_time": "2024-09-21 11:53:21",
-		"id": 4305207963,
-		"is_editable": false,
-		"is_private": false,
-		"platforms": [],
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 3,
-			"value": 3
-		},
-		"sharing_text": "我的评分：★★★ 末日生存 https://www.douban.com/doubanapp/dispatch/movie/36054146 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36054146/interest/4305207963",
-		"status": "done",
-		"subject": {
-			"actors": [
-				{
-					"name": "米拉·乔沃维奇"
-				},
-				{
-					"name": "萨姆·沃辛顿"
-				},
-				{
-					"name": "詹妮弗·哈德森"
-				},
-				{
-					"name": "奎文赞妮·瓦利斯"
-				},
-				{
-					"name": "科曼"
-				},
-				{
-					"name": "劳尔·卡斯蒂略"
-				},
-				{
-					"name": "詹姆斯·斋藤"
-				},
-				{
-					"name": "Dan Martin"
-				},
-				{
-					"name": "Madison Latham"
-				},
-				{
-					"name": "Sonya Giddings"
-				},
-				{
-					"name": "John Xavier Lambert"
-				}
-			],
-			"album_no_interact": false,
-			"article_intros": [],
-			"card_subtitle": "2024 / 美国 / 动作 惊悚 / 斯蒂芬·布里斯托尔 / 米拉·乔沃维奇 萨姆·沃辛顿",
-			"color_scheme": {
-				"_base_color": [
-					0.034825870646766156,
-					0.8701298701298701,
-					0.6039215686274509
-				],
-				"_avg_color": [
-					0.055936073059360734,
-					0.8295454545454545,
-					0.6901960784313725
-				],
-				"primary_color_light": "a53315",
-				"primary_color_dark": "7f2710",
-				"secondary_color": "f9f5f4",
-				"is_dark": true
-			},
-			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/36054146.jpg",
-			"directors": [
-				{
-					"name": "斯蒂芬·布里斯托尔"
-				}
-			],
-			"genres": [
-				"动作",
-				"惊悚"
-			],
-			"has_linewatch": false,
-			"honor_infos": [],
-			"id": "36054146",
-			"is_released": true,
-			"is_show": false,
-			"null_rating_reason": "",
-			"pic": {
-				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2905947359.jpg",
-				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2905947359.jpg"
-			},
-			"pubdate": [
-				"2024-04-12(中国台湾)"
-			],
-			"rating": {
-				"count": 541,
-				"max": 10,
-				"star_count": 2,
-				"value": 4.2
-			},
-			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36054146",
-			"subtype": "movie",
-			"title": "呼吸",
-			"type": "movie",
-			"uri": "douban://douban.com/movie/36054146",
-			"url": "https://movie.douban.com/subject/36054146/",
-			"vendor_desc": "",
-			"vendor_icons": [],
-			"year": "2024"
-		},
-		"tags": [
-			"科幻"
-		],
-		"vote_count": 0
-	},
-	{
-		"charts": [],
-		"comment": "这个是最终形态的异型了吗",
-		"create_time": "2024-09-15 23:17:34",
-		"id": 4300395340,
-		"is_editable": false,
-		"is_private": false,
-		"platforms": [],
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 4,
-			"value": 4
-		},
-		"sharing_text": "我的评分：★★★★ 这个是最终形态的异型了吗 https://www.douban.com/doubanapp/dispatch/movie/35792500 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35792500/interest/4300395340",
-		"status": "done",
-		"subject": {
-			"actors": [
-				{
-					"name": "卡莉·史派妮"
-				},
-				{
-					"name": "戴维·荣松"
-				},
-				{
-					"name": "阿奇·雷诺"
-				},
-				{
-					"name": "伊莎贝拉·莫塞德"
-				},
-				{
-					"name": "斯派克·费恩"
-				},
-				{
-					"name": "吴爱玲"
-				},
-				{
-					"name": "丹尼尔·贝茨"
-				},
-				{
-					"name": "伊安·霍姆"
-				},
-				{
-					"name": "特雷弗·纽林"
-				},
-				{
-					"name": "罗伯特·博布罗茨基"
-				},
-				{
-					"name": "安妮玛丽·格里格斯"
-				},
-				{
-					"name": "罗茜·伊德"
-				},
-				{
-					"name": "索玛·西蒙"
-				},
-				{
-					"name": "本斯·欧科克"
-				},
-				{
-					"name": "维克托·欧利祖"
-				}
-			],
-			"album_no_interact": false,
-			"article_intros": [],
-			"card_subtitle": "2024 / 美国 英国 / 科幻 惊悚 恐怖 / 费德·阿尔瓦雷兹 / 卡莉·史派妮 戴维·荣松",
-			"color_scheme": {
-				"_base_color": [
-					0.06140350877192983,
-					0.516304347826087,
-					0.7215686274509804
-				],
-				"_avg_color": [
-					0.05333333333333332,
-					0.42372881355932207,
-					0.23137254901960785
-				],
-				"primary_color_light": "724d37",
-				"primary_color_dark": "4c3325",
-				"secondary_color": "f9f6f4",
-				"is_dark": true
-			},
-			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/35792500.jpg",
-			"directors": [
-				{
-					"name": "费德·阿尔瓦雷兹"
-				}
-			],
-			"genres": [
-				"科幻",
-				"惊悚",
-				"恐怖"
-			],
-			"has_linewatch": true,
-			"honor_infos": [
-				{
-					"kind": "movie",
-					"rank": 2,
-					"title": "近期热门恐怖片榜",
-					"uri": "douban://douban.com/subject_collection/ECV4N4FBI?type=rank&category=movie&rank_type=film_genre"
-				}
-			],
-			"id": "35792500",
-			"is_released": true,
-			"is_show": false,
-			"null_rating_reason": "",
-			"pic": {
-				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2910926865.jpg",
-				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2910926865.jpg"
-			},
-			"pubdate": [
-				"2024-08-16(美国/中国大陆)"
-			],
-			"rating": {
-				"count": 386869,
-				"max": 10,
-				"star_count": 3.5,
-				"value": 7.3
-			},
-			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35792500",
-			"subtype": "movie",
-			"title": "异形：夺命舰",
-			"type": "movie",
-			"uri": "douban://douban.com/movie/35792500",
-			"url": "https://movie.douban.com/subject/35792500/",
-			"vendor_desc": "",
-			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
-			],
-			"year": "2024"
-		},
-		"tags": [
-			"恐怖"
-		],
-		"vote_count": 0
-	},
-	{
-		"charts": [],
-		"comment": "一座凶宅的诞生",
-		"create_time": "2024-09-07 11:36:53",
-		"id": 4293329054,
-		"is_editable": false,
-		"is_private": false,
-		"platforms": [],
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 3,
-			"value": 3
-		},
-		"sharing_text": "我的评分：★★★ 一座凶宅的诞生 https://www.douban.com/doubanapp/dispatch/movie/36738902 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36738902/interest/4293329054",
-		"status": "done",
-		"subject": {
-			"actors": [
-				{
-					"name": "格威利姆·李"
-				},
-				{
-					"name": "卡罗琳·布莱肯"
-				},
-				{
-					"name": "塔格·墨菲"
-				},
-				{
-					"name": "卡罗琳·门通"
-				},
-				{
-					"name": "史蒂夫·沃尔"
-				},
-				{
-					"name": "乔纳森·法兰西"
-				}
-			],
-			"album_no_interact": false,
-			"article_intros": [],
-			"card_subtitle": "2024 / 爱尔兰 / 惊悚 恐怖 / 达米安·麦卡锡 / 格威利姆·李 卡罗琳·布莱肯",
-			"color_scheme": {
-				"_base_color": [
-					0.5555555555555555,
-					0.2,
-					0.058823529411764705
-				],
-				"_avg_color": [
-					0.5,
-					0.17647058823529413,
-					0.06666666666666667
-				],
-				"primary_color_light": "5b6b72",
-				"primary_color_dark": "3d474c",
-				"secondary_color": "f4f8f9",
-				"is_dark": true
-			},
-			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/36738902.jpg",
-			"directors": [
-				{
-					"name": "达米安·麦卡锡"
-				}
-			],
-			"genres": [
-				"惊悚",
-				"恐怖"
-			],
-			"has_linewatch": false,
-			"honor_infos": [
-				{
-					"kind": "movie",
-					"rank": 8,
-					"title": "近期热门恐怖片榜",
-					"uri": "douban://douban.com/subject_collection/ECV4N4FBI?type=rank&category=movie&rank_type=film_genre"
-				}
-			],
-			"id": "36738902",
-			"is_released": true,
-			"is_show": false,
-			"null_rating_reason": "",
-			"pic": {
-				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2909022117.jpg",
-				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2909022117.jpg"
-			},
-			"pubdate": [
-				"2024-03-08(西南偏南电影节)"
-			],
-			"rating": {
-				"count": 14742,
-				"max": 10,
-				"star_count": 3,
-				"value": 6.3
-			},
-			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36738902",
-			"subtype": "movie",
-			"title": "咒物寻凶",
-			"type": "movie",
-			"uri": "douban://douban.com/movie/36738902",
-			"url": "https://movie.douban.com/subject/36738902/",
-			"vendor_desc": "",
-			"vendor_icons": [],
-			"year": "2024"
-		},
-		"tags": [
-			"恐怖"
-		],
-		"vote_count": 0
-	},
-	{
-		"charts": [],
-		"comment": "如果无声是一种反抗，我宁愿做一个哑巴",
-		"create_time": "2024-08-04 13:00:45",
-		"id": 4262708142,
-		"is_editable": false,
-		"is_private": false,
-		"platforms": [],
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 4,
-			"value": 4
-		},
-		"sharing_text": "我的评分：★★★★ 如果无声是一种反抗，我宁愿做一个哑巴 https://www.douban.com/doubanapp/dispatch/movie/34996971 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/34996971/interest/4262708142",
-		"status": "done",
-		"subject": {
-			"actors": [
-				{
-					"name": "露皮塔·尼永奥"
-				},
-				{
-					"name": "约瑟夫·奎恩"
-				},
-				{
-					"name": "亚历克斯·沃尔夫"
-				},
-				{
-					"name": "杰曼·翰苏"
-				},
-				{
-					"name": "小肉排"
-				},
-				{
-					"name": "尼可"
-				},
-				{
-					"name": "西娅·巴特勒"
-				},
-				{
-					"name": "阿尔菲·托德"
-				},
-				{
-					"name": "以利亚·昂格瓦里"
-				},
-				{
-					"name": "扎伊·多莫"
-				},
-				{
-					"name": "塔拉·舍恩"
-				},
-				{
-					"name": "埃利亚纳·乌姆夏尔"
-				},
-				{
-					"name": "亚历山大·约翰"
-				},
-				{
-					"name": "塔坤达·库马洛"
-				},
-				{
-					"name": "万彩玲"
-				},
-				{
-					"name": "罗尼·勒·德鲁"
-				},
-				{
-					"name": "本杰明·王"
-				},
-				{
-					"name": "艾薇·贝里"
-				},
-				{
-					"name": "嘉文·弗雷明"
-				},
-				{
-					"name": "迈克尔·罗伯茨"
-				},
-				{
-					"name": "凯恩·艾登"
-				},
-				{
-					"name": "尼克·戴维森"
-				}
-			],
-			"album_no_interact": false,
-			"article_intros": [],
-			"card_subtitle": "2024 / 美国 英国 / 剧情 科幻 惊悚 恐怖 / 迈克尔·萨诺斯基 / 露皮塔·尼永奥 约瑟夫·奎恩",
-			"color_scheme": {
-				"_base_color": [
-					0.0007610350076103408,
-					0.9733333333333333,
-					0.8823529411764706
-				],
-				"_avg_color": [
-					0.004553734061930788,
-					0.915,
-					0.7843137254901961
-				],
-				"primary_color_light": "a50504",
-				"primary_color_dark": "7f0303",
-				"secondary_color": "f9f4f4",
-				"is_dark": true
-			},
-			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/34996971.jpg",
-			"directors": [
-				{
-					"name": "迈克尔·萨诺斯基"
-				}
-			],
-			"genres": [
-				"剧情",
-				"科幻",
-				"惊悚"
-			],
-			"has_linewatch": true,
-			"honor_infos": [],
-			"id": "34996971",
-			"is_released": true,
-			"is_show": false,
-			"null_rating_reason": "",
-			"pic": {
-				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2909263868.jpg",
-				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2909263868.jpg"
-			},
-			"pubdate": [
-				"2024-06-28(美国/中国大陆)"
-			],
-			"rating": {
-				"count": 68532,
-				"max": 10,
-				"star_count": 3,
-				"value": 5.5
-			},
-			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34996971",
-			"subtype": "movie",
-			"title": "寂静之地：入侵日",
-			"type": "movie",
-			"uri": "douban://douban.com/movie/34996971",
-			"url": "https://movie.douban.com/subject/34996971/",
-			"vendor_desc": "",
-			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
-			],
-			"year": "2024"
-		},
-		"tags": [
-			"科幻",
-			"恐怖"
-		],
-		"vote_count": 0
-	},
-	{
-		"charts": [],
-		"comment": "最后纸条写的内容是什么……",
-		"create_time": "2024-07-20 19:03:25",
-		"id": 4248511245,
-		"is_editable": false,
-		"is_private": false,
-		"platforms": [],
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 4,
-			"value": 4
-		},
-		"sharing_text": "我的评分：★★★★ 最后纸条写的内容是什么…… https://www.douban.com/doubanapp/dispatch/movie/36160576 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36160576/interest/4248511245",
-		"status": "done",
-		"subject": {
-			"actors": [
-				{
-					"name": "吉姆·卡明斯"
-				},
-				{
-					"name": "费松·拉夫"
-				},
-				{
-					"name": "乔赛琳·唐娜休"
-				},
-				{
-					"name": "迈克尔·阿伯特"
-				},
-				{
-					"name": "马特·麦克瓦"
-				},
-				{
-					"name": "罗伯特·布罗斯基"
-				},
-				{
-					"name": "尼古拉斯·罗根"
-				},
-				{
-					"name": "理查德·布雷克"
-				},
-				{
-					"name": "芭芭拉·克兰普顿"
-				},
-				{
-					"name": "吉因·琼斯"
-				},
-				{
-					"name": "罗宾·巴特利特"
-				},
-				{
-					"name": "康勒·帕奥罗"
-				},
-				{
-					"name": "纳布斯"
-				},
-				{
-					"name": "瑞恩·马松"
-				},
-				{
-					"name": "谢拉·麦克康米克"
-				},
-				{
-					"name": "乔恩·普劳德斯塔尔"
-				},
-				{
-					"name": "萨姆·亨廷顿"
-				},
-				{
-					"name": "艾丽克斯·埃索"
-				},
-				{
-					"name": "斯嘉丽特·欧尔森"
-				}
-			],
-			"album_no_interact": false,
-			"article_intros": [],
-			"card_subtitle": "2023 / 美国 / 惊悚 犯罪 / 弗朗西斯·加卢比 / 吉姆·卡明斯 费松·拉夫",
-			"color_scheme": {
-				"_base_color": [
-					0.1987179487179486,
-					0.1405405405405405,
-					0.7254901960784313
-				],
-				"_avg_color": [
-					0.18055555555555572,
-					0.1714285714285715,
-					0.5490196078431373
-				],
-				"primary_color_light": "a1a58e",
-				"primary_color_dark": "7c7f6d",
-				"secondary_color": "f8f9f4",
-				"is_dark": true
-			},
-			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/36160576.jpg",
-			"directors": [
-				{
-					"name": "弗朗西斯·加卢比"
-				}
-			],
-			"genres": [
-				"惊悚",
-				"犯罪"
-			],
-			"has_linewatch": true,
-			"honor_infos": [
-				{
-					"kind": "movie",
-					"rank": 1,
-					"title": "第28届富川国际奇幻电影节获奖名单",
-					"uri": "douban://douban.com/subject_collection/ECWM7RDSY?type=rank&category=movie&rank_type=award_movie"
-				}
-			],
-			"id": "36160576",
-			"is_released": true,
-			"is_show": false,
-			"null_rating_reason": "",
-			"pic": {
-				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2906620290.jpg",
-				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2906620290.jpg"
-			},
-			"pubdate": [
-				"2023-09-23(美国奇幻影展)"
-			],
-			"rating": {
-				"count": 8516,
-				"max": 10,
-				"star_count": 3.5,
-				"value": 6.8
-			},
-			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36160576",
-			"subtype": "movie",
-			"title": "惊魂加油站",
-			"type": "movie",
-			"uri": "douban://douban.com/movie/36160576",
-			"url": "https://movie.douban.com/subject/36160576/",
-			"vendor_desc": "",
-			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
-			],
-			"year": "2023"
-		},
-		"tags": [
-			"悬疑"
-		],
-		"vote_count": 0
-	},
-	{
-		"charts": [],
-		"comment": "为梦想而战",
-		"create_time": "2024-06-28 23:47:05",
-		"id": 4228124642,
-		"is_editable": false,
-		"is_private": false,
-		"platforms": [],
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 4,
-			"value": 4
-		},
-		"sharing_text": "我的评分：★★★★ 为梦想而战 https://www.douban.com/doubanapp/dispatch/movie/34996127 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/34996127/interest/4228124642",
-		"status": "done",
-		"subject": {
-			"actors": [
-				{
-					"name": "安雅·泰勒-乔伊"
-				},
-				{
-					"name": "克里斯·海姆斯沃斯"
-				},
-				{
-					"name": "汤姆·伯克"
-				},
-				{
-					"name": "艾莉拉·布朗"
-				},
-				{
-					"name": "乔治·谢夫佐夫"
-				},
-				{
-					"name": "拉黑·休姆"
-				},
-				{
-					"name": "约翰·霍华德"
-				},
-				{
-					"name": "安格斯·桑普森"
-				},
-				{
-					"name": " 查理·弗雷泽"
-				},
-				{
-					"name": "埃尔莎·帕塔奇"
-				},
-				{
-					"name": "内森·琼斯"
-				},
-				{
-					"name": "乔什·赫尔曼"
-				},
-				{
-					"name": "大卫·菲尔德"
-				},
-				{
-					"name": "拉赫尔·罗曼"
-				},
-				{
-					"name": "戴维·科林斯"
-				},
-				{
-					"name": "戈兰·D·克鲁特"
-				},
-				{
-					"name": "CJ·布隆菲尔德"
-				},
-				{
-					"name": "马图斯"
-				},
-				{
-					"name": "伊恩·罗伯茨"
-				}
-			],
-			"album_no_interact": false,
-			"article_intros": [],
-			"card_subtitle": "2024 / 澳大利亚 美国 / 动作 科幻 惊悚 冒险 / 乔治·米勒 / 安雅·泰勒-乔伊 克里斯·海姆斯沃斯",
-			"color_scheme": {
-				"_base_color": [
-					0.07211538461538462,
-					0.7703703703703704,
-					0.5294117647058824
-				],
-				"_avg_color": [
-					0.09201388888888888,
-					0.6857142857142857,
-					0.5490196078431373
-				],
-				"primary_color_light": "a55d26",
-				"primary_color_dark": "7f471d",
+				"primary_color_light": "a59584",
+				"primary_color_dark": "7f7365",
 				"secondary_color": "f9f7f4",
 				"is_dark": true
 			},
 			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/34996127.jpg",
+			"cover_url": "https://dou.img.lithub.cc/movie/34884621.jpg",
 			"directors": [
 				{
-					"name": "乔治·米勒"
+					"name": "杰瑞米·索尔尼尔"
 				}
 			],
 			"genres": [
 				"动作",
-				"科幻",
 				"惊悚"
 			],
-			"has_linewatch": true,
-			"honor_infos": [
-				{
-					"kind": "movie",
-					"rank": 6,
-					"title": "近期热门惊悚片榜",
-					"uri": "douban://douban.com/subject_collection/ECBUOL2DA?type=rank&category=movie&rank_type=film_genre"
-				}
-			],
-			"id": "34996127",
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "34884621",
 			"is_released": true,
 			"is_show": false,
 			"null_rating_reason": "",
 			"pic": {
-				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2908300510.jpg",
-				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2908300510.jpg"
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2912707310.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2912707310.jpg"
 			},
 			"pubdate": [
-				"2024-06-07(中国大陆)"
+				"2024-09-06(美国网络)"
 			],
 			"rating": {
-				"count": 155681,
+				"count": 8377,
 				"max": 10,
-				"star_count": 3.5,
-				"value": 7.4
+				"star_count": 3,
+				"value": 6.4
 			},
 			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34996127",
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34884621",
 			"subtype": "movie",
-			"title": "疯狂的麦克斯：狂暴女神",
+			"title": "逆岭",
 			"type": "movie",
-			"uri": "douban://douban.com/movie/34996127",
-			"url": "https://movie.douban.com/subject/34996127/",
+			"uri": "douban://douban.com/movie/34884621",
+			"url": "https://movie.douban.com/subject/34884621/",
 			"vendor_desc": "",
-			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
-			],
+			"vendor_icons": [],
 			"year": "2024"
 		},
 		"tags": [
@@ -4749,152 +4794,6 @@
 	},
 	{
 		"charts": [],
-		"comment": "",
-		"create_time": "2024-06-10 20:03:17",
-		"id": 4212252056,
-		"is_editable": false,
-		"is_private": false,
-		"platforms": [],
-		"rating": {
-			"count": 1,
-			"max": 5,
-			"star_count": 3,
-			"value": 3
-		},
-		"sharing_text": "我的评分：★★★ https://www.douban.com/doubanapp/dispatch/movie/36496832 来自@豆瓣App",
-		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36496832/interest/4212252056",
-		"status": "done",
-		"subject": {
-			"actors": [
-				{
-					"name": "阿克谢·库玛尔"
-				},
-				{
-					"name": "詹维·卡浦尔"
-				},
-				{
-					"name": "泰戈尔·什罗夫"
-				},
-				{
-					"name": "索娜什·辛哈"
-				},
-				{
-					"name": "普利特维拉吉·苏库玛兰"
-				},
-				{
-					"name": "阿莱娅·F"
-				},
-				{
-					"name": "裘格尔·汗斯拉吉"
-				},
-				{
-					"name": "玛努希·奇希拉"
-				},
-				{
-					"name": "Tahir Ashraf"
-				},
-				{
-					"name": "Yasmine Alice"
-				},
-				{
-					"name": "希滕·珀泰尔"
-				},
-				{
-					"name": "安尔·德霍万"
-				},
-				{
-					"name": "Rohed Khan"
-				},
-				{
-					"name": "Sonia Goswami"
-				},
-				{
-					"name": "Raj Awasti"
-				},
-				{
-					"name": "皮托巴什"
-				},
-				{
-					"name": "Bharat Mistri"
-				},
-				{
-					"name": "Bijou Thaangjam"
-				},
-				{
-					"name": "Nina Kumar"
-				},
-				{
-					"name": "Kishore Bhatt"
-				}
-			],
-			"album_no_interact": false,
-			"article_intros": [],
-			"card_subtitle": "2024 / 印度 / 喜剧 动作 科幻 惊悚 / 阿里·阿巴斯·札法 / 阿克谢·库玛尔 詹维·卡浦尔",
-			"color_scheme": {
-				"_base_color": [
-					0.44444444444444436,
-					0.11392405063291135,
-					0.30980392156862746
-				],
-				"_avg_color": [
-					0.43939393939393945,
-					0.10185185185185189,
-					0.4235294117647059
-				],
-				"primary_color_light": "65726e",
-				"primary_color_dark": "434c49",
-				"secondary_color": "f4f9f8",
-				"is_dark": true
-			},
-			"controversy_reason": "",
-			"cover_url": "https://dou.img.lithub.cc/movie/36496832.jpg",
-			"directors": [
-				{
-					"name": "阿里·阿巴斯·札法"
-				}
-			],
-			"genres": [
-				"喜剧",
-				"动作",
-				"科幻"
-			],
-			"has_linewatch": false,
-			"honor_infos": [],
-			"id": "36496832",
-			"is_released": true,
-			"is_show": false,
-			"null_rating_reason": "",
-			"pic": {
-				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2909172042.jpg",
-				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2909172042.jpg"
-			},
-			"pubdate": [
-				"2024-04-11(印度)"
-			],
-			"rating": {
-				"count": 589,
-				"max": 10,
-				"star_count": 2.5,
-				"value": 5.3
-			},
-			"release_date": null,
-			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36496832",
-			"subtype": "movie",
-			"title": "大官 小官",
-			"type": "movie",
-			"uri": "douban://douban.com/movie/36496832",
-			"url": "https://movie.douban.com/subject/36496832/",
-			"vendor_desc": "",
-			"vendor_icons": [],
-			"year": "2024"
-		},
-		"tags": [
-			"科幻"
-		],
-		"vote_count": 0
-	},
-	{
-		"charts": [],
 		"comment": "AI控制一切",
 		"create_time": "2024-09-21 13:56:09",
 		"id": 4305295757,
@@ -5011,7 +4910,7 @@
 				"2024-08-30(美国)"
 			],
 			"rating": {
-				"count": 2036,
+				"count": 2035,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.4
@@ -5026,8 +4925,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2024"
 		},
@@ -5355,7 +5254,7 @@
 				"2024-02-01(印度尼西亚)"
 			],
 			"rating": {
-				"count": 1786,
+				"count": 1785,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.5
@@ -5493,7 +5392,7 @@
 				"2024-08-16(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 386869,
+				"count": 386835,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.3
@@ -5509,7 +5408,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2024"
 		},
@@ -5607,7 +5506,7 @@
 				"2024-03-08(西南偏南电影节)"
 			],
 			"rating": {
-				"count": 14742,
+				"count": 14735,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.3
@@ -5859,7 +5758,7 @@
 				"2024-06-28(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 68532,
+				"count": 68528,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.5
@@ -5874,8 +5773,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2024"
 		},
@@ -6013,7 +5912,7 @@
 				"2023-09-23(美国奇幻影展)"
 			],
 			"rating": {
-				"count": 8516,
+				"count": 8513,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.8
@@ -6166,7 +6065,7 @@
 				"2024-06-07(中国大陆)"
 			],
 			"rating": {
-				"count": 155681,
+				"count": 155667,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.4
@@ -6182,7 +6081,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2024"
 		},
@@ -6318,8 +6217,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2024"
 		},
@@ -7072,7 +6971,7 @@
 				"2023-08-11(中国大陆)"
 			],
 			"rating": {
-				"count": 15063,
+				"count": 15062,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.8
@@ -7330,7 +7229,7 @@
 				"2023-09-15(中国大陆)"
 			],
 			"rating": {
-				"count": 50393,
+				"count": 50392,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 4.8
@@ -7344,8 +7243,8 @@
 			"url": "https://movie.douban.com/subject/25845297/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2023"
@@ -7495,7 +7394,7 @@
 				"2021-05-21(中国大陆)"
 			],
 			"rating": {
-				"count": 217914,
+				"count": 217905,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.1
@@ -7510,8 +7409,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2021"
 		},
@@ -7635,7 +7534,7 @@
 				"2017-04-14(中国大陆)"
 			],
 			"rating": {
-				"count": 356279,
+				"count": 356266,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7
@@ -7781,7 +7680,7 @@
 				"2015-04-12(中国大陆)"
 			],
 			"rating": {
-				"count": 512130,
+				"count": 512115,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.4
@@ -7795,9 +7694,9 @@
 			"url": "https://movie.douban.com/subject/23761370/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2015"
 		},
@@ -7915,7 +7814,7 @@
 				"2013-07-26(中国大陆)"
 			],
 			"rating": {
-				"count": 284566,
+				"count": 284554,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -7931,7 +7830,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2013"
 		},
@@ -8067,7 +7966,7 @@
 				"2011-05-12(中国大陆)"
 			],
 			"rating": {
-				"count": 395486,
+				"count": 395467,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.5
@@ -8081,8 +7980,8 @@
 			"url": "https://movie.douban.com/subject/4286017/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2011"
@@ -8189,7 +8088,7 @@
 				"2009-04-15(中国大陆)"
 			],
 			"rating": {
-				"count": 191555,
+				"count": 191545,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -8205,7 +8104,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2009"
 		},
@@ -8317,7 +8216,7 @@
 				"2006-06-16(美国)"
 			],
 			"rating": {
-				"count": 167955,
+				"count": 167938,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.1
@@ -8463,7 +8362,7 @@
 				"2003-06-03(美国)"
 			],
 			"rating": {
-				"count": 170422,
+				"count": 170413,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -8479,7 +8378,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2003"
 		},
@@ -8609,7 +8508,7 @@
 				"2001-06-22(美国)"
 			],
 			"rating": {
-				"count": 224014,
+				"count": 224001,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -8623,9 +8522,9 @@
 			"url": "https://movie.douban.com/subject/1304899/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2001"
 		},
@@ -8787,7 +8686,7 @@
 				"2023-05-17(中国大陆)"
 			],
 			"rating": {
-				"count": 199232,
+				"count": 199218,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.1
@@ -8801,8 +8700,8 @@
 			"url": "https://movie.douban.com/subject/26631790/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2023"
@@ -9088,7 +8987,7 @@
 				"2023-07-20(中国大陆)"
 			],
 			"rating": {
-				"count": 1292834,
+				"count": 1292780,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.7
@@ -9103,8 +9002,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2023"
 		},
@@ -9248,7 +9147,7 @@
 				"2022-12-23(中国大陆)"
 			],
 			"rating": {
-				"count": 125437,
+				"count": 125430,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -9343,7 +9242,7 @@
 				"2023-09-06(奇幻电影节)"
 			],
 			"rating": {
-				"count": 1500,
+				"count": 1499,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5
@@ -9504,7 +9403,7 @@
 				"2024-04-04(中国大陆)"
 			],
 			"rating": {
-				"count": 25247,
+				"count": 25244,
 				"max": 10,
 				"star_count": 2,
 				"value": 4.2
@@ -9900,7 +9799,7 @@
 				"2024-05-24(美国网络)"
 			],
 			"rating": {
-				"count": 12303,
+				"count": 12302,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.9
@@ -10022,7 +9921,7 @@
 				"2024-04-12(澳大利亚)"
 			],
 			"rating": {
-				"count": 3572,
+				"count": 3571,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.5
@@ -10204,7 +10103,7 @@
 				"2021-10-01(美国)"
 			],
 			"rating": {
-				"count": 211171,
+				"count": 211162,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.1
@@ -10357,7 +10256,7 @@
 				"2024-05-24(中国大陆)"
 			],
 			"rating": {
-				"count": 44653,
+				"count": 44649,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.6
@@ -10371,9 +10270,9 @@
 			"url": "https://movie.douban.com/subject/34971728/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2024"
 		},
@@ -10514,7 +10413,7 @@
 				"2024-03-29(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 198330,
+				"count": 198322,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.5
@@ -10530,7 +10429,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2024"
 		},
@@ -10626,7 +10525,7 @@
 				"2023-10-26(泰国)"
 			],
 			"rating": {
-				"count": 6699,
+				"count": 6696,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.5
@@ -10893,7 +10792,7 @@
 				"2024-03-08(中国大陆)"
 			],
 			"rating": {
-				"count": 549868,
+				"count": 549810,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.1
@@ -10909,7 +10808,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2024"
 		},
@@ -11046,7 +10945,7 @@
 				"2023-12-15(美国点映)"
 			],
 			"rating": {
-				"count": 18526,
+				"count": 18523,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.3
@@ -11175,7 +11074,7 @@
 				"2018-03-02(中国大陆)"
 			],
 			"rating": {
-				"count": 500160,
+				"count": 500151,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.4
@@ -11191,7 +11090,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2015"
 		},
@@ -11317,7 +11216,7 @@
 				"2024-03-12(西南偏南电影节)"
 			],
 			"rating": {
-				"count": 8986,
+				"count": 8983,
 				"max": 10,
 				"star_count": 3,
 				"value": 5.6
@@ -11426,7 +11325,7 @@
 				"2023-02-10(日本)"
 			],
 			"rating": {
-				"count": 6768,
+				"count": 6766,
 				"max": 10,
 				"star_count": 3,
 				"value": 6.3
@@ -11736,7 +11635,7 @@
 				"2023-03-31(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 175046,
+				"count": 175037,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.6
@@ -11864,7 +11763,7 @@
 				"2023-08-22(中国大陆)"
 			],
 			"rating": {
-				"count": 1119,
+				"count": 1118,
 				"max": 10,
 				"star_count": 2,
 				"value": 3.6
@@ -12216,7 +12115,7 @@
 				"2023-03-17(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 67247,
+				"count": 67242,
 				"max": 10,
 				"star_count": 2.5,
 				"value": 5.4
@@ -12347,7 +12246,7 @@
 				"2016-02-12(美国)"
 			],
 			"rating": {
-				"count": 517784,
+				"count": 517762,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.9
@@ -12363,7 +12262,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2016"
 		},
@@ -12488,7 +12387,7 @@
 				"2017-06-02(中国大陆)"
 			],
 			"rating": {
-				"count": 487305,
+				"count": 487297,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.1
@@ -12504,7 +12403,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2017"
 		},
@@ -12716,7 +12615,7 @@
 				"2018-12-07(中国大陆)"
 			],
 			"rating": {
-				"count": 924233,
+				"count": 924216,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.6
@@ -12732,7 +12631,7 @@
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2018"
 		},
@@ -12845,7 +12744,7 @@
 				"2018-04-13(中国大陆)"
 			],
 			"rating": {
-				"count": 390755,
+				"count": 390743,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.2
@@ -12859,8 +12758,8 @@
 			"url": "https://movie.douban.com/subject/26384741/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2018"
@@ -13100,7 +12999,7 @@
 				"2018-11-09(中国大陆)"
 			],
 			"rating": {
-				"count": 887268,
+				"count": 887243,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 7.2
@@ -13114,8 +13013,8 @@
 			"url": "https://movie.douban.com/subject/3168101/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
 				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2018"
@@ -13268,7 +13167,7 @@
 				"2019-02-22(中国大陆)"
 			],
 			"rating": {
-				"count": 640473,
+				"count": 640461,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.5
@@ -13282,8 +13181,8 @@
 			"url": "https://movie.douban.com/subject/1652592/",
 			"vendor_desc": "",
 			"vendor_icons": [
-				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
 			],
 			"year": "2019"
@@ -13421,7 +13320,7 @@
 				"2021-10-22(美国/中国大陆)"
 			],
 			"rating": {
-				"count": 777458,
+				"count": 777407,
 				"max": 10,
 				"star_count": 4,
 				"value": 7.7
@@ -13559,7 +13458,7 @@
 				"2018-03-30(中国大陆)"
 			],
 			"rating": {
-				"count": 1527235,
+				"count": 1527142,
 				"max": 10,
 				"star_count": 4.5,
 				"value": 8.6
@@ -13575,7 +13474,7 @@
 			"vendor_icons": [
 				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
 			],
 			"year": "2018"
 		},
@@ -13834,7 +13733,7 @@
 				"2010-09-24(纽约电影节)"
 			],
 			"rating": {
-				"count": 504607,
+				"count": 504581,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.2
@@ -13849,8 +13748,8 @@
 			"vendor_desc": "",
 			"vendor_icons": [
 				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
-				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
-				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
 			],
 			"year": "2010"
 		},
