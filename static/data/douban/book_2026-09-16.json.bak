@@ -65,7 +65,7 @@
 				"2021-6"
 			],
 			"rating": {
-				"count": 1852,
+				"count": 1850,
 				"max": 10,
 				"star_count": 3.5,
 				"value": 6.8
@@ -316,7 +316,7 @@
 			"intro": "《富爸爸，穷爸爸》是一个真实的故事，作者罗伯特・清崎的亲生父亲和朋友的父亲对金钱的看法截然不同，这使他对认识金钱产生了兴趣，最终他接受了朋友的父亲的建议，也就是书中所说的。“富爸爸”的观念，即不要做金钱的奴隶，要让金钱为我们工作，并由此成为一名极富传奇色彩的成功的投资家。",
 			"is_released": true,
 			"is_show": false,
-			"min_sale_price": "",
+			"min_sale_price": null,
 			"null_rating_reason": "",
 			"other_versions_count": 18,
 			"pages": [
@@ -333,7 +333,7 @@
 				"2000-09"
 			],
 			"rating": {
-				"count": 83351,
+				"count": 83348,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
