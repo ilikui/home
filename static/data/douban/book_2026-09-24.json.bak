@@ -77,7 +77,7 @@
 			"uri": "douban://douban.com/book/35501244",
 			"url": "https://book.douban.com/subject/35501244/",
 			"vendor_icons": [
-				"https://img3.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"vendor_original_price": "",
 			"vendor_sale_price": ""
@@ -248,8 +248,8 @@
 			"uri": "douban://douban.com/book/30168344",
 			"url": "https://book.douban.com/subject/30168344/",
 			"vendor_icons": [
-				"https://img3.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
-				"https://img3.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
+				"https://img1.doubanio.com/f/frodo/161387ce451872cbf51fcb288cd5ffd1dcd89705/pics/vendors/logo_dedao@2x.png",
+				"https://img1.doubanio.com/f/frodo/f6f620132e6d8a02d171f03114bbe2339aa8af97/pics/vendors/logo_doubanread@2x.png"
 			],
 			"vendor_original_price": "",
 			"vendor_sale_price": ""
@@ -316,15 +316,15 @@
 			"intro": "《富爸爸，穷爸爸》是一个真实的故事，作者罗伯特・清崎的亲生父亲和朋友的父亲对金钱的看法截然不同，这使他对认识金钱产生了兴趣，最终他接受了朋友的父亲的建议，也就是书中所说的。“富爸爸”的观念，即不要做金钱的奴隶，要让金钱为我们工作，并由此成为一名极富传奇色彩的成功的投资家。",
 			"is_released": true,
 			"is_show": false,
-			"min_sale_price": "¥22.16",
+			"min_sale_price": "¥22.11",
 			"null_rating_reason": "",
 			"other_versions_count": 18,
 			"pages": [
 				"205"
 			],
 			"pic": {
-				"large": "https://img3.doubanio.com/view/subject/l/public/s11229869.jpg",
-				"normal": "https://img3.doubanio.com/view/subject/m/public/s11229869.jpg"
+				"large": "https://img1.doubanio.com/view/subject/l/public/s11229869.jpg",
+				"normal": "https://img1.doubanio.com/view/subject/m/public/s11229869.jpg"
 			},
 			"press": [
 				"世界图书出版公司"
@@ -333,7 +333,7 @@
 				"2000-09"
 			],
 			"rating": {
-				"count": 83377,
+				"count": 83374,
 				"max": 10,
 				"star_count": 4,
 				"value": 8.3
