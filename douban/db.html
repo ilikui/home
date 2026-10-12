@@ -1,411 +1,208 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>豆瓣数据展示</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 30px;
-        }
-
-        .tabs {
-            display: flex;
-            margin-bottom: 20px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .tab {
-            padding: 10px 20px;
-            cursor: pointer;
-            background-color: #f1f1f1;
-            border: 1px solid #ddd;
-            border-bottom: none;
-            border-radius: 5px 5px 0 0;
-            margin-right: 5px;
-        }
-
-        .tab.active {
-            background-color: #fff;
-            border-bottom: 1px solid #fff;
-            margin-bottom: -1px;
-        }
-
-        .item {
-            border-bottom: 1px solid #eee;
-            padding: 20px 0;
-            display: flex;
-            align-items: flex-start;
-        }
-
-        .item img {
-            width: 100px;
-            height: auto;
-            margin-right: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .item-info {
-            flex: 1;
-        }
-
-        .item-info h2 {
-            margin-top: 0;
-            margin-bottom: 10px;
-            font-size: 20px;
-        }
-
-        .item-info p {
-            margin: 5px 0;
-            color: #666;
-        }
-
-        .rating {
-            font-size: 16px;
-            color: #FFD700;
-        }
-
-        .tags {
-            color: #666;
-        }
-
-        .item-info a {
-            color: #007bff;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 10px;
-        }
-
-        .pagination {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .pagination button {
-            padding: 8px 15px;
-            margin: 0 5px;
-            border: 1px solid #ddd;
-            background-color: #fff;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-
-        .pagination button.active {
-            background-color: #007bff;
-            color: white;
-            border-color: #007bff;
-        }
-
-        .pagination button:hover:not(.active) {
-            background-color: #f1f1f1;
-        }
-
-        .no-data {
-            text-align: center;
-            padding: 20px;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="我的豆瓣书籍、电影与音乐收藏。">
+  <meta name="theme-color" content="#f4f6fa">
+  <title>书影音收藏 · 李奎</title>
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap');
+    :root{color-scheme:light;--page:#f4f6fa;--surface:#fff;--soft:#f8f9fc;--text:#1d2433;--muted:#788196;--line:#e7eaf1;--accent:#6268e8;--shadow:0 12px 40px rgba(34,45,75,.06)}
+    html[data-theme=dark]{color-scheme:dark;--page:#11141b;--surface:#191e28;--soft:#202633;--text:#edf0f8;--muted:#a0a8ba;--line:#2a3241;--accent:#a0a3ff;--shadow:0 12px 40px rgba(0,0,0,.16)}
+    *{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--text);font-family:Manrope,"Noto Sans SC",sans-serif;line-height:1.65}.wrap{max-width:1180px;margin:auto;padding:26px 30px 40px}.topbar{height:55px;display:flex;align-items:center;justify-content:space-between;margin-bottom:25px}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand-mark{width:35px;height:35px;display:grid;place-items:center;border-radius:11px;background:#292e42;color:white;font-size:12px}.brand small{display:block;font:8px "DM Mono",monospace;letter-spacing:1px;color:var(--muted);font-weight:400}.top-actions{display:flex;align-items:center;gap:10px}.top-actions a,.theme-button{border:1px solid var(--line);background:var(--surface);color:var(--text);padding:8px 12px;border-radius:10px;font-size:11px;text-decoration:none;cursor:pointer}.top-actions a:hover,.theme-button:hover{border-color:var(--accent);color:var(--accent)}.hero{padding:30px 34px;border:1px solid var(--line);border-radius:22px;background:var(--surface);box-shadow:var(--shadow);display:flex;justify-content:space-between;align-items:center;gap:20px}.eyebrow{font:10px "DM Mono",monospace;letter-spacing:1.5px;color:var(--muted)}h1{margin:8px 0;font-size:clamp(26px,4vw,38px);letter-spacing:-1.2px;line-height:1.25}.hero p{margin:0;color:var(--muted);font-size:12px}.hero-count{min-width:90px;text-align:center;padding:15px;border:1px solid var(--line);border-radius:16px;background:var(--soft)}.hero-count strong{display:block;font-size:25px;line-height:1.2}.hero-count span{font:9px "DM Mono",monospace;letter-spacing:1px;color:var(--muted)}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;margin:28px 0 17px}.tabs{display:flex;gap:6px;padding:5px;background:var(--soft);border:1px solid var(--line);border-radius:13px}.tab{border:0;background:transparent;color:var(--muted);padding:9px 16px;border-radius:9px;font-size:12px;cursor:pointer}.tab.active{background:var(--surface);color:var(--accent);box-shadow:0 2px 8px rgba(20,25,45,.06);font-weight:700}.search{width:min(260px,45%);padding:11px 14px;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--text);font:11px inherit;outline:none}.search:focus{border-color:var(--accent)}.result-meta{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:10px;margin-bottom:13px}.result-meta strong{color:var(--text)}.collection-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px}.collection-card{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:16px;background:var(--surface);box-shadow:var(--shadow);transition:transform .2s,border-color .2s}.collection-card:hover{transform:translateY(-4px);border-color:rgba(98,104,232,.45)}.cover-wrap{height:210px;display:grid;place-items:center;background:var(--soft);overflow:hidden}.cover{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s}.collection-card:hover .cover{transform:scale(1.035)}.cover-placeholder{font-size:28px;color:var(--muted)}.item-info{padding:13px 13px 15px}.item-type{font:8px "DM Mono",monospace;letter-spacing:1px;color:var(--muted)}.item-info h2{font-size:13px;line-height:1.55;margin:5px 0 7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:40px}.rating{font-size:10px;color:#d89c44;margin:4px 0}.item-info p{font-size:10px;line-height:1.6;color:var(--muted);margin:4px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.item-link{display:inline-flex;margin-top:8px;color:var(--accent);font-size:10px;font-weight:700;text-decoration:none}.item-link:hover{text-decoration:underline}.pagination{display:flex;justify-content:center;align-items:center;gap:6px;margin:25px 0}.page-button{min-width:34px;height:34px;padding:0 10px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--muted);font-size:11px;cursor:pointer}.page-button.active{background:var(--accent);border-color:var(--accent);color:white}.page-button:disabled{opacity:.35;cursor:not-allowed}.empty,.loading{grid-column:1/-1;padding:50px 20px;text-align:center;border:1px dashed var(--line);border-radius:16px;color:var(--muted);font-size:12px}.footer{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding-top:18px;margin-top:35px;color:var(--muted);font-size:10px}.footer a{color:var(--text);text-decoration:none;font-weight:700}
+    @media(max-width:1000px){.collection-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.cover-wrap{height:190px}}
+    @media(max-width:760px){.wrap{padding:17px 16px 28px}.hero{padding:23px;align-items:flex-start}.hero-count{min-width:70px;padding:12px 8px}.collection-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}.cover-wrap{height:175px}.item-info{padding:11px}.item-info h2{font-size:12px}.toolbar{align-items:flex-start;flex-direction:column}.search{width:100%}.tabs{width:100%;justify-content:space-between}.tab{flex:1;padding:9px 6px}}
+    @media(max-width:480px){.topbar{margin-bottom:17px}.top-actions a{display:none}.hero{padding:20px 17px}.hero-count{min-width:62px}.hero-count strong{font-size:21px}h1{font-size:26px}.hero p{font-size:10px}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cover-wrap{height:205px}.item-info h2{font-size:13px}.footer{flex-wrap:wrap}.footer span:last-child{flex-basis:100%}}
+  </style>
 </head>
 <body>
-
-<div class="container">
-    <h1>我的豆瓣收藏</h1>
-    
-    <div class="tabs">
-        <div class="tab active" data-tab="books">书籍</div>
-        <div class="tab" data-tab="music">音乐</div>
-        <div class="tab" data-tab="movies">电影</div>
-    </div>
-    
-    <div id="booksContainer" class="tab-content"></div>
-    <div id="musicContainer" class="tab-content" style="display:none;"></div>
-    <div id="moviesContainer" class="tab-content" style="display:none;"></div>
-    
-    <div class="pagination" id="pagination"></div>
-</div>
-
-<script>
-    // 全局变量
+  <main class="wrap">
+    <nav class="topbar">
+      <a class="brand" href="/"><span class="brand-mark">LK</span><span>LiKui<small>PERSONAL LIBRARY</small></span></a>
+      <div class="top-actions"><a href="/">← 返回主页</a><button class="theme-button" id="themeToggle" type="button" aria-label="切换主题">☾ 主题</button></div>
+    </nav>
+    <section class="hero">
+      <div><div class="eyebrow">MY PERSONAL COLLECTION</div><h1>书影音收藏</h1><p>把读过的书、看过的电影、听过的音乐，变成自己的生活索引。</p></div>
+      <div class="hero-count"><strong id="totalCount">—</strong><span>COLLECTED</span></div>
+    </section>
+    <section class="toolbar" aria-label="收藏分类与搜索">
+      <div class="tabs" role="tablist">
+        <button class="tab active" type="button" role="tab" aria-selected="true" data-tab="books">书籍</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-tab="music">音乐</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-tab="movies">电影</button>
+      </div>
+      <input class="search" id="searchInput" type="search" placeholder="搜索标题、作者、歌手…" aria-label="搜索收藏">
+    </section>
+    <div class="result-meta"><span id="resultCount">正在读取收藏…</span><span id="pageInfo"></span></div>
+    <section class="collection-grid" id="collectionGrid" aria-live="polite"><div class="loading">正在加载收藏数据…</div></section>
+    <nav class="pagination" id="pagination" aria-label="收藏分页"></nav>
+    <footer class="footer"><a href="/">LiKui · 个人数字花园</a><span>由兴趣开始，向长期积累。</span><span>© <span id="currentYear"></span> likui.info</span></footer>
+  </main>
+  <script>
+  (() => {
+    const dataFiles = { books: '../static/data/book.json', music: '../static/data/music.json', movies: '../static/data/movie.json' };
+    const labels = { books: 'BOOKS', music: 'MUSIC', movies: 'FILMS' };
+    const data = { books: [], music: [], movies: [] };
+    const loaded = { books: false, music: false, movies: false };
     let currentTab = 'books';
     let currentPage = 1;
-    const itemsPerPage = 5;
-    let booksData = [];
-    let musicData = [];
-    let moviesData = [];
-
-    // 加载数据
-    function loadData() {
-        // 加载书籍数据
-        fetch('../static/data/book.json')
-            .then(response => response.json())
-            .then(data => {
-                booksData = data;
-                displayItems(booksData, 'booksContainer');
-                setupPagination(booksData.length);
-            })
-            .catch(error => console.error('Error loading books:', error));
-
-        // 加载音乐数据
-        fetch('../static/data/music.json')
-            .then(response => response.json())
-            .then(data => {
-                musicData = data;
-            })
-            .catch(error => console.error('Error loading music:', error));
-
-        // 加载电影数据
-        fetch('../static/data/movie.json')
-            .then(response => response.json())
-            .then(data => {
-                moviesData = data;
-            })
-            .catch(error => console.error('Error loading movies:', error));
+    const pageSize = 15;
+    const grid = document.getElementById('collectionGrid');
+    const pagination = document.getElementById('pagination');
+    const searchInput = document.getElementById('searchInput');
+    const resultCount = document.getElementById('resultCount');
+    const pageInfo = document.getElementById('pageInfo');
+    const totalCount = document.getElementById('totalCount');
+    const safeArray = value => Array.isArray(value) ? value : [];
+    const asText = value => Array.isArray(value) ? value.map(v => typeof v === 'string' ? v : (v && (v.name || v.title) || '')).filter(Boolean).join('、') : (value == null ? '' : String(value));
+    function subjectOf(item) { return item && item.subject ? item.subject : {}; }
+    function titleOf(item) { const s = subjectOf(item); return s.title || s.name || '未命名'; }
+    function searchText(item) {
+      const s = subjectOf(item);
+      return [titleOf(item), asText(s.author), asText(s.singer), asText(s.director), asText(s.tags), asText(s.pubdate), asText(s.genre)].join(' ').toLowerCase();
     }
-
-    // 显示项目
-    function displayItems(data, containerId) {
-        const container = document.getElementById(containerId);
-        container.innerHTML = '';
-
-        if (data.length === 0) {
-            container.innerHTML = '<div class="no-data">暂无数据</div>';
-            return;
-        }
-
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const endIndex = Math.min(startIndex + itemsPerPage, data.length);
-        const itemsToShow = data.slice(startIndex, endIndex);
-
-        itemsToShow.forEach(item => {
-            const itemDiv = document.createElement('div');
-            itemDiv.classList.add('item');
-
-            // 封面图片
+    function coverOf(item) {
+      const s = subjectOf(item);
+      if (s.cover_url) return s.cover_url;
+      if (s.pic && (s.pic.large || s.pic.normal)) return s.pic.large || s.pic.normal;
+      if (s.images && (s.images.large || s.images.medium)) return s.images.large || s.images.medium;
+      return '';
+    }
+    function ratingText(item) {
+      const parts = [];
+      if (item && item.rating && item.rating.value != null) parts.push('我的评分 ' + item.rating.value + '/5');
+      const s = subjectOf(item);
+      if (s.rating && s.rating.value != null) parts.push('豆瓣 ' + s.rating.value + '/10');
+      return parts.join(' · ');
+    }
+    function detailsOf(item) {
+      const s = subjectOf(item);
+      if (currentTab === 'books') return [asText(s.author), [asText(s.press), asText(s.pubdate && s.pubdate[0])].filter(Boolean).join(' · ')];
+      if (currentTab === 'music') return [asText(s.singer), asText(s.pubdate && s.pubdate[0])];
+      return [asText(s.director), asText(s.year || (s.pubdate && s.pubdate[0]))];
+    }
+    async function loadTab(tab) {
+      if (loaded[tab]) return;
+      try {
+        const response = await fetch(dataFiles[tab], { cache: 'no-cache' });
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const json = await response.json();
+        data[tab] = Array.isArray(json) ? json : [];
+        loaded[tab] = true;
+      } catch (error) {
+        console.error('Unable to load ' + tab + ' collection:', error);
+        data[tab] = [];
+        loaded[tab] = true;
+      }
+    }
+    function filteredItems() {
+      const query = searchInput.value.trim().toLowerCase();
+      return data[currentTab].filter(item => !query || searchText(item).includes(query));
+    }
+    function render() {
+      const items = filteredItems();
+      const pages = Math.max(1, Math.ceil(items.length / pageSize));
+      currentPage = Math.min(currentPage, pages);
+      const start = (currentPage - 1) * pageSize;
+      const visible = items.slice(start, start + pageSize);
+      totalCount.textContent = data[currentTab].length.toLocaleString();
+      resultCount.innerHTML = '<strong>' + items.length.toLocaleString() + '</strong> 条收藏 · ' + labels[currentTab];
+      pageInfo.textContent = items.length ? (currentPage + ' / ' + pages) : '';
+      grid.replaceChildren();
+      if (!visible.length) {
+        const empty = document.createElement('div');
+        empty.className = 'empty';
+        empty.textContent = searchInput.value.trim() ? '没有找到匹配的收藏，试试其他关键词。' : '暂无数据，稍后可以重新同步收藏。';
+        grid.appendChild(empty);
+      } else {
+        visible.forEach(item => {
+          const s = subjectOf(item);
+          const card = document.createElement('article');
+          card.className = 'collection-card';
+          const coverWrap = document.createElement('div');
+          coverWrap.className = 'cover-wrap';
+          const cover = coverOf(item);
+          if (cover) {
             const img = document.createElement('img');
-            if (containerId === 'booksContainer') {
-                img.src = item.subject.cover_url || item.subject.pic.large;
-            } else if (containerId === 'musicContainer') {
-                img.src = item.subject.cover_url || item.subject.pic.large;
-            } else if (containerId === 'moviesContainer') {
-                img.src = item.subject.cover_url;
-            }
-            img.alt = item.subject.title;
-            itemDiv.appendChild(img);
-
-            const itemInfo = document.createElement('div');
-            itemInfo.classList.add('item-info');
-
-            // 标题
-            const title = document.createElement('h2');
-            title.textContent = item.subject.title;
-            itemInfo.appendChild(title);
-
-            // 评分
-            if (item.rating) {
-                const rating = document.createElement('p');
-                rating.classList.add('rating');
-                const stars = '★'.repeat(item.rating.star_count) + '☆'.repeat(5 - item.rating.star_count);
-                rating.textContent = `我的评分: ${stars} (${item.rating.value}/5)`;
-                itemInfo.appendChild(rating);
-            }
-            
-            if (item.subject.rating) {
-                const rating = document.createElement('p');
-                rating.classList.add('rating');
-                rating.textContent = `豆瓣评分: ${item.subject.rating.value}/10 (${item.subject.rating.count}人评价)`;
-                itemInfo.appendChild(rating);
-            }
-
-            // 不同类型显示不同信息
-            if (containerId === 'booksContainer') {
-                // 书籍信息
-                const author = document.createElement('p');
-                author.textContent = `作者: ${item.subject.author.join(', ')}`;
-                itemInfo.appendChild(author);
-
-                const pubInfo = document.createElement('p');
-                pubInfo.textContent = `出版社: ${item.subject.press.join(', ')}`;
-                if (item.subject.pubdate && item.subject.pubdate.length > 0) {
-                    pubInfo.textContent += ` | 出版日期: ${item.subject.pubdate[0]}`;
-                }
-                itemInfo.appendChild(pubInfo);
-
-            } else if (containerId === 'musicContainer') {
-                // 音乐信息
-                const singer = document.createElement('p');
-                singer.textContent = `歌手: ${item.subject.singer.map(s => s.name).join(', ')}`;
-                itemInfo.appendChild(singer);
-
-                const pubInfo = document.createElement('p');
-                if (item.subject.pubdate && item.subject.pubdate.length > 0) {
-                    pubInfo.textContent = `发行日期: ${item.subject.pubdate[0]}`;
-                    itemInfo.appendChild(pubInfo);
-                }
-
-                if (item.subject.genres && item.subject.genres.length > 0) {
-                    const genres = document.createElement('p');
-                    genres.textContent = `流派: ${item.subject.genres.join(', ')}`;
-                    itemInfo.appendChild(genres);
-                }
-
-            } else if (containerId === 'moviesContainer') {
-                // 电影信息
-                const director = document.createElement('p');
-                director.textContent = `导演: ${item.subject.directors[0].name}`;
-                itemInfo.appendChild(director);
-
-                const actors = document.createElement('p');
-                actors.textContent = `主演: ${item.subject.actors.map(actor => actor.name).join(', ')}`;
-                itemInfo.appendChild(actors);
-
-                const pubdate = document.createElement('p');
-                if (item.subject.pubdate && item.subject.pubdate.length > 0) {
-                    pubdate.textContent = `上映日期: ${item.subject.pubdate[0]}`;
-                    itemInfo.appendChild(pubdate);
-                }
-            }
-
-            // 标签
-            if (item.tags && item.tags.length > 0) {
-                const tags = document.createElement('p');
-                tags.classList.add('tags');
-                tags.textContent = `标签: ${item.tags.join(', ')}`;
-                itemInfo.appendChild(tags);
-            }
-
-            // 评论
-            if (item.comment) {
-                const comment = document.createElement('p');
-                comment.textContent = `我的评论: ${item.comment}`;
-                itemInfo.appendChild(comment);
-            }
-
-            // 链接
+            img.className = 'cover';
+            img.loading = 'lazy';
+            img.alt = titleOf(item) + '封面';
+            img.src = cover;
+            img.referrerPolicy = 'no-referrer';
+            img.onerror = () => { img.remove(); const placeholder = document.createElement('span'); placeholder.className = 'cover-placeholder'; placeholder.textContent = '▧'; coverWrap.appendChild(placeholder); };
+            coverWrap.appendChild(img);
+          } else {
+            const placeholder = document.createElement('span');
+            placeholder.className = 'cover-placeholder';
+            placeholder.textContent = '▧';
+            coverWrap.appendChild(placeholder);
+          }
+          const info = document.createElement('div');
+          info.className = 'item-info';
+          const type = document.createElement('div');
+          type.className = 'item-type';
+          type.textContent = labels[currentTab];
+          info.appendChild(type);
+          const title = document.createElement('h2');
+          title.textContent = titleOf(item);
+          info.appendChild(title);
+          const rating = ratingText(item);
+          if (rating) { const p = document.createElement('div'); p.className = 'rating'; p.textContent = '★ ' + rating; info.appendChild(p); }
+          detailsOf(item).filter(Boolean).forEach(detail => { const p = document.createElement('p'); p.textContent = detail; info.appendChild(p); });
+          const url = s.url || s.alt || s.link;
+          if (url && /^https?:\/\//i.test(url)) {
             const link = document.createElement('a');
-            link.href = item.subject.url;
-            link.textContent = '豆瓣详情';
+            link.className = 'item-link';
+            link.href = url;
             link.target = '_blank';
-            itemInfo.appendChild(link);
-
-            itemDiv.appendChild(itemInfo);
-            container.appendChild(itemDiv);
+            link.rel = 'noopener noreferrer';
+            link.textContent = '查看详情 ↗';
+            info.appendChild(link);
+          }
+          card.append(coverWrap, info);
+          grid.appendChild(card);
         });
+      }
+      pagination.replaceChildren();
+      if (pages > 1) {
+        const addButton = (label, page, disabled, active) => {
+          const button = document.createElement('button');
+          button.type = 'button'; button.className = 'page-button' + (active ? ' active' : '');
+          button.textContent = label; button.disabled = disabled;
+          if (active) button.setAttribute('aria-current', 'page');
+          button.addEventListener('click', () => { currentPage = page; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+          pagination.appendChild(button);
+        };
+        addButton('←', currentPage - 1, currentPage === 1, false);
+        const first = Math.max(1, Math.min(currentPage - 2, pages - 4));
+        const last = Math.min(pages, first + 4);
+        for (let page = first; page <= last; page++) addButton(String(page), page, false, page === currentPage);
+        addButton('→', currentPage + 1, currentPage === pages, false);
+      }
     }
-
-    // 设置分页
-    function setupPagination(totalItems) {
-        const pagination = document.getElementById('pagination');
-        pagination.innerHTML = '';
-
-        const pageCount = Math.ceil(totalItems / itemsPerPage);
-
-        if (pageCount <= 1) return;
-
-        // 上一页按钮
-        const prevButton = document.createElement('button');
-        prevButton.textContent = '上一页';
-        prevButton.disabled = currentPage === 1;
-        prevButton.addEventListener('click', () => {
-            if (currentPage > 1) {
-                currentPage--;
-                updateDisplay();
-            }
-        });
-        pagination.appendChild(prevButton);
-
-        // 页码按钮
-        for (let i = 1; i <= pageCount; i++) {
-            const pageButton = document.createElement('button');
-            pageButton.textContent = i;
-            if (i === currentPage) {
-                pageButton.classList.add('active');
-            }
-            pageButton.addEventListener('click', () => {
-                currentPage = i;
-                updateDisplay();
-            });
-            pagination.appendChild(pageButton);
-        }
-
-        // 下一页按钮
-        const nextButton = document.createElement('button');
-        nextButton.textContent = '下一页';
-        nextButton.disabled = currentPage === pageCount;
-        nextButton.addEventListener('click', () => {
-            if (currentPage < pageCount) {
-                currentPage++;
-                updateDisplay();
-            }
-        });
-        pagination.appendChild(nextButton);
+    document.querySelectorAll('.tab').forEach(button => button.addEventListener('click', async () => {
+      currentTab = button.dataset.tab; currentPage = 1;
+      document.querySelectorAll('.tab').forEach(tab => { const active = tab === button; tab.classList.toggle('active', active); tab.setAttribute('aria-selected', String(active)); });
+      grid.innerHTML = '<div class="loading">正在加载收藏数据…</div>';
+      await loadTab(currentTab);
+      render();
+    }));
+    searchInput.addEventListener('input', () => { currentPage = 1; render(); });
+    const themeButton = document.getElementById('themeToggle');
+    let saved = '';
+    try { saved = localStorage.getItem('likui-theme') || ''; } catch (_) {}
+    function setTheme(theme) {
+      document.documentElement.dataset.theme = theme;
+      themeButton.textContent = theme === 'dark' ? '☀ 主题' : '☾ 主题';
+      try { localStorage.setItem('likui-theme', theme); } catch (_) {}
     }
-
-    // 更新显示
-    function updateDisplay() {
-        if (currentTab === 'books') {
-            displayItems(booksData, 'booksContainer');
-            setupPagination(booksData.length);
-        } else if (currentTab === 'music') {
-            displayItems(musicData, 'musicContainer');
-            setupPagination(musicData.length);
-        } else if (currentTab === 'movies') {
-            displayItems(moviesData, 'moviesContainer');
-            setupPagination(moviesData.length);
-        }
-    }
-
-    // 切换标签
-    function setupTabs() {
-        const tabs = document.querySelectorAll('.tab');
-        tabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                // 更新活动标签
-                tabs.forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                
-                // 更新当前标签和重置页码
-                currentTab = tab.dataset.tab;
-                currentPage = 1;
-                
-                // 显示对应内容
-                document.querySelectorAll('.tab-content').forEach(content => {
-                    content.style.display = 'none';
-                });
-                document.getElementById(`${currentTab}Container`).style.display = 'block';
-                
-                // 更新显示
-                updateDisplay();
-            });
-        });
-    }
-
-    // 初始化
-    window.onload = function() {
-        loadData();
-        setupTabs();
-    };
-</script>
-
+    setTheme(saved || ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'));
+    themeButton.addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    loadTab(currentTab).then(render);
+  })();
+  </script>
 </body>
 </html>
