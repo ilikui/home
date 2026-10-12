@@ -14,7 +14,7 @@
     *{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--text);font-family:Manrope,"Noto Sans SC",sans-serif;line-height:1.65}.wrap{max-width:1180px;margin:auto;padding:26px 30px 40px}.topbar{height:55px;display:flex;align-items:center;justify-content:space-between;margin-bottom:25px}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand-mark{width:35px;height:35px;display:grid;place-items:center;border-radius:11px;background:#292e42;color:white;font-size:12px}.brand small{display:block;font:8px "DM Mono",monospace;letter-spacing:1px;color:var(--muted);font-weight:400}.top-actions{display:flex;align-items:center;gap:10px}.top-actions a,.theme-button{border:1px solid var(--line);background:var(--surface);color:var(--text);padding:8px 12px;border-radius:10px;font-size:11px;text-decoration:none;cursor:pointer}.top-actions a:hover,.theme-button:hover{border-color:var(--accent);color:var(--accent)}.hero{padding:30px 34px;border:1px solid var(--line);border-radius:22px;background:var(--surface);box-shadow:var(--shadow);display:flex;justify-content:space-between;align-items:center;gap:20px}.eyebrow{font:10px "DM Mono",monospace;letter-spacing:1.5px;color:var(--muted)}h1{margin:8px 0;font-size:clamp(26px,4vw,38px);letter-spacing:-1.2px;line-height:1.25}.hero p{margin:0;color:var(--muted);font-size:12px}.hero-count{min-width:90px;text-align:center;padding:15px;border:1px solid var(--line);border-radius:16px;background:var(--soft)}.hero-count strong{display:block;font-size:25px;line-height:1.2}.hero-count span{font:9px "DM Mono",monospace;letter-spacing:1px;color:var(--muted)}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;margin:28px 0 17px}.tabs{display:flex;gap:6px;padding:5px;background:var(--soft);border:1px solid var(--line);border-radius:13px}.tab{border:0;background:transparent;color:var(--muted);padding:9px 16px;border-radius:9px;font-size:12px;cursor:pointer}.tab.active{background:var(--surface);color:var(--accent);box-shadow:0 2px 8px rgba(20,25,45,.06);font-weight:700}.search{width:min(260px,45%);padding:11px 14px;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--text);font:11px inherit;outline:none}.search:focus{border-color:var(--accent)}.result-meta{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:10px;margin-bottom:13px}.result-meta strong{color:var(--text)}.collection-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px}.collection-card{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:16px;background:var(--surface);box-shadow:var(--shadow);transition:transform .2s,border-color .2s}.collection-card:hover{transform:translateY(-4px);border-color:rgba(98,104,232,.45)}.cover-wrap{height:210px;display:grid;place-items:center;background:var(--soft);overflow:hidden}.cover{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s}.collection-card:hover .cover{transform:scale(1.035)}.cover-placeholder{font-size:28px;color:var(--muted)}.item-info{padding:13px 13px 15px}.item-type{font:8px "DM Mono",monospace;letter-spacing:1px;color:var(--muted)}.item-info h2{font-size:13px;line-height:1.55;margin:5px 0 7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:40px}.rating{font-size:10px;color:#d89c44;margin:4px 0}.item-info p{font-size:10px;line-height:1.6;color:var(--muted);margin:4px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.item-link{display:inline-flex;margin-top:8px;color:var(--accent);font-size:10px;font-weight:700;text-decoration:none}.item-link:hover{text-decoration:underline}.pagination{display:flex;justify-content:center;align-items:center;gap:6px;margin:25px 0}.page-button{min-width:34px;height:34px;padding:0 10px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--muted);font-size:11px;cursor:pointer}.page-button.active{background:var(--accent);border-color:var(--accent);color:white}.page-button:disabled{opacity:.35;cursor:not-allowed}.empty,.loading{grid-column:1/-1;padding:50px 20px;text-align:center;border:1px dashed var(--line);border-radius:16px;color:var(--muted);font-size:12px}.footer{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding-top:18px;margin-top:35px;color:var(--muted);font-size:10px}.footer a{color:var(--text);text-decoration:none;font-weight:700}
     @media(max-width:1000px){.collection-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.cover-wrap{height:190px}}
     @media(max-width:760px){.wrap{padding:17px 16px 28px}.hero{padding:23px;align-items:flex-start}.hero-count{min-width:70px;padding:12px 8px}.collection-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}.cover-wrap{height:175px}.item-info{padding:11px}.item-info h2{font-size:12px}.toolbar{align-items:flex-start;flex-direction:column}.search{width:100%}.tabs{width:100%;justify-content:space-between}.tab{flex:1;padding:9px 6px}}
-    @media(max-width:480px){.filterbar{grid-template-columns:1fr 1fr}.filter-label:last-child{grid-column:1/-1}.topbar{margin-bottom:17px}.top-actions a{display:none}.hero{padding:20px 17px}.hero-count{min-width:62px}.hero-count strong{font-size:21px}h1{font-size:26px}.hero p{font-size:10px}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cover-wrap{height:205px}.item-info h2{font-size:13px}.footer{flex-wrap:wrap}.footer span:last-child{flex-basis:100%}}
+    @media(max-width:480px){.filterbar{grid-template-columns:1fr 1fr}.year-filter-label{grid-column:1/-1}.filter-label:last-child{grid-column:1/-1}.topbar{margin-bottom:17px}.top-actions a{display:none}.hero{padding:20px 17px}.hero-count{min-width:62px}.hero-count strong{font-size:21px}h1{font-size:26px}.hero p{font-size:10px}.collection-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cover-wrap{height:205px}.item-info h2{font-size:13px}.footer{flex-wrap:wrap}.footer span:last-child{flex-basis:100%}}
   </style>
 </head>
 <body>
@@ -36,7 +36,7 @@
       <input class="search" id="searchInput" type="search" placeholder="搜索标题、作者、歌手…" aria-label="搜索收藏">
     </section>
     <section class="filterbar" aria-label="筛选收藏">
-      <label class="filter-label"><span>收藏时间</span><select class="filter-select" id="yearFilter"><option value="all">全部年份</option></select></label>
+      <div class="filter-label year-filter-label"><span>收藏时间</span><div class="year-buttons" id="yearButtons" role="group" aria-label="按收藏年份筛选"><button class="year-button active" type="button" data-year="all" aria-pressed="true">全部</button></div></div>
       <label class="filter-label"><span>作品类型</span><select class="filter-select" id="typeFilter"><option value="all">全部类型</option></select></label>
       <label class="filter-label"><span>排序方式</span><select class="filter-select" id="sortFilter"><option value="newest">最近收藏</option><option value="oldest">最早收藏</option><option value="title">按标题排序</option></select></label>
     </section>
@@ -59,7 +59,8 @@
     const searchInput = document.getElementById('searchInput');
     const resultCount = document.getElementById('resultCount');
     const pageInfo = document.getElementById('pageInfo');
-    const yearFilter = document.getElementById('yearFilter');
+    const yearButtons = document.getElementById('yearButtons');
+    let selectedYear = 'all';
     const typeFilter = document.getElementById('typeFilter');
     const sortFilter = document.getElementById('sortFilter');
     const totalCount = document.getElementById('totalCount');
@@ -120,16 +121,23 @@
       return [...new Set(values.map(v => typeof v === 'string' ? v.trim() : (v && (v.name || v.title) || '')).filter(Boolean))];
     }
     function refreshFilters() {
-      const yearValue = yearFilter.value || 'all';
       const typeValue = typeFilter.value || 'all';
       const years = [...new Set(data[currentTab].map(item => {
         const date = String(item && item.create_time || '');
-        const match = date.match(/^(\\d{4})/);
+        const match = date.match(/^(\d{4})/);
         return match ? match[1] : '';
       }).filter(Boolean))].sort((a, b) => Number(b) - Number(a));
-      yearFilter.replaceChildren(new Option('全部年份', 'all'));
-      years.forEach(year => yearFilter.add(new Option(year + ' 年', year)));
-      yearFilter.value = years.includes(yearValue) ? yearValue : 'all';
+      if (selectedYear !== 'all' && !years.includes(selectedYear)) selectedYear = 'all';
+      yearButtons.replaceChildren();
+      [['all', '全部'], ...years.map(year => [year, year])].forEach(([value, label]) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'year-button' + (selectedYear === value ? ' active' : '');
+        button.dataset.year = value;
+        button.setAttribute('aria-pressed', String(selectedYear === value));
+        button.textContent = label;
+        yearButtons.appendChild(button);
+      });
       const types = [...new Set(data[currentTab].flatMap(itemTypes))].sort((a, b) => a.localeCompare(b, 'zh-CN'));
       typeFilter.replaceChildren(new Option('全部类型', 'all'));
       types.forEach(type => typeFilter.add(new Option(type, type)));
@@ -137,7 +145,7 @@
     }
     function filteredItems() {
       const query = searchInput.value.trim().toLowerCase();
-      const year = yearFilter.value;
+      const year = selectedYear;
       const type = typeFilter.value;
       const items = data[currentTab].filter(item => {
         const date = String(item && item.create_time || '');
@@ -244,7 +252,8 @@
       render();
     }));
     searchInput.addEventListener('input', () => { currentPage = 1; render(); });
-    [yearFilter, typeFilter, sortFilter].forEach(select => select.addEventListener('change', () => { currentPage = 1; render(); }));
+    yearButtons.addEventListener('click', event => { const button = event.target.closest('button[data-year]'); if (!button) return; selectedYear = button.dataset.year; yearButtons.querySelectorAll('.year-button').forEach(item => { const active = item === button; item.classList.toggle('active', active); item.setAttribute('aria-pressed', String(active)); }); currentPage = 1; render(); });
+    [typeFilter, sortFilter].forEach(select => select.addEventListener('change', () => { currentPage = 1; render(); }));
     const themeButton = document.getElementById('themeToggle');
     let saved = '';
     try { saved = localStorage.getItem('likui-theme') || ''; } catch (_) {}
