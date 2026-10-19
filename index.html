@@ -152,6 +152,48 @@
       <img class="modal-image" src="" alt="图片预览">
     </div>
   </div>
+  <script>
+  (() => {
+    const picture = document.querySelector('.skills-picture');
+    if (!picture) return;
+    const desktopSrc = '/static/svg/skillPc.svg';
+    const mobileSrc = '/static/svg/skillWap.svg';
+    const mobileQuery = window.matchMedia('(max-width: 640px)');
+    let requestId = 0;
+    async function renderInteractiveSkills() {
+      const id = ++requestId;
+      const src = mobileQuery.matches ? mobileSrc : desktopSrc;
+      try {
+        const response = await fetch(src, { cache: 'no-cache' });
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const markup = await response.text();
+        if (id !== requestId) return;
+        const parsed = new DOMParser().parseFromString(markup, 'image/svg+xml');
+        const svg = parsed.documentElement;
+        if (svg.localName !== 'svg' || parsed.querySelector('parsererror')) throw new Error('Invalid SVG');
+        const inlineSvg = document.importNode(svg, true);
+        inlineSvg.setAttribute('role', 'img');
+        inlineSvg.setAttribute('aria-label', '可点击的技术栈图标，点击可访问对应官方网站');
+        inlineSvg.setAttribute('focusable', 'false');
+        inlineSvg.style.width = '100%';
+        inlineSvg.style.height = 'auto';
+        inlineSvg.style.display = 'block';
+        inlineSvg.style.maxWidth = '100%';
+        inlineSvg.querySelectorAll('a[href]').forEach(link => {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+          link.style.cursor = 'pointer';
+        });
+        picture.replaceChildren(inlineSvg);
+      } catch (error) {
+        console.error('Unable to enable technology icon links:', error);
+      }
+    }
+    renderInteractiveSkills();
+    if (mobileQuery.addEventListener) mobileQuery.addEventListener('change', renderInteractiveSkills);
+    else if (mobileQuery.addListener) mobileQuery.addListener(renderInteractiveSkills);
+  })();
+  </script>
   <script src="/static/js/script.js?v=2.0" defer></script>
   <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js" async></script>
   <script>window.addEventListener('load',function(){if(window.LA&&typeof window.LA.init==='function'){window.LA.init({id:'KFqltKSkJgQTGD9l',ck:'KFqltKSkJgQTGD9l'});}});</script>
