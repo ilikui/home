@@ -2,6 +2,11 @@
 name: douban
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/douban.yml"
+      - "scripts/merge_douban_data.py"
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
