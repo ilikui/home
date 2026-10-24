@@ -102,7 +102,7 @@
         const response = await fetch(dataFiles[tab], { cache: 'no-cache' });
         if (!response.ok) throw new Error('HTTP ' + response.status);
         const json = await response.json();
-        data[tab] = Array.isArray(json) ? json.map(item => ({ ...item, media_type: tab, status: normalizeStatus(item && (item.status || item.state) || (item.subject && item.subject.status)) })) : [];
+        data[tab] = Array.isArray(json) ? json.map(item => ({ ...item, media_type: tab === 'books' ? 'book' : (tab === 'movies' ? 'movie' : 'music'), status: normalizeStatus(item && (item.status || item.state) || (item.subject && item.subject.status)) })) : [];
         loaded[tab] = true;
       } catch (error) {
         console.error('Unable to load ' + tab + ' collection:', error);
