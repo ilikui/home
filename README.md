@@ -1,18 +1,62 @@
-# LiKui 个人主页
+<div align="center">
 
-**项目类型：** 个人静态网站  
-**在线地址：** https://likui.info/  
-**源码仓库：** https://github.com/ilikui/home
+# LiKui · Personal Hub
 
-本仓库用于维护 LiKui 个人主页及相关静态资源。网站集中展示个人介绍、数字空间、开源项目、技术方向和书影音记录，并通过 GitHub Actions 对部分数据进行自动化同步与更新。
+**个人数字门户｜开源项目展示｜知识与生活记录**
 
-<p align="center">
-  <a href="https://likui.info/">在线主页</a>
-  &nbsp;|&nbsp;
-  <a href="https://about.likui.info/">个人介绍</a>
-  &nbsp;|&nbsp;
-  <a href="https://github.com/ilikui">GitHub 主页</a>
+将技术实践、数字空间与日常积累汇聚于一处。
+
+<p>
+  <a href="https://likui.info/"><img src="https://img.shields.io/badge/Live-Visit%20Website-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="访问在线主页"></a>
+  <a href="https://github.com/ilikui/home"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub 源码"></a>
 </p>
+<p>
+  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-Design-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-Interaction-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript">
+  <img src="https://img.shields.io/badge/JSON-Data-111827?style=flat-square&logo=json&logoColor=white" alt="JSON">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-Automation-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
+
+[在线主页](https://likui.info/) · [个人介绍](https://about.likui.info/) · [GitHub 主页](https://github.com/ilikui)
+
+</div>
+
+---
+
+## 项目简介
+
+**LiKui Personal Hub** 是一个以个人主页为入口的轻量级数字门户。它把个人介绍、技术兴趣、开源项目、个人站点以及书影音记录组织为统一的浏览体验，并借助自动化工作流维护部分数据与展示资源。
+
+项目坚持 **内容清晰、结构简洁、数据可维护、持续迭代** 的设计原则。网站以原生 Web 技术为基础，避免不必要的框架依赖，让内容维护、功能调整与部署流程保持直接、透明。
+
+> **持续积累，持续创造。**  
+> 让每一次学习、实践与记录，都成为个人数字资产的一部分。
+
+## 项目亮点
+
+<table>
+  <tr>
+    <td width="50%">
+      <strong>01 · Personal Portal</strong><br>
+      统一入口连接个人介绍、数字空间、技术站点与开源项目。
+    </td>
+    <td width="50%">
+      <strong>02 · Knowledge & Interests</strong><br>
+      集中呈现技术方向、个人收藏以及持续积累的内容记录。
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>03 · Data-driven Content</strong><br>
+      通过 JSON 管理书籍、电影与音乐数据，降低内容维护成本。
+    </td>
+    <td width="50%">
+      <strong>04 · Workflow Automation</strong><br>
+      使用 GitHub Actions 执行数据同步与贡献图资源生成任务。
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -52,6 +96,27 @@
 | 技术栈 | 呈现技术兴趣与相关技术资源链接 |
 | 书影音 | 展示书籍、电影和音乐记录，并支持按类别及状态筛选 |
 | GitHub 贡献图 | 展示由自动化工作流生成的贡献图资源 |
+
+## 系统架构图
+
+```mermaid
+flowchart TB
+    Visitor[访问者] --> Web[个人主页 / HTML]
+    Web --> UI[CSS 样式与 JavaScript 交互]
+    Web --> Data[JSON 内容数据]
+    Data --> Books[书籍记录]
+    Data --> Movies[电影记录]
+    Data --> Music[音乐记录]
+    Actions[GitHub Actions] --> Douban[豆瓣数据导出]
+    Douban --> Merge[数据合并与规范化]
+    Merge --> Data
+    Actions --> Notion[Notion 数据同步]
+    Actions --> Snake[贡献图生成]
+    Snake --> Output[资源输出分支]
+    Output --> Web
+```
+
+架构图展示仓库内页面、数据与自动化任务之间的主要关系；实际执行行为以工作流文件及其运行日志为准。
 
 ## 技术架构
 
