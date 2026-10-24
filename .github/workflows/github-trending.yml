@@ -1,6 +1,11 @@
 name: Daily GitHub Trending
 
 on:
+  push:
+    paths:
+      - "scripts/update_github_trending.py"
+      - "github-trending.html"
+      - ".github/workflows/github-trending.yml"
   schedule:
     # 00:20 UTC = 08:20 China Standard Time
     - cron: "20 0 * * *"
