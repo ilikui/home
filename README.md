@@ -280,7 +280,7 @@ python -m http.server 8000
 
 ## 每日 GitHub 热门仓库
 
-主页新增 **GitHub 热门仓库**入口，访问 [GitHub Trending](https://likui.info/github-trending.html) 查看每日开源项目精选。页面支持按技术领域、编程语言和关键词组合筛选，并展示仓库简介、主要语言、Star、Fork、开放 Issue 与 Topics。技术领域根据仓库名称、描述、语言和 Topics 自动识别，一个仓库可同时属于多个领域。
+主页新增 **GitHub 热门仓库**入口，访问 [GitHub Trending](https://likui.info/github-trending.html) 查看每日开源项目精选。页面支持按 28 个技术领域、编程语言和关键词组合筛选，并展示仓库简介、主要语言、Star、Fork、开放 Issue 与 Topics。分类采集覆盖 AI/LLM、Agent、机器学习、Python、C/C++、Java/Kotlin、JavaScript/TypeScript、前后端、Go、Rust、PHP、移动应用、嵌入式/IoT、AUTOSAR/汽车电子、自动驾驶、机器人、数据库、数据工程、云原生、网络安全、测试、开发工具、操作系统、游戏图形、设计多媒体、区块链和学习教程。一个仓库可同时属于多个领域。
 
 ### 自动化实现
 
@@ -289,6 +289,6 @@ python -m http.server 8000
 - 页面：[`github-trending.html`](github-trending.html)
 - 数据快照：[`static/data/github-trending.json`](static/data/github-trending.json)
 
-工作流每天 UTC 00:20（北京时间 08:20）执行，也支持手动触发。运行时使用 GitHub Search API 更新 JSON 数据并提交回 `main`；HTML 页面独立负责渲染仓库卡片与交互式筛选，因此每日更新不会覆盖筛选功能。它不需要额外配置个人访问令牌；仓库默认的 `GITHUB_TOKEN` 由 Actions 提供。若 API 限额或网络请求失败，任务会失败并在 Actions 日志中报告，不会把空结果当作成功数据覆盖。
+工作流每天 UTC 00:20（北京时间 08:20）执行，也支持手动触发。运行时使用 GitHub Search API 更新 JSON 数据并提交回 `main`；HTML 页面独立负责渲染仓库卡片与交互式筛选，因此每日更新不会覆盖筛选功能。采集数据合并最近 7 天新建项目与最近 90 天有更新的热门项目，并按 28 个技术领域分别检索、去重后汇总，避免榜单只包含最近一周创建的少量仓库。仓库默认的 `GITHUB_TOKEN` 由 Actions 提供。若 API 限额或网络请求失败，任务会失败并在 Actions 日志中报告，不会把空结果当作成功数据覆盖。
 
 首次启用后，可打开仓库 **Actions → Daily GitHub Trending → Run workflow** 手动生成第一份榜单。GitHub Search API 的结果代表可检索的近期热门项目，并非 GitHub 官方 Trending 页面所使用的内部排名。
