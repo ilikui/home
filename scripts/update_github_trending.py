@@ -121,8 +121,8 @@ def main() -> None:
     data = {"generated_at": now.strftime("%Y-%m-%d %H:%M"), "period": "last-7-days", "repositories": repositories[:30]}
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    PAGE_PATH.write_text(render_page(data), encoding="utf-8")
-    print(f"Updated {PAGE_PATH.relative_to(ROOT)} with {len(data['repositories'])} repositories.")
+    # The HTML page is a stable client-side renderer; only the JSON dataset changes daily.
+    print(f"Updated {DATA_PATH.relative_to(ROOT)} with {len(data['repositories'])} repositories.")
 
 
 if __name__ == "__main__":
