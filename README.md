@@ -292,3 +292,28 @@ python -m http.server 8000
 工作流每天 UTC 00:20（北京时间 08:20）执行，也支持手动触发。运行时使用 GitHub Search API 更新 JSON 数据并提交回 `main`；HTML 页面独立负责渲染仓库卡片与交互式筛选，因此每日更新不会覆盖筛选功能。采集数据合并最近 7 天新建项目与最近 90 天有更新的热门项目，并按 28 个技术领域分别检索、去重后汇总，避免榜单只包含最近一周创建的少量仓库。仓库默认的 `GITHUB_TOKEN` 由 Actions 提供。若 API 限额或网络请求失败，任务会失败并在 Actions 日志中报告，不会把空结果当作成功数据覆盖。
 
 首次启用后，可打开仓库 **Actions → Daily GitHub Trending → Run workflow** 手动生成第一份榜单。GitHub Search API 的结果代表可检索的近期热门项目，并非 GitHub 官方 Trending 页面所使用的内部排名。
+
+
+## RSS 新闻热点
+
+主页新增独立的 **RSS 新闻热点**页面，用于汇聚公开 RSS/Atom 信息源，并按分类和关键词浏览最新内容。
+
+- 页面：[`news.html`](news.html)
+- RSS 聚合脚本：[`scripts/update_news.py`](scripts/update_news.py)
+- 新闻数据：[`static/data/news.json`](static/data/news.json)
+- 自动更新工作流：[`.github/workflows/rss-news.yml`](.github/workflows/rss-news.yml)
+
+### 功能
+
+- 聚合科技、人工智能、国际新闻与开源动态等多个公开 RSS/Atom 信息源。
+- 按内容分类筛选，支持标题、摘要和来源关键词搜索。
+- 支持最新发布排序、来源排序和浅色/深色主题切换。
+- 新闻卡片保留原始来源与链接，点击后跳转发布方原文。
+- GitHub Actions 每天北京时间约 08:35 自动抓取并更新 JSON 数据，同时支持手动运行。
+
+### 数据更新与可靠性
+
+工作流运行 `python scripts/update_news.py`，解析 RSS/Atom XML，规范化发布时间、去重并输出最多 180 条新闻至 `static/data/news.json`。如果所有信息源均不可用，脚本会以失败状态退出并保留已有数据，避免用空结果覆盖有效新闻。个别来源失败时会记录失败信息，并继续处理其他可用来源。
+
+首次部署后，可进入仓库 **Actions → Daily RSS News Digest → Run workflow** 手动运行。若页面暂时没有新闻，请检查该工作流的执行日志、`static/data/news.json` 是否已生成有效条目，以及部署平台是否已发布最新提交。RSS 源的可用性、更新频率和内容范围由各发布方决定；聚合页仅作阅读入口，内容版权归原发布方所有。
+
