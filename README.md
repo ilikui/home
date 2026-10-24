@@ -276,3 +276,19 @@ python -m http.server 8000
 - GitHub Actions：自动化任务执行。
 
 第三方项目、代码及素材均应遵循各自适用的许可证和使用条款。复用相关资源前，请确认其授权范围及署名要求。
+
+
+## 每日 GitHub 热门仓库
+
+主页新增 **GitHub 热门仓库**入口，访问 [GitHub Trending](https://likui.info/github-trending.html) 查看每日开源项目精选。工作流会检索最近 7 天创建的公开仓库，按 Star 数排序，并展示仓库简介、主要语言、Star、Fork、开放 Issue 与 Topics。
+
+### 自动化实现
+
+- 工作流：[`.github/workflows/github-trending.yml`](.github/workflows/github-trending.yml)
+- 采集与页面生成脚本：[`scripts/update_github_trending.py`](scripts/update_github_trending.py)
+- 页面：[`github-trending.html`](github-trending.html)
+- 数据快照：[`static/data/github-trending.json`](static/data/github-trending.json)
+
+工作流每天 UTC 00:20（北京时间 08:20）执行，也支持手动触发。运行时使用 GitHub Search API，生成静态 HTML 和 JSON 并提交回 `main`。它不需要额外配置个人访问令牌；仓库默认的 `GITHUB_TOKEN` 由 Actions 提供。若 API 限额或网络请求失败，任务会失败并在 Actions 日志中报告，不会把空结果当作成功数据覆盖。
+
+首次启用后，可打开仓库 **Actions → Daily GitHub Trending → Run workflow** 手动生成第一份榜单。GitHub Search API 的结果代表可检索的近期热门项目，并非 GitHub 官方 Trending 页面所使用的内部排名。
