@@ -61,14 +61,26 @@ def fetch_repositories(query: str, sort: str = "stars", order: str = "desc", per
         "q": f"{query} fork:false archived:false",
         "sort": sort,
         "order": order,
-        "per_page": per_page,
+        "per_page": min(per_page, 100),
     })
     request = urllib.request.Request(f"{API}?{params}", headers=HEADERS)
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
             payload = json.load(response)
+    except urllib.error.HTTPError as exc:
+        if exc.code in (403, 429):
+            reset = exc.headers.get("X-RateLimit-Reset")
+            retry_after = exc.headers.get("Retry-After")
+            wait = int(retry_after or max(1, int(reset or time.time() + 10) - int(time.time())))
+            if wait <= 90:
+                print(f"Rate limited; waiting {wait}s before retrying query: {query}")
+                time.sleep(wait + 1)
+                return fetch_repositories(query, sort=sort, order=order, per_page=per_page)
+        raise RuntimeError(f"GitHub API request failed for query {query!r}: HTTP {exc.code}: {exc}") from exc
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
         raise RuntimeError(f"GitHub API request failed for query {query!r}: {exc}") from exc
+    # Search API allows 30 requests/minute for authenticated users.
+    time.sleep(1.1)
     results = []
     for item in payload.get("items", []):
         results.append({
@@ -111,12 +123,49 @@ def main() -> None:
 
     # New projects plus an evergreen popularity pool prevent the dataset from
     # being limited to repositories created in the last week.
-    add_results(f"created:>={since_7d} stars:>10", per_page=30)
-    add_results(f"stars:>100 pushed:>={since_90d}", per_page=30)
+    add_results(f"created:>={since_7d} stars:>10", per_page=100)
+    add_results(f"stars:>100 pushed:>={since_90d}", per_page=100)
     for category, query in CATEGORY_QUERIES:
-        add_results(f"({query}) stars:>10 pushed:>={since_90d}", category=category, per_page=15)
-        time.sleep(0.15)
+        add_results(f"({query}) stars:>10 pushed:>={since_90d}", category=category, per_page=100)
 
+    # Add language categories for repositories discovered by the global pools.
+    language_categories = {
+        "Python": "Python", "C": "C / C++", "C++": "C / C++",
+        "Java": "Java / Kotlin", "Kotlin": "Java / Kotlin",
+        "JavaScript": "JavaScript / TypeScript", "TypeScript": "JavaScript / TypeScript",
+        "Go": "Go", "Rust": "Rust", "PHP": "PHP",
+    }
+    for repo in merged.values():
+        language_category = language_categories.get(repo.get("language", ""))
+        if language_category and language_category not in repo["categories"]:
+            repo["categories"].append(language_category)
+        if not repo["categories"]:
+            haystack = " ".join([repo.get("name", ""), repo.get("description", ""), *repo.get("topics", [])]).lower()
+            keyword_groups = [
+                ("AI / LLM", ("llm", "generative-ai", "large-language-model", "人工智能", "大模型")),
+                ("AI Agents", ("ai-agent", "agentic", "agent-skills", "智能体")),
+                ("Machine Learning", ("machine-learning", "deep-learning", "pytorch", "tensorflow")),
+                ("Frontend / Web", ("frontend", "react", "vue", "svelte", "website", "web-app")),
+                ("Backend / API", ("backend", "microservices", "graphql", "rest-api")),
+                ("Mobile Apps", ("android", "ios", "flutter", "react-native")),
+                ("Embedded / IoT", ("embedded", "firmware", "rtos", "stm32", "esp32")),
+                ("AUTOSAR / Automotive", ("autosar", "automotive", "canbus", "uds", "vehicle")),
+                ("Autonomous Driving", ("autonomous-driving", "self-driving", "adas")),
+                ("Robotics", ("robotics", "ros2", "slam", "robot")),
+                ("Databases / Storage", ("database", "postgresql", "redis", "sqlite", "storage")),
+                ("Cloud / DevOps", ("devops", "kubernetes", "docker", "terraform", "cloud-native")),
+                ("Security", ("cybersecurity", "penetration-testing", "cryptography", "security")),
+                ("Testing / Quality", ("test-automation", "pytest", "unit-test", "testing")),
+                ("Developer Tools", ("developer-tools", "cli", "code-editor", "toolchain", "automation")),
+                ("Operating Systems", ("linux", "kernel", "operating-system", "bootloader")),
+                ("Game / Graphics", ("gamedev", "game-engine", "graphics", "rendering", "shader")),
+                ("Design / Media", ("design-tools", "animation", "video", "audio", "creative-tools")),
+                ("Blockchain / Web3", ("blockchain", "web3", "ethereum", "solidity")),
+                ("Learning / Tutorials", ("tutorial", "curriculum", "textbook", "awesome-list", "learning-resources")),
+            ]
+            for category_name, keywords in keyword_groups:
+                if any(keyword in haystack for keyword in keywords):
+                    repo["categories"].append(category_name)
     repositories = sorted(
         merged.values(),
         key=lambda repo: (repo["stars"], repo["pushed_at"]),
@@ -133,6 +182,8 @@ def main() -> None:
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Updated {DATA_PATH.relative_to(ROOT)} with {len(repositories)} unique repositories across {len(CATEGORY_QUERIES)} category searches.")
+    category_totals = {name: sum(name in repo["categories"] for repo in repositories) for name, _ in CATEGORY_QUERIES}
+    print("Category coverage: " + json.dumps(category_totals, ensure_ascii=False))
 
 if __name__ == "__main__":
     main()
