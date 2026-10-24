@@ -15,7 +15,7 @@ STATUSES = ("mark", "doing", "done")
 
 def identity(item: dict[str, Any]) -> str:
     subject = item.get("subject") or {}
-    value = item.get("id") or subject.get("id") or subject.get("url")
+    value = subject.get("id") or subject.get("url") or item.get("id")
     return str(value) if value is not None else json.dumps(item, sort_keys=True, ensure_ascii=False)
 
 
