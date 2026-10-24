@@ -1,0 +1,41 @@
+name: Daily RSS News Digest
+
+on:
+  push:
+    paths:
+      - "scripts/update_news.py"
+      - "news.html"
+      - ".github/workflows/rss-news.yml"
+  schedule:
+    # 00:35 UTC = 08:35 China Standard Time
+    - cron: "35 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rss-news-digest
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Aggregate RSS feeds
+        run: python scripts/update_news.py
+
+      - name: Commit refreshed news data
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: refresh RSS news digest"
+          add: "static/data/news.json"
