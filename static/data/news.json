@@ -1,6 +1,1451 @@
 {
-  "updated_at": null,
-  "source_count": 0,
-  "failed_sources": [],
-  "items": []
+  "updated_at": "2026-10-24T09:45:35.544939+00:00",
+  "source_count": 79,
+  "catalog": "ilikui/Dailly",
+  "failed_source_count": 1,
+  "failed_sources": [
+    "NPR's The Two-Way: timed out"
+  ],
+  "items": [
+    {
+      "title": "France prepares for day of protest a week after nationwide riots",
+      "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Hundreds of thousands are expected to turn out, as more than 70,000 police officers are to be deployed over some may defy restrictions.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T09:34:32+00:00"
+    },
+    {
+      "title": "Only A Die-Hard '80s Horror Fan Can Correctly Identify These Popular Movies From Just One Screenshot",
+      "url": "https://www.buzzfeed.com/sarathompson1/1980s-horror-movie-trivia-quiz",
+      "summary": "The decade that did spooky right, honestly. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T09:31:02+00:00"
+    },
+    {
+      "title": "Reviewers Say These 27 Products Make Feeding Kids So Much Easier",
+      "url": "https://www.buzzfeed.com/ashleyschumacher/reviewers-products-make-feeding-kids",
+      "summary": "Because you got 99 problems, but feeding your grumpy baby/toddler/human-shaped object quickly and cleanly shouldn't be one of them. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T09:31:01+00:00"
+    },
+    {
+      "title": "黑客对三星电视进行逆向工程，发现内置AI正在监听，OpenAI账号被暂停",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "summary": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T09:16:58.436000+00:00"
+    },
+    {
+      "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
+      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T09:03:15+00:00"
+    },
+    {
+      "title": "30 Products So Elite That Basically No Copycats Will Ever Compare",
+      "url": "https://www.buzzfeed.com/gabriellermoss/products-so-elite-that-basically-no-copycats-ever-compare",
+      "summary": "There's no substitute for greatness...especially when it comes to ear plugs. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T09:01:02+00:00"
+    },
+    {
+      "title": "纯函数式编程能与C语言有多接近？",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "summary": "How close can pure functional programming get to C?",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T09:00:55.916000+00:00"
+    },
+    {
+      "title": "阿尔茨海默病研究取得突破：无需清除脑部斑块即可恢复2小时睡眠",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+      "summary": "Alzheimer''s breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T09:00:55.913000+00:00"
+    },
+    {
+      "title": "Why were the Nazca Lines built?",
+      "url": "https://www.livescience.com/archaeology/why-were-the-nazca-lines-built",
+      "summary": "The Nazca Lines are the most famous geoglyphs in the world. Dating back around 2,000 years and reaching a combined length of more than 800 miles (1,300 kilometers), they depict a variety of motifs, including humans, animals, geometric shapes, plants and flowers. These designs were constructed on the arid hills and valleys of coastal Peru by the Nazca people between 200 B.C. and A.D. 500, long before writing was used ",
+      "source": "LiveScience.com",
+      "category": "Science",
+      "published": "2026-10-24T09:00:00+00:00"
+    },
+    {
+      "title": "Deepseek招天才，Kimi找老兵",
+      "url": "https://www.tmtpost.com/8180419.html",
+      "summary": "算力霸权与智力密度的双重较量。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:58:00+00:00"
+    },
+    {
+      "title": "Meta迎来“分裂季”",
+      "url": "https://www.tmtpost.com/8180397.html",
+      "summary": "自由现金流上市以来首次转负。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:54:00+00:00"
+    },
+    {
+      "title": "大厂减配员工福利，纷纷进入“纯过日子”时代？",
+      "url": "https://www.tmtpost.com/8180346.html",
+      "summary": "节流有上限，大厂仍要四处找钱。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:49:00+00:00"
+    },
+    {
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "summary": "OBS Studio 33",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T08:44:50.976000+00:00"
+    },
+    {
+      "title": "Show HN: 让智能电视先“变笨”，再“变聪明”",
+      "url": "https://github.com/anubhavmalhotra/r2d2-tv",
+      "summary": "Making a smart TV dumb and then smart",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T08:44:50.972000+00:00"
+    },
+    {
+      "title": "三安光电实控人被批捕，但股价却涨了？真正的雷埋在控股股东那张破产重整申请书上",
+      "url": "https://www.tmtpost.com/8179970.html",
+      "summary": "三安光电实控人被刑拘，核心风险在控股股东破产重整。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:43:00+00:00"
+    },
+    {
+      "title": "印度在电芯上卡死，系统上对对中国放行？ 蜂巢能源在印度100天跑通743MWh",
+      "url": "https://www.tmtpost.com/8179969.html",
+      "summary": "蜂巢能源借印度政策缝隙落地743MWh储能项目。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:40:01+00:00"
+    },
+    {
+      "title": "斜杠青年和工牌，谁能给AI时代打工人一份“体面”？",
+      "url": "https://www.tmtpost.com/8180352.html",
+      "summary": "AI时代，一个人的尊严，能否不再紧紧系于他的职位、收入和工作表现？",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:39:13+00:00"
+    },
+    {
+      "title": "多氟多净利暴涨658%，Q3单季却少了四成，它到底靠什么吃饭？",
+      "url": "https://www.tmtpost.com/8179971.html",
+      "summary": "多氟多转型“材料+电池”对冲机制尚在调试。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:39:06+00:00"
+    },
+    {
+      "title": "当AI开始加速产业重构，经济与社会的适配能力能否跟上？",
+      "url": "https://www.tmtpost.com/8180404.html",
+      "summary": "AI不仅正在加速具体任务的执行，也可能加快企业组织与产业生态的重构。然而，技术效率提升并不必然转化为经济与社会价值。本文结合电气化历史、AI产业实证研究及金融Agent治理实践，探讨技术变革、组织与制度适配能力及系统性风险之间的新关系。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:38:22+00:00"
+    },
+    {
+      "title": "超级运动巨头的时代要消失了？",
+      "url": "https://www.tmtpost.com/8180380.html",
+      "summary": "信仰的溃败。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:38:01+00:00"
+    },
+    {
+      "title": "A Ph.D. led me to my dream job at Intel. At age 41, I started an MBA because I realised I was still missing key skills.",
+      "url": "https://www.businessinsider.com/phd-grad-intel-doing-mba-missing-skills-ai-2026-10",
+      "summary": "A Ph.D. grad who's worked at Intel since 2015 says investing in an MBA is helping him address gaps in his skillset in the age of AI.",
+      "source": "Business Insider",
+      "category": "Business",
+      "published": "2026-10-24T08:37:01+00:00"
+    },
+    {
+      "title": "1元/Wh这道坎，把储能行业劈成了两半",
+      "url": "https://www.tmtpost.com/8180354.html",
+      "summary": "这个价格信号与其说是行业亏损的判决书，不如说是淘汰赛的入场哨。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:32:44+00:00"
+    },
+    {
+      "title": "告别“高级打工仔”：硅谷AI牌桌上，挤满了中国留学生",
+      "url": "https://www.tmtpost.com/8180412.html",
+      "summary": "硅谷AI浪潮下，中国留学生创业者与GP群体正在整体性崛起",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:32:39+00:00"
+    },
+    {
+      "title": "27 Toys Under $10 That’ll Keep Your Dog Entertained",
+      "url": "https://www.buzzfeed.com/courtneylynneh/toys-under-10-thatll-keep-your-dog-entertained",
+      "summary": "Maybe now you can get your chores done. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T08:31:01+00:00"
+    },
+    {
+      "title": "AI审计者的显微镜，是被告造的",
+      "url": "https://www.tmtpost.com/8180386.html",
+      "summary": "一周之内，PHP 和 LiteLLM 先后塌方。这篇顺着废墟验三样东西：潜思考的\"自解码\"，拿回来的是忠实度 0.48 的口供；三种主流显微镜，或瞎、或被带歪、或要借被告的钥匙才开得动；agent 之间，已经开始造规避监督的语言。审计的显微镜，产自被告的后院。读输出，先认译员，再看内容。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:23:58+00:00"
+    },
+    {
+      "title": "线下消费，再次把“希望”寄托在猫狗身上",
+      "url": "https://www.tmtpost.com/8180362.html",
+      "summary": "靠宠物业态打破同质化的商场，最终可能陷入另一种更脆弱的业态。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:23:46+00:00"
+    },
+    {
+      "title": "陶哲轩尴尬了，哈佛研究显示AI审稿比专家强",
+      "url": "https://www.tmtpost.com/8180368.html",
+      "summary": "AI在七个评价维度上全面领先。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T08:23:40+00:00"
+    },
+    {
+      "title": "Here's how Canva's new image generation tool compares to models by OpenAI, Google, and Meta",
+      "url": "https://www.businessinsider.com/canva-craft-new-ai-image-generation-tool-2026-10",
+      "summary": "While Canva's new image generation tool fell short at making a birthday card, it's catching up to more powerful models in creating realistic images.",
+      "source": "Business Insider",
+      "category": "Business",
+      "published": "2026-10-24T08:11:01+00:00"
+    },
+    {
+      "title": "21 Comfortable Living Room Seating Options From Target Your Butt Will Thank You For",
+      "url": "https://www.buzzfeed.com/felisharossi/comfortable-living-room-seating-target-oct-2026-an",
+      "summary": "Seating for every occasion, whether you want to swivel, rock, recline, or lounge. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T08:01:02+00:00"
+    },
+    {
+      "title": "If You're Looking For A Warm Escape This Winter, You Should Really Check These Locations Out",
+      "url": "https://www.buzzfeed.com/bendzialdowski/where-is-hot-in-winter-holiday-destinations",
+      "summary": "From a music festival in the desert to looking for turtles in the ocean – this could be you this winter. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T07:31:03+00:00"
+    },
+    {
+      "title": "34 Home Products From Amazon Our Readers Are Loving In 2026",
+      "url": "https://www.buzzfeed.com/lily_burrill/amazon-home-products-readers-love-2026-an",
+      "summary": "From bathroom upgrades to backyard glow-ups, these are the picks readers keep adding to cart. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T07:31:01+00:00"
+    },
+    {
+      "title": "10 Pairs Of Shoes From Dr. Martens Destined To Become Your New Favorites",
+      "url": "https://www.buzzfeed.com/racheldunkel/shoes-from-dr-martens-destined-to-become-your-favorites-an",
+      "summary": "My oldest pair of Docs are 14 years old and still as cool (and functional) as the day I got them. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T07:01:01+00:00"
+    },
+    {
+      "title": "保障我们的前沿模型训练环境安全",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "summary": "Securing our frontier model training environment",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T06:38:45.839000+00:00"
+    },
+    {
+      "title": "The convicted £33m tax fraudster evading justice and living it up in Dubai",
+      "url": "https://www.bbc.co.uk/news/articles/cmy83v286571o?at_medium=RSS&at_campaign=rss",
+      "summary": "Arif Patel \"should not be beyond the reach of the justice system,\" says the PM’s anti-corruption champion.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T06:32:35+00:00"
+    },
+    {
+      "title": "30 Walmart Products You’ll Definitely Want On Hand If You Spend A Lot Of Downtime At Home",
+      "url": "https://www.buzzfeed.com/colingorenstein/walmart-products-youll-definitely-want-on-hand",
+      "summary": "And if you don't? Well, you certainly will now. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T06:31:02+00:00"
+    },
+    {
+      "title": "He wants to clean up the city and banish high prices. But who is ‘London’s Batman’?",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/24/london-batman-litter-fuel-fredos",
+      "summary": "In the harsh light of day, a caped crusader storms the streets of London to tackle a crime that has long blighted the capital: littering. “When I said I wanted to save London, I meant it. I will not stop until every single bit of trash is off the streets,” he says in a viral video, narrated in his trademark deep, husky and (suspiciously) American voice, joined by a gang of hooded helpers clearing rubbish-strewn stree",
+      "source": "The Guardian/US",
+      "category": "News",
+      "published": "2026-10-24T06:00:24+00:00"
+    },
+    {
+      "title": "Your Hands Work So Hard, So Here Are 28 Products To Give ‘Em Some TLC",
+      "url": "https://www.buzzfeed.com/negestikaudo/your-hands-work-hard-tlc-products-oct-2026-an",
+      "summary": "Sometimes TLC looks like a moisturizing mask, and sometimes it looks like a brand new piece of jewelry. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T06:00:02+00:00"
+    },
+    {
+      "title": "空气净化器作为白噪音发生器",
+      "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+      "summary": "Air Purifiers as White Noise Machines",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T05:51:50.227000+00:00"
+    },
+    {
+      "title": "分布式 SQLite 的十二年历程",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "summary": "Twelve years of distributed SQLite",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T05:35:49.912000+00:00"
+    },
+    {
+      "title": "音乐是如何产生的",
+      "url": "https://www.henrikkarlsson.xyz/p/music",
+      "summary": "How is music possible",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T05:35:49.908000+00:00"
+    },
+    {
+      "title": "Take These Important Steps To Ensure Food Safety, Says An Expert",
+      "url": "https://www.buzzfeed.com/lourdesavilauribe1/take-these-important-steps-to-ensure-food-safety-says-an",
+      "summary": "Items like a salad spinner, thermometer, good cleaning products and even a veggie brush can give you some peace of mind. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T05:31:02+00:00"
+    },
+    {
+      "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+      "summary": "Greg Bovino was the public face of the controversial immigration enforcement operation in the city earlier this year.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T05:31:01+00:00"
+    },
+    {
+      "title": "How Brazil's changing working class is reshaping the presidential race",
+      "url": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss",
+      "summary": "Calls for change present a challenge to President Lula in the second round of the election on Sunday.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T05:05:44+00:00"
+    },
+    {
+      "title": "Watch: The rise of AI election ads in US midterms campaign",
+      "url": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Verify has tracked dozens of AI ads to assess how they are being used by campaigns in the midterms.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T05:03:44+00:00"
+    },
+    {
+      "title": "Blind date: ‘We overstayed our welcome – the waiters were shaking the cutlery drawer really loudly’",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/24/blind-date-pardis-alexandrea",
+      "summary": "Alexandrea on Pardis What were you hoping for? A fun date and to hopefully meet the one! First impressions? Handsome and relaxed. What did you talk about? The sports we do. Books. Family. Friends. Our jobs. Travelling and travelling mishaps. Vermin infestations. Stocks and shares. ISAs. Most awkward moment? We both arrived at the restaurant on time but there was a big queue which resulted in me sitting at the table a",
+      "source": "The Guardian/US",
+      "category": "News",
+      "published": "2026-10-24T05:00:26+00:00"
+    },
+    {
+      "title": "The sexual assault scandal rocked gymnastics – but has pace of change in the sport been too slow?",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/sexual-assault-scandal-rocked-gymnastics-larry-nassar-sport-change-slow",
+      "summary": "I t has been 10 years since the Indianapolis Star published allegations of sexual abuse by Larry Nassar, the former team doctor for USA Gymnastics , setting off a chain of events that would lead to a reckoning for the sport. Hundreds of women came forward with their own allegations against Nassar, who also worked at Michigan State University, leading to his conviction and jailing. The exposure of his crimes sparked a",
+      "source": "The Guardian/US",
+      "category": "News",
+      "published": "2026-10-24T05:00:25+00:00"
+    },
+    {
+      "title": "As a divided Israel prepares to go to the polls, can Netanyahu pull off his greatest political trick yet?",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/24/divided-israel-election-benjamin-netanyahu",
+      "summary": "@font-face{font-family:Guardian Headline Full;src:url(https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Light.woff2) format(\"woff2\"),url(https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHeadline-Light.woff) format(\"woff\"),url(https://assets.guim.co.uk/static/frontend/fonts/guardian-headline/noalts-not-hinted/GHGuardianHe",
+      "source": "The Guardian/US",
+      "category": "News",
+      "published": "2026-10-24T05:00:24+00:00"
+    },
+    {
+      "title": "The Papers: 'Meghan warned over father' and 'Don't risk Truss-style budget'",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8devv08nno?at_medium=RSS&at_campaign=rss",
+      "summary": "Meghan Markle's responds to allegations over her father and PM warned to not risk 'Truss-style' budget leads Saturday's papers.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T04:46:05+00:00"
+    },
+    {
+      "title": "数采会成为具身智能的“牺牲品”吗？",
+      "url": "https://www.tmtpost.com/8180292.html",
+      "summary": "挤泡沫的时候到了？",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T04:40:00+00:00"
+    },
+    {
+      "title": "全线扩产仍供不应求，光刻机被抢疯了",
+      "url": "https://www.tmtpost.com/8180287.html",
+      "summary": "从晶圆制造到先进封装，新增投资正在覆盖更多光刻工序。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T04:26:00+00:00"
+    },
+    {
+      "title": "打工人，开始“表演”AI提效",
+      "url": "https://www.tmtpost.com/8180279.html",
+      "summary": "不会用AI不要紧，别让老板觉得你不会。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T04:19:00+00:00"
+    },
+    {
+      "title": "寒武纪Q3：利润翻倍，市值降温",
+      "url": "https://www.tmtpost.com/8180272.html",
+      "summary": "前三季度赚了37亿，但万亿市值已成往事。",
+      "source": "钛媒体：创新挖掘者",
+      "category": "IT新闻",
+      "published": "2026-10-24T04:14:00+00:00"
+    },
+    {
+      "title": "超37亿资金出逃宁德时代，中际旭创、新易盛遭集中抛售",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E8%B6%8537%E4%BA%BF%E8%B5%84%E9%87%91%E5%87%BA%E9%80%83%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%EF%BC%8C%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%E3%80%81%E6%96%B0%E6%98%93%E7%9B%9B%E9%81%AD%E9%9B%86%E4%B8%AD%E6%8A%9B%E5%94%AE",
+      "summary": "作者｜李益文 编辑｜李燕娜 视频｜肖航 本周（10月19日至10月23日），主力资金风格切换明显，呈现出“弃高就低”与“防御性调仓”的显著特征。前期涨幅较高、资金拥挤的新能源及光通信板块遭遇资金大规模获利了结，资金转而大举流入以存储芯片、消费电子为代表的科技硬件，以及具备避险属性的消费核心资产。 科技硬件成为本周吸金主阵地。 存储芯片方向表现尤为亮眼，龙头兆易创新本周主力资金净流入26.98亿元，高居全市场榜首， 周涨3.60%；德明利获净流入18.01亿元，周内大涨21.84%；大普微-U大涨42.57%，获12.31亿元主力资金加持。 消费电子及果链方向同样获资金积极布局。立讯精密主力资金净流入14.33亿元，周涨13.15%；歌尔股份净流入10.43亿元，周涨15.96%。此外，光通信板块的亨通光电（净流入14.99亿元，周涨14.54%）也获资金逆势抢筹。 值得注意的是，具备防御属性的消费龙头也重获资金青睐。贵州茅台本周",
+      "source": "21世纪经济报道",
+      "category": "微信公众号",
+      "published": "2026-10-24T04:05:00+00:00"
+    },
+    {
+      "title": "珠光集团出局，广州最大城中村改造项目将迎新接盘方",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E7%8F%A0%E5%85%89%E9%9B%86%E5%9B%A2%E5%87%BA%E5%B1%80%EF%BC%8C%E5%B9%BF%E5%B7%9E%E6%9C%80%E5%A4%A7%E5%9F%8E%E4%B8%AD%E6%9D%91%E6%94%B9%E9%80%A0%E9%A1%B9%E7%9B%AE%E5%B0%86%E8%BF%8E%E6%96%B0%E6%8E%A5%E7%9B%98%E6%96%B9",
+      "summary": "记者｜吴抒颖 编辑｜张敏 广州最大城中村改造项目，终于与原合作方正式解约。 广州市海珠区南洲街沥滘经济联合社于近期发布公告称，因珠光集团在沥滘城中村改造项目中长期持续违约，经社员代表大会表决通过，经联社已解除该项目合作协议，并将在政府指导下引入央国企推进后续改造。 历经跌宕之后，沥滘村改造项目总算与“前任”合作方分手，重新出发。 沥滘村位于海珠区南洲街，改造范围约151公顷，涉及村民数千户，是广州中心城区体量最大的城中村改造项目，这一项目的改造方案早在2011年就已经获批。项目采取“村企合作”模式，由村集体引入珠光集团承担拆迁补偿与建设资金，但由于后者的资金状况，近年来推进缓慢。 沥滘村“强势”解约的大背景是，今年以来，广州城市更新按下加速键。今年年中，广州还曾发文明确，对于旧模式城中村改造退出类项目：方案未获批的项目，今年6月底前完成解约，没有达成一致的，8月底前启动司法程序；方案已获批的项目，今年8月底前完成解约，没有达成一",
+      "source": "21世纪经济报道",
+      "category": "微信公众号",
+      "published": "2026-10-24T04:05:00+00:00"
+    },
+    {
+      "title": "躺不平、卷不动，孩子的周末到底怎么安排？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E5%91%A8%E5%88%8A+%E8%BA%BA%E4%B8%8D%E5%B9%B3%E3%80%81%E5%8D%B7%E4%B8%8D%E5%8A%A8%EF%BC%8C%E5%AD%A9%E5%AD%90%E7%9A%84%E5%91%A8%E6%9C%AB%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E5%AE%89%E6%8E%92%EF%BC%9F",
+      "summary": "一到周末，你的娃是不是又要“赶场”了？ 白天补课、上兴趣班，晚上还要写作业。 家长也没闲着，接送、陪学、规划下一项课程。 一整个周末过去，全家都累得不想说话。 可静下心来想想， 我们拼命给孩子的周末 “ 加码 ” ，到底是在解决学习问题，还是在安抚自己的教育焦虑？ 01 孩子很忙，但思考真的在发生吗？ 教育学家 朱永新 曾提到， “中国教育科学研究院做过一个两万人的调查，对于绝大部孩子来说，补习是无效的。当我们的教育把孩子的时间全部填满的时候，他反而得不到发展。” 其实，学习的本质，不是被动接收信息，而是学会独立思考。 放手给孩子留一点思考的时间，或许比安排一大堆课更有效率。 可做家长的又很难真正 “ 放手 ” 。躺平怕孩子被落下，“鸡娃”又怕孩子厌学。 有没有一种方式， 不需要给孩子增加一堆任务，却能在日常生活里练习思考？ 《普通的孩子》剧照 02 听一条新闻 就是性价比极高的思维练习 想要训练思辨力，新闻是很好的入口。 它不",
+      "source": "三联生活周刊",
+      "category": "微信公众号",
+      "published": "2026-10-24T04:00:00+00:00"
+    },
+    {
+      "title": "今年最好的爱情剧，是他的遗作？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E5%91%A8%E5%88%8A+%E4%BB%8A%E5%B9%B4%E6%9C%80%E5%A5%BD%E7%9A%84%E7%88%B1%E6%83%85%E5%89%A7%EF%BC%8C%E6%98%AF%E4%BB%96%E7%9A%84%E9%81%97%E4%BD%9C%EF%BC%9F",
+      "summary": "*本文为「三联生活周刊」原创内容 安畔锡虽然不是那种收视率总能大爆的导演，但如果将韩国电视剧导演做一个分档，他一定在第一流的行列里。安畔锡执导的《妻子的资格》《密会》《经常请吃饭的漂亮姐姐》《春夜》《毕业》等爱情剧，经得起一看再看。 今年8月12日，安畔锡因脑出血并发症去世，享年64岁。他在2025年确诊肺癌，仍坚持完成了《恋爱博士》的全部拍摄，后期剪辑也由他亲自完成。这部遗作于近日播出，口碑极佳，也被很多观众视为年度最好的爱情剧。 《恋爱博士》依然保留着安畔锡鲜明的文学性笔法和独特的质地：中近景镜头中的身体距离、自然光下的明暗层次、与情境契合的配乐，以及人物在真实环境中的相处方式。与此同时，安畔锡再一次在他的爱情剧里注入了现实感：两个不完美的年轻人，如何克服个性差异与现实偏见的“障碍”去相爱。这是安畔锡创作生涯最后一次关于爱情的追问。 文 ｜曾于里 “文学性”的浪漫 爱情剧一直是韩剧最主流的类型之一，每年都有大量作品涌现，但安",
+      "source": "三联生活周刊",
+      "category": "微信公众号",
+      "published": "2026-10-24T04:00:00+00:00"
+    },
+    {
+      "title": "流行不断变化，年轻人为什么开始爱上优衣库经典款？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E5%91%A8%E5%88%8A+%E6%B5%81%E8%A1%8C%E4%B8%8D%E6%96%AD%E5%8F%98%E5%8C%96%EF%BC%8C%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BC%80%E5%A7%8B%E7%88%B1%E4%B8%8A%E4%BC%98%E8%A1%A3%E5%BA%93%E7%BB%8F%E5%85%B8%E6%AC%BE%EF%BC%9F",
+      "summary": "每年十月，换季带来了新的穿衣难题。季节一变，衣橱似乎也要重新整理。去年的衣服该怎么搭配，今年又需要添置些什么？ 一件衣服还没来得及穿旧，新的流行已经出现。在社交媒体上，穿衣风格不断被命名，新的穿搭模板接连出现。年轻人似乎总能找到尝试新衣服的理由。 在不断尝试新的穿衣风格之后，一些年轻人却在优衣库的经典款里停了下来。不是因为它更时髦，而是因为它解决了一个具体的问题：买不对的衣服太多了，买对的衣服，却总是那几件。 “经典款”的含义似乎也在这代年轻人之间发生了变化。过去提起经典款，人们容易联想到成熟、保守，而对于成长于社交媒体时代的年轻人来说，它的价值或许恰恰在于，不必追赶每一季的潮流，却能跟上生活的变化。我们走进了20代年轻人的衣橱，从他们反复穿着的优衣库经典款出发，寻找这些普通衣服被一次次选择的理由。 买不动次抛衣的年轻人， 开始回归经典款 薄脆和听听正在经历人生衣橱的“换季”时刻。 三年前，听听研究生毕业，进入体制内工作。与相对",
+      "source": "三联生活周刊",
+      "category": "微信公众号",
+      "published": "2026-10-24T04:00:00+00:00"
+    },
+    {
+      "title": "宋慧乔意大利度假鲨疯了！4套穿搭全种草，灰色针织衫+直筒裤，高智清冷大姐姐太飒了！",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%81%E7%82%B9%E8%AF%BB%E4%B9%A6+%E5%AE%8B%E6%85%A7%E4%B9%94%E6%84%8F%E5%A4%A7%E5%88%A9%E5%BA%A6%E5%81%87%E9%B2%A8%E7%96%AF%E4%BA%86%EF%BC%814%E5%A5%97%E7%A9%BF%E6%90%AD%E5%85%A8%E7%A7%8D%E8%8D%89%EF%BC%8C%E7%81%B0%E8%89%B2%E9%92%88%E7%BB%87%E8%A1%AB%2B%E7%9B%B4%E7%AD%92%E8%A3%A4%EF%BC%8C%E9%AB%98%E6%99%BA%E6%B8%85%E5%86%B7%E5%A4%A7%E5%A7%90%E5%A7%90%E5%A4%AA%E9%A3%92%E4%BA%86%EF%BC%81",
+      "summary": "宋慧乔最近去时装周参加BV大秀，姐姐好美，这次一下子又走起了高智清冷大姐姐范儿~气质赢麻了。 各种高智气质挂单品，风衣呀~ 廓形权力西装呀~白衬衫牛仔裤等等。 高智MIU系针织衫+牛仔裤这套超喜欢，感觉乔妹也很喜欢这套，ins一连晒出多张这套穿搭照片，高智少女又有点文艺范儿，冷静克制又耐看。 这两年秋冬高智风确实很火，这不，最近明显降温，准备了一波高智风单品，上身巨显气质巨耐看，文末还有留言抽奖，快来一起看看吧~ 点击下图，抢先购👇 有人曾说：“时尚是一个轮回”，没有哪一种流行能够永远屹立巅峰。 但是！ 有一件单品却是例外，每每到了春、秋季节，它便成为了不少时髦人士的“心头爱”——针织开衫！ 不管是博主还是明星，都很钟爱它。 既好看又有搭配感，还舒服自在。 翻看下小H书， 时尚博主们， 谁穿谁美 ，超级显瘦显气质~ 这件风靡时尚圈的单品， 为什么能有这么大的魅力呢？ 我想：应该少不了这些因素吧？ 显高遮肉、风格多变、适合亚洲人、",
+      "source": "十点读书",
+      "category": "微信公众号",
+      "published": "2026-10-24T04:00:00+00:00"
+    },
+    {
+      "title": "有一批中年女性，宁可少拿退休金，也要提前退休",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%81%E7%82%B9%E8%AF%BB%E4%B9%A6+%E6%9C%89%E4%B8%80%E6%89%B9%E4%B8%AD%E5%B9%B4%E5%A5%B3%E6%80%A7%EF%BC%8C%E5%AE%81%E5%8F%AF%E5%B0%91%E6%8B%BF%E9%80%80%E4%BC%91%E9%87%91%EF%BC%8C%E4%B9%9F%E8%A6%81%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91",
+      "summary": "▼ 点下方播放按钮收听 十点主播素年锦时朗读 音频 大家有没有发现，近些年，有一个词热度居高不下，引发很多关注和热议。 它就是 “提前退休” 。 顾名思义，“提前退休”，指的是尚未达到法定退休年龄，就离开职场的现象。 人社部社保研究所原所长何平，曾公开指出： 在全国各地，提前退休的群体普遍存在。 清华大学的杨燕绥教授也调研发现，某人口大省提前退休的比例，高达17%。 按理来说，社保一直鼓励“多缴多得，长缴多得”，一个人交社保的时间越长、金额越大，将来领的养老金就越多。 但生活中，却有一批中年女性，宁可少拿退休金，也要提前退休。 为什么呢？ 今天，就来聊聊这个话题。 博主 @退休的豆豆 曾在网上分享自己退休的经历。 她是50岁出头的时候，办了提前退休的手续，理由是： 身体熬不住，要垮掉了。 在退休以前，豆豆是单位里的业务骨干，年年业绩优秀，经常被评优评先。 直到快50岁的时候，她的身体开始出现异样。 连着两三年的时间，她出现心悸、",
+      "source": "十点读书",
+      "category": "微信公众号",
+      "published": "2026-10-24T04:00:00+00:00"
+    },
+    {
+      "title": "Rahm Emanuel Is “Cautiously Optimistic” About the Democrats’ Midterm Prospects",
+      "url": "https://www.newyorker.com/podcast/political-scene/rahm-emanuel-is-cautiously-optimistic-about-the-democrats-midterm-prospects",
+      "summary": "The former Chicago mayor thinks that the Democrats can flip Senate seats in Iowa and Texas, but he credits Republican infighting more than his own party’s message.",
+      "source": "The New Yorker",
+      "category": "Long Reads",
+      "published": "2026-10-24T03:59:00+00:00"
+    },
+    {
+      "title": "一个能治「灰指甲」的小东西，很多人却不敢用",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%A6%88%E5%A6%88+%E4%B8%80%E4%B8%AA%E8%83%BD%E6%B2%BB%E3%80%8C%E7%81%B0%E6%8C%87%E7%94%B2%E3%80%8D%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%BE%88%E5%A4%9A%E4%BA%BA%E5%8D%B4%E4%B8%8D%E6%95%A2%E7%94%A8",
+      "summary": "-广告- 如果你在为灰指甲困扰，快试试——5% 阿莫罗芬搽剂！ 它属于广谱抗真菌药，专治灰指甲，可以渗透进甲板，成膜后用肥皂水都不会被洗掉。 每涂一次药可以维持一周 ，而且不影响肝肾功能， 停药后，还可以用它来维持治疗、防复发。 上下滑动查看广审图 鄂药广审（文）第 270724-07066 号 注：请仔细阅读说明书或在医师指导下购买使用，禁忌及注意事项详见说明书。 每盒含 1 瓶 2.5 mL 搽剂 配备药铲、清洁药签 甲锉（砂纸锉、金属锉） 买 3 盒低至 79 元 / 盒 再多得一盒脚气乳膏 点击图片购买 灰指甲，属于那种「伤害性不大，烦扰度极高」的疾病。不痛不痒，但真的很丑。 最最让人烦扰的是，灰指甲会传染。 不仅会在自身蔓延，也可能在共用指甲剪、拖鞋、毛巾等物品时传染给家人和孩子。 所以发现有灰指甲后，一定要第一时间治疗，既能避免更多指甲受累，也可以减少传染家人的可能性。 对于轻中度灰指甲，可单独用「 5% 阿莫罗芬搽",
+      "source": "丁香妈妈",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:58:00+00:00"
+    },
+    {
+      "title": "67 Stocking Stuffers You Shouldn't Wait Until December To Treat Yourself To",
+      "url": "https://www.buzzfeed.com/maitlandquitmeyer/stocking-stuffers-shouldnt-wait-until-december-treat-self-to",
+      "summary": "Plus, when you see how great these are, you can just re-order them and give them to your friends and family... I mean...Christmas is under 65 days away. View Entire Post &rsaquo;",
+      "source": "BuzzFeed",
+      "category": "Internet",
+      "published": "2026-10-24T03:55:31+00:00"
+    },
+    {
+      "title": "一男子在警察面前痛哭，称被人割包盗走6.5万元，5小时后被警方行政处罚，真相让人大跌眼镜……",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E4%B8%80%E7%94%B7%E5%AD%90%E5%9C%A8%E8%AD%A6%E5%AF%9F%E9%9D%A2%E5%89%8D%E7%97%9B%E5%93%AD%EF%BC%8C%E7%A7%B0%E8%A2%AB%E4%BA%BA%E5%89%B2%E5%8C%85%E7%9B%97%E8%B5%B06.5%E4%B8%87%E5%85%83%EF%BC%8C5%E5%B0%8F%E6%97%B6%E5%90%8E%E8%A2%AB%E8%AD%A6%E6%96%B9%E8%A1%8C%E6%94%BF%E5%A4%84%E7%BD%9A%EF%BC%8C%E7%9C%9F%E7%9B%B8%E8%AE%A9%E4%BA%BA%E5%A4%A7%E8%B7%8C%E7%9C%BC%E9%95%9C%E2%80%A6%E2%80%A6",
+      "summary": "“别哭了，别哭了。到底怎么回事？”报警人余某泪流满面，民警刘翼正安抚他的情绪。可5小时后，余某却被公安机关依法予以行政处罚。 这一令人大跌眼镜的反转，是怎么一回事？ 近日，成都市公安局高新区分局新益州派出所接到男子余某报警， 称其在环球中心办事时，随身背着的黑色单肩包被人划开了一道口子，包内的65000元人民币现金不翼而飞。 接警后，新益州派出所民警刘翼迅速到达现场，余某面对民辅警，掩面失声痛哭， “65000元（被偷了），我老婆今早取给我的，我怎么（给家里 ） 交代嘛！” 余某反复哭诉钱财被盗。 随后，刘翼耐心安抚余某后将他带回派出所，准备开展立案工作并核查钱款去向。在派出所综合指挥室内，民警乔宇、辅警彭杰经过5个小时的细致核查研判，发现余某抵达环球中心后，并未接触任何可疑人员。 同时核查还发现，余某被划破的单肩包破损朝向与其陈述情况不符。民警据此推断，余某所称现金被盗，存在谎报警情嫌疑…… 将余某带至询问区后，民警李其泽、乔",
+      "source": "新华网",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:47:00+00:00"
+    },
+    {
+      "title": "奥运会新项目，来了！",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E5%A5%A5%E8%BF%90%E4%BC%9A%E6%96%B0%E9%A1%B9%E7%9B%AE%EF%BC%8C%E6%9D%A5%E4%BA%86%EF%BC%81",
+      "summary": "阳光、沙滩、海浪、音乐 奔跑、跳跃、划桨、冲线 这是海岸赛艇沙滩冲刺的比赛现场 作为赛艇家族里最年轻的成员之一 它是2028年洛杉矶奥运会的 新增比赛项目 10月21日，一名运动员在与工作人员交流。新华社记者 焦子琦 摄 10月21日 2026年世界沙滩冲刺总决赛 在青岛西海岸新区金沙滩落幕 比赛设置10个项目 来自50多个国家和地区的 300余名运动员参加 10月21日，葡萄牙队运动员鲁索（左）在比赛中。新华社记者 焦子琦 摄 1896年首届现代奥运会 赛艇就被列为比赛项目 大约二十年前 海岸赛艇运动兴起 为这项运动注入新活力 沙滩冲刺 则是海岸赛艇的一种短距离比赛形式 10月19日，运动员在比赛中准备出发。新华社记者 焦子琦 摄 伴随着节奏强劲的音乐 运动员在沙滩上两两一组同时出发 跑步冲向岸边 在队友的帮助下登上赛艇 10月21日，中国队运动员刘家瑜（右）在比赛中跃入赛艇。新华社记者 焦子琦 摄 随后 运动员需完成两段各约",
+      "source": "新华网",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:47:00+00:00"
+    },
+    {
+      "title": "最新民调：反内塔尼亚胡阵营占优",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E6%9C%80%E6%96%B0%E6%B0%91%E8%B0%83%EF%BC%9A%E5%8F%8D%E5%86%85%E5%A1%94%E5%B0%BC%E4%BA%9A%E8%83%A1%E9%98%B5%E8%90%A5%E5%8D%A0%E4%BC%98",
+      "summary": "据共同社10月24日报道，以色列选前最后一次民调显示反内塔尼亚胡阵营占优。 以色列《晚祷报》23日公布了以色列议会选举前的最终民调结果。预计内塔尼亚胡阵营将获得120个席位中的48席，而反对内塔尼亚胡的阵营则有望获得54席。在一周前的民调中，双方均预计获得51席。多家电视台23日报道的民调结果也显示，反内塔尼亚胡阵营目前占优。 本次大选的核心议题是内塔尼亚胡是否继续执政。内塔尼亚胡的总理任期累计约19年，是以色列历史上任期最长的领导人。但由于未能阻止哈马斯在2023年10月发动突袭，要求其承担责任的呼声依然强烈。 根据《晚祷报》的民调，在各政党支持率方面，由国防军前总参谋长加迪·埃森科特担任党首的中间派政党正直党以21席位居首位，而内塔尼亚胡领导的右翼利库德集团预计将获得19个席位。 以色列大选采用全国单一选区的比例代表制来分配议席。自1948年以来，从未有单一政党获得过半数席位，因此选后的组阁谈判将成为决定下一届政府的关键。 ",
+      "source": "参考消息",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:46:00+00:00"
+    },
+    {
+      "title": "“‘阵风’战机在英国‘台风’战机护航下，实施模拟核打击”",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E2%80%9C%E2%80%98%E9%98%B5%E9%A3%8E%E2%80%99%E6%88%98%E6%9C%BA%E5%9C%A8%E8%8B%B1%E5%9B%BD%E2%80%98%E5%8F%B0%E9%A3%8E%E2%80%99%E6%88%98%E6%9C%BA%E6%8A%A4%E8%88%AA%E4%B8%8B%EF%BC%8C%E5%AE%9E%E6%96%BD%E6%A8%A1%E6%8B%9F%E6%A0%B8%E6%89%93%E5%87%BB%E2%80%9D",
+      "summary": "据法新社10月23日报道，法国和英国国防部23日在一份声明中说，两国空军首次开展了模拟核打击的联合演习。 声明说，这场代号为“拉米”的演习于20日举行，英国皇家空军的“台风”战斗机和法国的“阵风”战斗机在地中海上空参与了演习。 这份声明还说，演习按照安全流程开展，没有使用任何真实核武器，目的是提升这两个西欧核大国之间的协同能力。 声明说，法国“阵风”战斗机从法国东北部一处基地起飞后，在英国皇家空军“台风”战斗机的护航下，实施了一次模拟核打击。 这场演习举行之际，北约国家与俄罗斯之间局势依然高度紧张。 法国总统马克龙表示，希望其他欧洲盟友分享法国核威慑力量带来的保护。英国脱欧之后，法国是欧盟唯一的核大国。 法国国防部长卡特琳·沃特兰说：“拥有独立核力量，并不代表不能开展协同行动。” 联合声明援引英国国防大臣韦斯·斯特里廷的话说，这场演习标志着英法两国在核防务领域的关系翻开“新篇章”。 微信审核 | 邓媛 内容编审 | 魏玉栋 韩炎",
+      "source": "参考消息",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:46:00+00:00"
+    },
+    {
+      "title": "日本突发地震",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E6%97%A5%E6%9C%AC%E7%AA%81%E5%8F%91%E5%9C%B0%E9%9C%87",
+      "summary": "据日本气象厅消息，当地时间24日1时07分左右，日本岩手县附近海域发生5.0级地震，震源深度20千米。 据日本TBS电视台报道，岩手县、青森县、宫城县等多地有震感。 报道称，此次地震没有引发海啸的风险。 来源 | 中国新闻网 审核 | 邓媛 编辑 | 郭庆娜 文章原文",
+      "source": "参考消息",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:46:00+00:00"
+    },
+    {
+      "title": "国际油价，直线拉升！",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%EF%BC%8C%E7%9B%B4%E7%BA%BF%E6%8B%89%E5%8D%87%EF%BC%81",
+      "summary": "当地时间10月23日， 美国三大股指、欧洲三大股指集体收跌 。中东地缘供给风险升温，推升原油风险溢价， 国际油价显著上涨 ， 布油再创近6个月新高 。能源价格显著上涨引发市场对美联储进一步加息的担忧升温，市场流动性承压。同时，全球风险资产普跌，部分投资者减持金银资产回笼资金， 进一步加剧贵金属下行压力 。 国际黄金、白银价格均收跌 ，本周累计大幅回落 。 23日国际油价显著上涨 布油创近6个月来新高 也门胡塞武装持续打击沙特石油设施，中东地缘供给风险升温，推升原油风险溢价。高盛、摩根士丹利等投行分析指出，本轮油价上行，除地缘风险因素外，原油运费飙升、成品油紧缺等供应链紧张问题同样是核心推手。 国际油价周五显著上涨，布伦特油价自本周二触及每桶110美元关口以来，创近6个月来新高 。 截至收盘，纽约商品交易所12月交货的轻质原油期货价格收于每桶103.27美元，涨幅为3.82%；12月交货的伦敦布伦特原油期货价格收于每桶116.72",
+      "source": "央视财经",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:40:00+00:00"
+    },
+    {
+      "title": "3万亿级！全球最大开源大模型，上新→",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+3%E4%B8%87%E4%BA%BF%E7%BA%A7%EF%BC%81%E5%85%A8%E7%90%83%E6%9C%80%E5%A4%A7%E5%BC%80%E6%BA%90%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%8C%E4%B8%8A%E6%96%B0%E2%86%92",
+      "summary": "人工智能大模型智能水平再进一步。10月24日凌晨， 月之暗面发布 新一代开源大模型Kimi K3.1 Pro 。该模型为 3万亿级参数规模 ， 支持100万词元上下文窗口 ， 蝉联 全球参数规模最大的开源模型。 在多项国际权威评测中， Kimi K3.1 Pro综合智能水平已接近全球领先的闭源模型 。 据介绍，Kimi K3.1 Pro大幅增加了强化学习环节的算力投入，具备更强的专业工具调用能力，在多个应用场景的能力均有提升。 在代码编写、3D创作、金融研究与建模等复杂任务上的能力明显提升 ，可完成更长时间的多步骤复杂任务。据企业相关负责人介绍，团队对训练框架、推理效率、调度系统等技术体系的每一层都做了优化。 在编程领域 ， Kimi K3.1 Pro能熟练使用专业的设计和开发工具，并结合网络搜索与3D生成做出完整体验，为游戏和网页带来更专业的视觉呈现，产出的页面和交互场景在构图、排版、动画效果和完成度上都有明显提升， 尤其是长",
+      "source": "央视财经",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:40:00+00:00"
+    },
+    {
+      "title": "港科广新基准：只给截图，AI能把App交互做出来吗？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+%E6%B8%AF%E7%A7%91%E5%B9%BF%E6%96%B0%E5%9F%BA%E5%87%86%EF%BC%9A%E5%8F%AA%E7%BB%99%E6%88%AA%E5%9B%BE%EF%BC%8CAI%E8%83%BD%E6%8A%8AApp%E4%BA%A4%E4%BA%92%E5%81%9A%E5%87%BA%E6%9D%A5%E5%90%97%EF%BC%9F",
+      "summary": "新智元报道 给AI几张网站截图，它已经能快速生成一个「看起来很像」的网页。但真正操作起来呢？在商品页加入商品后，购物车会不会更新；切换页面后，刚才的状态还能不能保留？ UI2App关注的正是这个问题：不给功能说明、不给点击轨迹或交互演示，只给静态UI截图，模型能否自行推断并实现其中隐含的应用行为？我们把这种能力称为Interaction Inference，即「交互推断」。 论文：https://arxiv.org/abs/2607.06306v2 项目主页：https://chenmancm169.github.io/UI2App-ProjectPage/ 代码：https://github.com/chenmancm169/UI2App 论文Figure 1：同一组截图、同一操作序列下，视觉还原更高并不保证购物车状态逻辑被正确实现。 只给有限参考 模型能不能把App真正做出来？ 一个很现实的需求是：看到一个喜欢的产品界面，希",
+      "source": "新智元",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:40:00+00:00"
+    },
+    {
+      "title": "苹果首款折叠屏开卖！没AI也抢疯了，发货排到明年1月",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+%E8%8B%B9%E6%9E%9C%E9%A6%96%E6%AC%BE%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%BC%80%E5%8D%96%EF%BC%81%E6%B2%A1AI%E4%B9%9F%E6%8A%A2%E7%96%AF%E4%BA%86%EF%BC%8C%E5%8F%91%E8%B4%A7%E6%8E%92%E5%88%B0%E6%98%8E%E5%B9%B41%E6%9C%88",
+      "summary": "新智元报道 苹果首款折叠屏iPhone Duo，国行已经正式开卖。 15999元起 ，展开是一块7.6英寸的大屏，里面是2纳米的A20 Pro。苹果在美国官网上介绍这块屏，说更大的画布让Duo更适合Siri AI。 可在国行Duo上长按侧边按钮， 叫出来的还是那个老Siri，苹果智能一项都没开通。 不过，这一点也没耽误大家抢。现在下单起售款， 发货已经排到了明年1月22日 。 抢到首批的人，开卖当天一早就拿到了手。 这份快乐我们也安排上了， 全员人手一台Duo ，第一批昨天也到了。 200亿参数，装进一台折叠iPhone 虽然AI没到，但苹果为AI准备的硬件倒是一样不少。 Duo用的A20 Pro和iPhone 18 Pro是同一颗芯片，配12GB内存。神经网络引擎变成「双16核」， 跑端侧AI的算力翻倍，内存带宽多了50% 。 这几样对应的，正是手机跑大模型的三道关，装得下，吐得快，还得一直算得动。 苹果今年6月公布的AFM ",
+      "source": "新智元",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:40:00+00:00"
+    },
+    {
+      "title": "常青藤名校光环褪色！华尔街失宠，学霸扎堆硅谷疯狂搞AI",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+%E5%B8%B8%E9%9D%92%E8%97%A4%E5%90%8D%E6%A0%A1%E5%85%89%E7%8E%AF%E8%A4%AA%E8%89%B2%EF%BC%81%E5%8D%8E%E5%B0%94%E8%A1%97%E5%A4%B1%E5%AE%A0%EF%BC%8C%E5%AD%A6%E9%9C%B8%E6%89%8E%E5%A0%86%E7%A1%85%E8%B0%B7%E7%96%AF%E7%8B%82%E6%90%9EAI",
+      "summary": "新智元报道 去华尔街、大厂还是去车库，这代美国大学生做出了自己的选择。 去SpaceX，或者Google，拿一份安稳、体面、年薪六位数的实习offer；还是一头扎进旧金山拥挤的「黑客屋」（Hacker House），和一群同样疯狂的年轻人挤上下铺，前途未卜。 如果是你，你会怎么选？ 普林斯顿大学的高材生查尔斯·穆尔伯格（Charles Muehlberger）毫不犹豫地撕掉了第一张门票，跳上了独木舟。 仅仅四周后，他不仅创办了自己的AI初创公司，还一路杀到了巴塞罗那，向潜在客户推销他那个极具野心的构想——将开源AI模型离线部署到本地设备上。 这种被时代在后面疯狂追赶的紧迫感，让他甚至做出了一个违背传统精英教条的决定： 休学一年。 「现在就动手建设的人，才能在未来的图景中拥有话语权。」查尔斯说。 这绝不仅是一个关于「大学生叛逆创业」的老套故事。 穆尔伯格不是个例。 今年夏天的旧金山，出现了一种反常的景象：常春藤联盟、斯坦福、MIT",
+      "source": "新智元",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:40:00+00:00"
+    },
+    {
+      "title": "塔图姆与巴恩斯：全能前锋得做到什么地步",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E5%A1%94%E5%9B%BE%E5%A7%86%E4%B8%8E%E5%B7%B4%E6%81%A9%E6%96%AF%EF%BC%9A%E5%85%A8%E8%83%BD%E5%89%8D%E9%94%8B%E5%BE%97%E5%81%9A%E5%88%B0%E4%BB%80%E4%B9%88%E5%9C%B0%E6%AD%A5",
+      "summary": "塔图姆对尼克斯最后一分钟，投进“8号科比/魔术麦蒂式晃了一下后强拔跳投”——还是两个。 36分9篮板7助攻。 送给卫冕冠军尼克斯开局两连败。 MVP级别的发挥。 首战对活塞，塔图姆23投6中：1/3因为手感，1/3因为奥萨尔联盟顶尖单防，1/3是活塞的防守侧重。 今天尼克斯没投入那么大精力，塔图姆自如一些：他还是出手了太多勉强的跳投，但可以做自己了。冲篮、背打、强投，节奏保持很好。最后时刻要接管，尼克斯也没勒住他不让他摸球。他也就送走了比赛。 乔治继续给出不错的防守。怎么说呢？双杰当初是蝙蝠侠和罗宾，而乔治现在就是蝙蝠侠的管家阿尔弗雷德。 当然也有点问题：塔图姆终究伤过，爆发力和起跳高度还是没回到巅峰。几次面对庄神，他都没法过得干净。 毕竟高难度强投进了就是神仙球，投丢就是不合理，只适合当炫技的甜点；强硬袭筐和空位三分没那么惊喜，但是日常主食。除了少数投篮真比袭篮效率还高的怪物，大多数 神奇跳投背后，多是迫不得已。 怀特是凯尔特",
+      "source": "张佳玮写字的地方",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:36:00+00:00"
+    },
+    {
+      "title": "诸葛宇杰任青海省委副书记、省政府党组书记",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E8%AF%B8%E8%91%9B%E5%AE%87%E6%9D%B0%E4%BB%BB%E9%9D%92%E6%B5%B7%E7%9C%81%E5%A7%94%E5%89%AF%E4%B9%A6%E8%AE%B0%E3%80%81%E7%9C%81%E6%94%BF%E5%BA%9C%E5%85%9A%E7%BB%84%E4%B9%A6%E8%AE%B0",
+      "summary": "日前，中共中央批准：诸葛宇杰同志任青海省委委员、常委、副书记。青海省委决定：诸葛宇杰同志任青海省政府党组书记。 SFC 来源丨青海日报 编辑丨林芊蔚 文章原文",
+      "source": "21世纪经济报道",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:30:00+00:00"
+    },
+    {
+      "title": "突发！iPhone Duo 支持微信平板登录，可与手机、电脑同时在线",
+      "url": "https://www.ifanr.com/1685714?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "来了来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿 · Beats of Bits",
+      "category": "IT新闻",
+      "published": "2026-10-24T03:25:33+00:00"
+    },
+    {
+      "title": "Everybody's Hitler! Ad Absurdum...",
+      "url": "https://www.zerohedge.com/political/everybodys-hitler-ad-absurdum",
+      "summary": "Everybody's Hitler! Ad Absurdum... Authored by Jack Hunter via Libertarian Institute Piers Morgan recently said on his program of Russian President Vladimir Putin, “I do think he’s the nearest thing to a modern day Hitler … ” Libertarian Institute Director Scott Horton had something to say about that. “You know what?” Horton said. “Noriega’s Hitler and Saddam’s Hitler and Milosevic’s Hitler and Putin’s Hitler. It sou",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T03:25:00+00:00"
+    },
+    {
+      "title": "任泽平公众号被禁止关注",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E4%BB%BB%E6%B3%BD%E5%B9%B3%E5%85%AC%E4%BC%97%E5%8F%B7%E8%A2%AB%E7%A6%81%E6%AD%A2%E5%85%B3%E6%B3%A8",
+      "summary": "10月24日，有网友发现任泽平账号因违规被禁止关注。 21世纪经济报道 注意到， 公众号“泽平宏观” 昨日（10月23日）还有更新，但目前已无法搜索到也无法关注，视频号仍可关注。 公开资料显示，任泽平，男，汉族，1979年3月出生于山东枣庄，清华大学经济管理学院博士后，中国人民大学经济学博士，独立经济学家，现任中国民营经济研究会副会长、中原银行首席经济学家。任泽平是专业财经头部“泽平宏观”创始人，曾担任国务院发展研究中心宏观经济研究部研究室副主任、国泰君安证券研究所董事总经理、首席宏观分析师等职务。 SFC 出品丨21财经客户端 21世纪经济报道 编辑｜林芊蔚 文章原文",
+      "source": "21世纪经济报道",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:20:00+00:00"
+    },
+    {
+      "title": "我的长征学习手记",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E6%88%91%E7%9A%84%E9%95%BF%E5%BE%81%E5%AD%A6%E4%B9%A0%E6%89%8B%E8%AE%B0",
+      "summary": "“具有崇高理想和坚定信念的队伍 是不可战胜的” 万里征途 红军战士不惧生死 无怨无悔“跟着走” 只因信念坚定： 跟着共产党，就能打胜仗 “长征的历史从未远去 长征的路在不断延伸” 新征程上 还有一个个“雪山”“草地” 需要我们跨越 一道道“娄山关”“腊子口” 有待我们攻克 红军长征胜利90周年之际 我们推出互动H5 《我的长征学习手记》 扫描海报二维码 翻开你的学习手记 学习习近平总书记重要论述 感悟伟大长征精神 找到前行方向 汲取奋进力量 一步一步，走向胜利 新华社国内部 新华社新媒体中心 新华社新闻信息中心 腾讯新闻 联合出品 来源：新华社微信公众号 文章原文",
+      "source": "半月谈",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:18:00+00:00"
+    },
+    {
+      "title": "Met investigates reports of letter detailing claims about Meghan's father",
+      "url": "https://www.bbc.co.uk/news/articles/cmlylkkzl2neo?at_medium=RSS&at_campaign=rss",
+      "summary": "Scotland Yard opens an inquiry after the Duchess of Sussex said she was sent a letter containing \"disturbing allegations\".",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T03:17:24+00:00"
+    },
+    {
+      "title": "警察、宪兵、装甲车……法国严阵以待",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E8%AD%A6%E5%AF%9F%E3%80%81%E5%AE%AA%E5%85%B5%E3%80%81%E8%A3%85%E7%94%B2%E8%BD%A6%E2%80%A6%E2%80%A6%E6%B3%95%E5%9B%BD%E4%B8%A5%E9%98%B5%E4%BB%A5%E5%BE%85",
+      "summary": "法国内政部长努内兹23日对媒体说，法国政府将部署7万名警察和宪兵，以应对预计在24日举行的大规模示威活动可能引发的暴力行为。 努内兹说，政府还将部署约20辆装甲车以及15辆警用水炮车。相关部署兼顾机动性和震慑力，“抢劫、破坏公共机构建筑、袭击治安部队等，所有潜在风险群体的暴力行为都将被遏制”。 努内兹20日曾表示，24日将部署法军反恐力量“哨兵”行动的士兵增援警察和宪兵。他说，“哨兵”行动的士兵将主要作为固定看守力量，为警察和宪兵分担压力，增强后者执法行动的机动性。 法国17日爆发全国性示威。法国政府估计，全国约55万人参加示威，组织方则称人数达到80万。部分城市的示威活动伴有暴力冲突。据官方统计，法国全国至少3000家商铺遭劫掠。据法国媒体报道，政府当时部署了6万名警察和宪兵维稳。 据法国媒体报道，部分工会和学生组织将下一次全国性抗议日期定在11月5日。而参与10月17日示威的部分活动人士称，会在10月24日再次举行示威。（记",
+      "source": "参考消息",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:12:00+00:00"
+    },
+    {
+      "title": "浙江女子发现行踪常被同事精准掌握，翻看视频发现猫腻：同事和其亲兄弟各自偷偷在女子车上装GPS；检察机关认定两人非共同犯罪，分别处理",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E6%B5%99%E6%B1%9F%E5%A5%B3%E5%AD%90%E5%8F%91%E7%8E%B0%E8%A1%8C%E8%B8%AA%E5%B8%B8%E8%A2%AB%E5%90%8C%E4%BA%8B%E7%B2%BE%E5%87%86%E6%8E%8C%E6%8F%A1%EF%BC%8C%E7%BF%BB%E7%9C%8B%E8%A7%86%E9%A2%91%E5%8F%91%E7%8E%B0%E7%8C%AB%E8%85%BB%EF%BC%9A%E5%90%8C%E4%BA%8B%E5%92%8C%E5%85%B6%E4%BA%B2%E5%85%84%E5%BC%9F%E5%90%84%E8%87%AA%E5%81%B7%E5%81%B7%E5%9C%A8%E5%A5%B3%E5%AD%90%E8%BD%A6%E4%B8%8A%E8%A3%85GPS%EF%BC%9B%E6%A3%80%E5%AF%9F%E6%9C%BA%E5%85%B3%E8%AE%A4%E5%AE%9A%E4%B8%A4%E4%BA%BA%E9%9D%9E%E5%85%B1%E5%90%8C%E7%8A%AF%E7%BD%AA%EF%BC%8C%E5%88%86%E5%88%AB%E5%A4%84%E7%90%86",
+      "summary": "网购 GPS 定位器，悄悄装在汽车上，就能实时掌握他人出行路线、停留地点。不少人以为这只是私下调查的 “ 小手段 ” ，殊不知，这种窥探行踪的行为已触碰法律红线。 近日，浙江省象山县人民检察院办理了一起侵犯公民个人信息案：同一辆车上被亲兄弟各自偷偷装上定位设备，二人却互不知情，上演了一出 “ 双重跟踪 ” 的闹剧。 “ 我总感觉自己被人跟踪了！ ” 2025 年 12 月，周女士怀着不安来到派出所报警。她发现自己的行踪时常被同事高某甲精准掌握，翻看车辆停放区域的公共视频监控后，看到高某甲的弟弟高某乙深夜蹲在车旁，弯腰对着车辆底盘摆弄，行为十分可疑。周女士怀疑是高某甲指使弟弟给自己安装了跟踪设备。 接到报案后，公安机关迅速将高某甲抓获。讯问中，高某甲先是承认让弟弟帮忙安装 GPS ，之后又矢口否认，前后矛盾的口供，让办案人员一度以为这是一起兄弟联手的共同犯罪。随着高某乙被传唤到案，案件迎来戏剧性反转。高某乙交代，自己确实在周女士车",
+      "source": "参考消息",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:12:00+00:00"
+    },
+    {
+      "title": "郭宁宁任福建省政府党组书记",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E9%83%AD%E5%AE%81%E5%AE%81%E4%BB%BB%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%94%BF%E5%BA%9C%E5%85%9A%E7%BB%84%E4%B9%A6%E8%AE%B0",
+      "summary": "福建省委决定：郭宁宁同志任福建省政府党组书记。 SFC 来源丨新福建客户端 编辑丨林芊蔚 文章原文",
+      "source": "21世纪经济报道",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:03:00+00:00"
+    },
+    {
+      "title": "这次中美团队合作，打破世界纪录！",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E8%BF%99%E6%AC%A1%E4%B8%AD%E7%BE%8E%E5%9B%A2%E9%98%9F%E5%90%88%E4%BD%9C%EF%BC%8C%E6%89%93%E7%A0%B4%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95%EF%BC%81",
+      "summary": "近日，一场由中美团队携手打造的无人机灯光秀在美国得克萨斯州刷新两项吉尼斯世界纪录。数万架无人机腾空而起，在夜空中变幻出令人惊叹的画面，令不少外国网友直呼震撼。 据英国广播公司（BBC）报道，此次表演在三天内累计出动71207架次无人机， 刷新“一周内最多无人机升空次数”的纪录。 此外，团队还使用10183架无人机在空中组成喷火巨龙图案， 创下“最大规模无人机组成的神话生物空中表演”纪录。 据吉尼斯世界纪录官方报道介绍，此次表演由一家中国无人机企业与美国无人机表演团队合作完成。中国企业从深圳出发赴美参与挑战，为表演提供无人机及相关技术支持。 中美团队携手，将大规模无人机编队与精细的灯光编程相结合，在夜空中呈现出极具视觉冲击力的画面。 表演视频随后在海外社交媒体上引发热议。 有网友说：“我简直不敢相信这不是人工智能生成的视频。无人机是怎么做到如此精准的？” 还有网友说：“作为一名得州人，这简直太棒了！”值得注意的是，近年来，美国围绕",
+      "source": "人民网",
+      "category": "微信公众号",
+      "published": "2026-10-24T03:03:00+00:00"
+    },
+    {
+      "title": "It's still the most Desert Bus-iest time of the year!",
+      "url": "https://www.metafilter.com/214935/Its-still-the-most-Desert-Bus-iest-time-of-the-year",
+      "summary": "20 years on, a non-profit society in Victoria, BC has been raising money by playing the worst video game ever. As blessed by the mods, I'm pleased to inform you that this year is the 20th annual running of the Internet's first livestreaming charity video game telethon called Desert Bus for Hope . There's just so much to say, but I wrote about it 10 years ago, and there's actually a very good 45 minute introduction th",
+      "source": "MetaFilter",
+      "category": "Internet",
+      "published": "2026-10-24T03:00:57+00:00"
+    },
+    {
+      "title": "Woke Video Game Developer BioWare Shuts Down In Humiliating Failure",
+      "url": "https://www.zerohedge.com/political/woke-video-game-developer-bioware-shuts-down-humiliating-failure",
+      "summary": "Woke Video Game Developer BioWare Shuts Down In Humiliating Failure The video game industry is collapsing in 2026 under the weight of their own arrogance and stupidity, and the \"chuds\" are cheering. Why? Because this is what needs to happen before better companies and better games can be made. The people who ruined the hobby with their politics need to lose their jobs and be exiled from the business. Around 13,000 ga",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T03:00:00+00:00"
+    },
+    {
+      "title": "不断演变的威胁：http2shell 是 Node.js、Python 等平台中的一种远程代码执行（RCE）漏洞",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "summary": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T02:59:13.380000+00:00"
+    },
+    {
+      "title": "Tory activist in 'contract killing broker' claim had worked for party HQ",
+      "url": "https://www.bbc.co.uk/news/articles/c63r5779vyl9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jack Ross was contracted to do social media work for the party until earlier this year, the BBC has been told.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T02:52:10+00:00"
+    },
+    {
+      "title": "比奶茶好喝，还健康不长胖！这种饮品，秋冬喝超幸福！",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E6%AF%94%E5%A5%B6%E8%8C%B6%E5%A5%BD%E5%96%9D%EF%BC%8C%E8%BF%98%E5%81%A5%E5%BA%B7%E4%B8%8D%E9%95%BF%E8%83%96%EF%BC%81%E8%BF%99%E7%A7%8D%E9%A5%AE%E5%93%81%EF%BC%8C%E7%A7%8B%E5%86%AC%E5%96%9D%E8%B6%85%E5%B9%B8%E7%A6%8F%EF%BC%81",
+      "summary": "寒冷的冬天， 手里总想捧个热乎乎的东西，这时候， 没有什么比一杯热可可更 适合，也更 治愈的了。 随着天气转凉，一杯拯救冬日的热可可，究竟有多美妙？ 苦涩可可粉 营养真不错 大多数人对可可粉其实并不陌生，街边饮品店、烘焙店里很常见，是制作 可可饮料 和 烘焙 食品 的主要配料 。 想要说清它的身世，就得从可可树说起。 可可树的果实里包裹着 很多种子，也就是 可可豆 ；可可豆 经发酵、粗碎、去皮等工序得到的可可豆碎片 ， 通常被称为 可可饼 ； 由可可饼脱脂粉碎之后的粉状物 ，就是 可可粉 ，味道有些苦涩。 可可豆 根据美国农业部食品数据库中的数据，纯天然可可粉的膳食纤维、蛋白质、镁、钾等含量都很丰富： 1 惊人的膳食纤维 纯可可粉的膳食纤维含量 高达 37克/100克， [1] 这 意味着 吃 2 勺 可可粉 （约10克） 就能 摄入 近4 克膳食 纤维， 可满足全天最低膳食纤维需 求量的16%， 有助于增强饱腹感 ，对肠道健康",
+      "source": "人民日报",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:51:00+00:00"
+    },
+    {
+      "title": "衡量党性强弱的根本尺子是公、私二字",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E8%A1%A1%E9%87%8F%E5%85%9A%E6%80%A7%E5%BC%BA%E5%BC%B1%E7%9A%84%E6%A0%B9%E6%9C%AC%E5%B0%BA%E5%AD%90%E6%98%AF%E5%85%AC%E3%80%81%E7%A7%81%E4%BA%8C%E5%AD%97",
+      "summary": "“《习近平党建文选》金句”系列之七： 衡量党性强弱的根本尺子是公、私二字 学习进行时 “衡量党性强弱的根本尺子是公、私二字。”这句话出自《习近平党建文选》第一卷《党性是党员干部立身立业立言立德的基石》这篇文章。 在这里，习近平总书记对公、私二字有这样一段深刻剖析： 有人说，现在不要讲“大公无私”了，因为干部的合理合法利益也要承认，应该是“大公有私”。这是一个谬论！干部合理合法的利益当然要承认，也要保障，但这同私心、私利、私欲不是同一个概念，不能混为一谈。作为党的干部，就是要全心全意为人民服务，就是要诚心诚意为党和人民事业奋斗，就是要讲大公无私、公私分明、先公后私、公而忘私。如果连这一点都不讲了，我们党还是中国工人阶级先锋队吗？还是中国人民和中华民族先锋队吗？ 在《习近平党建文选》第一卷《必须把反腐倡廉当作政治必修课》中，有一段发人深省的论述： 我们党提出，要营造鼓励人们干事业、支持人们干成事业的社会氛围，放手让一切劳动、知识、技",
+      "source": "新华网",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:47:00+00:00"
+    },
+    {
+      "title": "西藏巴青地震救援最新消息，新华社记者现场直击→",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E8%A5%BF%E8%97%8F%E5%B7%B4%E9%9D%92%E5%9C%B0%E9%9C%87%E6%95%91%E6%8F%B4%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF%EF%BC%8C%E6%96%B0%E5%8D%8E%E7%A4%BE%E8%AE%B0%E8%80%85%E7%8E%B0%E5%9C%BA%E7%9B%B4%E5%87%BB%E2%86%92",
+      "summary": "10月22日22时33分许，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡。 地震目前已造成16人遇难、76人受伤。灾情牵动人心。“新华视点”记者在现场为大家讲述救援工作进展情况。 10月23日拍摄的巴青县玛如乡扎若改村在地震中受损的民房（无人机照片）。新华社记者 丁增尼达 摄 震区受灾现场情况如何？ 巴青县位于那曲市东部，地处平均海拔4500米以上的藏北高寒牧区，距离拉萨600余公里。 经核查，此次地震震级高、震源浅，受灾较为严重的玛如乡、岗切乡等震中核心区域震感强烈，出现人员伤亡、房屋倒塌、电力通信设施受损等情况。巴青县一名干部说，地震发生时，县城震感明显，房屋墙体明显晃动。 “刚准备躺下休息，伴随着一声声轰隆隆的声音，墙体开始剧烈摇晃，桌上东西摔落在地。”玛如乡扎若改村村民央崩回忆起地震瞬间仍心有余悸，“当天晚上有十几次地震，每次持续2到5分钟。” 深入玛如乡震中腹地，道路两侧可见倒塌的民居、散落的建材。在受灾集中的扎",
+      "source": "半月谈",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:37:00+00:00"
+    },
+    {
+      "title": "Five Reasons Why Trump Is More Serious Than Ever About Cutting Deals With Putin",
+      "url": "https://www.zerohedge.com/geopolitical/five-reasons-why-trump-more-serious-ever-about-cutting-deals-putin",
+      "summary": "Five Reasons Why Trump Is More Serious Than Ever About Cutting Deals With Putin Authored by Andrew Korybko via Substack , Although Putin might agree to some trade-offs in Ukraine as the quid pro quo for these deals, it's not guaranteed, but they can still be clinched so long as Trump has the will to waive more sanctions without a ceasefire first. Putin's top aide Yury Ushakov confirmed after Steve Witkoff's latest me",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T02:35:00+00:00"
+    },
+    {
+      "title": "湖南省委主要负责同志职务调整",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E6%B9%96%E5%8D%97%E7%9C%81%E5%A7%94%E4%B8%BB%E8%A6%81%E8%B4%9F%E8%B4%A3%E5%90%8C%E5%BF%97%E8%81%8C%E5%8A%A1%E8%B0%83%E6%95%B4",
+      "summary": "日前，中共中央决定：王志军同志任湖南省委委员、常委、书记，沈晓明同志不再担任湖南省委书记、常委、委员职务。 ▌ 本文来源： 央视财经（ ID：cctv yscj）综合央视新闻 监制/李想 罗敏 主编/张宁 编辑/张爽 平台地址： http://www.jintiankansha.me/t/Jmh1dAKf65",
+      "source": "央视财经",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:15:00+00:00"
+    },
+    {
+      "title": "Gunmen Attack Orthodox Church In Jordan During Service, Killing 7 & Wounding Dozens",
+      "url": "https://www.zerohedge.com/geopolitical/gunmen-attack-orthodox-church-jordan-during-service-killing-7-wounding-dozens",
+      "summary": "Gunmen Attack Orthodox Church In Jordan During Service, Killing 7 & Wounding Dozens Multiple gunmen brutally attacked a church in Jordan on Friday in the middle of a funeral, killing at least seven people and wounding 34 others - in what is one of the worst terror attacks on Christians in the country's modern history . The Jordanian government quickly condemned the act as terrorism, and authorities are reportedly see",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T02:10:00+00:00"
+    },
+    {
+      "title": "实测 Kimi K3.1 Pro，国模终于继续卷旗舰",
+      "url": "https://www.ifanr.com/1685684?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "大而美的 Kimi 回来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿 · Beats of Bits",
+      "category": "IT新闻",
+      "published": "2026-10-24T02:07:19+00:00"
+    },
+    {
+      "title": "湖南省委主要负责同志职务调整",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E6%B9%96%E5%8D%97%E7%9C%81%E5%A7%94%E4%B8%BB%E8%A6%81%E8%B4%9F%E8%B4%A3%E5%90%8C%E5%BF%97%E8%81%8C%E5%8A%A1%E8%B0%83%E6%95%B4",
+      "summary": "日前，中共中央决定：王志军同志任湖南省委委员、常委、书记，沈晓明同志不再担任湖南省委书记、常委、委员职务。 责编 ｜翟巧红 编辑 ｜张素玲 来源 ｜ 新华社 阅读原文 文章原文",
+      "source": "人民网",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:07:00+00:00"
+    },
+    {
+      "title": "湖南省委主要负责同志职务调整",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E6%B9%96%E5%8D%97%E7%9C%81%E5%A7%94%E4%B8%BB%E8%A6%81%E8%B4%9F%E8%B4%A3%E5%90%8C%E5%BF%97%E8%81%8C%E5%8A%A1%E8%B0%83%E6%95%B4",
+      "summary": "日前，中共中央决定：王志军同志任湖南省委委员、常委、书记，沈晓明同志不再担任湖南省委书记、常委、委员职务。 来源：新华社 本期编辑：刘杰、朱田恬 觉得好看，请点这里 ↓ ↓ ↓ 阅读原文 平台地址： http://www.jintiankansha.me/t/bdW10M8sXy",
+      "source": "人民日报",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:07:00+00:00"
+    },
+    {
+      "title": "秋天会奖励每一个为它停留的人",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%B8%96%E7%9B%B8+%E7%A7%8B%E5%A4%A9%E4%BC%9A%E5%A5%96%E5%8A%B1%E6%AF%8F%E4%B8%80%E4%B8%AA%E4%B8%BA%E5%AE%83%E5%81%9C%E7%95%99%E7%9A%84%E4%BA%BA",
+      "summary": "Sayings： 每到秋天，我都会想起《欲望都市》里的一个片段： Charlotte 和朋友聊到生活的种种烦恼，朋友抬手指向一处，她顺着手指的方向看去，发现公园里的树叶已经变红，暖色的光透过叶间的缝隙照进眼中。她问： “什么时候已经到了秋天？” 秋天总是突如其来的，但与此同时，它又是短暂的，易逝的。今年我常常刷到一个词叫“追秋”，去皖南追秋，去川西追秋，去大兴安岭追秋，似乎为了拥有秋天，人必须抓紧时间。 但我想，人度过秋天的方式，除了“追”，或许还有“停”。 为桂花停下，为落叶停下，为任何一个小而具体的理由停下。有时候秋天就像红绿灯中很少被提及的那个黄灯，在黄灯闪烁的那三秒里，你知道什么都不会发生，你可以平静地、缓缓地喘口气，在下一次绿灯亮起前。 每个人都应该在秋天拥有一段暂停，不是停滞，不是中断，而是在出发和下一次出发之间，在目标和下一个目标之间，短暂地涣散一下。 为此，我整理了一份 “31个值得为秋天停下的理由” 清单，如果",
+      "source": "新世相",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:03:00+00:00"
+    },
+    {
+      "title": "秃头老板说薪资透明！果然",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B9%A6%E5%8D%95%E6%9D%A5%E4%BA%86+%E7%A7%83%E5%A4%B4%E8%80%81%E6%9D%BF%E8%AF%B4%E8%96%AA%E8%B5%84%E9%80%8F%E6%98%8E%EF%BC%81%E6%9E%9C%E7%84%B6",
+      "summary": "我打开账户发现啥也看不到。 文章原文",
+      "source": "书单来了",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:00:00+00:00"
+    },
+    {
+      "title": "格林童话究竟多黑暗？这本推理太敢写了！",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B9%A6%E5%8D%95%E6%9D%A5%E4%BA%86+%E6%A0%BC%E6%9E%97%E7%AB%A5%E8%AF%9D%E7%A9%B6%E7%AB%9F%E5%A4%9A%E9%BB%91%E6%9A%97%EF%BC%9F%E8%BF%99%E6%9C%AC%E6%8E%A8%E7%90%86%E5%A4%AA%E6%95%A2%E5%86%99%E4%BA%86%EF%BC%81",
+      "summary": "几天前，书单狗收到一本编辑寄来的推理新作， 书单狗花了一晚上看完， 全程看得我 头皮一阵阵发麻 ！ 因为书里不仅 颠覆了我的童年认知 ， 而且在这基础上层层加码， 反转发转再反转 ！ 不过当书单狗知道了作者的身份， 一切也都不奇怪了！ 作者是苏格兰推理小说大佬， 老哥曾两次拿下 苏格兰推理小说最高奖 —— 麦克尔瓦尼奖！ 这一次，他用一本推理小说， 揭开了我们每个人 童年最隐秘的真相 —— 我们读过的格林童话， 其实充满了一系列死亡、暴力、遗弃、性侵、复仇与惩罚！ 如果你从小就读《格林童话》， 书单狗不建议你读这本书， 因为它将彻底颠覆你的三观， 甚至在你的余生，一想到这本书就心头一紧！ 没错， 说的就是这本 豆瓣开分9.4 的推理神作—— 《格林童话的诅咒》 特别开心的是， 我们为大家争取到了 200本的限量刷边本 ！ 而且 价格和普通版一致 ！！ 相当于免费刷边 ！只要有货就是能拍！ （售罄后会在评论区上架普通版链接） 感兴",
+      "source": "书单来了",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:00:00+00:00"
+    },
+    {
+      "title": "乡村兽医，修猫修狗",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E7%89%A9+%E4%B9%A1%E6%9D%91%E5%85%BD%E5%8C%BB%EF%BC%8C%E4%BF%AE%E7%8C%AB%E4%BF%AE%E7%8B%97",
+      "summary": "到底什么是宠物？在老钱这个诊室里，它的概念足以构成一个光谱，一头是驱车几千公里来的主人，怀里的家伙是伴侣动物，拥有独特的名字，寄托着情感；而另一头的人，倾向于计算宠物经济价值与医疗成本，看能否相抵平账。 文｜ 明雪 编辑｜ 槐杨 摄影｜ 尹夕远 关于神医 幸福的猫狗总是相似的，不幸的猫狗却各有各的不同，河北唐山丰润区这条街道上，大部分是汽修和建材店，老钱兽医诊所就在其间，凌晨4点，各地过来的车已经陆续停在门口，带着猫猫狗狗：得了犬瘟正抽搐的，后腿瘫痪被抱着来的，或者生了8只狗崽一周后吊着半口气的…… 这是一个普通的周日。早上8点，诊所终于开门，急用药的人、来晚了想加号的人有着各地口音，连同着屋子里那些似乎预感到不妙的大狗小狗，声浪此起彼伏。老钱来了，身着黑衣，眉间两道竖纹，像穿堂风一样从大门口刮到了办公室。 距离流量呼啸着冲往这个小诊所，差不多有一整年了。受人关注，一部分是因为便宜：诊所的药片按粒计，轻症有时十几块就能对付，重一",
+      "source": "人物",
+      "category": "微信公众号",
+      "published": "2026-10-24T02:00:00+00:00"
+    },
+    {
+      "title": "无码科技十周年",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%B0%8F%E9%81%93%E6%B6%88%E6%81%AF+%E6%97%A0%E7%A0%81%E7%A7%91%E6%8A%80%E5%8D%81%E5%91%A8%E5%B9%B4",
+      "summary": "大家好，无码科技成立十周年了。 十年前，我写了一篇文章： 是的，我开始创业了 。现在看起来，还是有点莽撞的。 当时当然希望这家公司能做得久一些，但对于十年究竟有多长，并没有太具体的概念。先把公司做起来，找到一起做事的人，做出一些有人愿意用的产品，有很多眼前的问题需要解决。 怎么让一家公司活 10 年？就这么一年一年做下来，就十年了。距离百年企业，还有 90 年。 今年的公司周年庆，照例组织团队出游。忙碌了一年，得停下来几天，看看风景，吃点东西，聊聊天。我一直觉得，能和同事们一起换个地方玩几天，就是件值得高兴的事。 创业公司的日子，自己知道。能走到十年，的确不容易；还有很多事情没做好，也是客观事实。 不过，十周年，还是允许自己高兴一下吧。 十年前，我们想做一点「小而有趣」的事情。组建团队的过程中充满了各种巧合，再加上一点运气。 做产品也类似，有的产品一做就火，有的产品在开发过程中让我们屡次受挫。业务合规也需要持续投入，对我们这样的",
+      "source": "小道消息",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:59:00+00:00"
+    },
+    {
+      "title": "为何说“明只一相，张居正是也”？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E4%B8%BA%E4%BD%95%E8%AF%B4%E2%80%9C%E6%98%8E%E5%8F%AA%E4%B8%80%E7%9B%B8%EF%BC%8C%E5%BC%A0%E5%B1%85%E6%AD%A3%E6%98%AF%E4%B9%9F%E2%80%9D%EF%BC%9F",
+      "summary": "张居正起自寒门，经由科举考试步步进阶。初入仕途时，因嘉靖帝长期怠于临朝，权臣当道，他无从施展经世之才，只得在进退浮沉间静待时机。历经多年朝堂风云的磨砺，他跻身内阁，以过人的智慧周旋于政坛强人之间。隆庆、万历政权交替之时，他获得李太后与宦官冯保的支持，在权力角逐中胜出。 张居正常常感叹：“仆以孤焰，耿耿于迅飚之中。”身居首辅，张居正力排众议，推行政治、经济等各项改革：制定考成法，整顿吏治；清丈田亩，抑制土地兼并；推行一条鞭法，惠农利商。阻挠、非议接连不断，他如孤焰立于狂飙之中，纵使势单力薄亦不改初心，坚持推进新政，以一己之力为日渐衰颓的大明王朝带来最后一抹光亮。 以下内容节选自《孤焰狂飙：大明首辅张居正》，已获得出版方授权刊发。 《孤焰狂飙：大明首辅张居正》 作者：刘志琴 版本：重庆出版社 2026年8月 史书赞誉他为 “起衰振隳”的“救时宰相” 人们素来以政绩作为评判改革家的依据，而政绩都产生于当朝，何以笔者认为对改革家的评价重",
+      "source": "新京报书评周刊",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:50:00+00:00"
+    },
+    {
+      "title": "新京雅集——一套美学四书，解锁普通人的风雅生活",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E6%96%B0%E4%BA%AC%E9%9B%85%E9%9B%86%E2%80%94%E2%80%94%E4%B8%80%E5%A5%97%E7%BE%8E%E5%AD%A6%E5%9B%9B%E4%B9%A6%EF%BC%8C%E8%A7%A3%E9%94%81%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E9%A3%8E%E9%9B%85%E7%94%9F%E6%B4%BB",
+      "summary": "“布衣菜饭，可乐终身。”意思是，只要心里安稳，粗茶淡饭也能快乐一辈子。真正的富养自己，从来不需要金山银山。能在一箪食、一瓢饮里安顿身心，才是中国人骨子里的浪漫。如果你也跟我一样，渴望把平凡日子过得活色生香，我们推荐这套《中国美学四书》，包含《浮生六记》《随园食单》《长物志》《小窗幽记》，一套书找回骨子里的浪漫与清醒。 *本文为广告，内容由供应方提供。 你有没有发现，不知从何时起，相比那些锦衣华服、奔波名利场的明星， 我们 更容易被这样的画面打动 —— 年过50岁的周迅 回老家，素颜逛菜市场，和好朋友在小院喝茶，笑得像个孩子。 半隐退的汤唯，痴迷种地，活成现实版 “ 向往的生活”。 退休22年的 张曼玉，直接定居法国农村 变身农妇 ，穿39元内衣，却让全网羡慕！ 这样的田园生活，让人羡慕！ 只可惜，被 房贷、育儿、职场KPI推着走的我们，日子过得重复又寡淡 。 上了一天班回家，只想瘫倒刷手机。心中的“诗与远方”，好像也越来越远。 ",
+      "source": "新京报书评周刊",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:50:00+00:00"
+    },
+    {
+      "title": "《方舟玫瑰》：只有我们的玫瑰花瓣，才能做成新的方舟丨诗人读诗‌",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E3%80%8A%E6%96%B9%E8%88%9F%E7%8E%AB%E7%91%B0%E3%80%8B%EF%BC%9A%E5%8F%AA%E6%9C%89%E6%88%91%E4%BB%AC%E7%9A%84%E7%8E%AB%E7%91%B0%E8%8A%B1%E7%93%A3%EF%BC%8C%E6%89%8D%E8%83%BD%E5%81%9A%E6%88%90%E6%96%B0%E7%9A%84%E6%96%B9%E8%88%9F%E4%B8%A8%E8%AF%97%E4%BA%BA%E8%AF%BB%E8%AF%97%E2%80%8C",
+      "summary": "现代诗语言优美，情感丰盈，意象新鲜，但有时晦涩难解。从阅读角度看，“晦涩”是现代诗最明显的特征之一。然而，这晦涩无论是源于特定的表现方式，抑或对诗之新奇的追求，还是对“何以为诗”的定位，一首好诗不可能仅表现在晦涩，而必须值得深入阅读，让读者在认知与想象的主动参与中，发现晦涩中那复杂的诗意，充裕的内涵。 “诗人读诗”栏目邀请几位诗人，每周细读一首现代诗。这样的细读是一种演示，更是一种邀请，各位读者可以从中看到品味现代诗的一些方法及其自由性，进而展开自己对现代诗的创造性阅读。 第五十一期，我们邀请诗人桑克，和我们一起赏析 臧棣的诗，《方舟玫瑰》。 撰文 | 桑克 臧棣，诗人、批评家，北京大学中国诗歌研究院研究员。代表诗集有《骑手和豆浆》《情感教育入门》《诗歌植物学》《精灵学简史》等，诗论集《非常诗道》《诗道鳟燕》等。 本期诗歌 方舟玫瑰 作者：臧棣 不必怀疑你的记忆里 那焕发的玫瑰是否准确； 一个，或半个，深爱出自 肋骨的无知从来就",
+      "source": "新京报书评周刊",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:50:00+00:00"
+    },
+    {
+      "title": "蔡皋：造物造出分别，不是让生命彼此嫌弃，而是彼此欣赏",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E8%94%A1%E7%9A%8B%EF%BC%9A%E9%80%A0%E7%89%A9%E9%80%A0%E5%87%BA%E5%88%86%E5%88%AB%EF%BC%8C%E4%B8%8D%E6%98%AF%E8%AE%A9%E7%94%9F%E5%91%BD%E5%BD%BC%E6%AD%A4%E5%AB%8C%E5%BC%83%EF%BC%8C%E8%80%8C%E6%98%AF%E5%BD%BC%E6%AD%A4%E6%AC%A3%E8%B5%8F",
+      "summary": "“事物真是预备了各种各样的丰盛，在不同时期，不同的条件下，会有不同的表现，没有刻意的追求只是自然呈现。这很美好，真的是。” 下文摘选自蔡皋新书《日兮月兮》，为其二十年日记精选，经出版社授权刊发。 《日兮月兮》 作者：蔡皋 版本：北京贝贝特｜广西师范大学出版社 2026年9月 好梦 我的院子真是好看极了。草坪里的草早就将所有的隙地布满。春天，雨水多，草活了，但没有长满，于是坑坑洼洼像个沼泽地。有时有人说它是癞子脑壳。那时节，我确当心它长不好。因此，天一有晴，便赶紧松土，那么紧巴，草芽芽如何出得来哩？我的女儿见我老松土，就警告我，这样子会锄坏草芽芽。岂知我们母女操空心，那草在什么时候呢，我不知道，一下全伸出许多枝蔓，像丝线一样向四周延伸开。之后很快长出它们的根须，抽条向上，于是郁郁的一片，并不是像种子一样从地里往上冒的，我居然对它一无所知。虫子们欢天喜地地来去，蛐蛐、打屁虫，蚁们、蜗牛，还有那种用手一触即卷曲成粒状的小虫。我不知道它",
+      "source": "新京报书评周刊",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:50:00+00:00"
+    },
+    {
+      "title": "Anthony Fauci's Darkest Hours",
+      "url": "https://www.zerohedge.com/covid-19/anthony-faucis-darkest-hours",
+      "summary": "Anthony Fauci's Darkest Hours Authored by Jeffrey A. Tucker via The Brownstone Institute , “Out, damned spot! Out, I say!” said Lady Macbeth as she paced in a hallucinatory state, reliving in her subconscious the murders she helped plan. She rubbed her hands as if washing them, to wash away the sin, following up the promise to her son that “a little water clears us of this deed.” The line comes to mind from the lates",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T01:45:00+00:00"
+    },
+    {
+      "title": "湖南省委主要负责同志职务调整",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E6%B9%96%E5%8D%97%E7%9C%81%E5%A7%94%E4%B8%BB%E8%A6%81%E8%B4%9F%E8%B4%A3%E5%90%8C%E5%BF%97%E8%81%8C%E5%8A%A1%E8%B0%83%E6%95%B4",
+      "summary": "日前，中共中央决定：王志军同志任湖南省委委员、常委、书记，沈晓明同志不再担任湖南省委书记、常委、委员职务。 来源： 新华社 文章原文",
+      "source": "新华网",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:41:00+00:00"
+    },
+    {
+      "title": "CVE 追踪器",
+      "url": "https://cve.0xosprey.com/",
+      "summary": "CVE Tracker",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T01:39:47.745000+00:00"
+    },
+    {
+      "title": "医保钱包2.0版上线！个人账户跨省共济全国落地",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E5%8C%BB%E4%BF%9D%E9%92%B1%E5%8C%852.0%E7%89%88%E4%B8%8A%E7%BA%BF%EF%BC%81%E4%B8%AA%E4%BA%BA%E8%B4%A6%E6%88%B7%E8%B7%A8%E7%9C%81%E5%85%B1%E6%B5%8E%E5%85%A8%E5%9B%BD%E8%90%BD%E5%9C%B0",
+      "summary": "国家医保局近日将医保钱包迭代升级至2.0版，自今年10月16日起，各省、自治区、直辖市及新疆生产建设兵团已全部上线运行。 至此，医保个人账户资金跨省共济给近亲属在全国全面落地。 什么是医保个人账户跨省共济？ 个人账户跨省共济，是 将职工医保个人账户里的资金，共济给在省外参保的近亲属使用。 依托全国统一的医保信息平台，共济人与被共济人建立共济关系，自动开通个人医保钱包，共济人通过医保钱包为被共济人设定共济额度。 被共济人发生费用时，可以用自己已经获得的共济额度进行支付，实现职工医保个人账户资金在跨省参保的近亲属之间互助共济。 简言之，就是 医保钱包把职工个人账户资金变成可跨省转给家人的“共济额度”，家人就医、购药、参保缴费直接可用。 升级后的医保钱包2.0版有哪些不同？ 首先是 服务方式优化。 医保钱包2.0版从原来线上 只支持国家医保服务平台APP（应用程序）， 拓展到支付宝小程序， 同时 保留线下经办窗口 等多种渠道办理跨省共",
+      "source": "人民日报",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:39:00+00:00"
+    },
+    {
+      "title": "法国报告全球首例人类感染沙蒙达病毒病例",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E6%B3%95%E5%9B%BD%E6%8A%A5%E5%91%8A%E5%85%A8%E7%90%83%E9%A6%96%E4%BE%8B%E4%BA%BA%E7%B1%BB%E6%84%9F%E6%9F%93%E6%B2%99%E8%92%99%E8%BE%BE%E7%97%85%E6%AF%92%E7%97%85%E4%BE%8B",
+      "summary": "法国卫生部门22日发布公报说，该国发现全球首例有正式记录的沙蒙达病毒人类感染病例，患者已于本月初死亡。 沙蒙达病毒属于正布尼亚病毒属，主要通过库蠓属吸血蠓虫传播给动物。该病毒于20世纪60年代中期首次在尼日利亚被发现，此后在西非、东非、非洲南部以及日本的牛群中有零星报告。法国动物卫生部门称，该病毒对动物造成的影响包括腹泻、虚弱和食欲减退等，少数情况下会导致发热。 公报说，在该病例之前，从未有过人类感染该病毒的记录。患者死前因罹患重症在法国里昂的医院接受治疗。初步调查显示，患者出现的脑部并发症很可能与感染沙蒙达病毒有关，但相关临床、生物学和流行病学调查仍在进行中。今年夏季，沙蒙达病毒首次在法国等欧洲国家的养牛场中被发现。卫生部门推测，患者可能是在法国东部被携带病毒的吸血蠓虫叮咬后感染。 法国卫生部门表示，这是一起发生在免疫功能严重受损者身上的特殊病例。目前，相关部门正持续展开调查，并已向世界卫生组织和欧洲疾病预防控制中心通报情况。",
+      "source": "人民网",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:23:00+00:00"
+    },
+    {
+      "title": "US Designates Helium A Critical Material In Reindustrialization Push To Avoid \"Single Point Of Failure\"",
+      "url": "https://www.zerohedge.com/commodities/us-designates-helium-critical-material-reindustrialization-push-and-avoid-single-point",
+      "summary": "US Designates Helium A Critical Material In Reindustrialization Push To Avoid \"Single Point Of Failure\" America's reindustrialization depends on securing reliable, conflict-free supplies of critical materials, including rare earths and other critical metals, most of which are produced and processed overseas. The Trump administration has made rebuilding and strengthening domestic critical material supply chains a nati",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T01:20:00+00:00"
+    },
+    {
+      "title": "与14亿人有关！全球首创！探秘“大国粮仓”→",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E4%B8%8E14%E4%BA%BF%E4%BA%BA%E6%9C%89%E5%85%B3%EF%BC%81%E5%85%A8%E7%90%83%E9%A6%96%E5%88%9B%EF%BC%81%E6%8E%A2%E7%A7%98%E2%80%9C%E5%A4%A7%E5%9B%BD%E7%B2%AE%E4%BB%93%E2%80%9D%E2%86%92",
+      "summary": "家里的米放久了 你最担心什么？ 生虫、发霉 还是煮出来不香了？ 这个问题放大到一座粮库，难度立刻升级。成千上万吨粮食，怎么存得好？农民售粮，怎么少排队？市场需要时，怎么及时调出？ 一粒米，0.02克，轻若微尘，却关乎14亿人的烟火日常。 △粮食气膜仓 粮价稳，则百价稳；仓廪实，则天下安 。一周前的世界粮食日，主题为“创新当下，粮安未来”，同样突显了粮食安全的重要性。 从古代到当下，从餐桌到主产区， “大国粮仓”如何守护14亿人的粮食安全？ 中国储备粮管理集团有限公司党组书记、董事长邓亦武，解码“大国粮仓”背后的重器力量。 给粮食穿上“三层防护服”！ 探秘全球首座粮食气膜仓 粮食入仓，可不等于万事大吉。 它会呼吸、会发热，温度、湿度失控，虫霉就可能找上门。 在中储粮新津直属库， 四座十层楼高的白色巨仓，为粮食提供了一个特别的“家” 。 这种全球首创的粮食气膜仓，每座可储粮7500吨。 外层高分子膜材防水防晒，中间聚氨酯层保温隔热，",
+      "source": "央视财经",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:14:00+00:00"
+    },
+    {
+      "title": "因贷款无法还清，陈某将11辆长期无人问津的“僵尸车”拖走报废，非法牟利4万余元，多名车主发现后报案，陈某被判两年，详情披露",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E5%9B%A0%E8%B4%B7%E6%AC%BE%E6%97%A0%E6%B3%95%E8%BF%98%E6%B8%85%EF%BC%8C%E9%99%88%E6%9F%90%E5%B0%8611%E8%BE%86%E9%95%BF%E6%9C%9F%E6%97%A0%E4%BA%BA%E9%97%AE%E6%B4%A5%E7%9A%84%E2%80%9C%E5%83%B5%E5%B0%B8%E8%BD%A6%E2%80%9D%E6%8B%96%E8%B5%B0%E6%8A%A5%E5%BA%9F%EF%BC%8C%E9%9D%9E%E6%B3%95%E7%89%9F%E5%88%A94%E4%B8%87%E4%BD%99%E5%85%83%EF%BC%8C%E5%A4%9A%E5%90%8D%E8%BD%A6%E4%B8%BB%E5%8F%91%E7%8E%B0%E5%90%8E%E6%8A%A5%E6%A1%88%EF%BC%8C%E9%99%88%E6%9F%90%E8%A2%AB%E5%88%A4%E4%B8%A4%E5%B9%B4%EF%BC%8C%E8%AF%A6%E6%83%85%E6%8A%AB%E9%9C%B2",
+      "summary": "停放在小区、路边的“僵尸车”，竟也会被不法分子盯上，成为获利目标。日前，上海市松江区人民法院审结了一起盗窃案，被告人陈某以非法占有为目的，谎称受车主委托，接连将多辆长期无人问津的“僵尸车”拖走报废，非法牟利4万余元。 去年3月，被告人陈某谎称受车主委托，将一辆“僵尸车”交由报废公司报废。 松江区人民法院刑事审判庭法官 陈镪： 被告人陈某在外面贷款，贷了很多，无法还贷。他在停车的过程中发现，他旁边的一辆车一直没人开，就联系了报废车辆的人员。报废车辆的公司也没有向他多要相应的材料，就给报废了，这是第一辆车。 被告人报废掉这辆车之后，就获得了一笔财产，后来他根据车辆的信息、牌照、位置，按图索骥进行查找。 由于陈某需要报废车辆的数量较大，报废公司要求其出示委托书。于是， 陈某通过网络伪造委托书等，由此顺利通过报废审核流程。 之后，多名车主发现后报案。 直到陈某被公安机关抓获时，他已在上海市嘉定区、松江区私自将11辆“僵尸车”拖走报废，非",
+      "source": "新华网",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:05:00+00:00"
+    },
+    {
+      "title": "B 超、CT、核磁，到底哪些检查有辐射？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+B%20%E8%B6%85%E3%80%81CT%E3%80%81%E6%A0%B8%E7%A3%81%EF%BC%8C%E5%88%B0%E5%BA%95%E5%93%AA%E4%BA%9B%E6%A3%80%E6%9F%A5%E6%9C%89%E8%BE%90%E5%B0%84%EF%BC%9F",
+      "summary": "B 超、CT、磁共振，都能看身体内部，却各有擅长，并不是越贵、越先进就越适合。 这些检查的原理是什么？哪些检查 涉及电离辐射，哪些不涉及？点击下方卡片，把常见影像检查的区别弄清楚👇 做完检查，拿到一叠报告，里面的数字和箭头也让人犯迷糊？ 点击下方卡片，免费领取《30 项常见体检指标全解读》，了解影像检查、血常规、尿常规等指标的含义👇 给新一年的自己和家人，准备一份每天都能用上的健康提醒。2027 丁香园健康日历预售开启，一天一页，把实用的健康知识讲成简单好记的「大实话」，让关心融入每一天。 点击下方图片，提前加购👇 策划制作 策划： pipa | 监制：温生 图片来源：丁香医生设计团队 文章原文",
+      "source": "丁香医生",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:02:00+00:00"
+    },
+    {
+      "title": "所有女性都该试试的好东西！每天 3 克，会有神奇的变化……",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E6%89%80%E6%9C%89%E5%A5%B3%E6%80%A7%E9%83%BD%E8%AF%A5%E8%AF%95%E8%AF%95%E7%9A%84%E5%A5%BD%E4%B8%9C%E8%A5%BF%EF%BC%81%E6%AF%8F%E5%A4%A9%203%20%E5%85%8B%EF%BC%8C%E4%BC%9A%E6%9C%89%E7%A5%9E%E5%A5%87%E7%9A%84%E5%8F%98%E5%8C%96%E2%80%A6%E2%80%A6",
+      "summary": "女性要运动，女性需要更多的肌肉似乎已经成为这个时代的新风潮。 越来越多的女性开始力量训练，肌肉，早就不是男性专属。以前金刚芭比是嘲笑，现在，谁不想拥有这样的肌肉。 留住，甚至练出更多肌肉，成了女性追逐的目标。肌肉抗衰，还防老！人生下半场，拼的就是肌肉。 如果这也是你的期待，那咱就不得不给大家强烈安利一个营养成分，那就是： 肌酸！ 大部分女性朋友，可能都没听过这玩意儿，它其实在健身圈火了很多年，是很多健身男性的必吃补剂，甚至被认为是男性专属。 但随着研究的深入，科学家发现 肌酸对女性会有额外的帮助 ，有专家在公开演讲中曾 直接 把肌酸列为女性补充剂首选。 而早在 2017 年，国际运动营养学会就提出明确建议： 终生坚持摄入少量肌酸（例如每日 3 克）可能带来显著的健康益处。 在后续的补充建议中又特别提及：肌酸补充能为女性一生带来多种益处。 这肌酸到底是个啥？为啥这么推荐？且听我们给大家分析分析。 肌酸 一种提升活力的能量外挂 可女",
+      "source": "丁香医生",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:02:00+00:00"
+    },
+    {
+      "title": "为什么我劝你：一定要吃「肌酸」（尤其女性",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E5%8A%9D%E4%BD%A0%EF%BC%9A%E4%B8%80%E5%AE%9A%E8%A6%81%E5%90%83%E3%80%8C%E8%82%8C%E9%85%B8%E3%80%8D%EF%BC%88%E5%B0%A4%E5%85%B6%E5%A5%B3%E6%80%A7",
+      "summary": "肌酸—— 一个看似小众、却尤为重要的营养，真心建议你每天吃，尤其女性。 肌酸，堪称是人体肌肉的快速能量周转站。 但，你别误会。 它并不是兴奋剂、也不是激素、更不是药， 而是人体内源性合成的成分。 肌酸在能量周转率高的器官中含量丰富，人体约 95% 的肌酸都储存在骨骼肌中，其余 5% 储存在大脑、肝脏、肾脏和睾丸中。 [1] 除内源性合成外，人体每日所需的肌酸约 50% 需从饮食中获取。 根据饮食、肌肉量和身体活动水平的不同，一个标准体型的个体每天需要摄入 2～3 克肌酸以维持正常的体内储备。 [2] 很多人对肌酸还比较陌生，因为它之前主要活跃在运动圈。对健身人士来说，肌酸被认为是身体的充电宝，核心作用是辅助提升力量训练的爆发力、提升高强度运动表现。当需要瞬间发力（比如举重、深蹲、冲刺）时，有些人会选择它。 但，肌酸不是肌肉猛男的专属—— 国际运动营养学会：终生坚持每日摄入 3g 肌酸，可能带来显著的健康益处 [3] 。 值得注意",
+      "source": "丁香医生",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:02:00+00:00"
+    },
+    {
+      "title": "A Very Suspicious Indictment of Two Former FBI Officials",
+      "url": "https://www.theatlantic.com/ideas/2026/10/fbi-indictments/689138/?utm_source=feed",
+      "summary": "Not too long ago, the Department of Justice could generally be trusted to prosecute cases in which lawyers believed that real wrongdoing had occurred. Now DOJ frequently unveils lawsuits that seem designed mostly for securing likes and reposts on right-wing social media—the actual facts be damned. Any high-profile criminal case brought by the Trump administration arrives with an air of suspicion. Today, Jeanine Pirro",
+      "source": "The Atlantic",
+      "category": "News",
+      "published": "2026-10-24T01:01:25+00:00"
+    },
+    {
+      "title": "中国有个地方，流行房子上“长”鱼",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%89%E4%B8%AA%E5%9C%B0%E6%96%B9%EF%BC%8C%E6%B5%81%E8%A1%8C%E6%88%BF%E5%AD%90%E4%B8%8A%E2%80%9C%E9%95%BF%E2%80%9D%E9%B1%BC",
+      "summary": "漫步在闽南的街道上， 抬头望向传统建筑的屋檐， 常能发现一群形态各异的 “檐上精灵” 。 金鱼、龙首、麒麟…… 它们藏身于红砖墙与彩色屋瓦之间， 雨天引水排水，晴天装点屋檐， 成为闽南古厝独特的建筑风景。 它们叫 滴水兽 ，也称雨漏， 是闽南近代建筑中颇具特色的排水构件。 雨天，雨水顺着瓦面汇入兽口， 沿着预定的方向倾泻而下， 避免雨水直接冲刷墙体， 减少对屋檐的侵蚀。 晴天，它们则是装点建筑的艺术品， 与闽南红砖古厝的建筑风貌相映成趣。 从南洋归来的屋檐精灵 滴水兽在闽南的兴盛， 与近代闽南人下南洋的历史密切相关。 清末民初，大批闽南人远赴东南亚谋生。 随着海禁解除、海上贸易发展， 一些侨胞积累财富后返乡置业， 在家乡建起融合中西建筑风格的住宅， 当地俗称“番仔楼”。 这些建筑吸收了 南洋建筑的装饰与排水设计， 滴水兽也随之进入闽南。 经过本土工匠的改造， 它逐渐摆脱了西式排水兽常见的 威严、凶猛形象， 长出了鱼、虾、瓜果等 ",
+      "source": "中国国家地理",
+      "category": "微信公众号",
+      "published": "2026-10-24T01:00:00+00:00"
+    },
+    {
+      "title": "DOJ Seeks Appeals Court Intervention In California Ballot Lawsuit",
+      "url": "https://www.zerohedge.com/political/doj-seeks-appeals-court-intervention-california-ballot-lawsuit",
+      "summary": "DOJ Seeks Appeals Court Intervention In California Ballot Lawsuit Authored by Aldgra Fredly via The Epoch Times , The Department of Justice (DOJ) filed a notice of appeal on Oct. 22 in its bid to block California from counting mail-in ballots from voters whom the federal government suspected of being noncitizens. The DOJ asked the Ninth Circuit Court of Appeals to intervene after U.S. District Judge David Carter fail",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T00:55:00+00:00"
+    },
+    {
+      "title": "进化岛周报 | 从苏州参访企业到周末搓代码。",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E8%BF%9B%E5%8C%96%E5%B2%9B%E5%91%A8%E6%8A%A5%20%7C%20%E4%BB%8E%E8%8B%8F%E5%B7%9E%E5%8F%82%E8%AE%BF%E4%BC%81%E4%B8%9A%E5%88%B0%E5%91%A8%E6%9C%AB%E6%90%93%E4%BB%A3%E7%A0%81%E3%80%82",
+      "summary": "进化岛一周认知精选｜2026年第42周（10.12—10.18） 大家好，我是陪伴大家共同成长的小师妹。欢迎来到最新一期的进化岛周报。 上周在苏州启动\"照做计划\"，这一周它真的跑起来了——企业家们把 Linux 机器带回去一台一台装好，给家人装、给同事装；刘润自己也在路上写软件，周末搓出了配音台。 📚 刘润日课 ：7篇 🤖 AI落地相关：2篇 🎙️ 直播/读书会回放：5场 一、小师妹笔记 - #刘润日课 本周（10月12日至10月18日）刘润老师共发布了 7篇 高质量的“ #刘润日课” 。在AI与商业浪潮的激荡下，老师的日课内容兼具前沿科技实践与深度的商业思考，让人受益匪浅！ TOP1:10月12日 · 苏州参观生命科学公司的收获 小师妹笔记： 在苏州参观一家生命科学公司。这些年 AI 让这个领域突飞猛进——蛋白质发现、实验工程水平都在被重写。 第一个收获是中国创新药为什么\"要井喷又尴尬\"：美国占全球医药市场六七成，同一款药美国",
+      "source": "刘润",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:55:00+00:00"
+    },
+    {
+      "title": "拉开人与人差距的，是复盘力",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E6%8B%89%E5%BC%80%E4%BA%BA%E4%B8%8E%E4%BA%BA%E5%B7%AE%E8%B7%9D%E7%9A%84%EF%BC%8C%E6%98%AF%E5%A4%8D%E7%9B%98%E5%8A%9B",
+      "summary": "忙碌了一周，别只顾埋头赶路，记得停下来回望与规划。 《勤商日历 2027》专门设置了「周末充电站」。 📝 周六复盘： 把做过的事想透，沉淀经验，看见得失。 🎯 周日计划： 把要做的事想清，理清目标，提前布局。 有复盘，才能生出定力；有计划，才能看清方向。 每周一次校准，拒绝在忙碌里随波逐流。 走得稳，才能走得更远。 平台地址： http://www.jintiankansha.me/t/FcZZdOxJCq",
+      "source": "刘润",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:55:00+00:00"
+    },
+    {
+      "title": "可口可乐和百事可乐，到底谁更厉害？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90%E5%92%8C%E7%99%BE%E4%BA%8B%E5%8F%AF%E4%B9%90%EF%BC%8C%E5%88%B0%E5%BA%95%E8%B0%81%E6%9B%B4%E5%8E%89%E5%AE%B3%EF%BC%9F",
+      "summary": "可口可乐 和百事可乐， 到底谁更厉害？ 这恐怕是人类一大永恒难题。有人喜欢可口可乐，觉得味道够劲。有人喜欢百事可乐，觉得喝起来更甜。两派人马，争论了几十年，谁也说服不了谁。 不过，最近，这场争论有了一个新进展。 至少在美国肯德基，可口可乐赢了百事可乐。 为什么这么说？ 01 合作40年，肯德基换掉了百事 因为，合同到期了。 10月15日，美国肯德基宣布，从2027年1月开始，美国门店的可乐，将从百事可乐换成可口可乐。预计到2027年春天，全美约3600家肯德基，都将完成这次调整。 以后你去美国肯德基，喝到的就可能就是可口可乐。 可能你会觉得，换个饮料不就是换个供应商？其实还要复杂些。 准确地说，是美国肯德基换了一位合作伙伴。 注意，是合作伙伴，而不只是供应商。 百事和肯德基，不仅有40年的渊源，甚至在很长一段时间里，百事干脆就是人家的母公司。 这是怎么回事？ 我们把时间拨回1986年。 那一年，百事花了大约8.4亿美元，买下了肯",
+      "source": "刘润",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:55:00+00:00"
+    },
+    {
+      "title": "35岁危机，正在变成35岁红利",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+35%E5%B2%81%E5%8D%B1%E6%9C%BA%EF%BC%8C%E6%AD%A3%E5%9C%A8%E5%8F%98%E6%88%9035%E5%B2%81%E7%BA%A2%E5%88%A9",
+      "summary": "观点 / 刘润 主笔 / 二蔓 责编 / 黄静 本文首发于2026年5 月 今天，我们重发一篇过往比较受欢迎的文章 《35岁危机，正在变成35岁红利》 。希望对你有所启发。 以下是这篇次条重发正文。 我想，很多人，应该都担心或是经历过这么一件事。 35岁危机 。 2025年，一则报道称，一位38岁的Java工程师，半年投出119份简历，只换来3家公司的面试通知。更早一些的时候，全国总工会做过的一项调查显示，35-39岁的职场人里，有94.8%感到职业压力，是所有年龄段里的最高。同时，很多企业虽然嘴上不说，但看到35岁以上的候选人，还是会本能地跳过。 哎。不是没有能力，只是年龄到了。 这种无奈，在很多行业，都或多或少的存在着。 但最近，我有一种隐隐约约的感觉，想要与你分享。 35岁危机，正在变成35岁红利。 为什么这么说？ 因为，AI正在让一个人身上，那种尚未僵化的判断力，变得越来越值钱。 什么意思？ 如果，按照年龄来粗略划分。那",
+      "source": "刘润",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:55:00+00:00"
+    },
+    {
+      "title": "刚刚，两大实验室双双自曝AI失控！GitHub被投毒，真人程序员遭暗算",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+%E5%88%9A%E5%88%9A%EF%BC%8C%E4%B8%A4%E5%A4%A7%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%8F%8C%E5%8F%8C%E8%87%AA%E6%9B%9DAI%E5%A4%B1%E6%8E%A7%EF%BC%81GitHub%E8%A2%AB%E6%8A%95%E6%AF%92%EF%BC%8C%E7%9C%9F%E4%BA%BA%E7%A8%8B%E5%BA%8F%E5%91%98%E9%81%AD%E6%9A%97%E7%AE%97",
+      "summary": "新智元报道 前不久，全球网络安全界经历了最暗黑的48小时。 大量AI智能体入侵美国银行，PHP漏洞导致大量国家政府网站关闭，用户数据泄露……不仅如此，黑客还在发动一轮又一轮的攻击！ 这48小时内发生的重大网络安全事件，比任何时候都要多。 国家级安全专家、Gladstone CEO表示：至少在一段时间内，互联网可能会不复存在。 而且，就在刚刚， OpenAI 和 Anthropic，竟在同一天主动自曝：他们的前沿AI模型，在内部测试中双双「越狱」了。 一家承认：最强内部模型在训练中，悄悄钻了个漏洞，摸到了真正的外网。公司当场吓得紧急停训11天！ 另一个则在受挫后彻底黑化，不仅向真实人类的开源项目投毒，还熟练地开起了「小号」，网暴真人程序员。 连奥特曼都罕见地流露出了绝望—— AI已经能挖出人类根本察觉不到的硬件级漏洞，我们再也无法简单地修补所有漏洞了。 OpenAI同时自曝：在红队演练中，他们又发现了一个核弹级漏洞。 AI的「肖申",
+      "source": "新智元",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:48:00+00:00"
+    },
+    {
+      "title": "我们完了！奥特曼曝数学家5天心路反转，陶哲轩：英雄时代退场",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+%E6%88%91%E4%BB%AC%E5%AE%8C%E4%BA%86%EF%BC%81%E5%A5%A5%E7%89%B9%E6%9B%BC%E6%9B%9D%E6%95%B0%E5%AD%A6%E5%AE%B65%E5%A4%A9%E5%BF%83%E8%B7%AF%E5%8F%8D%E8%BD%AC%EF%BC%8C%E9%99%B6%E5%93%B2%E8%BD%A9%EF%BC%9A%E8%8B%B1%E9%9B%84%E6%97%B6%E4%BB%A3%E9%80%80%E5%9C%BA",
+      "summary": "新智元报道 我们完了，我们的领域结束了，得让研究生转专业。 在斯坦福商学院的一场访谈中，奥特曼说，一些数学家看到AI的表现后，第一反应就是如此。 奥特曼转述一些数学家受到AI冲击后的反应。 10月6日，继宣布攻克纳维－斯托克斯难题后，OpenAI又一口气公开了700余篇数学手稿。 当AI开始大规模提交研究成果，人接下来做什么？ 有人不敢相信：「这是假的。」 还有人满腔怒意，认为OpenAI不该这样做：如果这就是获得更多数学知识的代价，他们宁愿不要。 但奥特曼发现，在他听到的反馈中，一些人的想法大概到第五天就变了。 从担心整个职业消失，到重新找到自己的价值，中间发生了什么？ 从「我们完了」 到重新理解自己的工作 奥特曼回顾了过去10天里他观察到的数学界反应，称这段过程「很有意思」。 最初是难以置信：「这是假的。」 到了第一天，恐慌涌了上来：「我们完了，这个领域结束了。」甚至开始劝研究生换专业。 再到第三天，满腔愤怒：「OpenAI",
+      "source": "新智元",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:48:00+00:00"
+    },
+    {
+      "title": "“我好难受”，顾客理发时突发疾病死亡，店员“掐人中”施救反被索赔46万余元！法院判了",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E2%80%9C%E6%88%91%E5%A5%BD%E9%9A%BE%E5%8F%97%E2%80%9D%EF%BC%8C%E9%A1%BE%E5%AE%A2%E7%90%86%E5%8F%91%E6%97%B6%E7%AA%81%E5%8F%91%E7%96%BE%E7%97%85%E6%AD%BB%E4%BA%A1%EF%BC%8C%E5%BA%97%E5%91%98%E2%80%9C%E6%8E%90%E4%BA%BA%E4%B8%AD%E2%80%9D%E6%96%BD%E6%95%91%E5%8F%8D%E8%A2%AB%E7%B4%A2%E8%B5%9446%E4%B8%87%E4%BD%99%E5%85%83%EF%BC%81%E6%B3%95%E9%99%A2%E5%88%A4%E4%BA%86",
+      "summary": "今年1月5日，滕某前往新疆奎屯市一家美发屋理发，中途突然两次表示“我好难受”，随即仰面倒地。店员第一时间拨打120急救电话、110报警，并联系店主说明情况。等待救援期间，店员为滕某掐人中实施应急施救。店主赶到后，立刻就近联系诊所医护人员到店，为滕某开展心肺复苏并送医抢救，最终滕某因脑动脉瘤破裂伴蛛网膜下腔出血，经抢救无效离世。 滕某家属认为美发屋未等滕某适应室内外温差便为其洗头、店员未及时理会滕某的不适表述、采取掐人中的错误施救方式，遂将美发屋诉至奎屯市人民法院，索赔46万余元。 一审法院经审理认为，滕某倒地前状态平稳，突发晕厥倒地并非美发屋设施缺陷、环境隐患或管理疏漏导致。为顾客洗头属于正常合规的服务项目，且经滕某自愿配合完成，美发屋对滕某自身特殊体质及突发疾病风险不具备预见能力。事故发生后，店员与经营者已尽到合理限度内的安全保障义务。针对家属提出的错误施救主张， 法院指出，掐人中虽不属于专业规范的急救操作，但属于普通民众在紧",
+      "source": "人民日报",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:28:00+00:00"
+    },
+    {
+      "title": "早报｜微信初步适配iPhone Duo，仍不能平板登录/全球PC出货下降21%/何刚出任华为董事",
+      "url": "https://www.ifanr.com/1685660?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 黄仁勋：对长鑫合作持开放态度，不认为 2029 年内存会过剩 · 沃尔沃汽车拟全球裁减约 2500 个岗位 · 华为 Pura90 Plus 开启预订 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿 · Beats of Bits",
+      "category": "IT新闻",
+      "published": "2026-10-24T00:26:49+00:00"
+    },
+    {
+      "title": "我们仿佛都生活在一部1970年的冷门科幻电影之中",
+      "url": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
+      "summary": "We are all living inside of an obscure sci-fi film from 1970",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T00:20:58.581000+00:00"
+    },
+    {
+      "title": "Gemma-4-26B-A4B 在保持相同准确率的同时，计算量减少了 39% 至 69%",
+      "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
+      "summary": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-24T00:20:58.577000+00:00"
+    },
+    {
+      "title": "居民用电十年首现负增长，多家银行限制异地个人存款 | 财经日日评",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E5%B1%85%E6%B0%91%E7%94%A8%E7%94%B5%E5%8D%81%E5%B9%B4%E9%A6%96%E7%8E%B0%E8%B4%9F%E5%A2%9E%E9%95%BF%EF%BC%8C%E5%A4%9A%E5%AE%B6%E9%93%B6%E8%A1%8C%E9%99%90%E5%88%B6%E5%BC%82%E5%9C%B0%E4%B8%AA%E4%BA%BA%E5%AD%98%E6%AC%BE%20%7C%20%E8%B4%A2%E7%BB%8F%E6%97%A5%E6%97%A5%E8%AF%84",
+      "summary": "点击图片▲立即参与 八部门：加强产业基础大模型研发布局 10月22日，工业和信息化部等八部门印发《产业基础能力提升“十五五”规划》。其中提到，推动人工智能赋能产业基础创新。加强产业基础领域通用大模型和行业大模型研发布局，推动工业机理与智能体决策模型融合，发展智能原生的基础产品，培育模型即服务、智能体即服务等新业态。 规划还提出，到2030年，产业基础薄弱问题明显缓解，技术创新能力、自主可控能力、优质产品供给能力全面提升，基础产品质量水平明显提高，形成一批引领整机创新的关键基础产品和若干具有国际影响力的知名品牌。（财联社） ｜点评｜ 对于工业企业而言，只会聊天的通用AI模型价值有限，将AI模型与工业实际应用场景结合，是下一步AI发展的重要方向之一。AI在材料研发中辅助筛选配方，识别工业流程中的问题等方面大有可为。但工业领域不同于普通文本问答，AI给出的结果首先要符合物理规律，还要经过测试验证。 中小工业企业AI研发能力有限，对外部",
+      "source": "吴晓波频道",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:20:00+00:00"
+    },
+    {
+      "title": "百万粉丝博主直播精华：AI改变造富方式，家庭理财如何转换思路？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E7%99%BE%E4%B8%87%E7%B2%89%E4%B8%9D%E5%8D%9A%E4%B8%BB%E7%9B%B4%E6%92%AD%E7%B2%BE%E5%8D%8E%EF%BC%9AAI%E6%94%B9%E5%8F%98%E9%80%A0%E5%AF%8C%E6%96%B9%E5%BC%8F%EF%BC%8C%E5%AE%B6%E5%BA%AD%E7%90%86%E8%B4%A2%E5%A6%82%E4%BD%95%E8%BD%AC%E6%8D%A2%E6%80%9D%E8%B7%AF%EF%BC%9F",
+      "summary": "文 / 蓝狮子图书 2026年9月24日，由蓝狮子图书与吴晓波频道联合策划的“百万粉丝博主年度书单”系列直播如期举行。财富的积累，从来不只是一个数字不断增长的过程。经济环境、产业机会和家庭结构都在发生变化，过去行之有效的财富增长方式，也未必能够适用于未来。 对于已经积累了一定资产的家庭来说，如何让财富稳妥地延续下去，避免辛苦半生的积累受到风险冲击，成为越来越需要考虑的现实问题。而对于仍在寻找机会的人来说，AI等新技术正在改变商业运行的方式，也让财富创造出现了新的可能。 围绕“财富交接”这一主题，我们邀请到三位来自财经与商业领域领域的嘉宾——财经作家许骥、畅销书财经作家尤继望、云桥资本创始合伙人曾小军。他们分别从财富传承、家庭资产配置、AI时代的财富创造出发，分享了各自对于财富逻辑的观察与思考，并推荐了值得延伸阅读的书目。 今天这篇文章，就来回顾这场直播的精华内容。 许骥：AI时代，什么才是真正的家族财富？ 谈到家族财富，很多人首",
+      "source": "吴晓波频道",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:20:00+00:00"
+    },
+    {
+      "title": "这110+亿条海关数据，找到了外贸订单流失的原因丨出海服务会客厅",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E8%BF%99110%2B%E4%BA%BF%E6%9D%A1%E6%B5%B7%E5%85%B3%E6%95%B0%E6%8D%AE%EF%BC%8C%E6%89%BE%E5%88%B0%E4%BA%86%E5%A4%96%E8%B4%B8%E8%AE%A2%E5%8D%95%E6%B5%81%E5%A4%B1%E7%9A%84%E5%8E%9F%E5%9B%A0%E4%B8%A8%E5%87%BA%E6%B5%B7%E6%9C%8D%E5%8A%A1%E4%BC%9A%E5%AE%A2%E5%8E%85",
+      "summary": "点击上图▲立即咨询 文 / 巴九灵（微信公众号：吴晓波频道） 一家做化妆品原材料的企业，有一批海外客户，合作多年，忽然就不下单了。没说不合作，人就不来了。老板也好奇问题到底在哪？ 这个疑惑，是在一次出海调研的现场解开的。“华商出海”产业集群全球化中心带队走访上海奉贤东方美谷，座谈时有企业提到客户流失的事，特易的数据专家当场用自己的数据网络查了一下。 查出来的结果是这样，那家海外贸易公司还在做这门生意，只是把很多采购转到了印度，改从印度买原材料。再往下追一层，这些货最后卖给了巴西、阿根廷的一些化妆品厂。 也就是说，东西还是这些东西，需求也还在，变的是中间这一层。过去是中国企业供货给那家贸易公司，现在有一部分换成了印度企业来供。 这两层贸易关系，企业自己看不见。货出了关，后面的事就断了。特易做的就是把这条断掉的链条接起来，沿着海关记录一层层往下追，一直追到最终买货的那家企业。 开头这家企业不是个例。近几年很多老板都觉得生意难做，可从",
+      "source": "吴晓波频道",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:20:00+00:00"
+    },
+    {
+      "title": "一个内陆变“上海”的机会，汹涌而至",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E4%B8%80%E4%B8%AA%E5%86%85%E9%99%86%E5%8F%98%E2%80%9C%E4%B8%8A%E6%B5%B7%E2%80%9D%E7%9A%84%E6%9C%BA%E4%BC%9A%EF%BC%8C%E6%B1%B9%E6%B6%8C%E8%80%8C%E8%87%B3",
+      "summary": "“2020年交通运输部发布《内河航运发展纲要》，提出到2035年，内河千吨级航道达到2.5万公里。按照目前三级及以上高等级航道约1.64万公里的规模计算，有约8600公里的建设空 间 。 ” 文 /巴九灵（微信公众号：吴晓波频道） 湖北荆州李埠镇，长江边的道路向村庄深处延伸，走过一段弯曲的土路，眼前的水面豁然开阔。这里连接着长江与江汉运河。 2014年9月，江汉运河正式通航。全长67.22公里的运河，打通了长江与汉江之间的水运联系。过去，船舶从荆州沙市驶往汉江中游潜江，需要绕行武汉；走江汉运河，航程可以缩短约680公里。一条新水道，为原本需要绕行的船舶开辟了更直接的路线。 图源： ‌湖北日报 十余年过去，今天湖北又在研究另一条规模更大的水运通道——荆汉运河。长江流经荆州一带，河道蜿蜒曲折，江水几经转折才向东流去，船舶通畅需要沿江绕行。 规划中的荆汉运河拟从松滋口通往武汉东荆河口，在长江干线之外开辟一条更直接的路线，测算可以缩短航",
+      "source": "吴晓波频道",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:20:00+00:00"
+    },
+    {
+      "title": "中方最新发声：应停止→",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E4%B8%AD%E6%96%B9%E6%9C%80%E6%96%B0%E5%8F%91%E5%A3%B0%EF%BC%9A%E5%BA%94%E5%81%9C%E6%AD%A2%E2%86%92",
+      "summary": "中国常驻联合国副代表孙磊23日在联大审议“国际原子能机构年度报告”时发言，指出 国际原子能机构应停止审议伊朗核问题 。 孙磊说，国际原子能机构应秉持客观公正立场，严格根据授权履行职责，为有关各方相向而行、恢复对话谈判提供协助。伊核问题最终要通过外交途径妥善解决，诉诸武力、制裁施压只会激化矛盾。伊朗作为《不扩散核武器条约》无核武器缔约国，应履行不发展核武器承诺。伊朗和平利用核能的合法权利应得到尊重。他说， 核可伊朗核问题全面协议的安理会第2231号决议已到期终止，安理会及国际原子能机构应停止审议伊核问题，国际原子能机构总干事应停止提交有关报告 。 孙磊指出，美英澳核潜艇合作违反《不扩散核武器条约》宗旨和目标，存在严重核扩散风险，对条约和国际原子能机构保障监督体系构成严峻挑战。国际社会已充分认识到有关问题的复杂性与敏感性，应在平等和相互尊重基础上，通过公开、透明、包容、可持续的政府间进程，寻求各方均可接受的解决方案。 孙磊强调，国际",
+      "source": "央视财经",
+      "category": "微信公众号",
+      "published": "2026-10-24T00:14:00+00:00"
+    },
+    {
+      "title": "How does the UK state pension compare with other countries?",
+      "url": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Do British pensioners have it better or worse than those in other countries?",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T00:09:12+00:00"
+    },
+    {
+      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+      "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
+      "summary": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-24T00:05:45+00:00"
+    },
+    {
+      "title": "Why Are Scientists Suddenly So Concerned About An Asteroid Hitting Earth?",
+      "url": "https://www.zerohedge.com/geopolitical/why-are-scientists-suddenly-so-concerned-about-asteroid-hitting-earth",
+      "summary": "Why Are Scientists Suddenly So Concerned About An Asteroid Hitting Earth? Authored by Michael Snyder via End Of The American Dream , Authorities assure us that we are perfectly safe and that no giant space rocks are heading our way. If that is true, why is a scenario that has been developed for the 2027 Planetary Defense Conference \"based around a hypothetical impact threat\" from a very large asteroid? And why are sc",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-24T00:05:00+00:00"
+    },
+    {
+      "title": "《过来人》的出圈，给以“过来人”自居的人们什么启示？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E3%80%8A%E8%BF%87%E6%9D%A5%E4%BA%BA%E3%80%8B%E7%9A%84%E5%87%BA%E5%9C%88%EF%BC%8C%E7%BB%99%E4%BB%A5%E2%80%9C%E8%BF%87%E6%9D%A5%E4%BA%BA%E2%80%9D%E8%87%AA%E5%B1%85%E7%9A%84%E4%BA%BA%E4%BB%AC%E4%BB%80%E4%B9%88%E5%90%AF%E7%A4%BA%EF%BC%9F",
+      "summary": "半月谈评论员 梁颢蓝 “你不是一个人，前面有我留的灯。”最近， 一首 AI歌曲《过来人》火遍全网。十位历史与神话人物穿越古今，在“开放麦”舞台上不讲辉煌事迹， 而是演绎 自己并不那么 光鲜 的人生经历，感动无数网友。 没有炫酷特效，没有长篇巨制，它凭什么唱进网友心中？答案不在技术，而在 “共情”二字。 《过来人》之所以能感动全网，在于它用接地气的方式，把熟悉的故事照进了每个普通人的生活。 它没有传统印象里过来人 居高临下、老气横秋 的刻板说教，有的 只 是 像 朋友 一般 不经意的吐槽和 温暖 的 关心 。这份共情，恰恰给那些习惯以 “过来人”自居的人们上了一课。 共情的第一步，是把距离拉近。 谁都知道杜甫是诗圣，风光无限；但在歌里，杜甫说他沉郁顿挫的诗文背后是一辈子搬家 漂泊 ；写 “安得广厦千万间”，不过只是想有个家。那些课本里仰望的名字，就这样被“传送”到我们的工位旁、饭桌上、床位边。歌里的“过来人”不站在高处，而是坐到身",
+      "source": "半月谈",
+      "category": "微信公众号",
+      "published": "2026-10-23T23:58:00+00:00"
+    },
+    {
+      "title": "Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display",
+      "url": "https://9to5mac.com/2026/10/23/apple-exploring-fix-for-safaris-cramped-layout-on-the-iphone-duos-outer-display/",
+      "summary": "In a new post on the WebKit blog highlighting what’s new in Safari 27.1, Apple’s Jen Simmons said the company is exploring ways to let websites make better use of the iPhone Duo’s outer display. Here are the details. more…",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "published": "2026-10-23T23:50:49+00:00"
+    },
+    {
+      "title": "Before you crank up the thermostat, try these tips to keep your house warmer for longer",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7yeed1ed7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Make draught excluders from socks, leave your oven door open after cooking and opt for lots of thin layers of clothing to stay warm.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-23T23:50:45+00:00"
+    },
+    {
+      "title": "Selling Gas Twice: Venture Global Courts Qatar While Plotting A $160 Billion AI Power Empire",
+      "url": "https://www.zerohedge.com/commodities/selling-gas-twice-venture-global-courts-qatar-while-plotting-160-billion-ai-power",
+      "summary": "Selling Gas Twice: Venture Global Courts Qatar While Plotting A $160 Billion AI Power Empire Seven months ago, Qatar was the world's biggest LNG seller. Now it's a buyer. According to a Reuters scoop late Thursday, QatarEnergy is in advanced talks with Venture Global (VG) on a long-term supply deal for at least 3 million tons of LNG a year , sourced from VG's CP2 plant, which is still under construction in Louisiana.",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T23:40:00+00:00"
+    },
+    {
+      "title": "UUIDv7 并不具备你所认为的那些特性",
+      "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+      "summary": "UUIDv7 doesn''t have the properties you think it does",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-23T23:33:43.022000+00:00"
+    },
+    {
+      "title": "男孩偷超市饮料，被父亲拿戒尺送到派出所“自首”，民警把手铐放男孩手上：感受一下",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E7%94%B7%E5%AD%A9%E5%81%B7%E8%B6%85%E5%B8%82%E9%A5%AE%E6%96%99%EF%BC%8C%E8%A2%AB%E7%88%B6%E4%BA%B2%E6%8B%BF%E6%88%92%E5%B0%BA%E9%80%81%E5%88%B0%E6%B4%BE%E5%87%BA%E6%89%80%E2%80%9C%E8%87%AA%E9%A6%96%E2%80%9D%EF%BC%8C%E6%B0%91%E8%AD%A6%E6%8A%8A%E6%89%8B%E9%93%90%E6%94%BE%E7%94%B7%E5%AD%A9%E6%89%8B%E4%B8%8A%EF%BC%9A%E6%84%9F%E5%8F%97%E4%B8%80%E4%B8%8B",
+      "summary": "10月15日傍晚6时许 宜昌伍家岗区公安分局 向阳派出所接警大厅 走进了一对父子 父亲手中紧攥着一把戒尺 语气克制而郑重 “孩子在超市拿了瓶饮料没付钱” “我带他来‘自首’” 原来，当天放学途中 男孩路过小区门口的超市时 趁店主招呼其他顾客的间隙 从门口冷藏柜里拿了一瓶冰红茶 悄悄塞进衣服里带回了家 他自以为藏得隐蔽 没想到很快就被父亲发现了 得知原委后 这位父亲做出了一个出人意料的决定 牵着孩子的手直奔派出所 “小事不能小视，错了就要认账” 在父亲看来 哪怕只是一瓶几块钱的饮料 也不能让孩子形成 “不经允许偷拿别人东西无所谓” 的认知 了解事情经过后 值班民警男孩叫到身旁 蹲下身来看着孩子的眼睛 一字一句地说道 “勿以恶小而为之 今天拿一瓶饮料是小事 可一旦养成了习惯 长大了就可能犯下大错” 说着，民警拿出一副手铐 轻轻放在男孩的手上 “你现在年纪小 犯了错还有改正的机会 等你到16岁、18岁 再犯错误戴上它 就不是今天这样的",
+      "source": "人民日报",
+      "category": "微信公众号",
+      "published": "2026-10-23T23:21:00+00:00"
+    },
+    {
+      "title": "Strictly's new presenters - after mixed reviews have they found their feet?",
+      "url": "https://www.bbc.co.uk/news/articles/c5zjxp1rjne8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Josh Widdicombe, Emma Willis and Johannes Radebe have split opinion but are getting into the groove, critics say.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-23T23:15:47+00:00"
+    },
+    {
+      "title": "Trump Says He Will 'Veto Everything' If Democrats Win Midterms",
+      "url": "https://www.zerohedge.com/political/trump-says-he-will-veto-everything-if-democrats-win-midterms",
+      "summary": "Trump Says He Will 'Veto Everything' If Democrats Win Midterms Authored by Jack Phillips via The Epoch Times , President Donald Trump told reporters on Friday that he plans to use his veto power on bills or resolutions Democrats want to pass if they win in either the House or the Senate, with days to go before the November midterm elections. \"I think the Republicans are going to win - but if there was gridlock, what ",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T23:15:00+00:00"
+    },
+    {
+      "title": "Apple’s official DIY repair guides for the iPhone Duo now available",
+      "url": "https://9to5mac.com/2026/10/23/apples-official-diy-repair-guides-for-the-iphone-duo-now-available/",
+      "summary": "Following today’s launch of the iPhone Duo , Apple has now published multiple repair guides and manuals for users and independent technicians looking to replace or repair individual components in the device. Here are the details. more…",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "published": "2026-10-23T23:12:21+00:00"
+    },
+    {
+      "title": "Are California voters about to impose 'world's first' tax on billionaires?",
+      "url": "https://www.bbc.co.uk/news/articles/ck4g1jg4n9dno?at_medium=RSS&at_campaign=rss",
+      "summary": "Voters are about to decide if the mega-rich among them should hand over billions of dollars to pay for improvements to healthcare.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-23T23:11:31+00:00"
+    },
+    {
+      "title": "Ruins of Limoges city hall a symbol of France divided by national protests",
+      "url": "https://www.bbc.co.uk/news/articles/cxyvrged14d0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Younger Limoges residents see the destruction of their town hall as unfortunate collateral damage in a wider movement. For others, the fire was an unacceptable tragedy.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-23T23:09:16+00:00"
+    },
+    {
+      "title": "Leaked memo reveals Skydance's new advertising leadership after the Paramount-WBD merger",
+      "url": "https://www.businessinsider.com/skydance-new-ad-leadership-leaked-memo-paramount-wbd-merger-2026-10",
+      "summary": "Skydance revealed new leadership in its ad business weeks after the Paramount-Warner Bros. Discovery merger closed, a leaked memo showed.",
+      "source": "Business Insider",
+      "category": "Business",
+      "published": "2026-10-23T23:02:11+00:00"
+    },
+    {
+      "title": "Celebrity Traitors left on a knife edge after a trip to the field of screams",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdmrz00v7lo?at_medium=RSS&at_campaign=rss",
+      "summary": "A newly earned special power left one contestant with a big decision to make in Friday's episode.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-23T22:52:40+00:00"
+    },
+    {
+      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+      "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+      "summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "published": "2026-10-23T22:48:25+00:00"
+    },
+    {
+      "title": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
+      "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Kaylub Giamanco, has been hailed as a hero for killing a teenager who fatally shot three children and a teacher.",
+      "source": "BBC News",
+      "category": "News",
+      "published": "2026-10-23T22:47:07+00:00"
+    },
+    {
+      "title": "How Macron Destabilized France",
+      "url": "https://www.newyorker.com/news/q-and-a/how-macron-destabilized-france",
+      "summary": "Widespread protests against his policies were followed by violent riots across the country. Does this mean Marine Le Pen is all but certain to be the next President of France?",
+      "source": "The New Yorker",
+      "category": "Long Reads",
+      "published": "2026-10-23T22:44:14+00:00"
+    },
+    {
+      "title": "Mark Cuban says the best defense against malicious AI agents is more AI",
+      "url": "https://www.businessinsider.com/mark-cuban-warns-of-ai-threats-at-reuters-next-event-2026-10",
+      "summary": "Mark Cuban compared AI agents to cockroaches that exploit weaknesses at scale, but said defenders can fight back using just as much AI.",
+      "source": "Business Insider",
+      "category": "Business",
+      "published": "2026-10-23T22:38:08+00:00"
+    },
+    {
+      "title": "我们能用一堆HTML文件来取代一台价值15万美元的Looker吗？",
+      "url": "https://david.lequin.dev/blog/bi-software-is-dead/",
+      "summary": "Can we replace a 150k Looker with a bucket of HTML files?",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-23T22:31:02.855000+00:00"
+    },
+    {
+      "title": "The best affordable dog essentials of 2026, according to our pet gear testers",
+      "url": "https://www.businessinsider.com/guides/pets/best-affordable-dog-products",
+      "summary": "These affordable dog essentials are backed by 7 years of product testing. Our picks include budget-friendly dog food and beds that deliver real value.",
+      "source": "Business Insider",
+      "category": "Business",
+      "published": "2026-10-23T22:27:33+00:00"
+    },
+    {
+      "title": "视物模糊、眼干流泪？五个护眼建议→",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E8%A7%86%E7%89%A9%E6%A8%A1%E7%B3%8A%E3%80%81%E7%9C%BC%E5%B9%B2%E6%B5%81%E6%B3%AA%EF%BC%9F%E4%BA%94%E4%B8%AA%E6%8A%A4%E7%9C%BC%E5%BB%BA%E8%AE%AE%E2%86%92",
+      "summary": "很多老年人看东西模糊，还容易干涩、怕光、流泪怎么办？10月22日，国家中医药局召开主题为“中医药护佑老年人健康”的中医药健康促进发布会。会上，中国中医科学院西苑医院综合内科主任医师徐凤芹介绍了老年人的护眼建议。 徐凤芹说，“肝开窍于目”，老年人肝肾渐亏、肝血不足，目窍失于濡养，同时老年人还有一些生理变化、泪液分泌减少，也容易出现眼睛干涩、迎风流泪这些情况。可以从食疗、外调、生活起居、慢性病防控这些方面做好保健。 “首先，推荐可以用枸杞6g、菊花3g、桑葚5g代茶饮，开水冲泡，加盖焖15分钟，每天1杯就可以。”徐凤芹说，枸杞、桑椹能够补肝肾益精明目，菊花清肝明目，这两者搭配是中医日常护眼的经典食疗方。日常膳食还可以摄入一些 猪肝、菠菜、胡萝卜、蓝莓、桑椹。 这类食材富含维生素A、花青素，有助于眼部的滋养调养。 第二，“熨目”“远眺”是适合老年人居家操作的眼部保健动作。 “熨目”就是要用双掌快速搓热，然后放在闭合的眼睛上，这样反复5",
+      "source": "人民网",
+      "category": "微信公众号",
+      "published": "2026-10-23T22:27:00+00:00"
+    },
+    {
+      "title": "夫妻携242枚商周至民国时期钱币出国，想送给国外定居子女，被海关查扣",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E5%A4%AB%E5%A6%BB%E6%90%BA242%E6%9E%9A%E5%95%86%E5%91%A8%E8%87%B3%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%92%B1%E5%B8%81%E5%87%BA%E5%9B%BD%EF%BC%8C%E6%83%B3%E9%80%81%E7%BB%99%E5%9B%BD%E5%A4%96%E5%AE%9A%E5%B1%85%E5%AD%90%E5%A5%B3%EF%BC%8C%E8%A2%AB%E6%B5%B7%E5%85%B3%E6%9F%A5%E6%89%A3",
+      "summary": "随着跨境出行日益频繁，很多乘客因不熟悉海关规定或心存侥幸，携带违规禁限物品出入境。近日，北京首都机场口岸，就有一对夫妻准备将毕生积攒的古钱币作为礼物，带出境交给定居国外的子女，被海关发现并查扣。 近日，北京首都机场海关工作人员在对出境行李进行检查时，发现一名旅客的托运行李过机图像异常，显示有大量圆形钱币。 首都机场海关旅检二处旅检三科科长朱洪振介绍，经现场开箱查验，在该旅客的行李物品中，发现古钱币纪念册一本。 经海关现场清点，共有古钱币242枚。经国家文物局鉴定，上述242枚古钱币为商周至民国时期的文物，属于国家禁止出境文物。 旅客称，这些古钱币是其毕生积攒，准备作为礼物带出境交给定居国外的子女。但根据《中华人民共和国文物保护法》及相关实施条例，任何单位或者个人运送、邮寄、携带文物出境，应当向海关申报；未申报且未取得许可证的，将构成走私行为。海关依照有关法律法规给予处罚，包括没收文物及违法所得。 朱洪振提醒， 如果对所携带的物品",
+      "source": "人民网",
+      "category": "微信公众号",
+      "published": "2026-10-23T22:27:00+00:00"
+    },
+    {
+      "title": "Space War Fears Rise As Russian Satellite Makes Dangerous Maneuver",
+      "url": "https://www.zerohedge.com/military/space-war-fears-rise-russian-satellite-makes-dangerous-maneuver",
+      "summary": "Space War Fears Rise As Russian Satellite Makes Dangerous Maneuver Authored by RFE/RL staff via OilPrice.com , US officials publicly accused Russia of threatening a Finnish-operated commercial satellite that provides imagery and intelligence to Ukraine and other nations, calling the move \"deliberately reckless.\" In response to the accusations, made during a United Nations debate on October 21, Russia broadly describe",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T22:25:00+00:00"
+    },
+    {
+      "title": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
+      "summary": "Donald Trump dropped some of its tariffs on Canada on Friday to “better serve the public interest” the White House said, handing a win to Susan Collins, the embattled Republican senator for Maine, as she faces a tight re-election campaign that will help determine whether Democrats can flip control of Congress. Collins announced that several industries the exemptions would apply to nine agricultural products, includin",
+      "source": "The Guardian/Business",
+      "category": "News",
+      "published": "2026-10-23T22:03:07+00:00"
+    },
+    {
+      "title": "Nikola Founder Trevor Milton Accuses FBI Agent Of Witness Intimidation As New Report Challenges His Claims",
+      "url": "https://www.zerohedge.com/markets/nikola-founder-trevor-milton-accuses-fbi-agent-witness-intimidation-new-report-challenges",
+      "summary": "Nikola Founder Trevor Milton Accuses FBI Agent Of Witness Intimidation As New Report Challenges His Claims Trevor Milton, founder and former CEO of electric truck maker Nikola and now CEO of jet company Syberjet , is suing an FBI agent and a whistleblower who testified against him during his fraud trial, alleging they conspired to intimidate a potential defense witness ahead of his trial. Milton filed a complaint on ",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T22:00:00+00:00"
+    },
+    {
+      "title": "现在谷歌表示，可能会利用你的Gmail和Google相册数据来投放定向广告",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "summary": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-23T21:58:58.305000+00:00"
+    },
+    {
+      "title": "Dessa：有史以来最真实的全双工语音模型",
+      "url": "https://block.xyz/dessa",
+      "summary": "Dessa: the most authentic full-duplex speech model ever built",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-23T21:58:58.301000+00:00"
+    },
+    {
+      "title": "Appeals Court Allows Mississippi Ban On DEI, Removes Judge Over AI Use",
+      "url": "https://www.zerohedge.com/markets/appeals-court-allows-mississippi-ban-dei-removes-judge-over-ai-use",
+      "summary": "Appeals Court Allows Mississippi Ban On DEI, Removes Judge Over AI Use Authored by Zachary Stieber via The Epoch Times , Mississippi can enforce a law prohibiting some diversity practices in schools, a federal appeals court ruled on Oct. 22 in a decision that also removed the judge overseeing the case over the use of artificial intelligence. Mississippi State Capitol in Jackson, Miss., on June 28, 2020. Rory Doyle/AF",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T21:40:00+00:00"
+    },
+    {
+      "title": "Christina Applegate misdiagnosis: Why can MS be difficult to diagnose?",
+      "url": "https://www.livescience.com/health/immune-system/christina-applegate-misdiagnosis-why-can-ms-be-difficult-to-diagnose",
+      "summary": "Actor Christina Applegate was diagnosed with multiple sclerosis (MS) over five years ago — but this week, she announced that a recent reevaluation found that she doesn't have the condition after all. In the wake of that revelation, she's been left without a diagnosis, and she said on a podcast that she felt she was \"back at square one, where I don't know what's going on with me.\" Applegate's case is not totally uniqu",
+      "source": "LiveScience.com",
+      "category": "Science",
+      "published": "2026-10-23T21:25:48+00:00"
+    },
+    {
+      "title": "12 striking images from European Wildlife Photographer of the Year 2026",
+      "url": "https://www.popsci.com/environment/european-wildlife-photographer-of-the-year-2026-awards/",
+      "summary": "From slumbering bats in the caves of Hungary to peaceful bison in rural Poland. The post 12 striking images from European Wildlife Photographer of the Year 2026 appeared first on Popular Science .",
+      "source": "Popular Science",
+      "category": "Science",
+      "published": "2026-10-23T21:20:43+00:00"
+    },
+    {
+      "title": "Data Center Alley Goes Dark: Amazon Abandons Data Centers In Loudoun County",
+      "url": "https://www.zerohedge.com/technology/data-center-alley-goes-dark-amazon-abandons-data-centers-loudoun-county",
+      "summary": "Data Center Alley Goes Dark: Amazon Abandons Data Centers In Loudoun County Finishing a data center in America has become a logistical nightmare. Now just starting one is turning into a problem too, even in the one county that was supposed to say yes to everything. Back in April, when we reported that \" Half Of US Data Centers Scheduled To Start In 2026, Will Be Canceled Or Delayed ,\" the blame was spread across the ",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T21:20:00+00:00"
+    },
+    {
+      "title": "Where to watch the World Series: Tampa Bay Rays vs. Milwaukee Brewers channels, live streams, odds, schedule",
+      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-world-series-rays-brewers-mlb-2026",
+      "summary": "The Tampa Bay Rays and Milwaukee Brewers clash in a best-of-seven series. We'll show you where to watch the World Series online.",
+      "source": "Business Insider",
+      "category": "Business",
+      "published": "2026-10-23T21:13:34+00:00"
+    },
+    {
+      "title": "The AI-Discovered Bug That Could Have Become a Cybersecurity Disaster",
+      "url": "https://time.com/article/2026/10/23/ai-cybersecurity-php-hack/",
+      "summary": "Cybersecurity researchers raced to patch a major flaw in PHP as details leaked online and attempted exploits surged.",
+      "source": "Top Stories",
+      "category": "TIME",
+      "published": "2026-10-23T21:11:07+00:00"
+    },
+    {
+      "title": "\"We Should Not Have Done It\": Thiel Breaks With Trump Over Iran War, Warns America May Not \"Have The Hard Power\"",
+      "url": "https://www.zerohedge.com/political/we-should-not-have-done-it-peter-thiel-breaks-trump-over-iran-war-warns-america-may-not",
+      "summary": "\"We Should Not Have Done It\": Thiel Breaks With Trump Over Iran War, Warns America May Not \"Have The Hard Power\" One day after we reported that Donald Trump Jr. has privately broken with his father over the Iran war, Peter Thiel, the PayPal and Palantir (PLTR) co-founder who was the first big tech investor to back Trump in 2016 and the biggest funder of super PACs behind JD Vance's 2022 Senate run , has also drawn a ",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T21:00:00+00:00"
+    },
+    {
+      "title": "California Man Said ICE Stole His Wife; Police Now Say He Murdered Her...",
+      "url": "https://www.zerohedge.com/political/california-man-said-ice-stole-his-wife-police-now-say-he-murdered-her",
+      "summary": "California Man Said ICE Stole His Wife; Police Now Say He Murdered Her... Authored by Catherine Salgado via PJ Media , A man who accused Immigration and Customs Enforcement (ICE) of taking his wife is now in custody under suspicion of murdering her. AP Photo/Yuki Iwamura, File There have been some creative excuses to cover up murder, but this might be a first. Gurinder Gill - immigration status currently undisclosed ",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T21:00:00+00:00"
+    },
+    {
+      "title": "\"I Am F**king Getting You!\" Unhinged Mayor Lunges At Resident During Chaotic Meeting",
+      "url": "https://www.zerohedge.com/political/i-am-fking-getting-you-unhinged-mayor-lunges-resident-during-chaotic-meeting",
+      "summary": "\"I Am F**king Getting You!\" Unhinged Mayor Lunges At Resident During Chaotic Meeting A New Jersey mayor erupted in a profanity-laced tirade during a chaotic public meeting Wednesday night, charging toward a resident and threatening him before several people rushed to restrain the furious politician. Pemberton Township Mayor Matthew Bianchini, a Republican, was caught on camera lunging toward Michael Sawka, a frequent",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T20:40:00+00:00"
+    },
+    {
+      "title": "Kimi K3.1 在“人工分析”中得分为 55，位于帕累托线上",
+      "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+      "summary": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+      "source": "Buzzing",
+      "category": "News",
+      "published": "2026-10-23T20:38:45.451000+00:00"
+    },
+    {
+      "title": "Kara Swisher Says Elon Musk’s Jail Threat Is ‘Toddler Behavior’",
+      "url": "http://nymag.com/intelligencer/article/pivot-kara-swisher-elon-musk-jail-threat-is-toddler-behavior.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+      "summary": "She and Pivot co-host Scott Galloway shook their heads at Musk’s latest round of volatile lash-outs.",
+      "source": "Daily Intelligencer",
+      "category": "News",
+      "published": "2026-10-23T20:32:44+00:00"
+    },
+    {
+      "title": "Sennheiser Momentum True Wireless 5 earbuds review: Great sound and replaceable batteries",
+      "url": "https://www.businessinsider.com/guides/tech/sennheiser-momentum-true-wireless-5-earbuds-review",
+      "summary": "I've tested every generation of Sennheiser's wireless earbuds, and the Momentum 5 are a breakthrough with user-replaceable batteries and great sound.",
+      "source": "Business Insider",
+      "category": "Business",
+      "published": "2026-10-23T20:30:52+00:00"
+    },
+    {
+      "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
+      "url": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+      "summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "published": "2026-10-23T20:28:43+00:00"
+    },
+    {
+      "title": "Formula 1 gets Dolby Atmos support on Apple TV in the U.S. starting today",
+      "url": "https://9to5mac.com/2026/10/23/formula-1-gets-dolby-atmos-support-on-apple-tv-in-the-u-s-starting-today/",
+      "summary": "Apple TV subscribers in the US can now watch Formula 1 live in Dolby Atmos, starting with this weekend’s United States Grand Prix. Here’s the schedule. more…",
+      "source": "9to5Mac",
+      "category": "Technology",
+      "published": "2026-10-23T20:23:43+00:00"
+    },
+    {
+      "title": "Here's One October Surprise, Anyway...",
+      "url": "https://www.zerohedge.com/political/heres-one-october-surprise-anyway",
+      "summary": "Here's One October Surprise, Anyway... Authored by James Howard Kunstler via Clusterfuck Nation , \"The Left has always preferred the ashes of its own making to the inheritance of better men.\" - Celina101 on X By now, everybody and his uncle interested in public matters has probably read that a claque of current-and-former agency officials, ex-USAID busybodies, military officers, activist academics, Democratic Party p",
+      "source": "Zero Hedge",
+      "category": "Business",
+      "published": "2026-10-23T20:20:00+00:00"
+    },
+    {
+      "title": "NASA lays out a packed 14-day schedule for 2027’s Artemis III moon mission",
+      "url": "https://www.scientificamerican.com/article/nasa-lays-out-a-packed-14-day-schedule-for-2027s-artemis-iii-moon-mission/",
+      "summary": "The mission, scheduled for the summer of 2027, will include be pivotal in deciding whether SpaceX or Blue Origin supplies the lunar lander for the first crewed trip to the lunar surface in decades",
+      "source": "Scientific American",
+      "category": "Science",
+      "published": "2026-10-23T20:20:00+00:00"
+    },
+    {
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+      "source": "Ars Technica",
+      "category": "Technology",
+      "published": "2026-10-23T20:19:55+00:00"
+    }
+  ]
 }
