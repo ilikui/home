@@ -48,8 +48,10 @@ def main() -> None:
                 if previous is None or str(normalized.get("create_time", "")) >= str(previous.get("create_time", "")):
                     merged[key] = normalized
         items = list(merged.values())
-        items.sort(key=lambda item: str(item.get("create_time", "")), reverse=True)
         target = OUTPUT_ROOT / f"{media_type}.json"
+        if not items and target.exists():
+            raise RuntimeError(f"No {media_type} records were returned for any status; preserving existing {target}")
+        items.sort(key=lambda item: str(item.get("create_time", "")), reverse=True)
         target.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         counts = {status: sum(item.get("status") == status for item in items) for status in STATUSES}
         print(f"{target.relative_to(ROOT)}: {len(items)} records; " + ", ".join(f"{key}={value}" for key, value in counts.items()))
