@@ -5,14 +5,265 @@
 <meta name="description" content="每日 GitHub 热门开源仓库精选，由 GitHub Actions 自动更新。">
 <meta name="theme-color" content="#0b1020"><title>GitHub Trending · LiKui</title>
 <style>
-:root{color-scheme:dark;--bg:#0b1020;--panel:#111a2e;--line:#25324b;--text:#eef3ff;--muted:#9baac4;--accent:#a8b4ff}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#18264a 0,transparent 55%),var(--bg);color:var(--text);font:16px/1.7 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-.wrap{width:min(900px,calc(100% - 36px));margin:auto}header{padding:28px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}
-a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}.back{color:var(--muted)}main{padding:70px 0 90px}.eyebrow{color:var(--accent);letter-spacing:.15em;font-size:.78rem;font-weight:700}h1{font-size:clamp(2.5rem,7vw,4.5rem);letter-spacing:-.05em;line-height:1.1;margin:14px 0}p{color:var(--muted);max-width:650px}.panel{margin-top:28px;padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}.panel strong{display:block;margin-bottom:8px}.button{display:inline-block;margin-top:12px;padding:10px 15px;border:1px solid #46558b;border-radius:10px;background:#1b2746}.foot{margin-top:48px;font-size:.85rem;color:var(--muted)}
+:root{--bg:#0b1020;--panel:#111a2e;--line:#25324b;--text:#eef3ff;--muted:#9baac4;--accent:#8b9cff;}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#18264a 0,transparent 55%),var(--bg);color:var(--text);font:16px/1.6 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+header{padding:34px 0 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;letter-spacing:.04em}.back{color:var(--muted);border:1px solid var(--line);padding:8px 13px;border-radius:999px}
+.hero{padding:58px 0 32px}.eyebrow{color:#a8b4ff;font-size:.78rem;letter-spacing:.16em;font-weight:700}h1{font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.05;letter-spacing:-.055em;margin:14px 0}.lead{color:var(--muted);max-width:650px;font-size:1.05rem}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.stat{padding:9px 13px;background:#151f37;border:1px solid var(--line);border-radius:12px;color:#dbe4ff;font-size:.88rem}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding:12px 0 64px}
+.repo-card{min-width:0;padding:20px;background:linear-gradient(145deg,#151f35,#101729);border:1px solid var(--line);border-radius:18px;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+.repo-card:hover{transform:translateY(-3px);border-color:#6475c9}.repo-top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:.78rem}.rank{color:#aeb9ff;font-weight:800}.language{padding:3px 8px;border:1px solid var(--line);border-radius:999px}
+.repo-title-row{display:flex;align-items:center;gap:10px;margin-top:17px;min-width:0}.repo-title-row img{width:30px;height:30px;border-radius:50%;background:#26334e}h2{font-size:1rem;overflow-wrap:anywhere;margin:0}.description{color:var(--muted);font-size:.91rem;min-height:4.4em;margin:12px 0}
+.topics{display:flex;flex-wrap:wrap;gap:6px;min-height:28px}.topic{font-size:.72rem;color:#c4ceff;background:#222d4d;border-radius:6px;padding:3px 7px}
+.metrics{display:flex;flex-wrap:wrap;gap:12px;margin-top:auto;padding-top:18px;color:#c7d2e8;font-size:.8rem}footer{border-top:1px solid var(--line);padding:22px 0 34px;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.grid{grid-template-columns:1fr}header{align-items:flex-start}.hero{padding-top:40px}}
 </style></head>
 <body><div class="wrap">
-<header><a href="/" aria-label="返回 LiKui 主页"><strong>LiKui / OPEN SOURCE RADAR</strong></a><a class="back" href="/">← 返回主页</a></header>
-<main><div class="eyebrow">DAILY OPEN-SOURCE DISCOVERY</div><h1>GitHub Trending<span style="color:#a8b4ff">.</span></h1>
-<p>每日发现值得关注的开源项目。自动化任务会检索最近 7 天创建的公开仓库，按 Star 数排序，并生成带项目简介、主要语言与社区指标的精选页面。</p>
-<section class="panel"><strong>首次数据生成中</strong><p>页面已就绪。请在仓库的 GitHub Actions 中运行 <code>Daily GitHub Trending</code> 工作流（Run workflow）；任务完成后，这里将自动替换为最新仓库榜单。此后每天定时更新。</p><a class="button" href="https://github.com/ilikui/home/actions/workflows/github-trending.yml">打开工作流并运行 ↗</a></section>
-<div class="foot">LiKui Personal Hub · Build, Learn, Share.</div></main></div></body></html>
+<header><a class="brand" href="/">LiKui / OPEN SOURCE RADAR</a><a class="back" href="/">← 返回主页</a></header>
+<section class="hero"><div class="eyebrow">DAILY OPEN-SOURCE DISCOVERY</div><h1>GitHub Trending<span style="color:#8b9cff">.</span></h1>
+<p class="lead">每日发现值得关注的开源项目。按最近 7 天创建的仓库中 Star 数排序，提供项目简介、主要语言与社区指标，帮助你持续追踪技术趋势。</p>
+<div class="stats"><span class="stat">精选 30 个仓库</span><span class="stat">更新于 2026-10-24 08:54 UTC</span><span class="stat">数据来源：GitHub Search API</span></div></section>
+<main class="grid">
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#01</span><span class="language">Java</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/94786511?v=4" alt="" loading="lazy"><h2><a href="https://github.com/Gathin23/cleanyourtv" target="_blank" rel="noopener noreferrer">Gathin23/cleanyourtv</a></h2></div>
+          <p class="description">Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</p>
+          <div class="topics"><span class="topic">adb</span><span class="topic">adblock</span><span class="topic">android-tv</span><span class="topic">android-tv-launcher</span><span class="topic">apple-tv</span></div>
+          <div class="metrics"><span>★ 29,076</span><span>⑂ 3,321</span><span>◎ 197 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#02</span><span class="language">C</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/1425386?v=4" alt="" loading="lazy"><h2><a href="https://github.com/ly05010419/MacNativeGames" target="_blank" rel="noopener noreferrer">ly05010419/MacNativeGames</a></h2></div>
+          <p class="description">No description provided.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 5,052</span><span>⑂ 722</span><span>◎ 164 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#03</span><span class="language">Kotlin</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/16513318?v=4" alt="" loading="lazy"><h2><a href="https://github.com/pengchujin/aerial-tv" target="_blank" rel="noopener noreferrer">pengchujin/aerial-tv</a></h2></div>
+          <p class="description">给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 4,073</span><span>⑂ 307</span><span>◎ 196 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#04</span><span class="language">Java</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/192837953?v=4" alt="" loading="lazy"><h2><a href="https://github.com/simbasjungles/free-my-tv" target="_blank" rel="noopener noreferrer">simbasjungles/free-my-tv</a></h2></div>
+          <p class="description">A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.</p>
+          <div class="topics"><span class="topic">android-tv</span><span class="topic">claude-code</span><span class="topic">google-tv</span><span class="topic">home-screen</span><span class="topic">launcher</span></div>
+          <div class="metrics"><span>★ 4,052</span><span>⑂ 628</span><span>◎ 45 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#05</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/79557224?v=4" alt="" loading="lazy"><h2><a href="https://github.com/xiaoyang111222/cn-math-taxonomy" target="_blank" rel="noopener noreferrer">xiaoyang111222/cn-math-taxonomy</a></h2></div>
+          <p class="description">数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。</p>
+          <div class="topics"><span class="topic">chinese</span><span class="topic">curriculum</span><span class="topic">diagnostic</span><span class="topic">edtech</span><span class="topic">education</span></div>
+          <div class="metrics"><span>★ 2,959</span><span>⑂ 678</span><span>◎ 6 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#06</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/167222040?v=4" alt="" loading="lazy"><h2><a href="https://github.com/aicodeking/leanrea" target="_blank" rel="noopener noreferrer">aicodeking/leanrea</a></h2></div>
+          <p class="description">One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,902</span><span>⑂ 288</span><span>◎ 7 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#07</span><span class="language">Not specified</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/34966120?v=4" alt="" loading="lazy"><h2><a href="https://github.com/JoasASantos/REA-Prompts" target="_blank" rel="noopener noreferrer">JoasASantos/REA-Prompts</a></h2></div>
+          <p class="description">REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program</p>
+          <div class="topics"><span class="topic">prompt-engineering</span><span class="topic">rea</span><span class="topic">reverse-enginnering</span></div>
+          <div class="metrics"><span>★ 1,839</span><span>⑂ 299</span><span>◎ 1 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#08</span><span class="language">C</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/4250718?v=4" alt="" loading="lazy"><h2><a href="https://github.com/EthanArbuckle/fairplay-decrypt" target="_blank" rel="noopener noreferrer">EthanArbuckle/fairplay-decrypt</a></h2></div>
+          <p class="description">Offline FairPlay App Store IPA decryption with independent key derivation</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,756</span><span>⑂ 276</span><span>◎ 4 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#09</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/5469411?v=4" alt="" loading="lazy"><h2><a href="https://github.com/ikow/php2shell-poc" target="_blank" rel="noopener noreferrer">ikow/php2shell-poc</a></h2></div>
+          <p class="description">CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.</p>
+          <div class="topics"><span class="topic">cve-2026-109618</span><span class="topic">cve-2026-109619</span><span class="topic">detection-rules</span><span class="topic">exploit</span><span class="topic">php-exploit</span></div>
+          <div class="metrics"><span>★ 1,715</span><span>⑂ 599</span><span>◎ 5 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#10</span><span class="language">JavaScript</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/127714341?v=4" alt="" loading="lazy"><h2><a href="https://github.com/alchaincyf/huashu-motion" target="_blank" rel="noopener noreferrer">alchaincyf/huashu-motion</a></h2></div>
+          <p class="description">让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.</p>
+          <div class="topics"><span class="topic">agent-skills</span><span class="topic">animation</span><span class="topic">claude-code</span><span class="topic">codex</span><span class="topic">gsap</span></div>
+          <div class="metrics"><span>★ 1,562</span><span>⑂ 154</span><span>◎ 3 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#11</span><span class="language">Java</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/107297384?v=4" alt="" loading="lazy"><h2><a href="https://github.com/humblemuzzu/dumbtv" target="_blank" rel="noopener noreferrer">humblemuzzu/dumbtv</a></h2></div>
+          <p class="description">Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.</p>
+          <div class="topics"><span class="topic">ad-blocking</span><span class="topic">adb</span><span class="topic">android-tv</span><span class="topic">debloat</span><span class="topic">dns-filter</span></div>
+          <div class="metrics"><span>★ 1,418</span><span>⑂ 127</span><span>◎ 20 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#12</span><span class="language">Java</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/12985873?v=4" alt="" loading="lazy"><h2><a href="https://github.com/Ansub/tv-detox" target="_blank" rel="noopener noreferrer">Ansub/tv-detox</a></h2></div>
+          <p class="description">Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,412</span><span>⑂ 145</span><span>◎ 14 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#13</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/12439321?v=4" alt="" loading="lazy"><h2><a href="https://github.com/9bie/php2shell-bypass-aslr-exp" target="_blank" rel="noopener noreferrer">9bie/php2shell-bypass-aslr-exp</a></h2></div>
+          <p class="description">A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,350</span><span>⑂ 403</span><span>◎ 6 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#14</span><span class="language">JavaScript</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/14957082?v=4" alt="" loading="lazy"><h2><a href="https://github.com/openai/php2shell-checker" target="_blank" rel="noopener noreferrer">openai/php2shell-checker</a></h2></div>
+          <p class="description">No description provided.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,312</span><span>⑂ 124</span><span>◎ 2 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#15</span><span class="language">Swift</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/176013?v=4" alt="" loading="lazy"><h2><a href="https://github.com/wesbos/3d-model-anything" target="_blank" rel="noopener noreferrer">wesbos/3d-model-anything</a></h2></div>
+          <p class="description">Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,303</span><span>⑂ 217</span><span>◎ 5 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#16</span><span class="language">Rust</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/77008538?v=4" alt="" loading="lazy"><h2><a href="https://github.com/xevrion/hatchzip" target="_blank" rel="noopener noreferrer">xevrion/hatchzip</a></h2></div>
+          <p class="description">Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives.</p>
+          <div class="topics"><span class="topic">7z</span><span class="topic">archive</span><span class="topic">cli</span><span class="topic">crash-safe</span><span class="topic">disk-space</span></div>
+          <div class="metrics"><span>★ 1,234</span><span>⑂ 25</span><span>◎ 10 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#17</span><span class="language">C</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/343646710?v=4" alt="" loading="lazy"><h2><a href="https://github.com/oosexgang/hackios-xnu-kernel" target="_blank" rel="noopener noreferrer">oosexgang/hackios-xnu-kernel</a></h2></div>
+          <p class="description">No description provided.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,177</span><span>⑂ 208</span><span>◎ 9 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#18</span><span class="language">Rust</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/3084745?v=4" alt="" loading="lazy"><h2><a href="https://github.com/colinhacks/reylo" target="_blank" rel="noopener noreferrer">colinhacks/reylo</a></h2></div>
+          <p class="description">Import .sql files into TypeScript with full type inference and zero codegen.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 1,103</span><span>⑂ 8</span><span>◎ 10 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#19</span><span class="language">Shell</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/2032225?v=4" alt="" loading="lazy"><h2><a href="https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC" target="_blank" rel="noopener noreferrer">eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC</a></h2></div>
+          <p class="description">Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 976</span><span>⑂ 241</span><span>◎ 5 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#20</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/283747567?v=4" alt="" loading="lazy"><h2><a href="https://github.com/eagle-hq/EAGLE-4" target="_blank" rel="noopener noreferrer">eagle-hq/EAGLE-4</a></h2></div>
+          <p class="description">Official Inference Code of EAGLE-4</p>
+          <div class="topics"><span class="topic">eagle</span><span class="topic">gpu</span><span class="topic">llm-inference</span><span class="topic">sglang</span><span class="topic">speculative-decoding</span></div>
+          <div class="metrics"><span>★ 959</span><span>⑂ 31</span><span>◎ 5 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#21</span><span class="language">Rust</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/345003095?v=4" alt="" loading="lazy"><h2><a href="https://github.com/ELY-Open-Source/ElyOffice" target="_blank" rel="noopener noreferrer">ELY-Open-Source/ElyOffice</a></h2></div>
+          <p class="description">Ely Office: offline-first desktop apps in Rust and GPUI</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 952</span><span>⑂ 61</span><span>◎ 10 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#22</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/196724947?v=4" alt="" loading="lazy"><h2><a href="https://github.com/Jakeschincariol/day-trader-skill" target="_blank" rel="noopener noreferrer">Jakeschincariol/day-trader-skill</a></h2></div>
+          <p class="description">11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.</p>
+          <div class="topics"><span class="topic">backtesting</span><span class="topic">claude</span><span class="topic">claude-skills</span><span class="topic">day-trading</span><span class="topic">stock-market</span></div>
+          <div class="metrics"><span>★ 917</span><span>⑂ 199</span><span>◎ 8 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#23</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/344663807?v=4" alt="" loading="lazy"><h2><a href="https://github.com/UniXNU/UniXNU" target="_blank" rel="noopener noreferrer">UniXNU/UniXNU</a></h2></div>
+          <p class="description">Run iOS and macOS on non-Apple ARM64 hardware through UEFI.</p>
+          <div class="topics"><span class="topic">unixnu</span></div>
+          <div class="metrics"><span>★ 870</span><span>⑂ 158</span><span>◎ 11 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#24</span><span class="language">C</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/865977?v=4" alt="" loading="lazy"><h2><a href="https://github.com/Zagitta/gpu-unlock" target="_blank" rel="noopener noreferrer">Zagitta/gpu-unlock</a></h2></div>
+          <p class="description">Unlock FP/BF16 instruction issue rate on Nvidia 3000&#x27;s cards to their professional equivalents</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 854</span><span>⑂ 100</span><span>◎ 23 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#25</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/346728985?v=4" alt="" loading="lazy"><h2><a href="https://github.com/Snapintosh/Snapintosh" target="_blank" rel="noopener noreferrer">Snapintosh/Snapintosh</a></h2></div>
+          <p class="description">EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 806</span><span>⑂ 46</span><span>◎ 4 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#26</span><span class="language">TypeScript</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/59258883?v=4" alt="" loading="lazy"><h2><a href="https://github.com/stackedlol/ascii-sharks" target="_blank" rel="noopener noreferrer">stackedlol/ascii-sharks</a></h2></div>
+          <p class="description">ascii shark components in typescript</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 801</span><span>⑂ 62</span><span>◎ 5 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#27</span><span class="language">Rust</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/30731578?v=4" alt="" loading="lazy"><h2><a href="https://github.com/Hugo-Dz/spritefusion-sprite-normals" target="_blank" rel="noopener noreferrer">Hugo-Dz/spritefusion-sprite-normals</a></h2></div>
+          <p class="description">A tool to generate normal maps from any sprite and animated sprite sheet.</p>
+          <div class="topics"><span class="topic">gamedev</span><span class="topic">normal-map</span><span class="topic">normal-mapping</span><span class="topic">pixel-art</span><span class="topic">sprites</span></div>
+          <div class="metrics"><span>★ 647</span><span>⑂ 48</span><span>◎ 0 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#28</span><span class="language">Python</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/1728152?v=4" alt="" loading="lazy"><h2><a href="https://github.com/NVIDIA/flare-local-inference" target="_blank" rel="noopener noreferrer">NVIDIA/flare-local-inference</a></h2></div>
+          <p class="description">No description provided.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 629</span><span>⑂ 66</span><span>◎ 34 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#29</span><span class="language">Rust</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/167222040?v=4" alt="" loading="lazy"><h2><a href="https://github.com/aicodeking/pandacode" target="_blank" rel="noopener noreferrer">aicodeking/pandacode</a></h2></div>
+          <p class="description">PandaCode: a calm desktop workspace for coding agents</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 605</span><span>⑂ 119</span><span>◎ 9 issues</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-top"><span class="rank">#30</span><span class="language">Rust</span></div>
+          <div class="repo-title-row"><img src="https://avatars.githubusercontent.com/u/4389660?v=4" alt="" loading="lazy"><h2><a href="https://github.com/dominikmartn/harp" target="_blank" rel="noopener noreferrer">dominikmartn/harp</a></h2></div>
+          <p class="description">Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.</p>
+          <div class="topics"></div>
+          <div class="metrics"><span>★ 597</span><span>⑂ 40</span><span>◎ 8 issues</span></div>
+        </article></main>
+<footer><span>LiKui Personal Hub · Build, Learn, Share.</span><span>自动更新 · GitHub Actions</span></footer>
+</div></body></html>
