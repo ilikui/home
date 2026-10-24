@@ -8,3 +8,38 @@ html[data-theme="dark"]{color-scheme:dark;--page:#11141b;--surface:#191e28;--sur
 @media(max-width:900px){:root{--sidebar:0px}.sidebar{display:none}.main-content{margin-left:0;padding:0 26px 20px}.topbar{height:68px}.hero-card{grid-template-columns:minmax(0,1fr) 220px;min-height:300px;padding:30px 28px}.hero-art{transform:scale(.88)}.hero-copy h2{font-size:37px}.card-grid{gap:12px}}
 @media(max-width:640px){.main-content{padding:0 16px 18px}.topbar{height:62px;margin-bottom:18px}.topbar-actions{gap:12px}.hero-card{display:block;padding:27px 23px 28px;min-height:0}.hero-copy h2{font-size:35px;margin-top:16px}.hero-lead{font-size:19px}.hero-description{font-size:11px}.hero-art{position:absolute;width:105px;height:105px;min-height:0;right:8px;top:4px;opacity:.18;transform:scale(.75);transform-origin:top right}.hero-art .floating-chip,.hero-art .art-spark{display:none}.hero-art .orbit-one{width:130px;height:110px}.hero-art .orbit-two{width:105px;height:140px}.art-core{width:80px;height:80px;border-radius:25px}.art-core span{font-size:28px}.art-core small{font-size:5px}.hero-index{right:16px;bottom:12px}.hero-facts{gap:10px;font-size:9px}.hero-actions{gap:8px}.button{min-height:38px;padding:0 12px;font-size:10px}.content-section{margin-top:32px}.section-heading{align-items:flex-start;flex-direction:column;gap:5px;margin-bottom:13px}.section-heading h2{font-size:21px}.section-heading>p{font-size:10px}.card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.resource-card{padding:14px 12px 12px;min-height:178px;border-radius:17px}.resource-icon{width:33px;height:33px;border-radius:10px;font-size:17px}.resource-card h3{font-size:13px;margin-top:14px}.resource-card>p{font-size:10px;min-height:54px}.resource-foot{margin-top:10px;padding-top:9px;align-items:flex-start;flex-direction:column;gap:3px}.resource-label{font-size:7px}.resource-open{font-size:9px}.project-grid{grid-template-columns:1fr;gap:12px}.project-visual{height:135px}.project-details{padding:14px 15px 16px}.github-card{margin-top:30px;padding:19px 16px 14px}.github-heading{align-items:flex-start;flex-direction:column}.github-heading h2{font-size:17px}.github-heading .button{margin-top:3px}.contribution-picture{margin-top:15px;padding:8px}.skills-card{padding:17px 15px}.skills-intro p{font-size:9px}.skills-picture{margin-top:16px}.site-footer{flex-wrap:wrap;justify-content:space-between}.site-footer>span:nth-child(2){order:3;flex-basis:100%}.desktop-break{display:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+
+/* Personal signature refresh: editorial accents, focus areas and subtle motion. */
+.hero-card{isolation:isolate;background:radial-gradient(ellipse at 85% 18%,rgba(131,124,245,.13),transparent 38%),radial-gradient(ellipse at 10% 100%,rgba(91,197,168,.09),transparent 36%),var(--surface)}
+.hero-card:after{content:"";position:absolute;z-index:-1;right:18%;top:-115px;width:270px;height:270px;border:1px solid rgba(129,126,230,.15);border-radius:50%;box-shadow:0 0 0 28px rgba(129,126,230,.035),0 0 0 58px rgba(129,126,230,.025);pointer-events:none}
+.hero-status{display:inline-flex;align-items:center;gap:6px;margin-left:5px;padding:4px 7px;border:1px solid var(--line);border-radius:5px;font:8px "DM Mono",monospace;letter-spacing:.6px;color:var(--muted)}
+.hero-status:first-letter{color:#53c69b}
+.hero-art .art-core{animation:core-float 7s ease-in-out infinite}
+.hero-art .orbit-one{border-style:dashed;animation:orbit-turn 38s linear infinite}
+.hero-art .orbit-two{animation:orbit-turn 48s linear infinite reverse}
+.focus-strip{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:26px;align-items:center;margin-top:22px;padding:25px 28px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,var(--surface-soft),var(--surface));box-shadow:var(--shadow);position:relative;overflow:hidden}
+.focus-strip:before{content:"";position:absolute;left:0;top:20px;bottom:20px;width:3px;border-radius:0 3px 3px 0;background:linear-gradient(#817bf1,#60c9a7)}
+.focus-kicker{font:9px "DM Mono",monospace;letter-spacing:1.8px;color:var(--accent)}
+.focus-heading h2{margin:8px 0;font-size:clamp(17px,1.8vw,23px);line-height:1.4;letter-spacing:-.6px}
+.focus-heading p{margin:0;max-width:360px;color:var(--muted);font-size:11px;line-height:1.9}
+.focus-list{display:grid;gap:7px}
+.focus-item{display:grid;grid-template-columns:24px 36px minmax(0,1fr) 16px;align-items:center;gap:10px;padding:10px 11px;border:1px solid transparent;border-radius:12px;transition:transform .2s,border-color .2s,background .2s}
+.focus-item:hover{transform:translateX(3px);border-color:var(--line);background:var(--surface);box-shadow:var(--shadow)}
+.focus-number{font:9px "DM Mono",monospace;color:var(--muted-2)}
+.focus-icon{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--accent-soft);color:var(--accent);font-size:17px}
+.focus-item:nth-child(2) .focus-icon{color:#3ca487;background:rgba(82,195,160,.12)}
+.focus-item:nth-child(3) .focus-icon{color:#cb8b52;background:rgba(226,160,99,.14)}
+.focus-copy{min-width:0}
+.focus-copy strong,.focus-copy small{display:block}
+.focus-copy strong{font-size:12px}
+.focus-copy small{margin-top:2px;font-size:10px;color:var(--muted);line-height:1.5}
+.focus-arrow{color:var(--muted-2);transition:transform .2s,color .2s}
+.focus-item:hover .focus-arrow{transform:translate(2px,-2px);color:var(--accent)}
+.resource-card,.project-card,.skills-card,.github-card{transition:transform .22s,border-color .22s,box-shadow .22s}
+.resource-card:hover,.project-card:hover{transform:translateY(-5px)}
+@keyframes core-float{0%,100%{translate:0 0}50%{translate:0 -7px}}
+@keyframes orbit-turn{to{rotate:360deg}}
+@media(max-width:900px){.focus-strip{grid-template-columns:1fr;gap:15px;padding:22px 23px}.focus-heading p{max-width:600px}}
+@media(max-width:640px){.hero-status{margin:8px 0 0;display:table}.hero-card:after{right:-90px;top:-110px}.focus-strip{margin-top:14px;padding:19px 17px}.focus-heading h2{font-size:18px}.focus-item{grid-template-columns:20px 32px minmax(0,1fr) 14px;gap:8px;padding:9px 5px}.focus-icon{width:31px;height:31px}.focus-copy strong{font-size:11px}.focus-copy small{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.hero-art .art-core,.hero-art .orbit-one,.hero-art .orbit-two{animation:none!important}.focus-item,.resource-card,.project-card{transition:none!important}}
