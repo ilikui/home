@@ -2,69 +2,117 @@
 name: douban
 
 on:
-  # run automatically every 24 hours
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
-#on:
-#  schedule:
-#  - cron: "0 0 * * *"
-#  watch:
-#    types: [started]
 permissions:
-  actions: write
-  checks:  write
   contents: write
-  deployments: write
-  id-token: write
-  issues: write
-  discussions: write
-  packages: write
-  pages: write
-  pull-requests: write
-  repository-projects: write
-  security-events: write
-  statuses: write
-        
+
 jobs:
   douban:
-    name: Douban mark data sync
+    name: Sync all Douban collection statuses
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      
-    - name: backup data files
-      run: |
-        mv ./static/data/book.json ./static/data/douban/book_$(date +%Y-%m-%d).json.bak
-        mv ./static/data/music.json ./static/data/douban/music_$(date +%Y-%m-%d).json.bak
-        mv ./static/data/movie.json ./static/data/douban/movie_$(date +%Y-%m-%d).json.bak
-    - name: book
-      uses: lizheming/doumark-action@master
-      with:
-        id: olikuio
-        type: book
-        format: json
-        dir: ./static/data
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: movie
-      uses: lizheming/doumark-action@master
-      with:
-        id: olikuio
-        type: movie
-        format: json
-        dir: ./static/data
-    - name: music
-      uses: lizheming/doumark-action@master
-      with:
-        id: olikuio
-        type: music
-        format: json
-        dir: ./static/data
+      - name: Prepare directories and back up current public data
+        run: |
+          mkdir -p .tmp/douban-sync/mark .tmp/douban-sync/doing .tmp/douban-sync/done static/data/douban
+          today="$(date +%Y-%m-%d)"
+          for type in book movie music; do
+            if [ -f "static/data/${type}.json" ]; then
+              cp "static/data/${type}.json" "static/data/douban/${type}_${today}.json.bak"
+            fi
+          done
 
-    - name: Commit
-      uses: EndBug/add-and-commit@v9
-      with:
-        message: 'chore: update douban data'
-        add: './static/data'
+      - name: Sync books to-read (mark)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: book
+          status: mark
+          format: json
+          dir: ./.tmp/douban-sync/mark
+
+      - name: Sync books reading (doing)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: book
+          status: doing
+          format: json
+          dir: ./.tmp/douban-sync/doing
+
+      - name: Sync books finished (done)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: book
+          status: done
+          format: json
+          dir: ./.tmp/douban-sync/done
+
+      - name: Sync movies want to watch (mark)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: movie
+          status: mark
+          format: json
+          dir: ./.tmp/douban-sync/mark
+
+      - name: Sync movies watching (doing)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: movie
+          status: doing
+          format: json
+          dir: ./.tmp/douban-sync/doing
+
+      - name: Sync movies watched (done)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: movie
+          status: done
+          format: json
+          dir: ./.tmp/douban-sync/done
+
+      - name: Sync music want to listen (mark)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: music
+          status: mark
+          format: json
+          dir: ./.tmp/douban-sync/mark
+
+      - name: Sync music listening (doing)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: music
+          status: doing
+          format: json
+          dir: ./.tmp/douban-sync/doing
+
+      - name: Sync music listened (done)
+        uses: lizheming/doumark-action@master
+        with:
+          id: olikuio
+          type: music
+          status: done
+          format: json
+          dir: ./.tmp/douban-sync/done
+
+      - name: Merge status exports into public JSON
+        run: python3 scripts/merge_douban_data.py
+
+      - name: Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: sync all Douban statuses"
+          add: "./static/data"
