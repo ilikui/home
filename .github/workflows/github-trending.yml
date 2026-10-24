@@ -1,0 +1,37 @@
+name: Daily GitHub Trending
+
+on:
+  schedule:
+    # 00:20 UTC = 08:20 China Standard Time
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-trending
+  cancel-in-progress: false
+
+jobs:
+  update-trending:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch popular repositories and render page
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_github_trending.py
+
+      - name: Commit updated page and data
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update daily GitHub trending repositories"
+          add: "github-trending.html static/data/github-trending.json"
