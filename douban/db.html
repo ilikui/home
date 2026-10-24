@@ -102,7 +102,7 @@
         const response = await fetch(dataFiles[tab], { cache: 'no-cache' });
         if (!response.ok) throw new Error('HTTP ' + response.status);
         const json = await response.json();
-        data[tab] = Array.isArray(json) ? json : [];
+        data[tab] = Array.isArray(json) ? json.map(item => ({ ...item, media_type: tab, status: normalizeStatus(item && (item.status || item.state) || (item.subject && item.subject.status)) })) : [];
         loaded[tab] = true;
       } catch (error) {
         console.error('Unable to load ' + tab + ' collection:', error);
@@ -115,12 +115,16 @@
       const parsed = Date.parse(value.replace(/-/g, '/'));
       return Number.isNaN(parsed) ? 0 : parsed;
     }
-    function statusOf(item) {
-      const raw = String(item && item.status || 'done').trim().toLowerCase();
-      if (['mark', 'want', 'wish', '想看', '想读', '想听'].includes(raw)) return 'mark';
+    function normalizeStatus(value) {
+      const raw = String(value == null ? '' : value).trim().toLowerCase();
+      if (['mark', 'want', 'wish', 'want_to_read', 'want_to_watch', 'want_to_listen', '想看', '想读', '想听'].includes(raw)) return 'mark';
       if (['doing', 'reading', 'watching', 'listening', 'in_progress', 'in-progress', '在看', '在读', '在听'].includes(raw)) return 'doing';
       if (['done', 'watched', 'seen', 'played', 'listened', 'read', 'finished', 'completed', '已看', '看过', '已听', '读完', '听完', '看完'].includes(raw)) return 'done';
       return 'unknown';
+    }
+    function statusOf(item) {
+      const subject = subjectOf(item);
+      return normalizeStatus(item && (item.status || item.state) || subject.status);
     }
     function statusLabel(item) {
       const status = statusOf(item);
@@ -180,7 +184,7 @@
       const type = typeFilter.value;
       const items = data[currentTab].filter(item => {
         const date = String(item && item.create_time || '');
-        const itemYear = (date.match(/^(\\d{4})/) || [])[1] || '';
+        const itemYear = (date.match(/^(\d{4})/) || [])[1] || '';
         return (!query || searchText(item).includes(query)) &&
           (year === 'all' || itemYear === year) &&
           (selectedStatus === 'all' || statusOf(item) === selectedStatus) &&
