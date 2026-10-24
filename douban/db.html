@@ -38,7 +38,7 @@
     </section>
     <section class="filterbar" aria-label="筛选收藏">
       <div class="filter-label year-filter-label"><span>收藏时间</span><div class="year-buttons" id="yearButtons" role="group" aria-label="按收藏年份筛选"><button class="year-button active" type="button" data-year="all" aria-pressed="true">全部</button></div></div>
-      <div class="filter-label"><span>观看状态</span><div class="status-filter" id="statusFilter" role="group" aria-label="按观看状态筛选"><button class="status-button active" type="button" data-status="all" aria-pressed="true">全部</button><button class="status-button" type="button" data-status="doing" aria-pressed="false">在看</button><button class="status-button" type="button" data-status="watched" aria-pressed="false">已看</button><button class="status-button" type="button" data-status="finished" aria-pressed="false">看完</button></div></div>
+      <div class="filter-label"><span>记录状态</span><div class="status-filter" id="statusFilter" role="group" aria-label="按豆瓣记录状态筛选"><button class="status-button active" type="button" data-status="all" aria-pressed="true">全部</button><button class="status-button" type="button" data-status="mark" aria-pressed="false">想读</button><button class="status-button" type="button" data-status="doing" aria-pressed="false">在读</button><button class="status-button" type="button" data-status="done" aria-pressed="false">看完</button></div></div>
       <label class="filter-label"><span>作品类型</span><select class="filter-select" id="typeFilter"><option value="all">全部类型</option></select></label>
       <label class="filter-label"><span>排序方式</span><select class="filter-select" id="sortFilter"><option value="newest">最近收藏</option><option value="oldest">最早收藏</option><option value="title">按标题排序</option></select></label>
     </section>
@@ -116,15 +116,31 @@
       return Number.isNaN(parsed) ? 0 : parsed;
     }
     function statusOf(item) {
-      const raw = String(item && item.status || '').toLowerCase();
+      const raw = String(item && item.status || 'done').trim().toLowerCase();
+      if (['mark', 'want', 'wish', '想看', '想读', '想听'].includes(raw)) return 'mark';
       if (['doing', 'reading', 'watching', 'listening', 'in_progress', 'in-progress', '在看', '在读', '在听'].includes(raw)) return 'doing';
-      if (['finished', 'read', 'completed', '看完', '读完', '听完'].includes(raw)) return 'finished';
-      if (['done', 'watched', 'seen', 'played', 'listened', '已看', '看过', '已听'].includes(raw)) return currentTab === 'books' ? 'finished' : 'watched';
+      if (['done', 'watched', 'seen', 'played', 'listened', 'read', 'finished', 'completed', '已看', '看过', '已听', '读完', '听完', '看完'].includes(raw)) return 'done';
       return 'unknown';
     }
     function statusLabel(item) {
       const status = statusOf(item);
-      return status === 'doing' ? '在看' : status === 'watched' ? '已看' : status === 'finished' ? '看完' : '未标记';
+      const labelsByTab = {
+        books: { mark: '想读', doing: '在读', done: '看完' },
+        music: { mark: '想听', doing: '在听', done: '已听' },
+        movies: { mark: '想看', doing: '在看', done: '已看' }
+      };
+      return (labelsByTab[currentTab] && labelsByTab[currentTab][status]) || '未标记';
+    }
+    function refreshStatusLabels() {
+      const labelsByTab = {
+        books: { mark: '想读', doing: '在读', done: '看完' },
+        music: { mark: '想听', doing: '在听', done: '已听' },
+        movies: { mark: '想看', doing: '在看', done: '已看' }
+      };
+      statusFilter.querySelectorAll('button[data-status]').forEach(button => {
+        const key = button.dataset.status;
+        button.textContent = key === 'all' ? '全部' : (labelsByTab[currentTab][key] || key);
+      });
     }
     function itemTypes(item) {
       const s = subjectOf(item);
@@ -264,7 +280,7 @@
       }
     }
     document.querySelectorAll('.tab').forEach(button => button.addEventListener('click', async () => {
-      currentTab = button.dataset.tab; currentPage = 1;
+      currentTab = button.dataset.tab; currentPage = 1; refreshStatusLabels();
       document.querySelectorAll('.tab').forEach(tab => { const active = tab === button; tab.classList.toggle('active', active); tab.setAttribute('aria-selected', String(active)); });
       grid.innerHTML = '<div class="loading">正在加载收藏数据…</div>';
       await loadTab(currentTab);
