@@ -71,7 +71,15 @@ let selectedLanguage = "全部";
 const normalize = value => String(value || "").toLowerCase();
 function categoriesFor(repo) {
   const haystack = [repo.name, repo.description, repo.language, ...(repo.topics || [])].join(" ");
+  const languageCategories = {
+    "Python": "Python", "C": "C / C++", "C++": "C / C++",
+    "Java": "Java / Kotlin", "Kotlin": "Java / Kotlin",
+    "JavaScript": "JavaScript / TypeScript", "TypeScript": "JavaScript / TypeScript",
+    "Go": "Go", "Rust": "Rust", "PHP": "PHP"
+  };
+  const languageCategory = languageCategories[repo.language];
   const matched = categoryRules.filter(([id, , rule]) => rule.test(haystack)).map(([id]) => id);
+  if (languageCategory && !matched.includes(languageCategory)) matched.push(languageCategory);
   const supplied = Array.isArray(repo.categories) ? repo.categories : [];
   const combined = [...new Set([...supplied, ...matched])];
   return combined.length ? combined : ["其他项目"];
