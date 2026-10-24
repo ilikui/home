@@ -34,25 +34,47 @@ header{padding:28px 0 22px;display:flex;justify-content:space-between;align-item
 </div>
 <script>
 const categoryRules = [
-  ["人工智能 / LLM", /\b(ai|llm|machine learning|deep learning|neural|inference|agent|agents|claude|codex|openai|transformer|模型|人工智能|大模型|智能体)\b/i],
-  ["嵌入式 / 汽车电子", /\b(embedded|autosar|automotive|canbus|can-bus|ecu|mcu|rtos|firmware|iot|esp32|stm32|zephyr|kernel|driver|硬件|嵌入式|车载|汽车电子)\b/i],
-  ["Web / 前端", /\b(web|frontend|front-end|react|vue|svelte|nextjs|next\.js|css|html|typescript|javascript|tailwind|browser|website|网页|前端|网站)\b/i],
-  ["后端 / API", /\b(backend|back-end|api|server|microservice|database|postgres|mysql|redis|graphql|grpc|http|php|django|flask|fastapi|spring|后端|数据库)\b/i],
-  ["数据 / 科学计算", /\b(data science|analytics|visualization|notebook|pandas|numpy|scipy|matlab|statistics|math|taxonomy|知识图谱|数据分析|科学计算)\b/i],
-  ["开发工具 / 效率", /\b(cli|developer tools|devtools|terminal|editor|ide|workflow|automation|productivity|git|vscode|codegen|toolchain|工具|效率|自动化)\b/i],
-  ["安全 / 网络", /\b(security|cybersecurity|vulnerability|cve-|exploit|pentest|cryptography|encryption|network|proxy|firewall|detection-rules|安全|网络)\b/i],
-  ["桌面 / 系统", /\b(desktop|linux|macos|windows|operating system|osdev|kernel|rust|swift|gtk|qt|tauri|electron|系统|桌面)\b/i],
-  ["游戏 / 图形", /\b(game|gamedev|graphics|3d|rendering|shader|unity|unreal|godot|sprite|animation|图形|游戏|动画)\b/i],
-  ["学习 / 教育", /\b(education|learning|tutorial|course|curriculum|textbook|beginner|awesome-list|knowledge|study|教育|教程|学习|知识)\b/i]
+  ["AI / LLM", "人工智能 / 大语言模型", /\\b(ai|llm|machine learning|deep learning|neural|inference|transformer|openai|人工智能|大模型)\\b/i],
+  ["AI Agents", "AI Agent / 智能体", /\\b(agent|agents|agentic|claude|codex|mcp|智能体)\\b/i],
+  ["Machine Learning", "机器学习 / 深度学习", /\\b(machine learning|deep learning|pytorch|tensorflow|keras|scikit-learn|机器学习|深度学习)\\b/i],
+  ["Python", "Python", /\\b(python|django|flask|fastapi|pandas|numpy)\\b/i],
+  ["C / C++", "C / C++ / 底层开发", /\\b(c\\+\\+|cpp|embedded c|cmake|gcc|clang|c language)\\b/i],
+  ["Java / Kotlin", "Java / Kotlin", /\\b(java|kotlin|spring boot|jvm|gradle)\\b/i],
+  ["JavaScript / TypeScript", "JavaScript / TypeScript", /\\b(javascript|typescript|nodejs|node\.js|deno|bun)\\b/i],
+  ["Frontend / Web", "前端 / Web", /\\b(frontend|front-end|react|vue|svelte|nextjs|next\.js|css|html|tailwind|browser|website|前端|网页)\\b/i],
+  ["Backend / API", "后端 / API / 微服务", /\\b(backend|back-end|api|server|microservice|graphql|grpc|php|django|flask|fastapi|spring|后端)\\b/i],
+  ["Go", "Go / Golang", /\\b(golang|go language)\\b/i],
+  ["Rust", "Rust", /\\b(rust|cargo|wasm)\\b/i],
+  ["PHP", "PHP", /\\b(php|laravel|symfony|wordpress)\\b/i],
+  ["Mobile Apps", "移动应用 / Android / iOS", /\\b(android|ios|flutter|react-native|swiftui|mobile app|移动应用)\\b/i],
+  ["Embedded / IoT", "嵌入式 / IoT / RTOS", /\\b(embedded|firmware|iot|rtos|esp32|stm32|zephyr|mcu|driver|嵌入式|物联网)\\b/i],
+  ["AUTOSAR / Automotive", "AUTOSAR / 汽车电子", /\\b(autosar|automotive|canbus|can-bus|ecu|uds|vehicle|车载|汽车电子)\\b/i],
+  ["Autonomous Driving", "自动驾驶 / 感知规划", /\\b(autonomous-driving|self-driving|autonomous-vehicles|autonomous driving|adas|自动驾驶)\\b/i],
+  ["Robotics", "机器人 / ROS", /\\b(robotics|robot|ros2?|slam|manipulation|机器人)\\b/i],
+  ["Databases / Storage", "数据库 / 存储 / 搜索", /\\b(database|postgresql|mysql|redis|sqlite|mongodb|elasticsearch|storage|数据库)\\b/i],
+  ["Data / Analytics", "数据工程 / 分析 / 可视化", /\\b(data-engineering|data-science|analytics|visualization|pandas|numpy|spark|数据分析|数据工程)\\b/i],
+  ["Cloud / DevOps", "云原生 / DevOps / 运维", /\\b(devops|kubernetes|docker|cloud-native|terraform|ansible|ci.cd|observability|云原生|运维)\\b/i],
+  ["Security", "网络安全 / 密码学", /\\b(security|cybersecurity|vulnerability|cve-|exploit|pentest|cryptography|encryption|firewall|安全|密码学)\\b/i],
+  ["Testing / Quality", "测试 / 质量工程", /\\b(testing|test-automation|quality-assurance|pytest|unit-test|benchmark|测试|质量工程)\\b/i],
+  ["Developer Tools", "开发工具 / CLI / IDE", /\\b(cli|developer tools|devtools|terminal|editor|ide|workflow|automation|productivity|git|vscode|codegen|toolchain|开发工具|自动化)\\b/i],
+  ["Operating Systems", "操作系统 / 内核", /\\b(linux|operating system|osdev|kernel|unix|bootloader|操作系统|内核)\\b/i],
+  ["Game / Graphics", "游戏开发 / 3D / 图形学", /\\b(game|gamedev|graphics|3d|rendering|shader|unity|unreal|godot|sprite|图形学|游戏开发)\\b/i],
+  ["Design / Media", "设计 / 多媒体 / 创作", /\\b(design-tools|animation|video|creative-tools|image|audio|music|design|动画|多媒体)\\b/i],
+  ["Blockchain / Web3", "区块链 / Web3", /\\b(blockchain|web3|ethereum|solidity|crypto-wallet|区块链)\\b/i],
+  ["Learning / Tutorials", "学习资源 / 教程 / 课程", /\\b(education|tutorial|course|curriculum|textbook|beginner|awesome-list|knowledge|study|learning-resources|教育|教程|学习资源)\\b/i]
 ];
+const displayNames = Object.fromEntries(categoryRules.map(([id, label]) => [id, label]));
+
 let repositories = [];
 let selectedCategory = "全部";
 let selectedLanguage = "全部";
 const normalize = value => String(value || "").toLowerCase();
 function categoriesFor(repo) {
   const haystack = [repo.name, repo.description, repo.language, ...(repo.topics || [])].join(" ");
-  const matched = categoryRules.filter(([, rule]) => rule.test(haystack)).map(([name]) => name);
-  return matched.length ? matched : ["其他项目"];
+  const matched = categoryRules.filter(([id, , rule]) => rule.test(haystack)).map(([id]) => id);
+  const supplied = Array.isArray(repo.categories) ? repo.categories : [];
+  const combined = [...new Set([...supplied, ...matched])];
+  return combined.length ? combined : ["其他项目"];
 }
 function make(tag, className, text) {
   const node = document.createElement(tag);
@@ -61,13 +83,13 @@ function make(tag, className, text) {
   return node;
 }
 function renderFilters() {
-  const all = ["全部", ...categoryRules.map(([name]) => name), "其他项目"];
+  const all = ["全部", ...categoryRules.map(([id]) => id), "其他项目"];
   const counts = new Map(all.map(name => [name, 0]));
   repositories.forEach(repo => categoriesFor(repo).forEach(name => counts.set(name, (counts.get(name) || 0) + 1)));
   const holder = document.getElementById("categoryFilters");
   holder.replaceChildren();
   all.forEach(name => {
-    const button = make("button", "chip" + (name === selectedCategory ? " active" : ""), name === "全部" ? "全部领域" : name);
+    const button = make("button", "chip" + (name === selectedCategory ? " active" : ""), name === "全部" ? "全部领域" : (displayNames[name] || name));
     button.type = "button"; button.dataset.category = name;
     button.setAttribute("aria-pressed", String(name === selectedCategory));
     button.title = name === "全部" ? "显示所有仓库" : "该领域约 " + (counts.get(name) || 0) + " 个项目";
@@ -109,7 +131,7 @@ function renderRepos() {
     const topics = make("div", "topics");
     (repo.topics || []).forEach(topic => topics.append(make("span", "topic", topic)));
     const categoryTags = make("div", "categories");
-    categoriesFor(repo).forEach(category => categoryTags.append(make("span", "category-tag", category)));
+    categoriesFor(repo).forEach(category => categoryTags.append(make("span", "category-tag", displayNames[category] || category)));
     const metrics = make("div", "metrics");
     metrics.append(make("span", "", "★ " + Number(repo.stars || 0).toLocaleString()), make("span", "", "⑂ " + Number(repo.forks || 0).toLocaleString()), make("span", "", "◎ " + Number(repo.issues || 0).toLocaleString() + " issues"));
     card.append(top, titleRow, description, topics, categoryTags, metrics); grid.append(card);
