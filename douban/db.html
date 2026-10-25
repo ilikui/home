@@ -49,10 +49,16 @@
   </main>
   <script>
   (() => {
-    const dataFiles = { books: '../static/data/book.json', music: '../static/data/music.json', movies: '../static/data/movie.json' };
+    // Try the site-root asset URL first, then a page-relative URL for sub-path deployments.
+    const dataFiles = {
+      books: ['/static/data/book.json', '../static/data/book.json'],
+      music: ['/static/data/music.json', '../static/data/music.json'],
+      movies: ['/static/data/movie.json', '../static/data/movie.json']
+    };
     const labels = { books: 'BOOKS', music: 'MUSIC', movies: 'FILMS' };
     const data = { books: [], music: [], movies: [] };
     const loaded = { books: false, music: false, movies: false };
+    const loadErrors = { books: '', music: '', movies: '' };
     let currentTab = 'books';
     let currentPage = 1;
     const pageSize = 15;
@@ -96,19 +102,30 @@
       if (currentTab === 'music') return [asText(s.singer), asText(s.pubdate && s.pubdate[0])];
       return [asText(s.director), asText(s.year || (s.pubdate && s.pubdate[0]))];
     }
-    async function loadTab(tab) {
-      if (loaded[tab]) return;
-      try {
-        const response = await fetch(dataFiles[tab] + '?v=' + Date.now(), { cache: 'no-store' });
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        const json = await response.json();
-        data[tab] = Array.isArray(json) ? json.map(item => ({ ...item, media_type: tab === 'books' ? 'book' : (tab === 'movies' ? 'movie' : 'music'), status: normalizeStatus(item && (item.status || item.state) || (item.subject && item.subject.status)) })) : [];
-        loaded[tab] = true;
-      } catch (error) {
-        console.error('Unable to load ' + tab + ' collection:', error);
-        data[tab] = [];
-        loaded[tab] = true;
+    async function loadTab(tab, force = false) {
+      if (loaded[tab] && !force) return;
+      loadErrors[tab] = '';
+      let lastError = null;
+      for (const path of dataFiles[tab]) {
+        try {
+          const url = new URL(path, window.location.href);
+          url.searchParams.set('v', String(Date.now()));
+          const response = await fetch(url.href, { cache: 'no-store' });
+          if (!response.ok) throw new Error('HTTP ' + response.status + ' (' + url.pathname + ')');
+          const json = await response.json();
+          if (!Array.isArray(json)) throw new Error('返回的数据不是 JSON 数组 (' + url.pathname + ')');
+          data[tab] = json.map(item => ({ ...item, media_type: tab === 'books' ? 'book' : (tab === 'movies' ? 'movie' : 'music'), status: normalizeStatus(item && (item.status || item.state) || (item.subject && item.subject.status)) }));
+          loaded[tab] = true;
+          return;
+        } catch (error) {
+          lastError = error;
+          console.warn('Unable to load ' + tab + ' collection from ' + path, error);
+        }
       }
+      console.error('Unable to load ' + tab + ' collection:', lastError);
+      data[tab] = [];
+      loaded[tab] = false;
+      loadErrors[tab] = lastError ? lastError.message : '未知错误';
     }
     function collectionDate(item) {
       const value = item && item.create_time ? String(item.create_time) : '';
@@ -211,7 +228,23 @@
       if (!visible.length) {
         const empty = document.createElement('div');
         empty.className = 'empty';
-        empty.textContent = searchInput.value.trim() ? '没有找到匹配的收藏，试试其他关键词。' : '暂无数据，稍后可以重新同步收藏。';
+        if (loadErrors[currentTab]) {
+          empty.textContent = '数据加载失败：' + loadErrors[currentTab] + '。请检查静态资源部署后重试。';
+          const retry = document.createElement('button');
+          retry.type = 'button';
+          retry.className = 'page-button';
+          retry.style.marginLeft = '10px';
+          retry.textContent = '重新加载';
+          retry.addEventListener('click', async () => {
+            empty.textContent = '正在重新加载…';
+            await loadTab(currentTab, true);
+            refreshFilters();
+            render();
+          });
+          empty.appendChild(retry);
+        } else {
+          empty.textContent = searchInput.value.trim() ? '没有找到匹配的收藏，试试其他关键词。' : '暂无数据，稍后可以重新同步收藏。';
+        }
         grid.appendChild(empty);
       } else {
         visible.forEach(item => {
