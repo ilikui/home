@@ -1,6 +1,100 @@
 [
   {
     "charts": [],
+    "comment": "天使与恶魔，是因为不幸的童年",
+    "create_time": "2026-10-29 23:09:15",
+    "id": 4977508929,
+    "is_editable": false,
+    "is_private": false,
+    "platforms": [],
+    "rating": {
+      "count": 1,
+      "max": 5,
+      "star_count": 4,
+      "value": 4
+    },
+    "sharing_text": "我的评分：★★★★ 天使与恶魔，是因为不幸的童年 https://www.douban.com/doubanapp/dispatch/book/10554308 来自@豆瓣App",
+    "sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/10554308/interest/4977508929",
+    "status": "done",
+    "subject": {
+      "article_intros": [],
+      "author": [
+        "[日] 东野圭吾"
+      ],
+      "book_subtitle": "",
+      "buy_more_uri": "douban://douban.com/book/10554308/vendors_douban",
+      "card_subtitle": "[日] 东野圭吾 / 2013 / 南海出版公司",
+      "color_scheme": {
+        "_base_color": [
+          0,
+          0.005025125628140685,
+          0.7803921568627451
+        ],
+        "_avg_color": [
+          0,
+          0.004545454545454658,
+          0.8627450980392157
+        ],
+        "primary_color_light": "a5a4a4",
+        "primary_color_dark": "7f7e7e",
+        "secondary_color": "f9f4f4",
+        "is_dark": true
+      },
+      "controversy_reason": "",
+      "cover_url": "https://dou.img.lithub.cc/book/10554308.jpg",
+      "has_ebook": false,
+      "honor_infos": [
+        {
+          "kind": "book",
+          "rank": 12,
+          "title": "豆瓣图书Top250",
+          "uri": "douban://douban.com/subject_collection/book_top250"
+        }
+      ],
+      "id": "10554308",
+      "intro": "东野圭吾万千书迷心中的无冕之王\n周刊文春推理小说年度BEST10第1名\n本格推理小说年度BEST10第2名\n《白夜行》是东野圭吾迄今口碑最好的长篇杰作，具备经典名著的一切要素：\n一宗离奇命案牵出跨度近20年步步惊心的故事：悲凉的爱情、吊诡的命运、令人发指的犯罪、复杂人性的对决与救赎……\n-------------------------------------------------------------------\n1973年，大阪的一栋废弃建筑中发现一名遭利器刺死的男子。案件扑朔迷离，悬而未决。\n此后20年间，案件滋生出的恶逐渐萌芽生长，绽放出恶之花。案件相关者的人生逐渐被越来越重的阴影笼罩……\n“我的天空里没有太阳，总是黑夜，但并不暗，因为有东西代替了太阳。虽然没有太阳那么明亮，但对我来说已经足够。\n凭借着这份光，我便能把黑夜当成白天。\n我从来就没有太阳，所以不怕失去。”\n“只希望能手牵手在太阳下散步”，这句象征本书故事内核的绝望念想，有如一个美丽的幌子，随着无数凌乱、压抑、悲凉的事件片段如纪录片一样一一还原，最后一丝温情也被完全抛弃，万千读者在一曲救赎罪恶的爱情之中悲切动容。",
+      "is_released": true,
+      "is_show": false,
+      "min_sale_price": "¥49.0",
+      "null_rating_reason": "",
+      "other_versions_count": 21,
+      "pages": [
+        "538"
+      ],
+      "pic": {
+        "large": "https://img3.doubanio.com/view/subject/l/public/s24514468.jpg",
+        "normal": "https://img3.doubanio.com/view/subject/m/public/s24514468.jpg"
+      },
+      "press": [
+        "南海出版公司"
+      ],
+      "pubdate": [
+        "2013-1-1"
+      ],
+      "rating": {
+        "count": 545410,
+        "max": 10,
+        "star_count": 4.5,
+        "value": 9.2
+      },
+      "sharing_url": "https://www.douban.com/doubanapp/dispatch/book/10554308",
+      "subtype": "book",
+      "title": "白夜行",
+      "type": "book",
+      "uri": "douban://douban.com/book/10554308",
+      "url": "https://book.douban.com/subject/10554308/",
+      "vendor_icons": [],
+      "vendor_original_price": "",
+      "vendor_sale_price": ""
+    },
+    "tags": [
+      "悬疑"
+    ],
+    "vote_count": 0,
+    "media_type": "book"
+  },
+  {
+    "charts": [],
     "comment": "",
     "create_time": "2026-10-19 20:14:12",
     "id": 4969716445,
@@ -61,7 +155,7 @@
         "2023-5"
       ],
       "rating": {
-        "count": 1120,
+        "count": 1123,
         "max": 10,
         "star_count": 4,
         "value": 7.6
@@ -152,7 +246,7 @@
         "2020-10"
       ],
       "rating": {
-        "count": 38092,
+        "count": 38114,
         "max": 10,
         "star_count": 4,
         "value": 8
@@ -334,7 +428,7 @@
         "2017-10"
       ],
       "rating": {
-        "count": 31207,
+        "count": 31215,
         "max": 10,
         "star_count": 4.5,
         "value": 8.7
@@ -416,7 +510,7 @@
         "2018-5-1"
       ],
       "rating": {
-        "count": 24119,
+        "count": 24124,
         "max": 10,
         "star_count": 4.5,
         "value": 8.5
@@ -504,7 +598,7 @@
         "2023-10-30"
       ],
       "rating": {
-        "count": 2365,
+        "count": 2366,
         "max": 10,
         "star_count": 4,
         "value": 8
@@ -668,7 +762,7 @@
         "2020-6"
       ],
       "rating": {
-        "count": 1518,
+        "count": 1519,
         "max": 10,
         "star_count": 4,
         "value": 7.9
@@ -1088,7 +1182,7 @@
       "intro": "《富爸爸，穷爸爸》是一个真实的故事，作者罗伯特・清崎的亲生父亲和朋友的父亲对金钱的看法截然不同，这使他对认识金钱产生了兴趣，最终他接受了朋友的父亲的建议，也就是书中所说的。“富爸爸”的观念，即不要做金钱的奴隶，要让金钱为我们工作，并由此成为一名极富传奇色彩的成功的投资家。",
       "is_released": true,
       "is_show": false,
-      "min_sale_price": "¥22.09",
+      "min_sale_price": "¥22.08",
       "null_rating_reason": "",
       "other_versions_count": 18,
       "pages": [
@@ -1105,7 +1199,7 @@
         "2000-09"
       ],
       "rating": {
-        "count": 83537,
+        "count": 83541,
         "max": 10,
         "star_count": 4,
         "value": 8.3
@@ -1274,7 +1368,7 @@
         "2009-11"
       ],
       "rating": {
-        "count": 11755,
+        "count": 11756,
         "max": 10,
         "star_count": 4,
         "value": 8.1
