@@ -1,0 +1,33 @@
+name: Sync book list to Notes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "static/data/book.json"
+      - ".github/workflows/sync-books-to-notes.yml"
+      - "scripts/sync_books_to_notes.py"
+  schedule:
+    # Daily at 02:20 UTC (10:20 China / 11:20 Japan)
+    - cron: "20 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-books-to-notes
+  cancel-in-progress: false
+
+jobs:
+  sync-books:
+    name: Sync book.json to ilikui/Notes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout home
+        uses: actions/checkout@v4
+
+      - name: Validate JSON and sync Markdown
+        env:
+          NOTES_REPO_TOKEN: ${{ secrets.NOTES_REPO_TOKEN }}
+        run: python3 scripts/sync_books_to_notes.py
