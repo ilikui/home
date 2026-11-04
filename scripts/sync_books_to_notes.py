@@ -69,7 +69,7 @@ def render(books):
     fields = [book_fields(item) for item in books]
     for i, b in enumerate(fields, 1):
         title = md_escape(b["title"])
-        cover = f'<img src="{b["cover"]}" alt="{title} 封面" width="64">' if b["cover"] else "—"
+        cover = f'![{title} 封面]({b["cover"]})' if b["cover"] else "—"
         book_link = f"[{title}]({b['url']})" if b["url"] else title
         lines.append(
             f"| {i} | {cover} | {book_link} | {md_escape(b['author'])} | "
