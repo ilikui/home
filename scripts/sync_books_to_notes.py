@@ -58,6 +58,14 @@ def book_fields(item):
     }
 
 
+def cover_image(url, title):
+    if not url:
+        return "—"
+    safe_url = url.replace("&", "&amp;").replace('"', "&quot;")
+    safe_title = title.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+    return f'<img src="{safe_url}" alt="{safe_title} 封面" width="96" height="136" style="width:96px;height:136px;object-fit:contain;display:block;">'
+
+
 def render(books):
     lines = [
         START,
@@ -71,7 +79,7 @@ def render(books):
     fields = [book_fields(item) for item in books]
     for i, b in enumerate(fields, 1):
         title = md_escape(b["title"])
-        cover = f'![{title} 封面]({b["cover"]})' if b["cover"] else "—"
+        cover = cover_image(b["cover"], title)
         book_link = f"[{title}]({b['url']})" if b["url"] else title
         lines.append(
             f"| {i} | {cover} | {book_link} | {md_escape(b['author'])} | "
@@ -82,10 +90,11 @@ def render(books):
         title = b["title"]
         lines += [f"### {i}. {title}", ""]
         if b["cover"]:
+            image = cover_image(b["cover"], title)
             if b["url"]:
-                lines.append(f'[![{title} 封面]({b["cover"]})]({b["url"]})')
+                lines.append(f'<a href="{b["url"]}">{image}</a>')
             else:
-                lines.append(f'![{title} 封面]({b["cover"]})')
+                lines.append(image)
             lines.append("")
         lines += [
             f'- **作者：** {b["author"]}',
