@@ -40,7 +40,7 @@ def book_fields(item):
     pic = subject.get("pic") or {}
     source_cover = clean(pic.get("large") or pic.get("normal") or subject.get("cover_url"))
     book_id = clean(subject.get("id"))
-    cover = f"../assets/books/{book_id}.jpg" if book_id else ""
+    cover = f"/assets/books/{book_id}.jpg" if book_id else ""
     url = clean(subject.get("url") or subject.get("sharing_url") or item.get("sharing_url"))
     rating = subject.get("rating") or {}
     rating_value = rating.get("value")
@@ -61,9 +61,9 @@ def book_fields(item):
 def cover_image(url, title):
     if not url:
         return "—"
-    safe_url = url.replace("&", "&amp;").replace('"', "&quot;")
-    safe_title = title.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
-    return f'<img src="{safe_url}" alt="{safe_title} 封面" width="96" height="136" style="width:96px;height:136px;object-fit:contain;display:block;margin-left:0!important;margin-right:auto!important;vertical-align:top;">'
+    safe_url = url.replace("(", "%28").replace(")", "%29").replace(" ", "%20")
+    safe_title = clean(title).replace("[", "\\[").replace("]", "\\]")
+    return f"![{safe_title} 封面]({safe_url})"
 
 
 def render(books, uploaded_covers=None):
