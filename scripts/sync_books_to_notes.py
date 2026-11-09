@@ -61,27 +61,21 @@ def book_fields(item):
 def cover_image(url, title):
     if not url:
         return "—"
-    safe_url = url.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
-    safe_title = clean(title).replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
-    # Fixed thumbnail box keeps all covers visually consistent in Logseq.
-    return (
-        f'<img src="{safe_url}" alt="{safe_title} 封面" '
-        'width="96" height="136" '
-        'style="width:96px;max-width:96px;height:136px;object-fit:contain;display:block;">'
-    )
+    safe_url = url.replace("(", "%28").replace(")", "%29").replace(" ", "%20")
+    safe_title = clean(title).replace("[", "\\[").replace("]", "\\]")
+    # Use native Markdown images; Logseq Publish reliably renders these.
+    return f"![{safe_title} 封面]({safe_url})"
 
 
 def render(books, uploaded_covers=None):
     uploaded_covers = uploaded_covers or set()
     fields = [book_fields(item) for item in books]
-    # Use the published raw GitHub URL so images do not depend on the
-    # custom domain's root path or the Logseq SPA route.
+    # Prefer same-origin assets copied into the published site. This avoids
+    # third-party raw-host loading issues; fall back to the source cover only
+    # when the corresponding asset could not be uploaded.
     for book in fields:
-        if book["book_id"]:
-            book["cover"] = (
-                "https://raw.githubusercontent.com/ilikui/Notes/gh-pages/"
-                f"assets/books/{book['book_id']}.jpg"
-            )
+        if book["book_id"] and book["book_id"] in uploaded_covers:
+            book["cover"] = f"/assets/books/{book['book_id']}.jpg"
         elif book["source_cover"]:
             book["cover"] = book["source_cover"]
 
