@@ -68,53 +68,67 @@ def cover_image(url, title):
 
 def render(books, uploaded_covers=None):
     uploaded_covers = uploaded_covers or set()
+    fields = [book_fields(item) for item in books]
+    # Use the published raw GitHub URL so images do not depend on the
+    # custom domain's root path or the Logseq SPA route.
+    for book in fields:
+        if book["book_id"]:
+            book["cover"] = (
+                "https://raw.githubusercontent.com/ilikui/Notes/gh-pages/"
+                f"assets/books/{book['book_id']}.jpg"
+            )
+        elif book["source_cover"]:
+            book["cover"] = book["source_cover"]
+
     lines = [
         START,
         f"> 本区块由 `ilikui/home/static/data/book.json` 自动生成，共 **{len(books)} 本**。请在源 JSON 中维护书籍数据；本区块会在同步时整体更新。",
         "",
         "## 书单总览",
         "",
-        "| # | 封面 | 书名 | 作者 | 分类/标签 | 阅读状态 | 豆瓣评分 |",
-        "|--:|---|---|---|---|---|--:|",
     ]
-    fields = [book_fields(item) for item in books]
-    for b in fields:
-        if b["book_id"] not in uploaded_covers:
-            b["cover"] = b["source_cover"]
-    for i, b in enumerate(fields, 1):
-        title = md_escape(b["title"])
-        cover = cover_image(b["cover"], title)
-        book_link = f"[{title}]({b['url']})" if b["url"] else title
-        lines.append(
-            f"| {i} | {cover} | {book_link} | {md_escape(b['author'])} | "
-            f"{md_escape(b['tags'])} | {b['status']} | {b['rating']} |"
-        )
-    lines += ["", "## 书籍详情", ""]
-    for i, b in enumerate(fields, 1):
-        title = b["title"]
+    # Keep each cover on its own Markdown block. Logseq's table renderer
+    # may not render embedded images inside Markdown table cells.
+    for i, book in enumerate(fields, 1):
+        title = md_escape(book["title"])
+        book_link = f"[{title}]({book['url']})" if book["url"] else title
+        lines += [f"### {i}. {book_link}", ""]
+        if book["cover"]:
+            lines += [cover_image(book["cover"], title), ""]
+        lines += [
+            f'- **作者：** {book["author"]}',
+            f'- **分类/标签：** {book["tags"]}',
+            f'- **阅读状态：** {book["status"]}',
+            f'- **豆瓣评分：** {book["rating"]}{book["rating_count"]}',
+            "",
+        ]
+
+    lines += ["## 书籍详情", ""]
+    for i, book in enumerate(fields, 1):
+        title = book["title"]
         lines += [f"### {i}. {title}", ""]
-        if b["cover"]:
-            image = cover_image(b["cover"], title)
-            if b["url"]:
-                lines.append(f'<a href="{b["url"]}">{image}</a>')
+        if book["cover"]:
+            image = cover_image(book["cover"], title)
+            if book["url"]:
+                lines.append(f'<a href="{book["url"]}">{image}</a>')
             else:
                 lines.append(image)
             lines.append("")
         lines += [
-            f'- **作者：** {b["author"]}',
-            f'- **分类/标签：** {b["tags"]}',
-            f'- **阅读状态：** {b["status"]}',
-            f'- **豆瓣评分：** {b["rating"]}{b["rating_count"]}',
+            f'- **作者：** {book["author"]}',
+            f'- **分类/标签：** {book["tags"]}',
+            f'- **阅读状态：** {book["status"]}',
+            f'- **豆瓣评分：** {book["rating"]}{book["rating_count"]}',
         ]
-        if b["subtitle"]:
-            lines.append(f'- **版本信息：** {b["subtitle"]}')
-        if b["url"]:
-            lines.append(f'- **豆瓣链接：** [查看《{title}》]({b["url"]})')
-        if b["comment"]:
-            lines.append(f'- **个人短评：** {b["comment"]}')
+        if book["subtitle"]:
+            lines.append(f'- **版本信息：** {book["subtitle"]}')
+        if book["url"]:
+            lines.append(f'- **豆瓣链接：** [查看《{title}》]({book["url"]})')
+        if book["comment"]:
+            lines.append(f'- **个人短评：** {book["comment"]}')
         lines.append("")
     lines += [END]
-    return "\n".join(lines).rstrip()
+    return "\\n".join(lines).rstrip()
 
 
 def api_request(method, payload=None):
