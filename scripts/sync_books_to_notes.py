@@ -128,7 +128,7 @@ def render(books, uploaded_covers=None):
             lines.append(f'- **个人短评：** {book["comment"]}')
         lines.append("")
     lines += [END]
-    return "\\n".join(lines).rstrip()
+    return "\n".join(lines).rstrip()
 
 
 def api_request(method, payload=None):
