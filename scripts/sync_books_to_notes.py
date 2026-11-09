@@ -61,9 +61,14 @@ def book_fields(item):
 def cover_image(url, title):
     if not url:
         return "—"
-    safe_url = url.replace("(", "%28").replace(")", "%29").replace(" ", "%20")
-    safe_title = clean(title).replace("[", "\\[").replace("]", "\\]")
-    return f"![{safe_title} 封面]({safe_url})"
+    safe_url = url.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+    safe_title = clean(title).replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+    # Fixed thumbnail box keeps all covers visually consistent in Logseq.
+    return (
+        f'<img src="{safe_url}" alt="{safe_title} 封面" '
+        'width="96" height="136" '
+        'style="width:96px;max-width:96px;height:136px;object-fit:contain;display:block;">'
+    )
 
 
 def render(books, uploaded_covers=None):
