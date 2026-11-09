@@ -63,7 +63,7 @@ def cover_image(url, title):
         return "—"
     safe_url = url.replace("&", "&amp;").replace('"', "&quot;")
     safe_title = title.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
-    return f'<img src="{safe_url}" alt="{safe_title} 封面" width="96" height="136" style="width:96px;height:136px;object-fit:contain;display:block;">'
+    return f'<img src="{safe_url}" alt="{safe_title} 封面" width="96" height="136" style="width:96px;height:136px;object-fit:contain;display:block;margin-left:0!important;margin-right:auto!important;vertical-align:top;">'
 
 
 def render(books, uploaded_covers=None):
