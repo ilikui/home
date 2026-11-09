@@ -66,7 +66,8 @@ def cover_image(url, title):
     return f'<img src="{safe_url}" alt="{safe_title} 封面" width="96" height="136" style="width:96px;height:136px;object-fit:contain;display:block;">'
 
 
-def render(books):
+def render(books, uploaded_covers=None):
+    uploaded_covers = uploaded_covers or set()
     lines = [
         START,
         f"> 本区块由 `ilikui/home/static/data/book.json` 自动生成，共 **{len(books)} 本**。请在源 JSON 中维护书籍数据；本区块会在同步时整体更新。",
@@ -77,6 +78,9 @@ def render(books):
         "|--:|---|---|---|---|---|--:|",
     ]
     fields = [book_fields(item) for item in books]
+    for b in fields:
+        if b["book_id"] not in uploaded_covers:
+            b["cover"] = b["source_cover"]
     for i, b in enumerate(fields, 1):
         title = md_escape(b["title"])
         cover = cover_image(b["cover"], title)
@@ -142,13 +146,15 @@ def sync_cover_assets(books):
     """Download Douban cover originals and store them in Notes/assets/books."""
     token = os.environ.get("NOTES_REPO_TOKEN", "").strip()
     if not token:
-        raise RuntimeError("缺少 NOTES_REPO_TOKEN，无法上传本地封面。")
+        print("WARNING: 未配置 NOTES_REPO_TOKEN，跳过封面上传；将使用豆瓣封面原始链接。")
+        return set()
     headers = {
         "Accept": "application/vnd.github+json",
         "Authorization": f"Bearer {token}",
         "X-GitHub-Api-Version": "2022-11-28",
         "User-Agent": "home-books-sync",
     }
+    uploaded = set()
     for item in books:
         fields = book_fields(item)
         book_id, source = fields["book_id"], fields["source_cover"]
@@ -165,7 +171,8 @@ def sync_cover_assets(books):
             if not content_type.startswith("image/") or len(image_data) < 1000:
                 raise RuntimeError(f"Invalid cover response for {book_id}: {content_type}, {len(image_data)} bytes")
         except Exception as exc:
-            raise RuntimeError(f"下载封面失败 {book_id} ({source}): {exc}") from exc
+            print(f"WARNING: 下载封面失败 {book_id} ({source}): {exc}；回退到豆瓣原图链接。")
+            continue
 
         path = f"assets/books/{book_id}.jpg"
         endpoint = f"{API_ROOT}/{urllib.parse.quote(path, safe='/')}"
@@ -176,7 +183,8 @@ def sync_cover_assets(books):
                 existing = json.loads(response.read().decode("utf-8")).get("sha")
         except urllib.error.HTTPError as exc:
             if exc.code != 404:
-                raise RuntimeError(f"检查封面文件失败 {path}: HTTP {exc.code}") from exc
+                print(f"WARNING: 检查封面文件失败 {path}: HTTP {exc.code}；跳过本张封面。")
+                continue
         payload = {
             "message": f"assets: sync book cover {book_id}",
             "content": base64.b64encode(image_data).decode("ascii"),
@@ -195,7 +203,10 @@ def sync_cover_assets(books):
             print(f"Uploaded {path} ({len(image_data)} bytes), commit {result['commit']['sha']}")
         except urllib.error.HTTPError as exc:
             detail = exc.read().decode("utf-8", errors="replace")
-            raise RuntimeError(f"上传封面失败 {path}: HTTP {exc.code}: {detail}") from exc
+            print(f"WARNING: 上传封面失败 {path}: HTTP {exc.code}: {detail}；回退到豆瓣原图链接。")
+            continue
+        uploaded.add(book_id)
+    return uploaded
 
 
 def main():
@@ -204,8 +215,10 @@ def main():
         raise ValueError("book.json 顶层必须是数组")
     if not books:
         raise ValueError("book.json 为空，拒绝用空书单覆盖目标页面")
-    sync_cover_assets(books)
-    generated = render(books)
+    if not os.environ.get("NOTES_REPO_TOKEN", "").strip():
+        raise RuntimeError("缺少 NOTES_REPO_TOKEN，无法更新 ilikui/Notes 书单。请在 ilikui/home 仓库配置具有 ilikui/Notes Contents: Read and write 权限的 PAT。")
+    uploaded_covers = sync_cover_assets(books)
+    generated = render(books, uploaded_covers)
     remote = api_request("GET")
     current = base64.b64decode(remote["content"]).decode("utf-8")
     if START in current and END in current:
